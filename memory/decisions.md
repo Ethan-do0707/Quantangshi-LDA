@@ -1,0 +1,35 @@
+# 决策记录
+
+- 统一结果使用 JSONL，每行只保存诗歌 ID 与 `tokens` 数组；统一语料单独保存元数据和原文。
+- `bert-ancient-chinese` 没有公开 CWS 任务头，因此只作为官方 WordPiece tokenizer 基线，不称作词法分词模型。
+- Jiayan 在当前 Windows/Python 3.11 环境使用官方 `WordNgramTokenizer`；不以其他算法冒充无法运行的 KenLM HMM。
+- 比较指标只使用相邻汉字之间的词界；标点位置不计入。无人工金标准时只报告一致性，不报告准确率排名。
+- sikufenci 权重必须含 `classifier.weight` 和 `classifier.bias`，否则流水线明确失败，禁止用随机分类头或 MaskedLM 输出代替。
+- 后续 LDA 以 sikufenci 为主分词口径。
+- 停用词分核心、扩展和主题保护三层：正式模型默认使用核心表，扩展表只用于稳健性复算，高频主题意象不得因统计门槛自动删除。
+- “主题区分能力弱”以文档频率、文档熵、诗人熵和无停用词探索性 LDA 的主题熵共同审查；统计只生成候选，最终删除仍须结合古汉语语法与诗歌语义。
+- 最终 LDA 默认使用“sikufenci 基础结果 + 确定性人工覆盖”，并把规则版本与基础模型口径一同记录；其他分词器只能作为另存的敏感性口径。
+- 分词覆盖优先级为硬边界、人工裁决、命名实体、已审核典故、固定词、禁合并规则、基础模型；重叠词形采用最长匹配。
+- `chuxueji_with_poem_example1.xlsx` 的典故名称和异形只生成候选；未通过纯汉字、长度、语料命中和人工语义复核的条目不得进入正式词典。
+- 分词层保留原文字面，典故规范名和 `allusion_id` 另存旁表；停用词删除必须晚于保护短语识别。
+- `sikufenci_lda.jsonl` 以待处理的 `sikufenci.jsonl` token 拼接字符序列为权威输入；若它与统一语料正文不一致，只记录差异而不静默改字。本次唯一差异为 ID 1 的“连甍”与“连薨”。
+- 条件保留词在自动后处理中只保护字面词界，不自动赋予人物、地名或典故规范义；需要词性或语境的禁合并类只执行明列实例，避免未经审核的启发式扩张。
+- `tang_poetry 人工金标准.xlsx` 的人工词界只在实际标注范围内优先覆盖原始 sikufenci：省略号行只覆盖已标前缀，未标诗和未标后缀保持基础分词。
+- 人工表与基础结果有字面异文时不得改写基础字符；只有在文本相似度不低于 0.95、且人工词界不落入异文内部时才投射词界，并逐条写入审计。
+- `sikufenci_manual_gold.jsonl` 应称为“人工金标准覆盖版”，不得称为 43,030 首全部人工标注的金标准。
+- TF 阈值敏感性必须把“某档位以 LOW_TF 为主原因的累计归因”与“相邻最终语料的实际新增损失”分开报告；固定 `DF>=3` 时 TF1、TF2、TF3 等价，不得暗改 DF 或把原因标签变化误报为语料差异。
+- 第一轮 TF×DF LDA 固定采用 A=(TF≥1,DF≥1)、B=(2,2)、C=(3,3)、D=(5,3)；保护词同时豁免最低 TF 与最低 DF，空 token 诗保留在逐行语料但不进入 BoW。
+- 第一轮模型固定为 scikit-learn Batch LDA、K=20/30/40/50/60、种子 42/2026/20260830、30 轮；所有配置保存 top-20 主题词和 top-5 代表诗，检查点必须同时匹配参数签名与输出内容哈希。
+- 主题一致性只称为基于诗歌文档共现的 NPMI，不称作 gensim C_v；跨语料词典不同，训练 perplexity 不用于 A/B/C/D 之间直接判优。
+- 第一轮只保存主题词、代表诗和指标，不序列化完整 sklearn 模型；若后续需要对新诗推断，必须另行加入模型持久化并做兼容性验证。
+- 六候选人工审核的主 seed 固定按“该 seed 的 NPMI 与同配置三 seed 平均 NPMI 的绝对距离最小”选择，距离并列时取较小 seed；不得改为选择单次最高 NPMI。
+- 人工审核包只使用第一轮可验证产物。缺少完整分布时，不以 top-20 冒充 top-30/top-100，不补造代表诗或随机样本；相似 pair、跨模型 matching 和 K 分裂映射必须标记为 unavailable，空 CSV 不得解释为零结果。
+- 人工标签、四项 1–5 分和问题标记必须由研究者填写；程序只在评分完整后计算模型级汇总，不自动生成定性结论。
+- 六候选精确重建必须使用第一轮原 BoW、完整原 LDA 配置和原 selected seed；只有重建 top-20 主题词与 top-5 代表诗的整文件 SHA-256 均完全一致、既有指标通过容差并完成持久化回读，才可标记 reproducible。
+- 完整模型统一保存 `model.joblib`、原始 components、逐 Topic 归一化 Topic×Word 和逐文档 Document×Topic；矩阵必须另存 vocabulary term_index 与 document matrix_row 对齐表，不能只保存裸数组。
+- 模型内 Topic similarity 使用完整 Topic×Word 概率的 cosine；跨语料比较先在词表并集按 token 对齐，再计算 cosine。C/D 采用 Hungarian 一对一匹配；K20→K30 只作 Top-3 与 possible_split 提示，不自动认定拆分质量。
+- 随机高概率诗候选池固定为每 Topic 概率前 10% 且 P≥1/K，并排除 top-20 代表诗；从全局种子 20260830 按 model_id/topic_id 派生稳定子种子，保证局部结果不受模型遍历顺序影响。
+- C_K20 作者时期趋势必须直接复用 Period Metadata Representativeness Audit 的 STRICT/CORE/EXPANDED 标签，并同时报告 poem-weighted 与 author-balanced；`author_period_primary` 只解释为作者所属时期，不得改写为作品创作年代。
+- 趋势 `trend_shape` 按四时期均值的数值方向与配置化 NEAR_FLAT 阈值描述；bootstrap-supported direction 独立保存，不以区间跨零强制抹去数值 shape。六规格稳健性、集中度和冲突标记的全部阈值必须留在配置中，不得为获得 HIGH 结论事后放宽。
+- Author Influence/LOAO 主分类使用 CORE 的逐作者剔除与 GLOBAL_TOP Top1/3/5；PER_PERIOD_TOP 用同一阈值独立报告敏感性状态，不用较有利方案替换主分类。全局N位与每期N位删除量不同，不能称为匹配删除量对照；Top10 仅为附加压力测试。
+- 作者稳健性为 audit heuristic：强衰减70%、Top1/Top5 高集中度30%/70%、Top5 最小剩余幅度30%；raw sign flip 全保留，|原始delta|≥0.005 时标高关注。Bootstrap CI 与作者稳健性状态分开，保持方向不等于删作者后 CI 不跨零；sample_influence_robust 只指三样本 GLOBAL_TOP Top1 方向保持，空白表示未复核。

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "output_root": "model_selection/lower_k_boundary_perplexity",
+  "corpus_root": "output/tf_df_sensitivity",
+  "original_model_root": "output/lda_sensitivity/models",
+  "original_configuration_summary": "reports/lda_sensitivity/configuration_summary.csv",
+  "original_model_metrics": "reports/lda_sensitivity/model_metrics.csv",
+  "original_stability_metrics": "reports/lda_sensitivity/stability_metrics.csv",
+  "original_human_evaluation": "human_topic_review/human_topic_evaluation.csv",
+  "original_model_comprehensive_evaluation": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/model_selection/model_comprehensive_evaluation.csv",
+  "frozen_c_k20_root": "output/lda_candidate_rebuild/C_K20",
+  "corpora": {
+    "A": {"min_tf": 1, "min_df": 1, "topic_counts": [20, 30, 40, 50, 60]},
+    "B": {"min_tf": 2, "min_df": 2, "topic_counts": [20, 30, 40, 50, 60]},
+    "C": {"min_tf": 3, "min_df": 3, "topic_counts": [5, 10, 15, 20, 30, 40, 50, 60]},
+    "D": {"min_tf": 5, "min_df": 3, "topic_counts": [20, 30, 40, 50, 60]}
+  },
+  "lower_k": [5, 10, 15],
+  "random_seeds": [42, 2026, 20260830],
+  "split": {"train_fraction": 0.8, "test_fraction": 0.2, "random_state": 20260904},
+  "lda": {
+    "implementation": "sklearn.decomposition.LatentDirichletAllocation",
+    "learning_method": "batch",
+    "max_iter": 30,
+    "n_jobs": -1,
+    "evaluate_every": -1,
+    "perp_tol": 0.1,
+    "mean_change_tol": 0.001,
+    "max_doc_update_iter": 100,
+    "doc_topic_prior": null,
+    "topic_word_prior": null,
+    "verbose": 1
+  },
+  "metrics": {
+    "coherence": "document_npmi",
+    "top_words_for_metrics": 20,
+    "review_top_words": 30,
+    "representative_poems_per_topic": 20,
+    "diversity": "top_20_unique_ratio",
+    "stability": "hungarian_matched_top_word_jaccard"
+  },
+  "alignment": {
+    "similarity": "full_topic_word_cosine",
+    "strong_similarity_threshold": 0.5,
+    "partial_similarity_threshold": 0.35,
+    "weak_similarity_threshold": 0.2,
+    "merge_relative_to_best": 0.75,
+    "max_matches_per_lower_topic": 5
+  },
+  "checkpoint": {"resume": true, "joblib_compress": 3}
+}

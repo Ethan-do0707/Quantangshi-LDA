@@ -1,0 +1,23 @@
+# 《全唐诗》作者历史年代元数据增强管线配置。
+pipeline_version: QTS_HISTORICAL_METADATA_V1
+author_mapping_version: QTS_AUTHOR_MAPPING_V1
+periodization_scheme_version: QTS_PERIOD_V1
+
+input_master: outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/master/C_K20_literary_history_master.csv
+input_master_xlsx: outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/master/C_K20_literary_history_master.xlsx
+cbdb_sqlite: historical_metadata/cbdb/source_snapshot/cbdb_20260829.sqlite3
+cbdb_release_metadata: historical_metadata/cbdb/source_snapshot/cbdb_latest.json
+opencc_st_characters: historical_metadata/input/opencc_STCharacters_ver.1.1.9.txt
+manual_author_aliases: historical_metadata/input/manual_author_aliases.csv
+traditional_period_mapping: historical_metadata/input/traditional_period_mapping.csv
+periodization_scheme: historical_metadata/chronology/periodization_scheme.yaml
+output_root: historical_metadata
+
+expected_poem_count: 43015
+expected_topic_probability_count: 20
+name_variant_limit: 512
+dated_event_min_year: 550
+dated_event_max_year: 1000
+compatible_dynasty_window_start: 581
+compatible_dynasty_window_end: 960
+

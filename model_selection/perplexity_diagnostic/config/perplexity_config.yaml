@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "original_config": "config/tf_df_lda_config.yaml",
+  "original_metadata": "reports/lda_sensitivity/run_metadata.json",
+  "original_summary": "reports/lda_sensitivity/configuration_summary.csv",
+  "human_summary": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/model_selection/model_comprehensive_evaluation.csv",
+  "output_root": "model_selection/perplexity_diagnostic",
+  "corpora": ["A", "B", "C", "D"],
+  "execution_order": ["C", "B", "D", "A"],
+  "topic_counts": [20, 30, 40, 50, 60],
+  "seeds": [42, 2026, 20260830],
+  "split": {"test_size": 0.2, "random_state": 20260904, "shuffle": true},
+  "standard_deviation_ddof": 1,
+  "supplementary_common_document_test": false,
+  "save_diagnostic_models": false,
+  "model_selection_policy": "SIDE_BY_SIDE_ONLY_NO_RERANKING",
+  "notes": [
+    "每个语料单独固定拆分，矩阵训练顺序采用train_test_split返回顺序。",
+    "测试集不参与fit，但沿用全语料词表存在预处理层的信息共享。",
+    "主指标为sklearn变分下界近似困惑度，不是document-completion预测。",
+    "跨词表绝对困惑度不可直接判优；误差条仅描述三随机种子离散度。",
+    "共同文档重训属于可选补充，本轮只完成规定的60次主实验。"
+  ]
+}

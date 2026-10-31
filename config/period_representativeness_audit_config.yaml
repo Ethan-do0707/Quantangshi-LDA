@@ -1,0 +1,29 @@
+{
+  "audit_version": "QTS_PERIOD_REPRESENTATIVENESS_V1",
+  "authoritative_master": "historical_metadata/master/C_K20_literary_history_master_with_author_history.csv",
+  "author_metadata": "historical_metadata/master/QTS_author_historical_metadata.csv",
+  "topic_metadata": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/taxonomy/topic_metadata.csv",
+  "historical_metadata_version": "historical_metadata/historical_metadata_version.json",
+  "output_root": "historical_metadata/representativeness_audit",
+  "expected_poem_count": 43015,
+  "expected_topic_count": 20,
+  "known_period_values": ["初唐", "盛唐", "中唐", "晚唐"],
+  "period_confidence_values": ["HIGH", "MEDIUM", "LOW", "UNKNOWN"],
+  "bootstrap_iterations": 1000,
+  "bootstrap_batch_size": 25,
+  "random_seed": 20260901,
+  "logistic_diagnostic_enabled": true,
+  "logistic_cv_folds": 5,
+  "risk_thresholds": {
+    "smd_small": 0.10,
+    "smd_moderate": 0.20,
+    "smd_large": 0.50,
+    "dominant_ratio_moderate": 0.01,
+    "dominant_ratio_high": 0.02,
+    "cramers_v_small": 0.10,
+    "cramers_v_moderate": 0.20,
+    "cliffs_negligible": 0.147,
+    "cliffs_small": 0.330,
+    "cliffs_moderate": 0.474
+  }
+}

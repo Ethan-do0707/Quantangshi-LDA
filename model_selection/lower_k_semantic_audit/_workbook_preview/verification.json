@@ -1,0 +1,18 @@
+{
+  "workbook": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\lower_k_semantic_audit\\QTS_Lower_K_Researcher_Review.xlsx",
+  "source": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\lower_k_semantic_audit\\data\\researcher_review_workbook_source.csv",
+  "sheetCount": 6,
+  "reviewRows": 30,
+  "researcherColumns": 9,
+  "researcherBlankCells": 270,
+  "researcherFieldsBlank": true,
+  "formulaErrorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "previews": [
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\lower_k_semantic_audit\\_workbook_preview\\Topic_Review.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\lower_k_semantic_audit\\_workbook_preview\\Instructions.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\lower_k_semantic_audit\\_workbook_preview\\K_Summary.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\lower_k_semantic_audit\\_workbook_preview\\K15_vs_K20.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\lower_k_semantic_audit\\_workbook_preview\\Core_Coverage.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\lower_k_semantic_audit\\_workbook_preview\\Priority_Queue.png"
+  ]
+}

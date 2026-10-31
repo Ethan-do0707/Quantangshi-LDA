@@ -1,0 +1,191 @@
+{
+  "analysis_version": "QTS_AUTHOR_INFLUENCE_LOAO_V1_1",
+  "created_at_local_date": "2026-09-03",
+  "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "matplotlib": "3.11.1",
+  "config_path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\config\\author_influence_config.yaml",
+  "config_sha256": "bbff6233d5683904458314c90c5027892bf31d07cc1e359dd5a3d9f09011680e",
+  "inputs": {
+    "authoritative_master": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\master\\C_K20_literary_history_master_with_author_history.csv",
+      "sha256": "93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f"
+    },
+    "topic_metadata": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\taxonomy\\topic_metadata.csv",
+      "sha256": "9c17be32e1f988a734f457e16fba5a478ecbf9a8a90b27a9dfe31803633bdd5c"
+    },
+    "sample_labels": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\representativeness_audit\\data\\period_metadata_sample_labels.csv",
+      "sha256": "782ef57194db6f32f85cc1ce07fa42ee9e025f89abec857baec2438962fa047e"
+    },
+    "primary_contrasts": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_effect_validation\\data\\clear_topic_primary_contrasts.csv",
+      "sha256": "cdff8c1560ef0e7ea40dbd27f22a5a9ddc83494c32faeaf91a12577eedd26781"
+    },
+    "supported_candidates": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_effect_validation\\data\\statistically_supported_candidate_trends.csv",
+      "sha256": "da936922309de1ba04013a6ad72fcef48ddb22b91c14cbeea0c62510198e4f96"
+    },
+    "effect_sensitivity": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_effect_validation\\data\\clear_topic_effect_sensitivity_matrix.csv",
+      "sha256": "46c7843fba6ffb7685c6be0d04c8d8def3fcb0f5c50c0e51186d997f2a5af231"
+    },
+    "author_queue": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_effect_validation\\data\\author_influence_check_queue.csv",
+      "sha256": "9040ea7cd3e5eb89b972828d81c749656aa05223baf4e327abf17da547fa00a4"
+    },
+    "period_concentration": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\data\\period_topic_author_concentration.csv",
+      "sha256": "1e1d243c924abc322cbe47111ab92e970df40120913d60eedc8f5978373a11c4"
+    }
+  },
+  "bootstrap": {
+    "iterations": 2000,
+    "seed": 20260902,
+    "algorithm": "period-stratified author-cluster multinomial-count resampling after contributor exclusion",
+    "replicate_sha256": "17d5ab794a4455bd384ba28dcbefafb5c34cacd53c2f9a1d23b590ccc96ef547"
+  },
+  "outputs": {
+    "author_influence_config.yaml": {
+      "sha256": "bbff6233d5683904458314c90c5027892bf31d07cc1e359dd5a3d9f09011680e",
+      "bytes": 2987
+    },
+    "data\\aggregation_conflict_decomposition.csv": {
+      "sha256": "c7f6a3cb2001ac9e04dc48e635e4f79c8bcb8792f6275a0dd8176a8002c0c153",
+      "bytes": 290481
+    },
+    "data\\aggregation_conflict_summary.csv": {
+      "sha256": "93a22b9fc4434ca16eafad508817822faae21bfb3a0236e4983bb4a91453b295",
+      "bytes": 2241
+    },
+    "data\\analysis_summary.json": {
+      "sha256": "2a1ee75e8b2fb621ac912bd6c970076ea1a73847f8265a2081d678bc55d71909",
+      "bytes": 48666
+    },
+    "data\\author_concentration_summary.csv": {
+      "sha256": "fbd0b0fbc43c4afde6fa790bddfb0b6fe59e1f3aa571bca7ef1a9194edee6d63",
+      "bytes": 8857
+    },
+    "data\\author_influence_score.csv": {
+      "sha256": "61f613056c92673a8285c8e7b1a9dbc9c6fbb3cd28fccdc260373e2dfccbe1ff",
+      "bytes": 3287531
+    },
+    "data\\author_period_topic_contributions.csv": {
+      "sha256": "171a6d64bcf2daaf2aeea52209ca1e93dc811d2cb13813c5e9805391d6033963",
+      "bytes": 318858
+    },
+    "data\\author_validated_candidate_trends.csv": {
+      "sha256": "1b8fda5403f5c1b530ec0f3a19830f2a882a4f879ae3f05c25ff85a3dcbb45b7",
+      "bytes": 8785
+    },
+    "data\\clear_topic_author_influence_summary.csv": {
+      "sha256": "34a1e4358458dad1be542561b052a480ca2530ef56fad974ebf511a13af0e917",
+      "bytes": 34366
+    },
+    "data\\clear_topic_top_influential_authors.csv": {
+      "sha256": "7c55fbd83614b0086e82d3cb1f8d1f41ffdaf8201a4f919ddd975088f6aa0208",
+      "bytes": 163559
+    },
+    "data\\conflict_contributions\\T07_HM_author_contributions.csv": {
+      "sha256": "28d490c39c56e0356f1abc1a6cacf95d36eb8ab1b81aaf3a8be2d5a4d94a872e",
+      "bytes": 46971
+    },
+    "data\\conflict_contributions\\T07_ML_author_contributions.csv": {
+      "sha256": "eb610d6ba358d09f412248720ab575aaca424466db0c3da39776aa53b2b05689",
+      "bytes": 46166
+    },
+    "data\\conflict_contributions\\T11_EL_author_contributions.csv": {
+      "sha256": "70e20be3022abc54996b2b3a69db5d3e74a04045186e5a2653705690907879c9",
+      "bytes": 30131
+    },
+    "data\\conflict_contributions\\T11_HM_author_contributions.csv": {
+      "sha256": "2d1ada144fc42bafbb5e957d9e3c200e024798e25199e7a0f2c6be939022bf45",
+      "bytes": 48647
+    },
+    "data\\conflict_contributions\\T16_EH_author_contributions.csv": {
+      "sha256": "d8910429a0ad94a2435def97ba6e2201bde8deddda232672450afcf0a7808825",
+      "bytes": 30706
+    },
+    "data\\conflict_contributions\\T16_ML_author_contributions.csv": {
+      "sha256": "947d5ea15e1bb6f31cc96846d28e82c8d582495a2a721419b2cb88c456f2185f",
+      "bytes": 45208
+    },
+    "data\\conflict_contributions\\T19_ML_author_contributions.csv": {
+      "sha256": "b756e097d46920fe86397f2ed2ae432a0df6c469b3c281f606e6065d5423da3a",
+      "bytes": 45772
+    },
+    "data\\data_dictionary.csv": {
+      "sha256": "327b1385c38c7f54835177ee619017de863de1d8785e1627eb62d512b5e96797",
+      "bytes": 40105
+    },
+    "data\\invariance_tests.csv": {
+      "sha256": "3b79cb1d65131d90dc5905185730e7cf16cfcb6440756c9a55085c0c0be90793",
+      "bytes": 1756
+    },
+    "data\\loao_effects.csv": {
+      "sha256": "efd6a89558edb467301abc1a130670d1b16a2be566d630cf6c27ed9e159bdc74",
+      "bytes": 2276303
+    },
+    "data\\loao_summary.csv": {
+      "sha256": "5c7911913fbe46fecf8f2be68176154894d0d21f6027a091a0fd2d93ca0ee00b",
+      "bytes": 23240
+    },
+    "data\\sample_influence_sensitivity.csv": {
+      "sha256": "ff9ac9ab33423a0ce77deba2b4abc36a9c01e4e77bc828d5e4dffb3b25f4919a",
+      "bytes": 163124
+    },
+    "data\\top_contributor_exclusion_effects.csv": {
+      "sha256": "05cf217ce569ed8dcd40852efd6ed6b01ea106ac2f016e77a60248cf16d4aa00",
+      "bytes": 239346
+    },
+    "data\\top_exclusion_bootstrap_ci.csv": {
+      "sha256": "005f163d8507bc78337aa94d38f6992eaf0f429a3f33012f2f8b92423bc0661c",
+      "bytes": 31706
+    },
+    "data\\top_influential_authors.csv": {
+      "sha256": "7c55fbd83614b0086e82d3cb1f8d1f41ffdaf8201a4f919ddd975088f6aa0208",
+      "bytes": 163559
+    },
+    "figures\\aggregation_conflict_author_contributions.png": {
+      "sha256": "3e80d8014dc9b26a189894ac8e98994b66b8319f95fc6494cb4493477556a3b9",
+      "bytes": 350973
+    },
+    "figures\\concentration_vs_influence.png": {
+      "sha256": "891b075198fded5ee09df6938bd9c525a326bfd58f59689f4ff6af0f15ff0a36",
+      "bytes": 157902
+    },
+    "figures\\loao_delta_range_clear_topics.png": {
+      "sha256": "399f2ae83bf3d24d7f316edb0c2971ec239328c392c505b39a82201e6a5f32e9",
+      "bytes": 129183
+    },
+    "figures\\top_author_influence_forest.png": {
+      "sha256": "d67a3d83fba78c94723d57dffc55333b330b9111c0675b1c2f1a2422f9797c76",
+      "bytes": 388037
+    },
+    "figures\\top_contributor_exclusion_sensitivity.png": {
+      "sha256": "bdd550b9942c56df78db844a01f88c1e8c2b10b630efadbeff47232409f374fd",
+      "bytes": 288381
+    },
+    "QTS_Author_Influence_LOAO_Report.md": {
+      "sha256": "39fc212c40c64c1c21449b120f9f130c411427f37461404eece480fce3f3bb82",
+      "bytes": 11433
+    },
+    "README.md": {
+      "sha256": "1b01c1ac324a912cf3801fc534fa85fb08288498113765f2e9c7c08f97341a86",
+      "bytes": 1428
+    },
+    "QTS_Author_Influence_LOAO.xlsx": {
+      "sha256": "70735b23c8b2047ed80c38d9ee64cf96748e4669addd47d2e355ad4ed254ad42",
+      "bytes": 1661465
+    },
+    "workbook_verification.json": {
+      "sha256": "252b1f8ec05a2dad249fc8ab9a20cecc0e18f06ed51d6feb0e8bf1f1f7f6af17",
+      "bytes": 6926
+    }
+  },
+  "invariance_tests_passed": 15,
+  "invariance_tests_total": 15
+}

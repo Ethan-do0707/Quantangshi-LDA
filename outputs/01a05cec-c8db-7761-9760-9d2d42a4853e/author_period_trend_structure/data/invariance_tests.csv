@@ -1,0 +1,16 @@
+test_id,test_name,status,observed,expected
+TEST_01,author-period master 原始行数不变,PASS,43015,43015
+TEST_02,不覆盖 authoritative master,PASS,93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f,93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f
+TEST_03,20 Topic probability 不变化,PASS,8a66d23e00487ac24c3b97c1b17c6cddb95fccf56dd6690e0f66a4ae4aa9b29b,每行和为1且矩阵保持只读
+TEST_04,Topic labels 从 topic_metadata 读取,PASS,True,True
+TEST_05,period order 固定,PASS,"['初唐', '盛唐', '中唐', '晚唐']","['初唐', '盛唐', '中唐', '晚唐']"
+TEST_06,STRICT/CORE/EXPANDED 与 Audit 输出一致,PASS,True,True
+TEST_07,所有入选行具有合法 author_period_primary,PASS,True,True
+TEST_08,author-balanced 中每位作者权重相等,PASS,True,True
+TEST_09,poem-weighted 中每首诗权重相等,PASS,True,True
+TEST_10,cluster bootstrap unit 为 author,PASS,True,True
+TEST_11,每个 specification 有20 Topics × 4 periods,PASS,"{('CORE', 'AUTHOR'): 80, ('CORE', 'POEM'): 80, ('EXPANDED', 'AUTHOR'): 80, ('EXPANDED', 'POEM'): 80, ('STRICT', 'AUTHOR'): 80, ('STRICT', 'POEM'): 80}",80
+TEST_12,六种 specification 均完整生成,PASS,"['CORE_AUTHOR', 'CORE_POEM', 'EXPANDED_AUTHOR', 'EXPANDED_POEM', 'STRICT_AUTHOR', 'STRICT_POEM']","['CORE_AUTHOR', 'CORE_POEM', 'EXPANDED_AUTHOR', 'EXPANDED_POEM', 'STRICT_AUTHOR', 'STRICT_POEM']"
+TEST_13,每首诗20维概率原值不变,PASS,True,True
+TEST_14,全部 bootstrap results 可由 seed 重现,PASS,348b610983b2cc66853b5aee7c6f3ba2ff4651563b5ed50ce0376a47de79a254,348b610983b2cc66853b5aee7c6f3ba2ff4651563b5ed50ce0376a47de79a254
+TEST_15,Mixed/Noise Topic 未被静默删除,PASS,"['BROAD', 'CLEAR', 'MIXED', 'NOISE']",包含 MIXED/NOISE 且每规格20 Topic

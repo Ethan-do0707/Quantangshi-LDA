@@ -1,0 +1,2 @@
+﻿model_id,matrix_row_count,index_row_count,metadata_row_count,corpus_row_count,matched_count,unmatched_matrix_rows,unmatched_metadata_rows,duplicate_poem_id_count,duplicate_index_count,join_key,row_inflation,status
+C_K20,43015,43015,43030,43030,43015,0,15,0,0,poem_id from frozen document_index.csv,0,PASS

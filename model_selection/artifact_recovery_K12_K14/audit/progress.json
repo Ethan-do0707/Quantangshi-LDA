@@ -1,0 +1,11 @@
+{
+  "registered": 40,
+  "complete": 40,
+  "expected": 40,
+  "last_run": {
+    "K": 14,
+    "seed": 12345,
+    "prior_regime": "FIXED_PRIOR_K20",
+    "status": "EXACT_REPRODUCTION"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "K": 14,
+  "seed": 31415,
+  "prior_regime": "ORIGINAL_PRIOR",
+  "fit_scope": "FULL_CORPUS",
+  "purpose": "HUMANITIES_SEMANTIC_RESOLUTION_AUDIT_ONLY",
+  "quantitative_metrics_recomputed": false,
+  "max_iter": 30,
+  "fit_parameters": {
+    "batch_size": 128,
+    "doc_topic_prior": null,
+    "evaluate_every": -1,
+    "learning_decay": 0.7,
+    "learning_method": "batch",
+    "learning_offset": 10.0,
+    "max_doc_update_iter": 100,
+    "max_iter": 30,
+    "mean_change_tol": 0.001,
+    "n_components": 14,
+    "n_jobs": -1,
+    "perp_tol": 0.1,
+    "random_state": 31415,
+    "topic_word_prior": null,
+    "total_samples": 1000000.0,
+    "verbose": 1
+  },
+  "effective_alpha": 0.07142857142857142,
+  "effective_eta": 0.07142857142857142,
+  "n_iter_": 30,
+  "fit_time_seconds": 153.29015540000546,
+  "doc_count_used_for_fit": 43015,
+  "full_size": 43015,
+  "vocab_size": 35063,
+  "DTM_file_sha256": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0",
+  "DTM_fingerprint": "744baeb001f1c5fa43802f07bceb73c6142b605ff3bf69c12e3f14d5dc8eb779",
+  "vocab_sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084",
+  "model_sha256": "49a1b72c5ca4134a3764febb810ae4946fb8280a7ad8e285135ae81160516792",
+  "components_sha256": "82aeeda556f9601245f802e10efedc7ec18ae5e9084f0705929b2bfe830fdd6e",
+  "theta_full_sha256": "61e2b1225f2680698fbef5b9f477839ef9bf460ebeb9b29efc60821f21594388",
+  "theta_checks": {
+    "shape": [
+      43015,
+      14
+    ],
+    "dtype": "float64",
+    "shape_correct": true,
+    "all_finite": true,
+    "all_non_negative": true,
+    "max_row_sum_error": 7.771561172376096e-16,
+    "row_sum_tolerance": 1e-10,
+    "row_sums_valid": true,
+    "passed": true
+  },
+  "topic_prevalence_min": 0.021459318932707177,
+  "topic_prevalence_max": 0.13332552239016676,
+  "small_topic_warning_count": 0,
+  "software_versions": {
+    "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+    "python_version": "3.11.15",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "machine": "AMD64",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.9.0",
+    "joblib": "1.5.3",
+    "executable": "C:\\Users\\ASUS E23688\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe"
+  },
+  "environment_status": "MATCHES_RECORDED_ENVIRONMENT",
+  "reproduction_status": "NOT_APPLICABLE_DIFFERENT_FIT_SCOPE",
+  "outputs": [
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/components.npz",
+      "bytes": 2732162,
+      "sha256": "d54b6eeb97829c2d115c5d403bd403ed3d5e74a229568b8b77c4cd218f61a795"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/document_topic_full.npz",
+      "bytes": 3923189,
+      "sha256": "fff33be0d4753c9dd866f92ea4d09bf38e9433c56edded24385a0678075f73e6"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/lda_model.joblib",
+      "bytes": 5739066,
+      "sha256": "49a1b72c5ca4134a3764febb810ae4946fb8280a7ad8e285135ae81160516792"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/model_artifacts_enriched.npz",
+      "bytes": 9466611,
+      "sha256": "e137c4566c887a0fec0dc3d632306d8ed3f42a2dd9e2de2a6d917e7fe57d92cb"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/representative_poems_author_balanced_top20.csv",
+      "bytes": 139727,
+      "sha256": "8a6de626a54da389862ee77cf2eb20aceea5a3218a67ced4e67ceccc3c163c1c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/representative_poems_top100.csv",
+      "bytes": 554941,
+      "sha256": "7c7901d35de4589e9a42713ee9a51ab06461d4101a80b9f1a9ecdbdbc0f72ea8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/representative_poems_top20.csv",
+      "bytes": 141342,
+      "sha256": "b90308660f01ff1680e0f0d3d689db54f63ef70e99b119c53d87275fe093f867"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/representative_poems_top50.csv",
+      "bytes": 300710,
+      "sha256": "ee6bb86934d6eb043a764c13bcf7a6eb43e077e4ec75b6ed44b723b1b28585ef"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/top_indices.npy",
+      "bytes": 1248,
+      "sha256": "70f31372dc57d3e9a2e60ca2d5ba9230dc8172f824a40cbad64d2c4bce88dec4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/topic_qc.csv",
+      "bytes": 1081,
+      "sha256": "fe2e6848873b29d1f651c718ad0fedffed1f4f75f509c8f344045fca6d8b5f7a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/topic_word_unit.npz",
+      "bytes": 2745234,
+      "sha256": "e112855c8ff88c631def2c8f8d9db7e91b57f65fba48900a1a6f793954610df8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/representative_poems/K14_author_balanced_top20.csv",
+      "bytes": 139727,
+      "sha256": "8a6de626a54da389862ee77cf2eb20aceea5a3218a67ced4e67ceccc3c163c1c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/representative_poems/K14_top100.csv",
+      "bytes": 554941,
+      "sha256": "7c7901d35de4589e9a42713ee9a51ab06461d4101a80b9f1a9ecdbdbc0f72ea8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/representative_poems/K14_top20.csv",
+      "bytes": 141342,
+      "sha256": "b90308660f01ff1680e0f0d3d689db54f63ef70e99b119c53d87275fe093f867"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/representative_poems/K14_top50.csv",
+      "bytes": 300710,
+      "sha256": "ee6bb86934d6eb043a764c13bcf7a6eb43e077e4ec75b6ed44b723b1b28585ef"
+    }
+  ]
+}

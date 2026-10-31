@@ -1,0 +1,80 @@
+{
+  "generation_time": "2026-09-03T18:38:56+08:00",
+  "python": "C:\\Users\\ASUS E23688\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+  "python_version": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+  "matplotlib": "3.11.1",
+  "pandas": "2.3.3",
+  "font": {
+    "font_family": "QTS Noto Regular",
+    "source_font_family": "Noto Serif SC",
+    "font_file": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_analysis\\publication_figures\\qa\\fonts\\QTS_Noto_Regular.ttf",
+    "original_font_file": "C:\\Windows\\Fonts\\NotoSerifSC-VF.ttf",
+    "font_weight": 400,
+    "font_sha256": "da44be10d3aef78a52154cb2d003200df64454d09c40493790961f97eca5c495"
+  },
+  "selected_sources": {
+    "trend_report": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\QTS_Author_Period_Trend_Structure_Report.md",
+    "trend_manifest": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\analysis_manifest.json",
+    "means": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\data\\period_topic_means.csv",
+    "ci": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\data\\period_topic_bootstrap_ci.csv",
+    "trend_clear": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\data\\clear_topic_trend_structure.csv",
+    "effect_report": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_effect_validation\\QTS_Author_Period_Effect_Size_Statistical_Validation_Report.md",
+    "effect_manifest": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_effect_validation\\analysis_manifest.json",
+    "primary": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_effect_validation\\data\\clear_topic_primary_contrasts.csv",
+    "influence_report": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_influence_loao\\QTS_Author_Influence_LOAO_Report.md",
+    "influence_manifest": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_influence_loao\\analysis_manifest.json",
+    "candidates": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_influence_loao\\data\\author_validated_candidate_trends.csv",
+    "exclusion": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_influence_loao\\data\\top_contributor_exclusion_effects.csv",
+    "exclusion_ci": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_influence_loao\\data\\top_exclusion_bootstrap_ci.csv",
+    "bcd_report": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a0628d-ef13-7961-85ce-146e0a14f60a\\BCD_finding_level_robustness\\QTS_BCD_Finding_Level_Robustness_Report.md",
+    "bcd_manifest": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a0628d-ef13-7961-85ce-146e0a14f60a\\BCD_finding_level_robustness\\analysis_manifest.json",
+    "effects": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a0628d-ef13-7961-85ce-146e0a14f60a\\BCD_finding_level_robustness\\data\\BCD_finding_effects.csv",
+    "comparison": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a0628d-ef13-7961-85ce-146e0a14f60a\\BCD_finding_level_robustness\\data\\BCD_finding_robustness_comparison.csv",
+    "ladder": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a0628d-ef13-7961-85ce-146e0a14f60a\\BCD_finding_level_robustness\\data\\finding_robustness_ladder.csv",
+    "mapping": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a0628d-ef13-7961-85ce-146e0a14f60a\\BCD_finding_level_robustness\\data\\finding_semantic_mapping.csv",
+    "taxonomy": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\taxonomy\\topic_metadata.csv"
+  },
+  "source_candidates": [
+    {
+      "group": "trend",
+      "report": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\QTS_Author_Period_Trend_Structure_Report.md",
+      "qc_passed": true,
+      "required_files_present": true,
+      "mtime": 1788266790.0
+    },
+    {
+      "group": "effect",
+      "report": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_effect_validation\\QTS_Author_Period_Effect_Size_Statistical_Validation_Report.md",
+      "qc_passed": true,
+      "required_files_present": true,
+      "mtime": 1788312670.0
+    },
+    {
+      "group": "influence",
+      "report": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_influence_loao\\QTS_Author_Influence_LOAO_Report.md",
+      "qc_passed": true,
+      "required_files_present": true,
+      "mtime": 1788399126.0
+    },
+    {
+      "group": "bcd",
+      "report": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a0628d-ef13-7961-85ce-146e0a14f60a\\BCD_finding_level_robustness\\QTS_BCD_Finding_Level_Robustness_Report.md",
+      "qc_passed": true,
+      "required_files_present": true,
+      "mtime": 1788401036.0
+    }
+  ],
+  "numeric_checks": 669,
+  "all_numeric_checks_passed": true,
+  "figure_versions": 27,
+  "core_slots": 13,
+  "formats": [
+    "png",
+    "pdf",
+    "svg"
+  ],
+  "png_dpi": 600,
+  "recomputed_statistics": false,
+  "generation_script_sha256": "22c60852f874fc635dfb9cd7488db4328c98ba17e1739670eba9d43650d53da6",
+  "figure9_layout_revision_time": "2026-09-03T18:51:11+08:00"
+}

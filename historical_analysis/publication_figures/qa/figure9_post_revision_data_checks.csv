@@ -1,0 +1,33 @@
+﻿check,status,detail
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/POEM/raw_delta_POEM,PASS,-0.09446917612090609 vs np.float64(-0.09446917612090609)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/POEM/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/POEM/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/AUTHOR/raw_delta_AUTHOR,PASS,-0.12513293195661418 vs np.float64(-0.12513293195661418)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/AUTHOR/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/AUTHOR/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/POEM/raw_delta_POEM,PASS,0.09363230250299967 vs np.float64(0.09363230250299967)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/POEM/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/POEM/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/AUTHOR/raw_delta_AUTHOR,PASS,0.07023398435592407 vs np.float64(0.07023398435592407)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/AUTHOR/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/AUTHOR/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/POEM/raw_delta_POEM,PASS,0.06899243620940385 vs np.float64(0.06899243620940385)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/POEM/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/POEM/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/AUTHOR/raw_delta_AUTHOR,PASS,0.04125885222943739 vs np.float64(0.04125885222943739)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/AUTHOR/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/AUTHOR/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/POEM/raw_delta_POEM,PASS,-0.018122186778624722 vs np.float64(-0.018122186778624722)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/POEM/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/POEM/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/AUTHOR/raw_delta_AUTHOR,PASS,-0.037910059507369975 vs np.float64(-0.037910059507369975)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/AUTHOR/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/AUTHOR/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/聚合,PASS,

@@ -1,0 +1,194 @@
+{
+  "status": "PASS",
+  "completed_workbooks": [
+    {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\master\\QTS_author_historical_metadata.xlsx",
+      "exists": true,
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "zip_integrity",
+          "status": "PASS",
+          "observed": null
+        },
+        {
+          "check": "sheet_names",
+          "status": "PASS",
+          "observed": [
+            "Author_Metadata",
+            "Period_Coverage",
+            "Build_QC",
+            "Method_Notes"
+          ],
+          "expected": [
+            "Author_Metadata",
+            "Period_Coverage",
+            "Build_QC",
+            "Method_Notes"
+          ]
+        },
+        {
+          "check": "sheet_dimensions_and_headers",
+          "status": "PASS"
+        }
+      ],
+      "size_bytes": 479993,
+      "sha256": "67912cef4167988f402fc87f6ec140812956efb1bcae509e1ce13c0cb63475f4",
+      "sheets": [
+        {
+          "sheet": "Author_Metadata",
+          "status": "PASS",
+          "dimension": "A1:AR2529",
+          "expected_dimension": "A1:AR2529",
+          "headers_match": true
+        },
+        {
+          "sheet": "Period_Coverage",
+          "status": "PASS",
+          "dimension": "A1:D6",
+          "expected_dimension": "A1:D6",
+          "headers_match": true
+        },
+        {
+          "sheet": "Build_QC",
+          "status": "PASS",
+          "dimension": "A1:E18",
+          "expected_dimension": "A1:E18",
+          "headers_match": true
+        },
+        {
+          "sheet": "Method_Notes",
+          "status": "PASS",
+          "dimension": "A1:B7",
+          "expected_dimension": "A1:B7",
+          "headers_match": true
+        }
+      ]
+    },
+    {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\review\\author_metadata_human_review.xlsx",
+      "exists": true,
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "zip_integrity",
+          "status": "PASS",
+          "observed": null
+        },
+        {
+          "check": "sheet_names",
+          "status": "PASS",
+          "observed": [
+            "Review_Queue",
+            "Candidate_Audit",
+            "Instructions"
+          ],
+          "expected": [
+            "Review_Queue",
+            "Candidate_Audit",
+            "Instructions"
+          ]
+        },
+        {
+          "check": "sheet_dimensions_and_headers",
+          "status": "PASS"
+        }
+      ],
+      "size_bytes": 1239967,
+      "sha256": "4573f3954442391fd32cf25a1a1578c157fa00df2fe503c6025a46a431c0d12a",
+      "sheets": [
+        {
+          "sheet": "Review_Queue",
+          "status": "PASS",
+          "dimension": "A1:AZ2318",
+          "expected_dimension": "A1:AZ2318",
+          "headers_match": true
+        },
+        {
+          "sheet": "Candidate_Audit",
+          "status": "PASS",
+          "dimension": "A1:W7733",
+          "expected_dimension": "A1:W7733",
+          "headers_match": true
+        },
+        {
+          "sheet": "Instructions",
+          "status": "PASS",
+          "dimension": "A1:B5",
+          "expected_dimension": "A1:B5",
+          "headers_match": true
+        }
+      ]
+    },
+    {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\docs\\historical_metadata_data_dictionary.xlsx",
+      "exists": true,
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "zip_integrity",
+          "status": "PASS",
+          "observed": null
+        },
+        {
+          "check": "sheet_names",
+          "status": "PASS",
+          "observed": [
+            "Fields",
+            "Period_Scheme",
+            "Provenance_Notes"
+          ],
+          "expected": [
+            "Fields",
+            "Period_Scheme",
+            "Provenance_Notes"
+          ]
+        },
+        {
+          "check": "sheet_dimensions_and_headers",
+          "status": "PASS"
+        }
+      ],
+      "size_bytes": 13133,
+      "sha256": "55781e46efd4b6680fbc7be31ee542e9f450a0295a7305e75609edec52c7f025",
+      "sheets": [
+        {
+          "sheet": "Fields",
+          "status": "PASS",
+          "dimension": "A1:J77",
+          "expected_dimension": "A1:J77",
+          "headers_match": true
+        },
+        {
+          "sheet": "Period_Scheme",
+          "status": "PASS",
+          "dimension": "A1:E5",
+          "expected_dimension": "A1:E5",
+          "headers_match": true
+        },
+        {
+          "sheet": "Provenance_Notes",
+          "status": "PASS",
+          "dimension": "A1:B7",
+          "expected_dimension": "A1:B7",
+          "headers_match": true
+        }
+      ]
+    }
+  ],
+  "enriched_master_workbook": {
+    "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\master\\C_K20_literary_history_master_with_author_history.xlsx",
+    "exists": true,
+    "status": "PASS",
+    "checks": {
+      "file_exists": "PASS",
+      "verification_report_exists": "PASS",
+      "verification_report_pass": "PASS",
+      "xlsx_hash_matches_report": "PASS",
+      "source_csv_hash_matches_report": "PASS",
+      "worksheet_shape_verified": "PASS",
+      "sample_values_verified": "PASS"
+    },
+    "verification_report": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\qc\\enriched_master_xlsx_verification.json"
+  }
+}

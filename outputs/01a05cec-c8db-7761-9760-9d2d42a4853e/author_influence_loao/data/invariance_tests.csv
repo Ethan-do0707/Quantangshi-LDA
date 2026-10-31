@@ -1,0 +1,16 @@
+test_id,test_name,status,observed,expected
+TEST_01,"master 43,015 rows 不变",PASS,43015,43015
+TEST_02,不覆盖 authoritative master,PASS,"""93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f""","""93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f"""
+TEST_03,Topic probability 不变,PASS,"{""topic_count"": 20, ""matrix_sha256"": ""8a66d23e00487ac24c3b97c1b17c6cddb95fccf56dd6690e0f66a4ae4aa9b29b""}","{""topic_count"": 20, ""row_sum"": 1.0}"
+TEST_04,author_period 与样本标签不变,PASS,true,true
+TEST_05,CLEAR Topic list 不变,PASS,"[""topic_03"", ""topic_06"", ""topic_07"", ""topic_08"", ""topic_10"", ""topic_11"", ""topic_16"", ""topic_19"", ""topic_20""]","[""topic_03"", ""topic_06"", ""topic_07"", ""topic_08"", ""topic_10"", ""topic_11"", ""topic_16"", ""topic_19"", ""topic_20""]"
+TEST_06,LOAO 删除单位是 author_id_internal,PASS,207,"""非空 author_id_internal"""
+TEST_07,删除作者时删除其全部诗歌,PASS,true,true
+TEST_08,POEM estimand 保持 poem-weighted,PASS,8.326672684688674e-17,0.0
+TEST_09,AUTHOR estimand 保持 author-balanced,PASS,1.1102230246251565e-16,0.0
+TEST_10,Top contributors 按 Topic mass 排名,PASS,true,true
+TEST_11,所有 original delta 与上一阶段一致,PASS,true,true
+TEST_12,LOAO 与 bootstrap 结果可复现,PASS,"[-0.13698668781517126, 0.010068162527327023]","[-0.13698668781517126, 0.010068162527327023]"
+TEST_13,Top1/3/5/10 exclusion 实际删除作者数正确,PASS,true,true
+TEST_14,无 sign flip 被漏记,PASS,31,31
+TEST_15,不生成新的文学史结论,PASS,"[""DOWNGRADE_AUTHOR_SENSITIVE"", ""KEEP_WITH_CAUTION"", ""UPGRADE_KEEP""]","[""DOWNGRADE_AUTHOR_SENSITIVE"", ""ESTIMAND_DEPENDENT"", ""INSUFFICIENT"", ""KEEP_WITH_CAUTION"", ""UPGRADE_KEEP""]"

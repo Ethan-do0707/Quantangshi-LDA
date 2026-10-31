@@ -1,0 +1,57 @@
+{
+  "complete": true,
+  "n_runs": 60,
+  "immutable_file_count": 369,
+  "checks": [
+    {
+      "test": "TEST_01",
+      "description": "原始corpus不变",
+      "passed": true
+    },
+    {
+      "test": "TEST_02",
+      "description": "冻结模型不变",
+      "passed": true
+    },
+    {
+      "test": "TEST_03",
+      "description": "拆分固定",
+      "passed": true
+    },
+    {
+      "test": "TEST_04",
+      "description": "同语料所有K共享拆分",
+      "passed": true
+    },
+    {
+      "test": "TEST_05",
+      "description": "每组3 seeds完整",
+      "passed": true
+    },
+    {
+      "test": "TEST_06",
+      "description": "共60 runs",
+      "passed": true
+    },
+    {
+      "test": "TEST_07",
+      "description": "困惑度有限且为正",
+      "passed": true
+    },
+    {
+      "test": "TEST_08",
+      "description": "测试集未参与fit",
+      "passed": true
+    },
+    {
+      "test": "TEST_09",
+      "description": "K范围正确",
+      "passed": true
+    },
+    {
+      "test": "TEST_10",
+      "description": "环境已保存且匹配",
+      "passed": true
+    }
+  ]
+}

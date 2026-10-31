@@ -1,0 +1,9 @@
+{
+  "frozen_at_utc": "2026-09-09T14:36:36.116534+00:00",
+  "review_order": "HR001-HR047",
+  "cards_completed": 47,
+  "private_mapping_read_before_freeze": false,
+  "quantitative_metrics_used_before_freeze": false,
+  "frozen_csv_sha256": "d9f17b9928e3ac58190673de59e15e2abb99b1ddf10cd57bb679d96db75cb9c9",
+  "strict_blindness_limitation": "本轮未读取真实 K 或私有映射；但同一对话的早期上下文曾暴露少量旧 AI 内容，因此不宣称对旧 AI 的完全独立隔离。"
+}

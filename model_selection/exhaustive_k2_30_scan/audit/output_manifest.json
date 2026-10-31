@@ -1,0 +1,17 @@
+{
+  "model_selection/exhaustive_k2_30_scan/README.md": "3be9ab9c92f2e8420e06a1bdfb77014aa0eb2dec0911aa828daf0b1f3dbb3dcc",
+  "model_selection/exhaustive_k2_30_scan/config/exhaustive_k_scan_config.yaml": "0ba6f34543711dad8f3490daf5829232992c982adaa26ee96f21b75b4655ee42",
+  "model_selection/exhaustive_k2_30_scan/data/k_scan_all_runs.csv": "ed251dfd11ca00447202cd13362d9af79a00d3b4c26819c7334a019d8ff1ef40",
+  "model_selection/exhaustive_k2_30_scan/data/k_scan_summary.csv": "13853dbc7d3efea1d4efb1a89e868e062c87eb160b2d72d05effed15dd2ad831",
+  "model_selection/exhaustive_k2_30_scan/data/k_scan_first_differences.csv": "a66869d00204ba32d2092e58dd5d30df0b6eb7e984f135e1b5939ff1e2d6b512",
+  "model_selection/exhaustive_k2_30_scan/data/k_scan_local_extrema.csv": "e97d09d98d58a805f577162142d1899b111a2f4ccaac08a6b7c5a2b6df6be00f",
+  "model_selection/exhaustive_k2_30_scan/data/k_scan_plateau.csv": "811326d05d835c10148bb501163dc55dd62cae1759a9e377bb8433537b1411d4",
+  "model_selection/exhaustive_k2_30_scan/data/candidate_k_from_exhaustive_scan.csv": "ef4ef0aec514d7dfb37144dfecee51459514ce4bdef0b41d354e899928be8d01",
+  "model_selection/exhaustive_k2_30_scan/figures/C_K2_30_NPMI_curve.png": "f62c719c7f68146c96e44b6b024fbc7919e200d254d82dc0234fe6ac2965c6fb",
+  "model_selection/exhaustive_k2_30_scan/figures/C_K2_30_Perplexity_curve.png": "2e8dfc739ca0de9a5561309a2d8ad6b6ff86be556172b6d42988a6fe5667663f",
+  "model_selection/exhaustive_k2_30_scan/figures/C_K2_30_NPMI_and_Perplexity.png": "0d54671a245379744213e29a2e3b0a65ccdc8f418a049725708ef3ee0ec75032",
+  "model_selection/exhaustive_k2_30_scan/figures/C_K10_20_zoom.png": "73e2ab3b0269b5bfd65078119ab190abd3a20d3d3f98e285deedd34239d6b0bd",
+  "model_selection/exhaustive_k2_30_scan/figures/C_K2_30_first_difference.png": "acf689e2c6cc37e1e02cc57dc7721a4b93467032b443f8f212340905865733ae",
+  "model_selection/exhaustive_k2_30_scan/figures/C_K2_30_metric_rank.png": "f61eca774e55092b243f0c12d663a600e391138272226bd593b63e99a30f6c65",
+  "model_selection/exhaustive_k2_30_scan/QTS_Corpus_C_K2_30_Exhaustive_K_Scan_Report.md": "006b35f241a897d8584be4cf6e72362983c56d5c3676146f961aff0657fb5ef3"
+}

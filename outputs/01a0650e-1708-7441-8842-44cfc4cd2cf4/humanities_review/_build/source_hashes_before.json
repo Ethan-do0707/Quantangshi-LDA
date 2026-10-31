@@ -1,0 +1,518 @@
+[
+  {
+    "path": "config/author_influence_config.yaml",
+    "sha256": "bbff6233d5683904458314c90c5027892bf31d07cc1e359dd5a3d9f09011680e"
+  },
+  {
+    "path": "config/BCD_robustness_config.yaml",
+    "sha256": "42842846b6e52435e3092c529dbcaa540769900c4b2d87e9670d48cdc689724a"
+  },
+  {
+    "path": "config/effect_validation_config.yaml",
+    "sha256": "c3a5fc79431e88cd1d46a262c4fa6417014ba4c6f7b7dfb4ec40cd3faa11c029"
+  },
+  {
+    "path": "config/trend_structure_config.yaml",
+    "sha256": "8ffa17692d000c9bf64542bb7fd7b6ad25bb4bcce490846c727064bf031b3076"
+  },
+  {
+    "path": "historical_metadata/master/C_K20_literary_history_master_with_author_history.csv",
+    "sha256": "93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f"
+  },
+  {
+    "path": "historical_metadata/master/QTS_author_historical_metadata.csv",
+    "sha256": "eff36becb2bce90e39ae372d8d004744f1c65f7c8b7ef9b50d0aa4b395ac6969"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/audit_manifest.json",
+    "sha256": "07bc91e817093a25d53abe4ee1191753e14c9776bacffbaf78ccf9ee760cfc55"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/analysis_sample_representativeness.csv",
+    "sha256": "3ebf01718cc4f9988738a1f67146050e566a267e5b4e6927e959ab9615f4895a"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/author_productivity_known_vs_unknown.csv",
+    "sha256": "2371de1cf0e41b19ed47b82cdabf3e175a4bd69437264f973ea48c892b19ac99"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/clear_topic_representativeness.csv",
+    "sha256": "a1251aa9273569786f45f6f6375cd1a6aa7d6cb0b5e85335c2b0f18b114b156d"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/dominant_topic_known_unknown.csv",
+    "sha256": "558c3739b237321e27b8f10cc2b8f9131c385af0455a23da85d7fc6885875089"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/dominant_topic_type_known_unknown.csv",
+    "sha256": "171626cc8a553dec07fb4d1a3c300b520bdb4c0675add159d077a20194e177a0"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/period_coverage_by_author_productivity.csv",
+    "sha256": "51b7879b658927dba0eb41ded5a6d9cfbc568a92fa0f94593aa6def8b413a58a"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/period_coverage_by_author_status.csv",
+    "sha256": "294413f719cc9f5fe18160be0daeb67b1632b9c8e59d8d005760bccc769fe767"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/period_coverage_by_cbdb_confidence.csv",
+    "sha256": "9c8d8bccc2ecd4315afebab950b6d3bf03a21ca512f3121bd6ee42c243837e75"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/period_coverage_by_cbdb_status.csv",
+    "sha256": "90b4e193430b593a82f6f1712babc343b31bd25ce701fb6c484180565613da21"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/period_metadata_coverage_audit.csv",
+    "sha256": "c8606ca2405fcfd970b2b3f87f446cbceb84c38eb10822bf184e5b9508357b11"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/period_metadata_sample_labels.csv",
+    "sha256": "782ef57194db6f32f85cc1ce07fa42ee9e025f89abec857baec2438962fa047e"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/period_missingness_logistic_diagnostic.csv",
+    "sha256": "62e8d3833104ce15ff7c22af1b4f1a1350ac8bb7bb24bf3686ff94cc24a1fdb5"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/representativeness_audit_qc.csv",
+    "sha256": "6484a2c760c94d419a20b59851d8142daf8093807378d4b060d79fc11a519011"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/topic_missingness_risk.csv",
+    "sha256": "3094b25f7330c59064d2fb74386a22d3cda7323481a65616cfbebc92cf318d16"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/topic_mixture_representativeness.csv",
+    "sha256": "bdead641175950a483f081c53fa5158a05cc83147c3d7375988e24267ad8c8c9"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/topic_probability_representativeness.csv",
+    "sha256": "c0f1031cdd0d2196ff50211fee6d628c191ec52a7a324aa58457e5dc25652f75"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/data/topic_type_mass_representativeness.csv",
+    "sha256": "1e4def685dff132932c7362231d9395543758855521985b9e67c8ebfac96ee6e"
+  },
+  {
+    "path": "historical_metadata/representativeness_audit/Period_Metadata_Representativeness_Audit_Report.md",
+    "sha256": "62b837192da8a7e1d39162c8658280276fdc7c63c283af835a2c21f3a9300688"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_01_alignment.md",
+    "sha256": "70150fb6baa9b2becd5904bf510248f209e42f07f524a26469911662302e0915"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_02_alignment.md",
+    "sha256": "95f99bf16055926b145ec63c3e4a16eed1f3f0be5911eb4784c0d69452ae3384"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_03_alignment.md",
+    "sha256": "c590145ff45235df17ab641913e67c048f226e42bb5848ede1dcec0a802b9df0"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_04_alignment.md",
+    "sha256": "fe29544058d94ed5de4ff45db8b711c4822ee4cef96508ad84fb1688025ab8be"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_05_alignment.md",
+    "sha256": "066776f49288e6e6cbd2e2125ce29172e4d29a40b0fd9569fb0336cc26c7cad1"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_06_alignment.md",
+    "sha256": "19b43b5fa7f140ae05d265e3398a94d668f6cebd45da3846dd4a2b2dfb0b66b4"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_07_alignment.md",
+    "sha256": "5416ea9aa511daa26f7b04c9e1a2dbf5f86cf759775fa3183010d9d10ac4cd58"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_08_alignment.md",
+    "sha256": "557cc46d90fd52eaec5a17df623aa887bbbd68f28af1990950aba86b117a521e"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_09_alignment.md",
+    "sha256": "ba5d75d1b36d35c1ec3b50b408da823a79cd2b821e45eab1a05348b44e416b19"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_10_alignment.md",
+    "sha256": "570bf90edbdd47ef86d96ad4fe36284f48e379ee11837da6358d0f89e23cd295"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_11_alignment.md",
+    "sha256": "b19d577ef1fd5aa4774461f7bcdfdeb88a65bccd54662e9b2577fd1a4b0d1264"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_12_alignment.md",
+    "sha256": "6094c8ce773f60d5206dee6505f2f5257eff8acda83f4e71ba6277cfe492e0d1"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_13_alignment.md",
+    "sha256": "2e38eeb58dba87ab09b1ce717e381e6ba466103fbde73c285bee7b201f345ac2"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_14_alignment.md",
+    "sha256": "3b5404951a9d39ef3cf0fe2a445395e23913c381d928c49a14724083008a77a7"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_15_alignment.md",
+    "sha256": "889567bdae3cfce3a440318bede672babe6500a6a60857ea8fad92bf30f217e4"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_16_alignment.md",
+    "sha256": "2f9d4e9fe290d23484c0cad0d631f3bb9e414d3383645225786e07579d13461d"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_17_alignment.md",
+    "sha256": "90243beec8c0decd7135909581911cb4cb8f534d5506af3bfce6732c832bae3b"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_18_alignment.md",
+    "sha256": "0adb73076f5d22bc0daf1c1fa89b00f81e5fbdefe0f7256bf5d4ce50e0394850"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_19_alignment.md",
+    "sha256": "fbc492a52bac0e5c2d730c859ac487e4d3bb728a046762b0f8c54a943bc82131"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/alignment_review/C_topic_20_alignment.md",
+    "sha256": "3e28a1be07b3d954b12fb239f86abf42a7e76442d30e737311fa19bfae4535cf"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/BCD_cross_model_topic_alignment.csv",
+    "sha256": "b562271ed822eb5ee6f99ae0f3cd6ebc41a25ac35e7309434a86fa44eb1dcb0e"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/BCD_cross_model_topic_alignment.md",
+    "sha256": "113cf79552b18a4da4b0e9288463bf56da0aa1de707cf8d1decefa18a2960f06"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/BCD_pairwise_alignment_evidence.csv",
+    "sha256": "2e8c6704aada66006be401839122172b0d315b04d8e109206ac034a925d0a4dc"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/B_K20/document_topic_probabilities.npz",
+    "sha256": "3c8f5a079bac9c9c2ec225d8ce5b21f1127f45d12cee903f537f6d3c32516a34"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/B_K20/topic_word_components.npz",
+    "sha256": "a6957ed431189823fa533cabdcfc755eca84758b535f0e8c12335e1903c25392"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/B_K20/topic_word_probabilities.npz",
+    "sha256": "49d461578d5a0d715b4800762355a576aaf552dc4160d21a05ffcbac622a8e9c"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/C_K20/document_topic_probabilities.npz",
+    "sha256": "b6f71b9e450873abedd2a9970b2a1aeea5a83a2c1858b84aeff7e293d9f4a966"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/C_K20/topic_word_components.npz",
+    "sha256": "ed9d099ad35ce8759651aeac8977c744528e9751bcf0cc301b5def035be10201"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/C_K20/topic_word_probabilities.npz",
+    "sha256": "a0fe6f09bc91e534c86db494c5f8b4d7e703198877409953d6e77c3fe04ec9e7"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/D_K20/document_topic_probabilities.npz",
+    "sha256": "061333b8d2247c9719cc8c2f46ede49fd4c2002c4d15ec9ac289a1a63820db40"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/D_K20/topic_word_components.npz",
+    "sha256": "82b50af0d5bb68445e587e30b75bf9688478ab80bbd2cb47bb2a217f410a9a0f"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/D_K20/topic_word_probabilities.npz",
+    "sha256": "9cb9c03a92afe90f70c88d0245d7ab02392a7a249fb22956c16829c51005e5c2"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/taxonomy/C_K20_topic_taxonomy.csv",
+    "sha256": "f77ed88c06957753eb64494819414a24901ce9093482a3d938aeb85f1b03fbb4"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/taxonomy/C_K20_topic_taxonomy.md",
+    "sha256": "fecfd075f39ffbc03e73e0f5b85ea42861ab4538a16e258bf6e4d3ef3b2bb443"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/taxonomy/topic_metadata.csv",
+    "sha256": "9c17be32e1f988a734f457e16fba5a478ecbf9a8a90b27a9dfe31803633bdd5c"
+  },
+  {
+    "path": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/model_selection/final_model_selection_report.md",
+    "sha256": "cfb3257e8cd07a3d00a3cd409f8ded06bbb7d075f0d69cdf195b28e1b7d1e97e"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/analysis_manifest.json",
+    "sha256": "9555b2635a2eb88b92f1a6219c711f5104e53ac31ff3be3e6e392f9b8f93c58b"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/aggregation_conflict_decomposition.csv",
+    "sha256": "c7f6a3cb2001ac9e04dc48e635e4f79c8bcb8792f6275a0dd8176a8002c0c153"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/aggregation_conflict_summary.csv",
+    "sha256": "93a22b9fc4434ca16eafad508817822faae21bfb3a0236e4983bb4a91453b295"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/author_concentration_summary.csv",
+    "sha256": "fbd0b0fbc43c4afde6fa790bddfb0b6fe59e1f3aa571bca7ef1a9194edee6d63"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/author_influence_score.csv",
+    "sha256": "61f613056c92673a8285c8e7b1a9dbc9c6fbb3cd28fccdc260373e2dfccbe1ff"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/author_period_topic_contributions.csv",
+    "sha256": "171a6d64bcf2daaf2aeea52209ca1e93dc811d2cb13813c5e9805391d6033963"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/author_validated_candidate_trends.csv",
+    "sha256": "1b8fda5403f5c1b530ec0f3a19830f2a882a4f879ae3f05c25ff85a3dcbb45b7"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/clear_topic_author_influence_summary.csv",
+    "sha256": "34a1e4358458dad1be542561b052a480ca2530ef56fad974ebf511a13af0e917"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/clear_topic_top_influential_authors.csv",
+    "sha256": "7c55fbd83614b0086e82d3cb1f8d1f41ffdaf8201a4f919ddd975088f6aa0208"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/data_dictionary.csv",
+    "sha256": "327b1385c38c7f54835177ee619017de863de1d8785e1627eb62d512b5e96797"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/invariance_tests.csv",
+    "sha256": "3b79cb1d65131d90dc5905185730e7cf16cfcb6440756c9a55085c0c0be90793"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/loao_effects.csv",
+    "sha256": "efd6a89558edb467301abc1a130670d1b16a2be566d630cf6c27ed9e159bdc74"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/loao_summary.csv",
+    "sha256": "5c7911913fbe46fecf8f2be68176154894d0d21f6027a091a0fd2d93ca0ee00b"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/sample_influence_sensitivity.csv",
+    "sha256": "ff9ac9ab33423a0ce77deba2b4abc36a9c01e4e77bc828d5e4dffb3b25f4919a"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/top_contributor_exclusion_effects.csv",
+    "sha256": "05cf217ce569ed8dcd40852efd6ed6b01ea106ac2f016e77a60248cf16d4aa00"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/top_exclusion_bootstrap_ci.csv",
+    "sha256": "005f163d8507bc78337aa94d38f6992eaf0f429a3f33012f2f8b92423bc0661c"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/top_influential_authors.csv",
+    "sha256": "7c55fbd83614b0086e82d3cb1f8d1f41ffdaf8201a4f919ddd975088f6aa0208"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/QTS_Author_Influence_LOAO_Report.md",
+    "sha256": "39fc212c40c64c1c21449b120f9f130c411427f37461404eece480fce3f3bb82"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/analysis_manifest.json",
+    "sha256": "b453c4f1ef30ffba5de7557123b08061f6bd67d2d62ffc811f003dd2cfa2e760"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/all_topic_effect_sizes.csv",
+    "sha256": "f5f50e6a43f32041445534d54738db051158810d0ba3fbde65329c28b56ed637"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/author_influence_check_queue.csv",
+    "sha256": "9040ea7cd3e5eb89b972828d81c749656aa05223baf4e327abf17da547fa00a4"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/clear_topic_all_pairwise.csv",
+    "sha256": "825ea391bfa44aa279f9595e60febadf4f82ae8149302444415df541a0763b9e"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/clear_topic_effect_sensitivity_matrix.csv",
+    "sha256": "46c7843fba6ffb7685c6be0d04c8d8def3fcb0f5c50c0e51186d997f2a5af231"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/clear_topic_period_omnibus.csv",
+    "sha256": "8c992d9cedad8eb549cd94125b570ae2241642ab930a1c18d5f75059fe2f54d0"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/clear_topic_primary_contrasts.csv",
+    "sha256": "cdff8c1560ef0e7ea40dbd27f22a5a9ddc83494c32faeaf91a12577eedd26781"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/clear_topics_validation_summary.csv",
+    "sha256": "a347773bf33c5f7690670b322a5cac3b0f5fa125971de1450b406029ecfb45c8"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/data_dictionary.csv",
+    "sha256": "60f03b987cfdd2dd5f94f97e0b200a9fdb9a06be66dabb400faf01d49507de7a"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/invariance_tests.csv",
+    "sha256": "33da7742170326ab04a8011ccba03509841d518d7c6b2d9fe401a139fdb4c266"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/posthoc_peak_trough_effects.csv",
+    "sha256": "6d5cf13fde9433704ed89e66cae70c606f1175bb231b0b6ba99cb78a44cf8e38"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/raw_vs_clr_direction_agreement.csv",
+    "sha256": "aaf6201347bba102e95ffcf888314cb3ae77efd527562e7853b002fc894144f3"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/statistically_supported_candidate_trends.csv",
+    "sha256": "da936922309de1ba04013a6ad72fcef48ddb22b91c14cbeea0c62510198e4f96"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/QTS_Author_Period_Effect_Size_Statistical_Validation_Report.md",
+    "sha256": "75b3b392f61ea93253dae11540b64db97636e8ea8ed24d4f7211d47655ab47f0"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/analysis_manifest.json",
+    "sha256": "6c7c4449f9130198d278be77a33dfaf0a13b3ee6ef0c73b71b00b114098e1f84"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/data/author_topic_profiles.csv",
+    "sha256": "ca2d3d7aee10b4b9b72e5a02338373aff027e21a1dec0ba4c10a8c8f72642046"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/data/clear_topic_trend_structure.csv",
+    "sha256": "11d8a7e9d81d258b4e8c52b89863e4a6117c6d83e905a0a86868b8670e2d5278"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/data/data_dictionary.csv",
+    "sha256": "77721fba57a9a7c5a01f1f41e70c789725da7d6baf4e27514ad50b31b2f55d4f"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/data/invariance_tests.csv",
+    "sha256": "5f0c753fdeb94d59dccd9b3b97bb497b0f767f9abd776bda039e742c85e6348f"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/data/period_counts.csv",
+    "sha256": "57a6dfd5ecc8458e06b52622322634f27008f5abf79fc95ec30896c889d86b5b"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/data/period_topic_author_concentration.csv",
+    "sha256": "1e1d243c924abc322cbe47111ab92e970df40120913d60eedc8f5978373a11c4"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/data/period_topic_bootstrap_ci.csv",
+    "sha256": "65b6fbcfa2de30ebe2179d4b5f543d568645d8fd12fa810f6ebdf47993be4ae6"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/data/period_topic_means.csv",
+    "sha256": "25d66a1dd29d99e8014b3da322316654da7983d634827b11bea0b86600eabda7"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/data/poem_vs_author_trend_comparison.csv",
+    "sha256": "9ace2ad71e81e11dae9aa18b3f2b9eed05d491862bc26aaf28e912ac80ec207a"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/data/sensitivity_flags.csv",
+    "sha256": "768b4b1156c0b0e6b3faf088f8b2685f20a5bb2d8d570495d5154b781ec0577f"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/data/topic_trend_robustness.csv",
+    "sha256": "4c549bd8dd8d983bff117794e27aefc6219f576cdce237f90249b8e05b451e28"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/data/topic_trend_structure.csv",
+    "sha256": "cf0eec5b06ac2338002cfafd42ce9bc1445420f9ae565a2fa0abdbbd828011b1"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/data/trend_candidate_topics.csv",
+    "sha256": "064afd10cc8f6b15d89b14905e00a87fed377d9e2ee2f4479ec448ea6baa8a58"
+  },
+  {
+    "path": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure/QTS_Author_Period_Trend_Structure_Report.md",
+    "sha256": "c6ca14fa62cdd2f41420a8a76302e3ac0f980ad011689981e3bc1fb39c1964d1"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/analysis_manifest.json",
+    "sha256": "b43d9caa5393d58c2fd83455db6c5030cc368173d3b2944b5b982539d19eb3b7"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/aggregation_sensitivity.csv",
+    "sha256": "ac7980ae01d00fb24ea6c510a58db507b201d7428edeae392d0c37390f087480"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/BCD_common_document_index.csv",
+    "sha256": "d87cbb6149202a84eff27ac4bbb0985149d4ece9be779761d25275e8cce9b6f4"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/BCD_common_universe_qc.csv",
+    "sha256": "19b9a705a08ad8af7ce3834b59ac36685e3cb2aa3af96332b33c5fb076cee6dc"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/BCD_finding_effects.csv",
+    "sha256": "d320850bdeacaa8f6ba14088f55fa4b569abc6fbf8305459b81cbc92bb7fe650"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/BCD_finding_robustness_comparison.csv",
+    "sha256": "183f9595e2536ebc989cc9dc35024b6195160d81d9c0efd228137d8b2749f11e"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/BCD_priority_four_results.csv",
+    "sha256": "52961bd0bda479f03f24a11a2a44ef194a5dd2245e91a670eb8f9c18b14dc777"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/C_original_vs_common.csv",
+    "sha256": "0792d16c521e653eab96b9ce109b0c8163e8e956c10b3ace36dddc362935d4e9"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/clr_sensitivity.csv",
+    "sha256": "252af1ecd108254220306726983ebb3e061377e3365cccd5a317c42b5244301a"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/data_dictionary.csv",
+    "sha256": "2c546b8df2da6468d3ae33131c94762f55d60bb41a6eba6c2729a05770a9e059"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/excluded_findings_status.csv",
+    "sha256": "7a969a72ae6f6fdf6e99bc7b097178e68e457232b3c8f887750c6f6588d123f0"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/finding_robustness_ladder.csv",
+    "sha256": "29e2f786593c67ca86ee8c5a054dc4d0cd8c437ed577de8d02c581d8b2d80887"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/finding_semantic_mapping.csv",
+    "sha256": "518acf44c012391d9902e2685fe244e72387000ad0077863b97dcd5ee04f3487"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/invariance_tests.csv",
+    "sha256": "2ab6b1a8430e2380950ce8e9688e6c6409bd48cf19411f135c3df9ddae78eb3f"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/model_native_sensitivity.csv",
+    "sha256": "1ee275e08ee0910fa1c9a2a9dea6b9c705e3565d5d636c7b51a52f484d857557"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/model_sensitivity_diagnostics.csv",
+    "sha256": "12647bc7133dd1e9f001a9f1bce87b6e86bc35e26aea722e4bdf2040832aad96"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/priority_author_sensitivity.csv",
+    "sha256": "d33c55606296f56f592590e377db3a765c1e8ead329da58de7dd882136e50725"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/sample_direction_summary.csv",
+    "sha256": "ec1dcd263c99c40b20f4dfda5c1985b02a0d89ee036074f7014b89c1353fede5"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/shape_similarity.csv",
+    "sha256": "c5ab0b857fc3cb1b2c50336d7a9dfe7a6a9adcdd34bfdf5be586586275ca17e7"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/data/split_single_best_sensitivity.csv",
+    "sha256": "1edc7a710d9576596a8aa359a964f1110da5e392856c423aa725d0dfca8e1bf8"
+  },
+  {
+    "path": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness/QTS_BCD_Finding_Level_Robustness_Report.md",
+    "sha256": "f0379cb87f32da29a4df2ca43234f79ce34e526b5d2356dba31641ea205e8eec"
+  }
+]

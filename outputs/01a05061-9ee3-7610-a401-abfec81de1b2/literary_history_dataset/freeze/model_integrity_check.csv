@@ -1,0 +1,34 @@
+﻿model_id,check,status,observed,expected,details
+B_K20,K_equals_20,PASS,config=20;model=20,20,三个冻结模型均须为 K=20
+B_K20,topic_word_shape,PASS,"prob=(20, 51982);components=(20, 51982)","(20, 51982)",Topic×Word 与 components 均检查
+B_K20,document_topic_shape,PASS,"(43016, 20)","(43016, 20)",Document×Topic 行数须匹配 index
+B_K20,document_topic_row_sum,PASS,6.661338147750939e-16,<1e-06,每行概率和约等于1
+B_K20,probability_bounds,PASS,min=1.906941285868456e-05;max=0.994808743079647,0<=theta<=1,不允许负值或大于1
+B_K20,no_nan_or_inf,PASS,True,True,Document×Topic 与 Topic×Word 均检查
+B_K20,vocabulary_length,PASS,51982,51982,vocabulary.csv 长度匹配
+B_K20,document_index_length,PASS,43016,43016,document_index.csv 长度匹配
+B_K20,selected_seed,PASS,metadata=20260830;model=20260830,20260830,从当前冻结文件重新核验
+B_K20,top20_and_representative_reproduction,PASS,derived=True;historical=True;hash=True,True,重新由冻结 Topic×Word 取 Top20，并核对第一轮 hash 与 top5 代表诗复现标记
+B_K20,joblib_components_exact,PASS,True,True,joblib 模型 components_ 与 NPZ 完全一致
+C_K20,K_equals_20,PASS,config=20;model=20,20,三个冻结模型均须为 K=20
+C_K20,topic_word_shape,PASS,"prob=(20, 35063);components=(20, 35063)","(20, 35063)",Topic×Word 与 components 均检查
+C_K20,document_topic_shape,PASS,"(43015, 20)","(43015, 20)",Document×Topic 行数须匹配 index
+C_K20,document_topic_row_sum,PASS,6.661338147750939e-16,<1e-06,每行概率和约等于1
+C_K20,probability_bounds,PASS,min=1.9739439780820405e-05;max=0.9930147057788158,0<=theta<=1,不允许负值或大于1
+C_K20,no_nan_or_inf,PASS,True,True,Document×Topic 与 Topic×Word 均检查
+C_K20,vocabulary_length,PASS,35063,35063,vocabulary.csv 长度匹配
+C_K20,document_index_length,PASS,43015,43015,document_index.csv 长度匹配
+C_K20,selected_seed,PASS,metadata=2026;model=2026,2026,从当前冻结文件重新核验
+C_K20,top20_and_representative_reproduction,PASS,derived=True;historical=True;hash=True,True,重新由冻结 Topic×Word 取 Top20，并核对第一轮 hash 与 top5 代表诗复现标记
+C_K20,joblib_components_exact,PASS,True,True,joblib 模型 components_ 与 NPZ 完全一致
+D_K20,K_equals_20,PASS,config=20;model=20,20,三个冻结模型均须为 K=20
+D_K20,topic_word_shape,PASS,"prob=(20, 23123);components=(20, 23123)","(20, 23123)",Topic×Word 与 components 均检查
+D_K20,document_topic_shape,PASS,"(43014, 20)","(43014, 20)",Document×Topic 行数须匹配 index
+D_K20,document_topic_row_sum,PASS,6.661338147750939e-16,<1e-06,每行概率和约等于1
+D_K20,probability_bounds,PASS,min=2.027575054531766e-05;max=0.9926923068792953,0<=theta<=1,不允许负值或大于1
+D_K20,no_nan_or_inf,PASS,True,True,Document×Topic 与 Topic×Word 均检查
+D_K20,vocabulary_length,PASS,23123,23123,vocabulary.csv 长度匹配
+D_K20,document_index_length,PASS,43014,43014,document_index.csv 长度匹配
+D_K20,selected_seed,PASS,metadata=42;model=42,42,从当前冻结文件重新核验
+D_K20,top20_and_representative_reproduction,PASS,derived=True;historical=True;hash=True,True,重新由冻结 Topic×Word 取 Top20，并核对第一轮 hash 与 top5 代表诗复现标记
+D_K20,joblib_components_exact,PASS,True,True,joblib 模型 components_ 与 NPZ 完全一致

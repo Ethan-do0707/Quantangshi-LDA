@@ -1,0 +1,3 @@
+period_metadata_status,count,mean,median,std,p25,p75,p90,p95,max,mann_whitney_u,mann_whitney_p_value,cliffs_delta_known_minus_unknown,effect_interpretation,direction_note
+KNOWN,479,49.2881002087683,3,169.68785175678,1,17.5,134.4,316.6,2643,640623,8.01591470286371e-30,0.305434393884282,SMALL,正值表示 KNOWN 作者产量更高
+UNKNOWN,2049,9.47096144460713,1,43.3731004301154,1,3,11,31,836,640623,8.01591470286371e-30,0.305434393884282,SMALL,正值表示 KNOWN 作者产量更高

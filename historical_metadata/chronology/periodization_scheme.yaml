@@ -1,0 +1,19 @@
+# QTS_PERIOD_V1 是用于统计聚合的操作性年代分段。
+# 这些边界并不宣称文学史分期存在唯一、客观且无争议的年代界限。
+scheme_version: QTS_PERIOD_V1
+scheme_type: operational_chronological_scheme
+boundary_tolerance_years: 5
+periods:
+  - label: 初唐
+    start: 618
+    end: 712
+  - label: 盛唐
+    start: 713
+    end: 765
+  - label: 中唐
+    start: 766
+    end: 835
+  - label: 晚唐
+    start: 836
+    end: 907
+

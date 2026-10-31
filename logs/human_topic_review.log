@@ -1,0 +1,38 @@
+2026-08-30 20:43:57,645 | INFO | 开始生成六模型人工 Topic 审核包；禁止重新训练
+2026-08-30 20:44:01,020 | INFO | A_K20 完成：selected_seed=20260830 cards=20，完整矩阵缺失
+2026-08-30 20:44:01,836 | INFO | B_K20 完成：selected_seed=20260830 cards=20，完整矩阵缺失
+2026-08-30 20:44:02,740 | INFO | B_K30 完成：selected_seed=2026 cards=30，完整矩阵缺失
+2026-08-30 20:44:03,563 | INFO | C_K20 完成：selected_seed=2026 cards=20，完整矩阵缺失
+2026-08-30 20:44:04,417 | INFO | D_K20 完成：selected_seed=42 cards=20，完整矩阵缺失
+2026-08-30 20:44:05,417 | INFO | D_K30 完成：selected_seed=42 cards=30，完整矩阵缺失
+2026-08-30 20:44:12,052 | INFO | 审核包完成：models=6 cards=140 C_only_TF3_4=11940；未重新训练
+2026-08-30 21:02:47,307 | INFO | 开始生成六模型人工 Topic 审核包；禁止重新训练
+2026-08-30 21:02:51,484 | INFO | A_K20 完成：selected_seed=20260830 cards=20，完整矩阵缺失
+2026-08-30 21:02:52,309 | INFO | B_K20 完成：selected_seed=20260830 cards=20，完整矩阵缺失
+2026-08-30 21:02:53,146 | INFO | B_K30 完成：selected_seed=2026 cards=30，完整矩阵缺失
+2026-08-30 21:02:54,460 | INFO | C_K20 完成：selected_seed=2026 cards=20，完整矩阵缺失
+2026-08-30 21:02:55,787 | INFO | D_K20 完成：selected_seed=42 cards=20，完整矩阵缺失
+2026-08-30 21:02:56,951 | INFO | D_K30 完成：selected_seed=42 cards=30，完整矩阵缺失
+2026-08-30 21:02:56,981 | INFO | 保留既有 human_topic_evaluation.csv，未覆盖人工填写
+2026-08-30 21:03:01,467 | INFO | 审核包完成：models=6 cards=140 C_only_TF3_4=11940；未重新训练
+2026-08-30 22:29:40,008 | INFO | A_K20 完整审核材料完成：cards=20 high_similarity_pairs=28
+2026-08-30 22:29:40,407 | INFO | B_K20 完整审核材料完成：cards=20 high_similarity_pairs=34
+2026-08-30 22:29:40,782 | INFO | B_K30 完整审核材料完成：cards=30 high_similarity_pairs=42
+2026-08-30 22:29:41,164 | INFO | C_K20 完整审核材料完成：cards=20 high_similarity_pairs=28
+2026-08-30 22:29:41,546 | INFO | D_K20 完整审核材料完成：cards=20 high_similarity_pairs=26
+2026-08-30 22:29:41,979 | INFO | D_K30 完整审核材料完成：cards=30 high_similarity_pairs=18
+2026-08-30 22:29:51,278 | INFO | 完整审核包完成：models=6 cards=140 C/D matches=20 B splits=19 D splits=19
+2026-08-30 22:37:14,862 | INFO | A_K20 完整审核材料完成：cards=20 high_similarity_pairs=28
+2026-08-30 22:37:15,240 | INFO | B_K20 完整审核材料完成：cards=20 high_similarity_pairs=34
+2026-08-30 22:37:15,691 | INFO | B_K30 完整审核材料完成：cards=30 high_similarity_pairs=42
+2026-08-30 22:37:16,033 | INFO | C_K20 完整审核材料完成：cards=20 high_similarity_pairs=28
+2026-08-30 22:37:16,347 | INFO | D_K20 完整审核材料完成：cards=20 high_similarity_pairs=26
+2026-08-30 22:37:16,794 | INFO | D_K30 完整审核材料完成：cards=30 high_similarity_pairs=18
+2026-08-30 22:37:26,271 | INFO | 完整审核包完成：models=6 cards=140 C/D matches=20 B splits=19 D splits=19
+2026-08-30 22:45:23,270 | INFO | A_K20 完整审核材料完成：cards=20 high_similarity_pairs=28
+2026-08-30 22:45:23,705 | INFO | B_K20 完整审核材料完成：cards=20 high_similarity_pairs=34
+2026-08-30 22:45:24,292 | INFO | B_K30 完整审核材料完成：cards=30 high_similarity_pairs=42
+2026-08-30 22:45:24,689 | INFO | C_K20 完整审核材料完成：cards=20 high_similarity_pairs=28
+2026-08-30 22:45:25,073 | INFO | D_K20 完整审核材料完成：cards=20 high_similarity_pairs=26
+2026-08-30 22:45:25,655 | INFO | D_K30 完整审核材料完成：cards=30 high_similarity_pairs=18
+2026-08-30 22:45:35,556 | INFO | 完整审核包完成：models=6 cards=140 C/D matches=20 B splits=19 D splits=19

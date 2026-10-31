@@ -1,0 +1,32 @@
+===================================
+《全唐诗》pyLDAvis 可视化完成
+===================================
+pyLDAvis: 3.4.1（模块 __version__: 3.4.0）
+
+主模型：
+C_K20：成功
+Topics: 20
+Documents: 43015
+Vocabulary: 35063
+三者词项维度：一致
+HTML: D:\中大中文系工作相关\論文發表與投稿\全唐詩LDA\outputs\pyldavis\pyLDAvis_C_K20.html
+Topic编号：T01–T20 = Topic 1–20（逐主题核验通过）
+
+宽词表对照：
+B_K20：成功
+Topics: 20
+Documents: 43016
+Vocabulary: 51982
+三者词项维度：一致
+HTML: D:\中大中文系工作相关\論文發表與投稿\全唐詩LDA\outputs\pyldavis\pyLDAvis_B_K20.html
+Topic编号：T01–T20 = Topic 1–20（逐主题核验通过）
+
+严格过滤对照：
+D_K20：成功
+Topics: 20
+Documents: 43014
+Vocabulary: 23123
+三者词项维度：一致
+HTML: D:\中大中文系工作相关\論文發表與投稿\全唐詩LDA\outputs\pyldavis\pyLDAvis_D_K20.html
+Topic编号：T01–T20 = Topic 1–20（逐主题核验通过）
+===================================

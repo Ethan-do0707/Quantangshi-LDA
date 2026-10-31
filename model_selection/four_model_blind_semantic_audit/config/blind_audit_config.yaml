@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "output_root": "model_selection/four_model_blind_semantic_audit",
+  "ready_manifest": "model_selection/artifact_recovery_K12_K14/data/blind_audit_ready_model_manifest.csv",
+  "corpus_root": "output/tf_df_sensitivity/C",
+  "representative_seed_source": "model_selection/artifact_recovery_K12_K14/data/K12_K14_representative_seed_selection.csv",
+  "quantitative_summary": "model_selection/quantitative_candidate_validation/data/quantitative_candidate_summary.csv",
+  "quantitative_prior_sensitivity": "model_selection/quantitative_candidate_validation/data/candidate_prior_sensitivity.csv",
+  "model_mapping_seed": 2026090901,
+  "topic_shuffle_seed": 2026090902,
+  "card_order_seed": 2026090903,
+  "expected_topic_counts": [12, 14, 15, 20],
+  "expected_total_topics": 61,
+  "top_word_count": 30,
+  "representative_poem_count": 20,
+  "author_balanced_count": 10,
+  "author_maximum_per_topic": 1,
+  "excerpt_character_limit": 260,
+  "within_model_candidate_cosine_min": 0.35,
+  "within_model_candidate_jaccard_min": 0.15,
+  "cross_model_candidates_per_target": 3,
+  "blind_review_status": "AI_PROVISIONAL",
+  "forbidden_blind_terms": [
+    "K12",
+    "K14",
+    "K15",
+    "K20",
+    "NPMI",
+    "Perplexity",
+    "Topic Diversity",
+    "cross-seed stability",
+    "prior regime",
+    "quantitative rank"
+  ],
+  "legacy_sources_forbidden": [
+    "human_topic_review",
+    "lower_k_semantic_audit",
+    "topic_metadata",
+    "taxonomy"
+  ]
+}

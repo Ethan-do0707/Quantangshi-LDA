@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "output_root": "model_selection/artifact_recovery_K12_K14",
+  "candidate_validation_config": "model_selection/quantitative_candidate_validation/config/candidate_validation_config.yaml",
+  "candidate_validation_root": "model_selection/quantitative_candidate_validation",
+  "candidate_all_runs": "model_selection/quantitative_candidate_validation/data/quantitative_candidate_all_runs.csv",
+  "candidate_cross_seed_stability": "model_selection/quantitative_candidate_validation/data/candidate_cross_seed_stability.csv",
+  "recorded_environment": "model_selection/perplexity_diagnostic/audit/environment.json",
+  "corpus_root": "output/tf_df_sensitivity/C",
+  "k15_model_root": "model_selection/lower_k_boundary_perplexity/lower_k_models/C_K15/seed_2026",
+  "k15_metrics": "model_selection/lower_k_boundary_perplexity/lower_k_models/C_K15/seed_2026/metrics.json",
+  "k20_model_root": "output/lda_candidate_rebuild/C_K20",
+  "k20_matrix_metadata": "output/lda_candidate_rebuild/C_K20/matrix_metadata.json",
+  "frozen_k20_copy": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/C_K20",
+  "topic_counts": [12, 14],
+  "seeds": [42, 2026, 20260830, 7, 17, 101, 31415, 271828, 20260907, 12345],
+  "prior_regimes": ["ORIGINAL_PRIOR", "FIXED_PRIOR_K20"],
+  "quantitative_fit": {
+    "fit_scope": "TRAIN_ONLY",
+    "max_iter": 30,
+    "inference_n_jobs": 1
+  },
+  "full_corpus_fit": {
+    "fit_scope": "FULL_CORPUS",
+    "prior_regime": "ORIGINAL_PRIOR",
+    "max_iter": 30,
+    "purpose": "HUMANITIES_SEMANTIC_RESOLUTION_AUDIT_ONLY"
+  },
+  "reproduction_acceptance": {
+    "mean_matched_cosine_min": 0.9999,
+    "mean_matched_top20_jaccard_min": 0.95,
+    "float32_exact_comparison": true,
+    "theta_row_sum_abs_tolerance": 1e-10,
+    "prevalence_abs_tolerance": 1e-12
+  },
+  "representative_seed_rule": {
+    "regime": "ORIGINAL_PRIOR",
+    "exclude_maximum_npmi_seed": true,
+    "central_band_size": 5,
+    "central_band_definition": "five smallest absolute distances to the K-specific NPMI median after excluding the maximum-NPMI seed",
+    "selection_within_band": "highest mean Hungarian matched topic-word cosine against the other nine seeds",
+    "tie_breakers": ["smaller_npmi_distance", "smaller_seed"]
+  },
+  "representative_poems": {
+    "raw_ranks": [20, 50, 100],
+    "author_balanced_count": 20,
+    "author_maximum_per_topic": 2
+  },
+  "small_topic_probability_threshold": 0.01,
+  "joblib_compress": 3,
+  "expected": {
+    "quantitative_run_count": 40,
+    "document_count": 43015,
+    "train_count": 34412,
+    "test_count": 8603,
+    "vocabulary_size": 35063,
+    "matrix_file_sha256": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0",
+    "split_file_sha256": "ba4c0940e2dcc3792a135df6ed8810a13a94c5eaf10b04ca2c2ebdf7e4f79dd0",
+    "matrix_fingerprint": "744baeb001f1c5fa43802f07bceb73c6142b605ff3bf69c12e3f14d5dc8eb779",
+    "vocabulary_sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084",
+    "fit_rows_sha256": "5b14c68dd4f4f8a6f3f3ae600c731c5b15941022843a0b6cecef0a3f977b860a",
+    "test_rows_sha256": "d9955e72eb63667d0dce94bec4dce3530846a556cc53500896be38386ceb8130"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "purpose": "PYLDAVIS_VISUAL_DIAGNOSTIC_ONLY",
+  "corpus": {
+    "label": "C",
+    "min_tf": 3,
+    "min_df": 3,
+    "dtm": "output/tf_df_sensitivity/C/bow_matrix.npz",
+    "vocabulary": "output/tf_df_sensitivity/C/vocabulary.csv",
+    "document_index": "output/tf_df_sensitivity/C/document_index.csv",
+    "metadata": "output/tf_df_sensitivity/C/corpus_metadata.json"
+  },
+  "models": {
+    "C_K12": {
+      "K": 12,
+      "role": "低分辨率强候选模型",
+      "seed": 101,
+      "fit_scope": "FULL_CORPUS",
+      "model": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/lda_model.joblib",
+      "topic_term": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/components.npz",
+      "topic_term_key": "components",
+      "doc_topic": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/document_topic_full.npz",
+      "doc_topic_key": "doc_topic_full",
+      "metadata": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/model_metadata.json",
+      "document_order_evidence": "model_selection/artifact_recovery_K12_K14/data/C_document_row_map.csv",
+      "representative_seed_method": "排除最大 NPMI seed 后，在距 K 内 NPMI 中位数最近的中心带候选中选择 stability centrality 最高者"
+    },
+    "C_K15": {
+      "K": 15,
+      "role": "中分辨率模型",
+      "seed": 2026,
+      "fit_scope": "FULL_CORPUS",
+      "model": "model_selection/lower_k_boundary_perplexity/lower_k_models/C_K15/seed_2026/model.joblib",
+      "topic_term": "model_selection/lower_k_boundary_perplexity/lower_k_models/C_K15/seed_2026/topic_word_probabilities.npz",
+      "topic_term_key": "scipy_sparse",
+      "doc_topic": "model_selection/lower_k_boundary_perplexity/lower_k_models/C_K15/seed_2026/document_topic_probabilities.npz",
+      "doc_topic_key": "scipy_sparse",
+      "metadata": "model_selection/lower_k_boundary_perplexity/lower_k_models/C_K15/seed_2026/metrics.json",
+      "document_order_evidence": "model_selection/artifact_recovery_K12_K14/data/blind_audit_ready_model_manifest.csv",
+      "representative_seed_method": "三个 seed 中 NPMI 最接近该 K 的三-seed均值者；并列取较小 seed"
+    },
+    "C_K20": {
+      "K": 20,
+      "role": "冻结高分辨率参考模型",
+      "seed": 2026,
+      "fit_scope": "FULL_CORPUS",
+      "model": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/C_K20/model.joblib",
+      "topic_term": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/C_K20/topic_word_probabilities.npz",
+      "topic_term_key": "probabilities",
+      "doc_topic": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/C_K20/document_topic_probabilities.npz",
+      "doc_topic_key": "probabilities",
+      "metadata": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/C_K20/model_manifest.json",
+      "document_order_evidence": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze/C_K20/document_index.csv",
+      "representative_seed_method": "既有三-seed代表模型选择结果；本任务直接使用冻结 reference，不重选 seed"
+    }
+  },
+  "semantic_sources": {
+    "blind_topic_map": "model_selection/four_model_blind_semantic_audit/_private_unblind/blind_topic_mapping_secret.csv",
+    "topic_ai_review": "model_selection/four_model_blind_semantic_audit/data/blind_topic_ai_review.csv",
+    "alignment": "model_selection/four_model_blind_semantic_audit/data/blind_cross_model_alignment.csv",
+    "split_merge": "model_selection/four_model_blind_semantic_audit/data/blind_split_merge_judgments.csv",
+    "k20_taxonomy": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/taxonomy/C_K20_topic_taxonomy.csv"
+  },
+  "pyldavis": {
+    "sort_topics": false,
+    "mds": "pcoa",
+    "R": 30,
+    "lambda_step": 0.01,
+    "start_index": 1
+  }
+}

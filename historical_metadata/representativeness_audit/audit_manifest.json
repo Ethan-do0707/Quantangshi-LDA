@@ -1,0 +1,192 @@
+{
+  "audit_version": "QTS_PERIOD_REPRESENTATIVENESS_V1",
+  "created_at": "2026-09-01T19:39:55+08:00",
+  "inputs": {
+    "authoritative_master": {
+      "path": "D:/中大中文系工作相关/論文發表與投稿/全唐詩LDA/historical_metadata/master/C_K20_literary_history_master_with_author_history.csv",
+      "modified_time": "2026-09-01T14:59:34+08:00",
+      "size_bytes": 58336752,
+      "sha256": "93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f",
+      "rows": 43015,
+      "columns": 68
+    },
+    "author_metadata": {
+      "path": "D:/中大中文系工作相关/論文發表與投稿/全唐詩LDA/historical_metadata/master/QTS_author_historical_metadata.csv",
+      "sha256": "eff36becb2bce90e39ae372d8d004744f1c65f7c8b7ef9b50d0aa4b395ac6969",
+      "join_key": "author_id_internal",
+      "joined_fields": [
+        "author_status",
+        "cbdb_match_status",
+        "poem_count"
+      ]
+    },
+    "topic_metadata": {
+      "path": "D:/中大中文系工作相关/論文發表與投稿/全唐詩LDA/outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/taxonomy/topic_metadata.csv",
+      "sha256": "9c17be32e1f988a734f457e16fba5a478ecbf9a8a90b27a9dfe31803633bdd5c",
+      "rows": 20
+    }
+  },
+  "environment": {
+    "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.9.0",
+    "matplotlib": "3.11.1"
+  },
+  "methods": {
+    "period_known_rule": "author_period_primary in {初唐,盛唐,中唐,晚唐}",
+    "bootstrap": "multinomial count bootstrap; iterations=1000; seed=20260901",
+    "productivity_effect": "Cliff's delta derived from Mann–Whitney U",
+    "topic_effect": "standardized mean difference using pooled SD",
+    "dominant_composition": "Chi-square and Cramér's V",
+    "logistic_diagnostic": "5-fold StratifiedGroupKFold by author_id_internal; no imputation",
+    "sample_comparison": "overlapping subset vs full corpus; descriptive only"
+  },
+  "summary": {
+    "known_authors": 479,
+    "known_author_ratio": 0.18947784810126583,
+    "unknown_authors": 2049,
+    "known_poems": 23609,
+    "known_poem_ratio": 0.5488550505637568,
+    "unknown_poems": 19406,
+    "productivity_cliffs_delta": 0.30543439388428184,
+    "productivity_effect": "SMALL",
+    "max_abs_topic_smd": 0.15166643272160263,
+    "mean_abs_topic_smd": 0.04120435174480773,
+    "ge_0_10": 3,
+    "ge_0_20": 0,
+    "ge_0_50": 0,
+    "dominant_topic_cramers_v": 0.10457159370842255,
+    "entropy_cliffs_delta": 0.06574603912315036,
+    "normalized_entropy_cliffs_delta": 0.06574603912315036,
+    "unknown_minus_known_mixed_noise_mass": -0.004570323305559482,
+    "clear_risk_groups": {
+      "LOW": [
+        "topic_07",
+        "topic_10",
+        "topic_16",
+        "topic_19"
+      ],
+      "MODERATE": [
+        "topic_03",
+        "topic_06",
+        "topic_08",
+        "topic_11",
+        "topic_20"
+      ],
+      "HIGH": []
+    },
+    "best_sample": "EXPANDED",
+    "recommendation_code": 2,
+    "recommendation": "可以进入 author-period analysis，但必须同步报告 STRICT/CORE/EXPANDED 敏感性结果。",
+    "logistic_cross_validated_auc": 0.9216764942381428
+  },
+  "outputs": {
+    "data/analysis_sample_representativeness.csv": {
+      "size_bytes": 1096,
+      "sha256": "3ebf01718cc4f9988738a1f67146050e566a267e5b4e6927e959ab9615f4895a"
+    },
+    "data/author_productivity_known_vs_unknown.csv": {
+      "size_bytes": 483,
+      "sha256": "2371de1cf0e41b19ed47b82cdabf3e175a4bd69437264f973ea48c892b19ac99"
+    },
+    "data/clear_topic_representativeness.csv": {
+      "size_bytes": 2992,
+      "sha256": "a1251aa9273569786f45f6f6375cd1a6aa7d6cb0b5e85335c2b0f18b114b156d"
+    },
+    "data/dominant_topic_known_unknown.csv": {
+      "size_bytes": 3645,
+      "sha256": "558c3739b237321e27b8f10cc2b8f9131c385af0455a23da85d7fc6885875089"
+    },
+    "data/dominant_topic_type_known_unknown.csv": {
+      "size_bytes": 662,
+      "sha256": "171626cc8a553dec07fb4d1a3c300b520bdb4c0675add159d077a20194e177a0"
+    },
+    "data/period_coverage_by_author_productivity.csv": {
+      "size_bytes": 594,
+      "sha256": "51b7879b658927dba0eb41ded5a6d9cfbc568a92fa0f94593aa6def8b413a58a"
+    },
+    "data/period_coverage_by_author_status.csv": {
+      "size_bytes": 336,
+      "sha256": "294413f719cc9f5fe18160be0daeb67b1632b9c8e59d8d005760bccc769fe767"
+    },
+    "data/period_coverage_by_cbdb_confidence.csv": {
+      "size_bytes": 439,
+      "sha256": "9c8d8bccc2ecd4315afebab950b6d3bf03a21ca512f3121bd6ee42c243837e75"
+    },
+    "data/period_coverage_by_cbdb_status.csv": {
+      "size_bytes": 425,
+      "sha256": "90b4e193430b593a82f6f1712babc343b31bd25ce701fb6c484180565613da21"
+    },
+    "data/period_metadata_coverage_audit.csv": {
+      "size_bytes": 1107,
+      "sha256": "c8606ca2405fcfd970b2b3f87f446cbceb84c38eb10822bf184e5b9508357b11"
+    },
+    "data/period_metadata_sample_labels.csv": {
+      "size_bytes": 3028602,
+      "sha256": "782ef57194db6f32f85cc1ce07fa42ee9e025f89abec857baec2438962fa047e"
+    },
+    "data/period_missingness_logistic_diagnostic.csv": {
+      "size_bytes": 7904,
+      "sha256": "62e8d3833104ce15ff7c22af1b4f1a1350ac8bb7bb24bf3686ff94cc24a1fdb5"
+    },
+    "data/representativeness_audit_qc.csv": {
+      "size_bytes": 1354,
+      "sha256": "6484a2c760c94d419a20b59851d8142daf8093807378d4b060d79fc11a519011"
+    },
+    "data/topic_missingness_risk.csv": {
+      "size_bytes": 6426,
+      "sha256": "3094b25f7330c59064d2fb74386a22d3cda7323481a65616cfbebc92cf318d16"
+    },
+    "data/topic_mixture_representativeness.csv": {
+      "size_bytes": 1448,
+      "sha256": "bdead641175950a483f081c53fa5158a05cc83147c3d7375988e24267ad8c8c9"
+    },
+    "data/topic_probability_representativeness.csv": {
+      "size_bytes": 4739,
+      "sha256": "c0f1031cdd0d2196ff50211fee6d628c191ec52a7a324aa58457e5dc25652f75"
+    },
+    "data/topic_type_mass_representativeness.csv": {
+      "size_bytes": 739,
+      "sha256": "1e4def685dff132932c7362231d9395543758855521985b9e67c8ebfac96ee6e"
+    },
+    "figures/author_productivity_period_coverage.png": {
+      "size_bytes": 96435,
+      "sha256": "6d943cbe7b8214752c3862d3025f5f0f661738619111698c192fbfb326cc657c"
+    },
+    "figures/dominant_topic_known_unknown.png": {
+      "size_bytes": 103738,
+      "sha256": "aa338ca481b6e752bf0a0bef8d1ba50765aee11070af67b7710a58bdf70e6a5b"
+    },
+    "figures/entropy_known_unknown.png": {
+      "size_bytes": 46284,
+      "sha256": "42317e001a03cc4a19becfc61024dbe507b5ef7668c4ea7fd55277b234149c50"
+    },
+    "figures/topic_known_unknown_smd.png": {
+      "size_bytes": 124153,
+      "sha256": "663184bb7528f5864bbed3ae03231a150228787397335df0b7efbbbf4e144d80"
+    },
+    "figures/topic_mean_known_vs_unknown.png": {
+      "size_bytes": 100547,
+      "sha256": "d89deeb0a043f76acad318904315628fe942775291459f0917736a88a73e46c2"
+    },
+    "Period_Metadata_Representativeness_Audit_Report.md": {
+      "size_bytes": 11911,
+      "sha256": "62b837192da8a7e1d39162c8658280276fdc7c63c283af835a2c21f3a9300688"
+    },
+    "README.md": {
+      "size_bytes": 983,
+      "sha256": "e9811bfbf14658030204e75a0c47869a69ff9399148d375df18f659fb46d36f8"
+    },
+    "Period_Metadata_Representativeness_Audit.xlsx": {
+      "size_bytes": 56383,
+      "sha256": "8f84127e6a05ef7049079c22f2b80cacd02ff7fe6c4efb860575d343fd1b5689",
+      "generator": "artifact-tool",
+      "sheet_count": 14,
+      "rendered_sheet_count": 14,
+      "formula_error_count": 0
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "frozen_source_hashes_verified": 129,
+  "changed_frozen_sources": [],
+  "all_nine_findings_labels_match_sources": true,
+  "all_18_mappings_match_original_alignment": true,
+  "all_162_core_numeric_cells_match": true,
+  "main_materials_A_to_H_found": true,
+  "core_findings_A_to_H_template_complete": true,
+  "nineteen_sections_present": true,
+  "undefined_source_references": [],
+  "source_missing": "正式人工审核状态未记录；八类指定主材料均存在。",
+  "terminology_clarifications": [
+    "旧优先四项不等于最终稳健四项",
+    "形状稳健性与发现稳健性不同",
+    "自助区间支持不等于全部FDR检验通过",
+    "分期置信度与人物身份匹配置信度不同"
+  ],
+  "numeric_inconsistency_found": false,
+  "human_review_items": [
+    "确认来源映射，尤其B17较宽标签与语义束边界",
+    "核对代表诗时期及CORE资格",
+    "核对原对齐卡中的同文异署与独立文本证据资格",
+    "确认是否后续勘误trend_shape数据字典释义，不改变现有统计结果"
+  ],
+  "docx_render_limitation": "soffice缺失，仅完成结构和同文核验",
+  "report_statistics": {
+    "chinese_characters": 17730,
+    "visible_nonwhitespace_characters": 29810,
+    "chinese_characters_in_opening": 937,
+    "opening_nonwhitespace": 1060,
+    "glossary_entries": 55,
+    "top_level_sections": 19,
+    "core_numeric_cross_checks": 72,
+    "all_source_links_exist": true
+  },
+  "deliverables": {
+    "QTS_BCD_Humanities_Review_Report.md": "c704600f49445053be0d9d18e088375c53fd6ef2225666d189a5836a077d9c77",
+    "QTS_BCD_Humanities_Review_Report.docx": "fbc1a13086a1b22fb692a38997aed36ab855725db32ab29d7816c81073952bde"
+  },
+  "terminology_inconsistency_confirmed": "趋势data_dictionary.csv将trend_shape解释为基于bootstrap支持方向，但实际代码使用数值方向；本报告说明差异，未更改源文件。"
+}

@@ -1,0 +1,51 @@
+{
+  "source_method": "sikufenci",
+  "source_result": "segmentation\\results\\sikufenci.jsonl",
+  "source_corpus": "segmentation\\data\\poems.jsonl",
+  "poem_count": 43030,
+  "poet_count": 2528,
+  "han_token_type_count": 123302,
+  "thresholds": {
+    "minimum_frequency": 1000,
+    "minimum_document_rate": 0.025,
+    "minimum_document_entropy": 0.65,
+    "minimum_poet_entropy": 0.55,
+    "minimum_pilot_topic_entropy": 0.7
+  },
+  "counts": {
+    "core_stopwords": 105,
+    "optional_additions": 59,
+    "extended_stopwords_including_core": 164,
+    "protected_theme_terms": 105,
+    "automatic_statistical_candidates": 90
+  },
+  "filtering_impact": {
+    "total_han_word_tokens": 2015533,
+    "source_empty_poems": 11,
+    "source_empty_poem_ids": [
+      3325,
+      8327,
+      8505,
+      11804,
+      14638,
+      14639,
+      14640,
+      18225,
+      33889,
+      42331,
+      42764
+    ],
+    "core_removed_tokens": 383191,
+    "core_remaining_tokens": 1632342,
+    "empty_poems_after_core": 11,
+    "new_empty_poems_after_core": 0,
+    "extended_removed_tokens": 530554,
+    "extended_remaining_tokens": 1484979,
+    "empty_poems_after_extended": 11,
+    "new_empty_poems_after_extended": 0,
+    "core_removed_rate": 0.1901189412428375,
+    "extended_removed_rate": 0.26323260398118015
+  },
+  "selection_note": "统计门槛只生成候选；是否删除还经过古汉语语法与诗歌主题语义审查。",
+  "pilot_topic_metrics": "stopwords\\pilot_topic_metrics.csv"
+}

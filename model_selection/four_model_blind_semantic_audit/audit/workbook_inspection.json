@@ -1,0 +1,28 @@
+{
+  "recordCount": 17,
+  "truncated": true,
+  "metadata": {
+    "revision": "ahdzny",
+    "target": {
+      "id": "wb/q60jis",
+      "beforeLines": 0,
+      "afterLines": 0
+    },
+    "kind": {
+      "requested": "workbook,sheet,table,formula",
+      "tokens": [
+        "workbook",
+        "sheet",
+        "table",
+        "formula"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  }
+}

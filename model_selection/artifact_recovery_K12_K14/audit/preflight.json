@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "matrix_shape": [
+    43015,
+    35063
+  ],
+  "matrix_nnz": 1464941,
+  "matrix_dtype": "int32",
+  "train_size": 34412,
+  "test_size": 8603,
+  "vocabulary_size": 35063,
+  "hashes": {
+    "matrix_file_sha256": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0",
+    "split_file_sha256": "ba4c0940e2dcc3792a135df6ed8810a13a94c5eaf10b04ca2c2ebdf7e4f79dd0",
+    "matrix_fingerprint": "744baeb001f1c5fa43802f07bceb73c6142b605ff3bf69c12e3f14d5dc8eb779",
+    "vocabulary_sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084",
+    "fit_rows_sha256": "5b14c68dd4f4f8a6f3f3ae600c731c5b15941022843a0b6cecef0a3f977b860a",
+    "test_rows_sha256": "d9955e72eb63667d0dce94bec4dce3530846a556cc53500896be38386ceb8130"
+  },
+  "environment_status": "MATCHES_RECORDED_ENVIRONMENT",
+  "audited_lda_parameters": {
+    "learning_method": "batch",
+    "max_iter": 30,
+    "doc_topic_prior": null,
+    "topic_word_prior": null,
+    "learning_decay": 0.7,
+    "learning_offset": 10.0,
+    "max_doc_update_iter": 100,
+    "mean_change_tol": 0.001,
+    "evaluate_every": -1,
+    "perp_tol": 0.1,
+    "n_jobs": -1,
+    "verbose": 1
+  }
+}

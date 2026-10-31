@@ -1,0 +1,9 @@
+{
+  "status": "BLIND_EVIDENCE_PREPARED",
+  "models_loaded": 4,
+  "topics_prepared": 61,
+  "cards_generated": 61,
+  "model_training_calls": 0,
+  "blind_leaks": 0,
+  "legacy_review_sources_loaded": 0
+}

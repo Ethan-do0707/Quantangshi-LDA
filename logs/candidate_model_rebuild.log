@@ -1,0 +1,20 @@
+2026-08-30 21:22:52,011 | INFO | 开始精确重建 A_K20：corpus=A K=20 seed=20260830 docs=43019 vocab=123385
+2026-08-30 21:26:45,621 | INFO | A_K20 精确复现通过：fit=228.03s topics_hash=exact reps_hash=exact
+2026-08-30 21:26:45,708 | INFO | 开始精确重建 B_K20：corpus=B K=20 seed=20260830 docs=43016 vocab=51982
+2026-08-30 21:58:31,241 | INFO | B_K20 精确复现通过：fit=1899.51s topics_hash=exact reps_hash=exact
+2026-08-30 21:58:31,295 | INFO | 开始精确重建 B_K30：corpus=B K=30 seed=2026 docs=43016 vocab=51982
+2026-08-30 22:02:49,993 | INFO | B_K30 精确复现通过：fit=252.36s topics_hash=exact reps_hash=exact
+2026-08-30 22:02:50,070 | INFO | 开始精确重建 C_K20：corpus=C K=20 seed=2026 docs=43015 vocab=35063
+2026-08-30 22:06:52,607 | INFO | C_K20 精确复现通过：fit=237.12s topics_hash=exact reps_hash=exact
+2026-08-30 22:06:52,652 | INFO | 开始精确重建 D_K20：corpus=D K=20 seed=42 docs=43014 vocab=23123
+2026-08-30 22:10:36,467 | INFO | D_K20 精确复现通过：fit=219.39s topics_hash=exact reps_hash=exact
+2026-08-30 22:10:36,511 | INFO | 开始精确重建 D_K30：corpus=D K=30 seed=42 docs=43014 vocab=23123
+2026-08-30 22:14:30,643 | INFO | D_K30 精确复现通过：fit=227.47s topics_hash=exact reps_hash=exact
+2026-08-30 22:14:35,859 | INFO | 六候选精确重建完成：passed=6/6 runtime=3103.92s
+2026-08-30 22:36:30,682 | INFO | 复用已验证检查点：A_K20
+2026-08-30 22:36:30,812 | INFO | 复用已验证检查点：B_K20
+2026-08-30 22:36:30,925 | INFO | 复用已验证检查点：B_K30
+2026-08-30 22:36:31,032 | INFO | 复用已验证检查点：C_K20
+2026-08-30 22:36:31,123 | INFO | 复用已验证检查点：D_K20
+2026-08-30 22:36:31,214 | INFO | 复用已验证检查点：D_K30
+2026-08-30 22:36:32,490 | INFO | 六候选精确重建完成：passed=6/6 runtime=8.70s

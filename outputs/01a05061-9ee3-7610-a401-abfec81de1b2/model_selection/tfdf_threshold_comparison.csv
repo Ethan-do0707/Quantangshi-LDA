@@ -1,0 +1,5 @@
+model_id,TF,DF,vocabulary_size,valid_poems,mean_npmi,topic_stability,topic_diversity,mean_human_score,high_quality_topic_ratio,low_quality_topic_ratio,mixed_topic_ratio,noise_topic_ratio,duplicate_topic_ratio,npmi_change_from_previous,stability_change_from_previous,diversity_change_from_previous,human_score_change_from_previous,mixed_ratio_change_from_previous,noise_ratio_change_from_previous
+A_K20,1,1,123385,43019,0.0685453771,0.2362144963,0.53,2.5375,0.25,0.6,0.65,0.6,0,,,,,,
+B_K20,2,2,51982,43016,0.0996023647,0.2800297846,0.4725,3.75,0.55,0.25,0.4,0.25,0,0.0310569876,0.0438152883,-0.0575,1.2125,-0.25,-0.35
+C_K20,3,3,35063,43015,0.1013637818,0.3154198809,0.4566666667,3.675,0.6,0.25,0.35,0.15,0,0.0017614171,0.0353900963,-0.0158333333,-0.075,-0.05,-0.1
+D_K20,5,3,23123,43014,0.1058211914,0.3216513981,0.4941666667,3.65,0.45,0.2,0.45,0.15,0,0.0044574096,0.0062315172,0.0375,-0.025,0.1,0

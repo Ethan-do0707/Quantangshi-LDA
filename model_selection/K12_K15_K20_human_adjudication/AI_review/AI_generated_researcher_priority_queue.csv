@@ -1,0 +1,48 @@
+﻿Priority,blind_topic_id,Unblinded_K,Unblinded_Topic_ID,AI_Provisional_Label,AI_Provisional_Topic_Type,AI_Provisional_Needs_Splitting,Priority_Reason
+1,HR035,12,1,奇山瀑布、登临寻仙与清赏,MIXED,YES,Topic_Type=MIXED；Needs_Splitting=YES
+1,HR037,12,4,行旅仕宦、寄赠与古迹杂咏,NOISE,YES,Topic_Type=NOISE；Needs_Splitting=YES；关键有意义分裂的来源主题
+1,HR002,12,6,宫闺春夜、失宠与相思,BROAD,UNCERTAIN,关键有意义分裂的来源主题
+1,HR045,12,7,生民疾苦、劝世寓言与历史杂咏,MIXED,YES,Topic_Type=MIXED；Needs_Splitting=YES；关键有意义分裂的来源主题
+1,HR020,12,8,帝王功德、武成礼祀与朝廷恩命,CLEAR,NO,关键有意义分裂的来源主题
+1,HR026,12,10,山水送别、友朋酬寄与归隐之思,BROAD,UNCERTAIN,关键有意义分裂的来源主题
+1,HR038,15,1,仙山宫阙、华清游幸与歌舞华饰,MIXED,YES,Topic_Type=MIXED；Needs_Splitting=YES；关键有意义分裂的来源主题
+1,HR027,15,6,老境诗酒、闲居退隐与知己酬答,CLEAR,NO,关键有意义分裂的来源主题
+1,HR032,15,8,山居隐逸、仙境访道与禅僧往还,CLEAR,NO,关键有意义分裂的来源主题
+1,HR046,15,9,诗名仕宦、送行宴集与礼仪杂咏,NOISE,YES,Topic_Type=NOISE；Needs_Splitting=YES
+1,HR019,15,11,春花美人、赏花惜春与宫闺愁情,BROAD,UNCERTAIN,关键有意义分裂的来源主题
+1,HR003,20,1,宫廷恩幸、仪仗与华贵物象,MIXED,YES,Topic_Type=MIXED；Needs_Splitting=YES
+1,HR010,20,6,衰老病困中的身世自咏与诗友酬答,BROAD,UNCERTAIN,碎片化候选仍不确定
+1,HR022,20,9,年时迁转、出处送归与杂体题咏,NOISE,YES,Topic_Type=NOISE；Needs_Splitting=YES；碎片化候选仍不确定
+1,HR011,20,13,清光洁性与祥瑞自然物象的赋咏,MIXED,YES,Topic_Type=MIXED；Needs_Splitting=YES
+1,HR028,20,14,清寒云景、庭园题咏与宫苑杂咏,MIXED,YES,Topic_Type=MIXED；Needs_Splitting=YES
+1,HR005,20,15,文章声名、仕宦荣典与传世功业,MIXED,YES,Topic_Type=MIXED；Needs_Splitting=YES
+1,HR044,20,18,清夜声景、寺游送行与杂体物事,NOISE,YES,Topic_Type=NOISE；Needs_Splitting=YES
+2,HR013,15,2,行路困厄、世道不平与生死悲愤,BROAD,UNCERTAIN,BROAD 或 Needs_Splitting=UNCERTAIN
+2,HR017,15,4,关塞骑行、军旅送别与归程,BROAD,UNCERTAIN,BROAD 或 Needs_Splitting=UNCERTAIN
+2,HR033,15,14,官居清游、山林归思与僧道雅集,BROAD,UNCERTAIN,BROAD 或 Needs_Splitting=UNCERTAIN
+2,HR007,15,15,边塞征战、武功与将士,BROAD,UNCERTAIN,BROAD 或 Needs_Splitting=UNCERTAIN
+2,HR025,20,2,乱世征战、忠义报国与历史悲愤,BROAD,UNCERTAIN,BROAD 或 Needs_Splitting=UNCERTAIN
+2,HR012,20,4,春归新岁、江南乡思与惜时,BROAD,UNCERTAIN,BROAD 或 Needs_Splitting=UNCERTAIN
+2,HR001,20,7,秋夜月下的离愁、相思与思归,BROAD,UNCERTAIN,BROAD 或 Needs_Splitting=UNCERTAIN
+3,HR039,12,2,老病自安、诗酒闲居与退仕反思,CLEAR,NO,CLEAR 且无需拆分
+3,HR034,12,3,江峡舟行、楚地云雨与秋水归思,CLEAR,NO,CLEAR 且无需拆分
+3,HR006,12,5,宫廷礼典、应制宴集与升平庆颂,CLEAR,NO,CLEAR 且无需拆分
+3,HR009,12,9,山寺禅居、访僧与清夜幽境,CLEAR,NO,CLEAR 且无需拆分
+3,HR029,12,11,塞外苦战、征人思归与汉胡战争,CLEAR,NO,CLEAR 且无需拆分
+3,HR014,12,12,春日赏花饮酒、游乐与惜春伤老,CLEAR,NO,CLEAR 且无需拆分
+3,HR023,15,3,朝廷恩荣、应制游幸与升平宴颂,CLEAR,NO,CLEAR 且无需拆分
+3,HR016,15,5,忠直自守、政治讽谏与社会劝戒,CLEAR,NO,CLEAR 且无需拆分
+3,HR030,15,7,秋夜月声、琴歌相思与羁旅离愁,CLEAR,NO,CLEAR 且无需拆分
+3,HR008,15,10,江舟羁旅、秋景思归与水路送别,CLEAR,NO,CLEAR 且无需拆分
+3,HR031,15,12,春水柳岸、禽鱼飞动与园池游赏,CLEAR,NO,CLEAR 且无需拆分
+3,HR018,15,13,郊庙祭祀、神灵降福与礼乐颂德,CLEAR,NO,CLEAR 且无需拆分
+3,HR040,20,3,朝廷礼乐、郊庙献享与应制颂圣,CLEAR,NO,CLEAR 且无需拆分
+3,HR015,20,5,仁义名节、治乱鉴戒与政治伦理,CLEAR,NO,CLEAR 且无需拆分
+3,HR042,20,8,山寺禅居、忆山访僧与松竹清境,CLEAR,NO,CLEAR 且无需拆分
+3,HR021,20,10,江湖羁旅、送别思归与楚地秋愁,CLEAR,NO,CLEAR 且无需拆分
+3,HR043,20,11,春花歌舞、女性情态与宫闺相思,CLEAR,NO,CLEAR 且无需拆分
+3,HR004,20,12,春水草木与禽鸟飞鸣,CLEAR,NO,CLEAR 且无需拆分
+3,HR047,20,16,汉胡边战、将军出塞与军旅凯旋,CLEAR,NO,CLEAR 且无需拆分
+3,HR036,20,17,仙山道观、登临寻真与人间出尘,CLEAR,NO,CLEAR 且无需拆分
+3,HR024,20,19,山林闲居、归隐与清游自适,CLEAR,NO,CLEAR 且无需拆分
+3,HR041,20,20,诗酒宴饮、友朋赠答与离席惜别,CLEAR,NO,CLEAR 且无需拆分

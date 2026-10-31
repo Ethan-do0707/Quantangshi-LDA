@@ -1,0 +1,19 @@
+﻿test_id,description,status,details
+QA01,40/40 原始组合存在,PASS,rows=40
+QA02,原 NPZ 均含 topic_word_unit 与 top_indices,PASS,40 NPZ key audit
+QA03,40 run 均有恢复状态,PASS,rows=40
+QA04,40 run 均通过 reproduction acceptance,PASS,"{""EXACT_REPRODUCTION"": 40}"
+QA05,accepted run 均生成 theta_full,PASS,generated=40
+QA06,全部 quantitative theta shape 与概率合法,PASS,train/test/full
+QA07,"43,015 行 row mapping 唯一且无缺失",PASS,rows=43015
+QA08,accepted quantitative Topics 均有三套 raw 与作者平衡代表诗,PASS,Top20/50/100 + author-balanced Top20
+QA09,K12/K14 full-corpus 模型 2/2 READY,PASS,FULL_CORPUS ORIGINAL_PRIOR max_iter=30
+QA10,K12/K14 full-corpus 代表诗完整,PASS,Top20/50/100 + author-balanced Top20
+QA11,representative seed 遵循预注册规则且非最高 NPMI,PASS,K12=101;K14=31415
+QA12,四模型 fit scope/prior/max_iter/corpus/vocab 可比,PASS,"{""fit_scope"": [""FULL_CORPUS""], ""prior"": [""ORIGINAL_PRIOR""], ""max_iter"": [""30""], ""doc_count_used_for_fit"": [""43015""], ""corpus"": [""C""], ""corpus_hash"": [""744baeb001f1c5fa43802f07bceb73c6142b605ff3bf69c12e3f14d5dc8eb779""], ""vocab_hash"": [""a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084""]}"
+QA13,四模型均 ready_for_blind_audit,PASS,ready=4/4
+QA14,原 K12/K14 NPZ、K15 与 frozen K20 哈希不变,PASS,changed=
+QA15,当前软件环境匹配原实验登记,PASS,MATCHES_RECORDED_ENVIRONMENT
+QA16,full-corpus 模型未重算 held-out perplexity,PASS,quantitative_metrics_recomputed=false
+QA17,K20 未重训且引用冻结模型,PASS,frozen reference path
+QA18,K15 未重训且引用既有 full-corpus 模型,PASS,existing K15 path

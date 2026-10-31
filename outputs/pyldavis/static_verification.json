@@ -1,0 +1,26 @@
+[
+  {
+    "model_id": "C_K20",
+    "embedded_data": "通过",
+    "topic_ids": "通过",
+    "external_asset_references": 0,
+    "javascript_syntax": "通过",
+    "browser_interaction": "未实测：浏览器工具安全策略禁止本地 file:// 页面"
+  },
+  {
+    "model_id": "B_K20",
+    "embedded_data": "通过",
+    "topic_ids": "通过",
+    "external_asset_references": 0,
+    "javascript_syntax": "通过",
+    "browser_interaction": "未实测：浏览器工具安全策略禁止本地 file:// 页面"
+  },
+  {
+    "model_id": "D_K20",
+    "embedded_data": "通过",
+    "topic_ids": "通过",
+    "external_asset_references": 0,
+    "javascript_syntax": "通过",
+    "browser_interaction": "未实测：浏览器工具安全策略禁止本地 file:// 页面"
+  }
+]

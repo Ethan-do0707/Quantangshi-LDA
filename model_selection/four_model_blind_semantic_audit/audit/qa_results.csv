@@ -1,0 +1,19 @@
+﻿test_id,status,details
+TEST 01,PASS,test_01_four_models_loaded
+TEST 02,PASS,test_02_no_model_retraining
+TEST 03,PASS,test_03_random_mapping_isolated
+TEST 04,PASS,test_04_no_true_k_in_blind_materials
+TEST 05,PASS,test_05_no_quantitative_metrics_in_blind_materials
+TEST 06,PASS,test_06_no_old_topic_labels_used
+TEST 07,PASS,test_07_all_topics_reviewed
+TEST 08,PASS,test_08_all_review_cards_exist
+TEST 09,PASS,test_09_topic_order_randomized
+TEST 10,PASS,test_10_old_k20_taxonomy_not_used
+TEST 11,PASS,test_11_old_k15_review_not_used
+TEST 12,PASS,test_12_researcher_fields_blank
+TEST 13,PASS,test_13_blind_results_frozen_and_hashed
+TEST 14,PASS,test_14_unblind_did_not_modify_blind_scores
+TEST 15,PASS,test_15_split_merge_judgments_have_text_evidence
+TEST 16,PASS,test_16_selection_not_based_on_single_metric
+TEST 17,PASS,test_17_no_arbitrary_weighted_score
+TEST 18,PASS,test_18_frozen_inputs_unchanged

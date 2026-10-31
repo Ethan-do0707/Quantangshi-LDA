@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "model_id": "B_K20",
+  "corpus": "B",
+  "K": 20,
+  "selected_seed": 20260830,
+  "topic_word_components": {
+    "path": "topic_word_components.npz",
+    "array_key": "components",
+    "shape": [
+      20,
+      51982
+    ],
+    "dtype": "float64",
+    "row_alignment": "topic_id = zero-based row + 1",
+    "column_alignment": "vocabulary.csv term_index"
+  },
+  "topic_word_probabilities": {
+    "path": "topic_word_probabilities.npz",
+    "array_key": "probabilities",
+    "shape": [
+      20,
+      51982
+    ],
+    "dtype": "float64",
+    "normalization": "each topic row sums to 1"
+  },
+  "document_topic_probabilities": {
+    "path": "document_topic_probabilities.npz",
+    "array_key": "probabilities",
+    "shape": [
+      43016,
+      20
+    ],
+    "dtype": "float64",
+    "row_alignment": "document_index.csv matrix_row",
+    "column_alignment": "topic_id = zero-based column + 1",
+    "normalization": "each document row sums to 1"
+  }
+}

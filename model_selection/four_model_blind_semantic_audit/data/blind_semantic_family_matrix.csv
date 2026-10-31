@@ -1,0 +1,10 @@
+﻿semantic_family_id,MODEL_A,MODEL_A_topic_ids,MODEL_A_evidence,MODEL_B,MODEL_B_topic_ids,MODEL_B_evidence,MODEL_C,MODEL_C_topic_ids,MODEL_C_evidence,MODEL_D,MODEL_D_topic_ids,MODEL_D_evidence
+Family_01,CLEARLY_RESOLVED,BT005,边塞征战与征人悲苦稳定,CLEARLY_RESOLVED,BT022,边塞军旅与征战愁苦稳定,CLEARLY_RESOLVED,BT036|BT042,边塞征战与将军功业为主；边塞军旅为主并混入归途春行,CLEARLY_RESOLVED,BT056,边塞战争出师与军民悲苦稳定
+Family_02,CLEARLY_RESOLVED,BT003|BT011,江水舟行与客中归思稳定；送别怀友为主并兼归隐,CLEARLY_RESOLVED,BT014,江湘舟行送别与客愁稳定,CLEARLY_RESOLVED,BT045,江舟离别羁旅归思稳定,CLEARLY_RESOLVED,BT049|BT051,江湘舟行羁旅乡思稳定；春日送别客中怀归为主
+Family_03,RESOLVED_BUT_BROAD,BT009,春花宴游惜时为主并兼诗酒,CLEARLY_RESOLVED,BT015|BT028,新春节序为主并兼异乡归思；春水花鸟湖岸游赏稳定,CLEARLY_RESOLVED,BT040,春水花鸟柳岸物候稳定,ABSENT,,
+Family_04,CLEARLY_RESOLVED,BT008,宫闺月夜与女性哀怨稳定,CLEARLY_RESOLVED,BT013|BT021,月夜琴声与远别相思稳定；春花闺情与女性歌舞稳定,CLEARLY_RESOLVED,BT038|BT039,秋月离情与闺客愁怀稳定；春花艳情宫怨为主,CLEARLY_RESOLVED,BT058,花间闺情相思与女性歌咏稳定
+Family_05,CLEARLY_RESOLVED,BT004|BT006,高山瀑布及仙境登临为主；山寺禅居与僧侣往还稳定,FRAGMENTED,BT018|BT026|BT027,山寺幽居与僧侣往还稳定；仙山道观与云天高境稳定；林泉归隐为主并兼老病诗酒,CLEARLY_RESOLVED,BT034|BT046,山居寺观与仙源寻幽稳定；仕隐张力与山林清赏为主,CLEARLY_RESOLVED,BT050|BT052,僧道往还山林隐逸为主；山居寺观隐逸寻幽稳定
+Family_06,RESOLVED_BUT_BROAD,BT001,老病退居与诗酒知命构成主轴,CLEARLY_RESOLVED,BT025|BT031,老病诗书与退居守道稳定；诗酒酬唱日常为主并兼送别,RESOLVED_BUT_BROAD,BT041,老病退闲诗酒日常稳定,RESOLVED_BUT_BROAD,BT053,老病退闲诗酒自况稳定
+Family_07,CLEARLY_RESOLVED,BT002|BT010,王朝功德礼乐为主并兼忠贤评价；皇家礼仪郊庙宴庆稳定,CLEARLY_RESOLVED,BT032,郊庙朝仪与王朝颂德稳定,CLEARLY_RESOLVED,BT035|BT044,朝廷仪典巡幸与恩荣颂赞稳定；祀典礼乐与神圣空间祥瑞,CLEARLY_RESOLVED,BT054|BT057,郊庙祭祀礼乐颂德稳定；宫廷朝仪皇家宴庆稳定
+Family_08,ABSENT,,,CLEARLY_RESOLVED,BT016|BT019,忠愤咏史民瘼为主并兼战争；儒家政治伦理与历史鉴戒稳定,CLEARLY_RESOLVED,BT033|BT037,政治伦理寓言讽谏稳定；社会悲愤为主并兼行路身世,WEAKLY_PRESENT,BT061,生死身世与伦理议论为主
+Family_09,WEAKLY_PRESENT,BT007|BT012,多题材残余且无主轴；数字杂咏残余兼民瘼议论,WEAKLY_PRESENT,BT017|BT020|BT023|BT024|BT029|BT030,清光物象与礼乐玄理杂糅；岁月名途与杂咏残余；寒云清景与宫苑物象杂糅；飞鸟夜声与器物杂咏残余；文名颂赞与宗教礼仪杂糅；宫廷歌舞器物与应制杂糅,WEAKLY_PRESENT,BT043|BT047,仙山宫苑与皇家歌舞杂糅；诗名仕途行旅应酬残余,FRAGMENTED,BT048|BT055|BT059|BT060,宫廷兴亡乐舞与历史杂咏；四时清景寺游与客愁杂糅；数字时序仙道寓言残余；数字时序功业仙道残余

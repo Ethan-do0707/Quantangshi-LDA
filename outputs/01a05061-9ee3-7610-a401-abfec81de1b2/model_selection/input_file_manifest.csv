@@ -1,0 +1,5 @@
+role,path,modified_time,size_bytes
+humanEvaluation,D:/中大中文系工作相关/論文發表與投稿/全唐詩LDA/human_topic_review/human_topic_evaluation.xlsx,2026-08-31 17:34:04 Asia/Singapore,32783
+configurationSummary,D:/中大中文系工作相关/論文發表與投稿/全唐詩LDA/reports/lda_sensitivity/configuration_summary.csv,2026-08-30 19:37:38 Asia/Singapore,3085
+modelMetrics,D:/中大中文系工作相关/論文發表與投稿/全唐詩LDA/reports/lda_sensitivity/model_metrics.csv,2026-08-30 19:37:38 Asia/Singapore,6803
+stabilityMetrics,D:/中大中文系工作相关/論文發表與投稿/全唐詩LDA/reports/lda_sensitivity/stability_metrics.csv,2026-08-30 19:37:38 Asia/Singapore,3935

@@ -1,0 +1,6 @@
+cbdb_match_status,author_count,period_known_author_count,period_unknown_author_count,period_known_author_ratio,poem_count,period_known_poem_count,period_unknown_poem_count,period_known_poem_ratio
+AMBIGUOUS,1076,0,1076,0,12350,0,12350,0
+CBDB_NOT_FOUND,245,0,245,0,592,0,592,0
+DYNASTY_CONFLICT,63,0,63,0,411,0,411,0
+MATCHED,1114,479,635,0.429982046678636,28381,23609,4772,0.831859342517882
+NOT_ELIGIBLE,30,0,30,0,1281,0,1281,0

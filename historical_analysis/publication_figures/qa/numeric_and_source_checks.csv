@@ -1,0 +1,670 @@
+﻿check,status,detail
+trend 有完成且通过QC的来源,PASS,
+period_topic_means.csv 已登记来源哈希,PASS,
+period_topic_means.csv 与冻结manifest一致,PASS,
+period_topic_bootstrap_ci.csv 已登记来源哈希,PASS,
+period_topic_bootstrap_ci.csv 与冻结manifest一致,PASS,
+clear_topic_trend_structure.csv 已登记来源哈希,PASS,
+clear_topic_trend_structure.csv 与冻结manifest一致,PASS,
+trend 输入 authoritative_master 哈希,PASS,
+trend 输入 topic_metadata 哈希,PASS,
+trend 输入 sample_labels 哈希,PASS,
+trend 输入 topic_missingness_risk 哈希,PASS,
+trend 输入 representativeness_audit_manifest 哈希,PASS,
+effect 有完成且通过QC的来源,PASS,
+clear_topic_primary_contrasts.csv 已登记来源哈希,PASS,
+clear_topic_primary_contrasts.csv 与冻结manifest一致,PASS,
+effect 输入 clear_topic_representativeness 哈希,PASS,
+effect 输入 trend_author_profiles 哈希,PASS,
+effect 输入 trend_structure 哈希,PASS,
+effect 输入 trend_robustness 哈希,PASS,
+effect 输入 trend_poem_author 哈希,PASS,
+effect 输入 trend_concentration 哈希,PASS,
+effect 输入 trend_candidates 哈希,PASS,
+influence 有完成且通过QC的来源,PASS,
+author_validated_candidate_trends.csv 已登记来源哈希,PASS,
+author_validated_candidate_trends.csv 与冻结manifest一致,PASS,
+top_contributor_exclusion_effects.csv 已登记来源哈希,PASS,
+top_contributor_exclusion_effects.csv 与冻结manifest一致,PASS,
+top_exclusion_bootstrap_ci.csv 已登记来源哈希,PASS,
+top_exclusion_bootstrap_ci.csv 与冻结manifest一致,PASS,
+influence 输入 supported_candidates 哈希,PASS,
+influence 输入 effect_sensitivity 哈希,PASS,
+influence 输入 author_queue 哈希,PASS,
+bcd 有完成且通过QC的来源,PASS,
+BCD_finding_effects.csv 已登记来源哈希,PASS,
+BCD_finding_effects.csv 与冻结manifest一致,PASS,
+BCD_finding_robustness_comparison.csv 已登记来源哈希,PASS,
+BCD_finding_robustness_comparison.csv 与冻结manifest一致,PASS,
+finding_robustness_ladder.csv 已登记来源哈希,PASS,
+finding_robustness_ladder.csv 与冻结manifest一致,PASS,
+finding_semantic_mapping.csv 已登记来源哈希,PASS,
+finding_semantic_mapping.csv 与冻结manifest一致,PASS,
+bcd 输入 alignment 哈希,PASS,
+bcd 输入 original_effects 哈希,PASS,
+bcd 输入 original_clr 哈希,PASS,
+bcd 输入 freeze_B_artifact_manifest.json 哈希,PASS,
+bcd 输入 freeze_B_document_index.csv 哈希,PASS,
+bcd 输入 freeze_B_document_topic_probabilities.npz 哈希,PASS,
+bcd 输入 freeze_B_matrix_metadata.json 哈希,PASS,
+bcd 输入 freeze_B_model.joblib 哈希,PASS,
+bcd 输入 freeze_B_model_manifest.json 哈希,PASS,
+bcd 输入 freeze_B_representative_poems_top20.csv 哈希,PASS,
+bcd 输入 freeze_B_reproduced_representative_poems_top5.csv 哈希,PASS,
+bcd 输入 freeze_B_reproduced_topics_top20.csv 哈希,PASS,
+bcd 输入 freeze_B_reproduction_validation.json 哈希,PASS,
+bcd 输入 freeze_B_topic_word_components.npz 哈希,PASS,
+bcd 输入 freeze_B_topic_word_probabilities.npz 哈希,PASS,
+bcd 输入 freeze_B_topics_top30.csv 哈希,PASS,
+bcd 输入 freeze_B_vocabulary.csv 哈希,PASS,
+bcd 输入 freeze_C_artifact_manifest.json 哈希,PASS,
+bcd 输入 freeze_C_document_index.csv 哈希,PASS,
+bcd 输入 freeze_C_document_topic_probabilities.npz 哈希,PASS,
+bcd 输入 freeze_C_matrix_metadata.json 哈希,PASS,
+bcd 输入 freeze_C_model.joblib 哈希,PASS,
+bcd 输入 freeze_C_model_manifest.json 哈希,PASS,
+bcd 输入 freeze_C_representative_poems_top20.csv 哈希,PASS,
+bcd 输入 freeze_C_reproduced_representative_poems_top5.csv 哈希,PASS,
+bcd 输入 freeze_C_reproduced_topics_top20.csv 哈希,PASS,
+bcd 输入 freeze_C_reproduction_validation.json 哈希,PASS,
+bcd 输入 freeze_C_topic_word_components.npz 哈希,PASS,
+bcd 输入 freeze_C_topic_word_probabilities.npz 哈希,PASS,
+bcd 输入 freeze_C_topics_top30.csv 哈希,PASS,
+bcd 输入 freeze_C_vocabulary.csv 哈希,PASS,
+bcd 输入 freeze_D_artifact_manifest.json 哈希,PASS,
+bcd 输入 freeze_D_document_index.csv 哈希,PASS,
+bcd 输入 freeze_D_document_topic_probabilities.npz 哈希,PASS,
+bcd 输入 freeze_D_matrix_metadata.json 哈希,PASS,
+bcd 输入 freeze_D_model.joblib 哈希,PASS,
+bcd 输入 freeze_D_model_manifest.json 哈希,PASS,
+bcd 输入 freeze_D_representative_poems_top20.csv 哈希,PASS,
+bcd 输入 freeze_D_reproduced_representative_poems_top5.csv 哈希,PASS,
+bcd 输入 freeze_D_reproduced_topics_top20.csv 哈希,PASS,
+bcd 输入 freeze_D_reproduction_validation.json 哈希,PASS,
+bcd 输入 freeze_D_topic_word_components.npz 哈希,PASS,
+bcd 输入 freeze_D_topic_word_probabilities.npz 哈希,PASS,
+bcd 输入 freeze_D_topics_top30.csv 哈希,PASS,
+bcd 输入 freeze_D_vocabulary.csv 哈希,PASS,
+最终阶梯顺序,PASS,
+最终四项稳健finding,PASS,
+其余五项部分稳健,PASS,
+T03_EH/B/STRICT_POEM 区间与方向,PASS,
+T03_EH/B/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/B/STRICT_AUTHOR 区间与方向,PASS,
+T03_EH/B/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/B/STRICT_POEM 区间与方向,PASS,
+T03_EL/B/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/B/STRICT_AUTHOR 区间与方向,PASS,
+T03_EL/B/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/B/STRICT_POEM 区间与方向,PASS,
+T03_ML/B/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/B/STRICT_AUTHOR 区间与方向,PASS,
+T03_ML/B/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/B/STRICT_POEM 区间与方向,PASS,
+T06_EL/B/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/B/STRICT_AUTHOR 区间与方向,PASS,
+T06_EL/B/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/B/STRICT_POEM 区间与方向,PASS,
+T07_EL/B/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/B/STRICT_AUTHOR 区间与方向,PASS,
+T07_EL/B/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/B/STRICT_POEM 区间与方向,PASS,
+T08_EL/B/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/B/STRICT_AUTHOR 区间与方向,PASS,
+T08_EL/B/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/B/STRICT_POEM 区间与方向,PASS,
+T11_ML/B/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/B/STRICT_AUTHOR 区间与方向,PASS,
+T11_ML/B/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/B/STRICT_POEM 区间与方向,PASS,
+T16_EL/B/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/B/STRICT_AUTHOR 区间与方向,PASS,
+T16_EL/B/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/B/STRICT_POEM 区间与方向,PASS,
+T19_EH/B/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/B/STRICT_AUTHOR 区间与方向,PASS,
+T19_EH/B/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/B/CORE_POEM 区间与方向,PASS,
+T03_EH/B/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/B/CORE_AUTHOR 区间与方向,PASS,
+T03_EH/B/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/B/CORE_POEM 区间与方向,PASS,
+T03_EL/B/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/B/CORE_AUTHOR 区间与方向,PASS,
+T03_EL/B/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/B/CORE_POEM 区间与方向,PASS,
+T03_ML/B/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/B/CORE_AUTHOR 区间与方向,PASS,
+T03_ML/B/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/B/CORE_POEM 区间与方向,PASS,
+T06_EL/B/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/B/CORE_AUTHOR 区间与方向,PASS,
+T06_EL/B/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/B/CORE_POEM 区间与方向,PASS,
+T07_EL/B/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/B/CORE_AUTHOR 区间与方向,PASS,
+T07_EL/B/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/B/CORE_POEM 区间与方向,PASS,
+T08_EL/B/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/B/CORE_AUTHOR 区间与方向,PASS,
+T08_EL/B/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/B/CORE_POEM 区间与方向,PASS,
+T11_ML/B/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/B/CORE_AUTHOR 区间与方向,PASS,
+T11_ML/B/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/B/CORE_POEM 区间与方向,PASS,
+T16_EL/B/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/B/CORE_AUTHOR 区间与方向,PASS,
+T16_EL/B/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/B/CORE_POEM 区间与方向,PASS,
+T19_EH/B/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/B/CORE_AUTHOR 区间与方向,PASS,
+T19_EH/B/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/B/EXPANDED_POEM 区间与方向,PASS,
+T03_EH/B/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/B/EXPANDED_AUTHOR 区间与方向,PASS,
+T03_EH/B/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/B/EXPANDED_POEM 区间与方向,PASS,
+T03_EL/B/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/B/EXPANDED_AUTHOR 区间与方向,PASS,
+T03_EL/B/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/B/EXPANDED_POEM 区间与方向,PASS,
+T03_ML/B/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/B/EXPANDED_AUTHOR 区间与方向,PASS,
+T03_ML/B/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/B/EXPANDED_POEM 区间与方向,PASS,
+T06_EL/B/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/B/EXPANDED_AUTHOR 区间与方向,PASS,
+T06_EL/B/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/B/EXPANDED_POEM 区间与方向,PASS,
+T07_EL/B/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/B/EXPANDED_AUTHOR 区间与方向,PASS,
+T07_EL/B/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/B/EXPANDED_POEM 区间与方向,PASS,
+T08_EL/B/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/B/EXPANDED_AUTHOR 区间与方向,PASS,
+T08_EL/B/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/B/EXPANDED_POEM 区间与方向,PASS,
+T11_ML/B/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/B/EXPANDED_AUTHOR 区间与方向,PASS,
+T11_ML/B/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/B/EXPANDED_POEM 区间与方向,PASS,
+T16_EL/B/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/B/EXPANDED_AUTHOR 区间与方向,PASS,
+T16_EL/B/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/B/EXPANDED_POEM 区间与方向,PASS,
+T19_EH/B/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/B/EXPANDED_AUTHOR 区间与方向,PASS,
+T19_EH/B/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/C/STRICT_POEM 区间与方向,PASS,
+T03_EH/C/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/C/STRICT_AUTHOR 区间与方向,PASS,
+T03_EH/C/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/C/STRICT_POEM 区间与方向,PASS,
+T03_EL/C/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/C/STRICT_AUTHOR 区间与方向,PASS,
+T03_EL/C/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/C/STRICT_POEM 区间与方向,PASS,
+T03_ML/C/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/C/STRICT_AUTHOR 区间与方向,PASS,
+T03_ML/C/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/C/STRICT_POEM 区间与方向,PASS,
+T06_EL/C/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/C/STRICT_AUTHOR 区间与方向,PASS,
+T06_EL/C/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/C/STRICT_POEM 区间与方向,PASS,
+T07_EL/C/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/C/STRICT_AUTHOR 区间与方向,PASS,
+T07_EL/C/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/C/STRICT_POEM 区间与方向,PASS,
+T08_EL/C/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/C/STRICT_AUTHOR 区间与方向,PASS,
+T08_EL/C/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/C/STRICT_POEM 区间与方向,PASS,
+T11_ML/C/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/C/STRICT_AUTHOR 区间与方向,PASS,
+T11_ML/C/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/C/STRICT_POEM 区间与方向,PASS,
+T16_EL/C/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/C/STRICT_AUTHOR 区间与方向,PASS,
+T16_EL/C/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/C/STRICT_POEM 区间与方向,PASS,
+T19_EH/C/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/C/STRICT_AUTHOR 区间与方向,PASS,
+T19_EH/C/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/C/CORE_POEM 区间与方向,PASS,
+T03_EH/C/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/C/CORE_AUTHOR 区间与方向,PASS,
+T03_EH/C/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/C/CORE_POEM 区间与方向,PASS,
+T03_EL/C/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/C/CORE_AUTHOR 区间与方向,PASS,
+T03_EL/C/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/C/CORE_POEM 区间与方向,PASS,
+T03_ML/C/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/C/CORE_AUTHOR 区间与方向,PASS,
+T03_ML/C/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/C/CORE_POEM 区间与方向,PASS,
+T06_EL/C/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/C/CORE_AUTHOR 区间与方向,PASS,
+T06_EL/C/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/C/CORE_POEM 区间与方向,PASS,
+T07_EL/C/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/C/CORE_AUTHOR 区间与方向,PASS,
+T07_EL/C/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/C/CORE_POEM 区间与方向,PASS,
+T08_EL/C/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/C/CORE_AUTHOR 区间与方向,PASS,
+T08_EL/C/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/C/CORE_POEM 区间与方向,PASS,
+T11_ML/C/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/C/CORE_AUTHOR 区间与方向,PASS,
+T11_ML/C/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/C/CORE_POEM 区间与方向,PASS,
+T16_EL/C/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/C/CORE_AUTHOR 区间与方向,PASS,
+T16_EL/C/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/C/CORE_POEM 区间与方向,PASS,
+T19_EH/C/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/C/CORE_AUTHOR 区间与方向,PASS,
+T19_EH/C/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/C/EXPANDED_POEM 区间与方向,PASS,
+T03_EH/C/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/C/EXPANDED_AUTHOR 区间与方向,PASS,
+T03_EH/C/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/C/EXPANDED_POEM 区间与方向,PASS,
+T03_EL/C/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/C/EXPANDED_AUTHOR 区间与方向,PASS,
+T03_EL/C/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/C/EXPANDED_POEM 区间与方向,PASS,
+T03_ML/C/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/C/EXPANDED_AUTHOR 区间与方向,PASS,
+T03_ML/C/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/C/EXPANDED_POEM 区间与方向,PASS,
+T06_EL/C/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/C/EXPANDED_AUTHOR 区间与方向,PASS,
+T06_EL/C/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/C/EXPANDED_POEM 区间与方向,PASS,
+T07_EL/C/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/C/EXPANDED_AUTHOR 区间与方向,PASS,
+T07_EL/C/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/C/EXPANDED_POEM 区间与方向,PASS,
+T08_EL/C/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/C/EXPANDED_AUTHOR 区间与方向,PASS,
+T08_EL/C/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/C/EXPANDED_POEM 区间与方向,PASS,
+T11_ML/C/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/C/EXPANDED_AUTHOR 区间与方向,PASS,
+T11_ML/C/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/C/EXPANDED_POEM 区间与方向,PASS,
+T16_EL/C/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/C/EXPANDED_AUTHOR 区间与方向,PASS,
+T16_EL/C/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/C/EXPANDED_POEM 区间与方向,PASS,
+T19_EH/C/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/C/EXPANDED_AUTHOR 区间与方向,PASS,
+T19_EH/C/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/D/STRICT_POEM 区间与方向,PASS,
+T03_EH/D/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/D/STRICT_AUTHOR 区间与方向,PASS,
+T03_EH/D/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/D/STRICT_POEM 区间与方向,PASS,
+T03_EL/D/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/D/STRICT_AUTHOR 区间与方向,PASS,
+T03_EL/D/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/D/STRICT_POEM 区间与方向,PASS,
+T03_ML/D/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/D/STRICT_AUTHOR 区间与方向,PASS,
+T03_ML/D/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/D/STRICT_POEM 区间与方向,PASS,
+T06_EL/D/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/D/STRICT_AUTHOR 区间与方向,PASS,
+T06_EL/D/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/D/STRICT_POEM 区间与方向,PASS,
+T07_EL/D/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/D/STRICT_AUTHOR 区间与方向,PASS,
+T07_EL/D/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/D/STRICT_POEM 区间与方向,PASS,
+T08_EL/D/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/D/STRICT_AUTHOR 区间与方向,PASS,
+T08_EL/D/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/D/STRICT_POEM 区间与方向,PASS,
+T11_ML/D/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/D/STRICT_AUTHOR 区间与方向,PASS,
+T11_ML/D/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/D/STRICT_POEM 区间与方向,PASS,
+T16_EL/D/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/D/STRICT_AUTHOR 区间与方向,PASS,
+T16_EL/D/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/D/STRICT_POEM 区间与方向,PASS,
+T19_EH/D/STRICT_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/D/STRICT_AUTHOR 区间与方向,PASS,
+T19_EH/D/STRICT_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/D/CORE_POEM 区间与方向,PASS,
+T03_EH/D/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/D/CORE_AUTHOR 区间与方向,PASS,
+T03_EH/D/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/D/CORE_POEM 区间与方向,PASS,
+T03_EL/D/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/D/CORE_AUTHOR 区间与方向,PASS,
+T03_EL/D/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/D/CORE_POEM 区间与方向,PASS,
+T03_ML/D/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/D/CORE_AUTHOR 区间与方向,PASS,
+T03_ML/D/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/D/CORE_POEM 区间与方向,PASS,
+T06_EL/D/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/D/CORE_AUTHOR 区间与方向,PASS,
+T06_EL/D/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/D/CORE_POEM 区间与方向,PASS,
+T07_EL/D/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/D/CORE_AUTHOR 区间与方向,PASS,
+T07_EL/D/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/D/CORE_POEM 区间与方向,PASS,
+T08_EL/D/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/D/CORE_AUTHOR 区间与方向,PASS,
+T08_EL/D/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/D/CORE_POEM 区间与方向,PASS,
+T11_ML/D/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/D/CORE_AUTHOR 区间与方向,PASS,
+T11_ML/D/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/D/CORE_POEM 区间与方向,PASS,
+T16_EL/D/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/D/CORE_AUTHOR 区间与方向,PASS,
+T16_EL/D/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/D/CORE_POEM 区间与方向,PASS,
+T19_EH/D/CORE_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/D/CORE_AUTHOR 区间与方向,PASS,
+T19_EH/D/CORE_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/D/EXPANDED_POEM 区间与方向,PASS,
+T03_EH/D/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EH/D/EXPANDED_AUTHOR 区间与方向,PASS,
+T03_EH/D/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/D/EXPANDED_POEM 区间与方向,PASS,
+T03_EL/D/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_EL/D/EXPANDED_AUTHOR 区间与方向,PASS,
+T03_EL/D/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/D/EXPANDED_POEM 区间与方向,PASS,
+T03_ML/D/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T03_ML/D/EXPANDED_AUTHOR 区间与方向,PASS,
+T03_ML/D/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/D/EXPANDED_POEM 区间与方向,PASS,
+T06_EL/D/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T06_EL/D/EXPANDED_AUTHOR 区间与方向,PASS,
+T06_EL/D/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/D/EXPANDED_POEM 区间与方向,PASS,
+T07_EL/D/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T07_EL/D/EXPANDED_AUTHOR 区间与方向,PASS,
+T07_EL/D/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/D/EXPANDED_POEM 区间与方向,PASS,
+T08_EL/D/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T08_EL/D/EXPANDED_AUTHOR 区间与方向,PASS,
+T08_EL/D/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/D/EXPANDED_POEM 区间与方向,PASS,
+T11_ML/D/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T11_ML/D/EXPANDED_AUTHOR 区间与方向,PASS,
+T11_ML/D/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/D/EXPANDED_POEM 区间与方向,PASS,
+T16_EL/D/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T16_EL/D/EXPANDED_AUTHOR 区间与方向,PASS,
+T16_EL/D/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/D/EXPANDED_POEM 区间与方向,PASS,
+T19_EH/D/EXPANDED_POEM Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+T19_EH/D/EXPANDED_AUTHOR 区间与方向,PASS,
+T19_EH/D/EXPANDED_AUTHOR Δ端点,PASS,max_abs_error=0; tolerance=1e-12
+topic_03/B mapping,PASS,
+topic_03/B effect mapping,PASS,
+topic_03/D mapping,PASS,
+topic_03/D effect mapping,PASS,
+topic_06/B mapping,PASS,
+topic_06/B effect mapping,PASS,
+topic_06/D mapping,PASS,
+topic_06/D effect mapping,PASS,
+topic_08/B mapping,PASS,
+topic_08/B effect mapping,PASS,
+topic_08/D mapping,PASS,
+topic_08/D effect mapping,PASS,
+topic_16/B mapping,PASS,
+topic_16/B effect mapping,PASS,
+topic_16/D mapping,PASS,
+topic_16/D effect mapping,PASS,
+ladder/T03_EH/B_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T03_EH/B_author,PASS,max_abs_error=0; tolerance=0
+ladder/T03_EL/B_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T03_EL/B_author,PASS,max_abs_error=0; tolerance=0
+ladder/T03_ML/B_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T03_ML/B_author,PASS,max_abs_error=0; tolerance=0
+ladder/T06_EL/B_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T06_EL/B_author,PASS,max_abs_error=0; tolerance=0
+ladder/T07_EL/B_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T07_EL/B_author,PASS,max_abs_error=0; tolerance=0
+ladder/T08_EL/B_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T08_EL/B_author,PASS,max_abs_error=0; tolerance=0
+ladder/T11_ML/B_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T11_ML/B_author,PASS,max_abs_error=0; tolerance=0
+ladder/T16_EL/B_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T16_EL/B_author,PASS,max_abs_error=0; tolerance=0
+ladder/T19_EH/B_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T19_EH/B_author,PASS,max_abs_error=0; tolerance=0
+ladder/T03_EH/C_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T03_EH/C_author,PASS,max_abs_error=0; tolerance=0
+ladder/T03_EL/C_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T03_EL/C_author,PASS,max_abs_error=0; tolerance=0
+ladder/T03_ML/C_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T03_ML/C_author,PASS,max_abs_error=0; tolerance=0
+ladder/T06_EL/C_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T06_EL/C_author,PASS,max_abs_error=0; tolerance=0
+ladder/T07_EL/C_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T07_EL/C_author,PASS,max_abs_error=0; tolerance=0
+ladder/T08_EL/C_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T08_EL/C_author,PASS,max_abs_error=0; tolerance=0
+ladder/T11_ML/C_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T11_ML/C_author,PASS,max_abs_error=0; tolerance=0
+ladder/T16_EL/C_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T16_EL/C_author,PASS,max_abs_error=0; tolerance=0
+ladder/T19_EH/C_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T19_EH/C_author,PASS,max_abs_error=0; tolerance=0
+ladder/T03_EH/D_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T03_EH/D_author,PASS,max_abs_error=0; tolerance=0
+ladder/T03_EL/D_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T03_EL/D_author,PASS,max_abs_error=0; tolerance=0
+ladder/T03_ML/D_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T03_ML/D_author,PASS,max_abs_error=0; tolerance=0
+ladder/T06_EL/D_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T06_EL/D_author,PASS,max_abs_error=0; tolerance=0
+ladder/T07_EL/D_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T07_EL/D_author,PASS,max_abs_error=0; tolerance=0
+ladder/T08_EL/D_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T08_EL/D_author,PASS,max_abs_error=0; tolerance=0
+ladder/T11_ML/D_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T11_ML/D_author,PASS,max_abs_error=0; tolerance=0
+ladder/T16_EL/D_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T16_EL/D_author,PASS,max_abs_error=0; tolerance=0
+ladder/T19_EH/D_poem,PASS,max_abs_error=0; tolerance=0
+ladder/T19_EH/D_author,PASS,max_abs_error=0; tolerance=0
+comparison/T03_EH/B_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T03_EH/B_author,PASS,max_abs_error=0; tolerance=0
+comparison/T03_EL/B_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T03_EL/B_author,PASS,max_abs_error=0; tolerance=0
+comparison/T03_ML/B_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T03_ML/B_author,PASS,max_abs_error=0; tolerance=0
+comparison/T06_EL/B_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T06_EL/B_author,PASS,max_abs_error=0; tolerance=0
+comparison/T07_EL/B_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T07_EL/B_author,PASS,max_abs_error=0; tolerance=0
+comparison/T08_EL/B_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T08_EL/B_author,PASS,max_abs_error=0; tolerance=0
+comparison/T11_ML/B_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T11_ML/B_author,PASS,max_abs_error=0; tolerance=0
+comparison/T16_EL/B_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T16_EL/B_author,PASS,max_abs_error=0; tolerance=0
+comparison/T19_EH/B_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T19_EH/B_author,PASS,max_abs_error=0; tolerance=0
+comparison/T03_EH/C_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T03_EH/C_author,PASS,max_abs_error=0; tolerance=0
+comparison/T03_EL/C_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T03_EL/C_author,PASS,max_abs_error=0; tolerance=0
+comparison/T03_ML/C_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T03_ML/C_author,PASS,max_abs_error=0; tolerance=0
+comparison/T06_EL/C_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T06_EL/C_author,PASS,max_abs_error=0; tolerance=0
+comparison/T07_EL/C_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T07_EL/C_author,PASS,max_abs_error=0; tolerance=0
+comparison/T08_EL/C_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T08_EL/C_author,PASS,max_abs_error=0; tolerance=0
+comparison/T11_ML/C_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T11_ML/C_author,PASS,max_abs_error=0; tolerance=0
+comparison/T16_EL/C_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T16_EL/C_author,PASS,max_abs_error=0; tolerance=0
+comparison/T19_EH/C_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T19_EH/C_author,PASS,max_abs_error=0; tolerance=0
+comparison/T03_EH/D_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T03_EH/D_author,PASS,max_abs_error=0; tolerance=0
+comparison/T03_EL/D_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T03_EL/D_author,PASS,max_abs_error=0; tolerance=0
+comparison/T03_ML/D_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T03_ML/D_author,PASS,max_abs_error=0; tolerance=0
+comparison/T06_EL/D_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T06_EL/D_author,PASS,max_abs_error=0; tolerance=0
+comparison/T07_EL/D_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T07_EL/D_author,PASS,max_abs_error=0; tolerance=0
+comparison/T08_EL/D_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T08_EL/D_author,PASS,max_abs_error=0; tolerance=0
+comparison/T11_ML/D_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T11_ML/D_author,PASS,max_abs_error=0; tolerance=0
+comparison/T16_EL/D_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T16_EL/D_author,PASS,max_abs_error=0; tolerance=0
+comparison/T19_EH/D_poem,PASS,max_abs_error=0; tolerance=0
+comparison/T19_EH/D_author,PASS,max_abs_error=0; tolerance=0
+最终报告逐格核对 T03_EH/B/POEM,PASS,
+最终报告逐格核对 T03_EH/B/AUTHOR,PASS,
+最终报告逐格核对 T03_EH/C/POEM,PASS,
+最终报告逐格核对 T03_EH/C/AUTHOR,PASS,
+最终报告逐格核对 T03_EH/D/POEM,PASS,
+最终报告逐格核对 T03_EH/D/AUTHOR,PASS,
+最终报告逐格核对 T03_ML/B/POEM,PASS,
+最终报告逐格核对 T03_ML/B/AUTHOR,PASS,
+最终报告逐格核对 T03_ML/C/POEM,PASS,
+最终报告逐格核对 T03_ML/C/AUTHOR,PASS,
+最终报告逐格核对 T03_ML/D/POEM,PASS,
+最终报告逐格核对 T03_ML/D/AUTHOR,PASS,
+最终报告逐格核对 T03_EL/B/POEM,PASS,
+最终报告逐格核对 T03_EL/B/AUTHOR,PASS,
+最终报告逐格核对 T03_EL/C/POEM,PASS,
+最终报告逐格核对 T03_EL/C/AUTHOR,PASS,
+最终报告逐格核对 T03_EL/D/POEM,PASS,
+最终报告逐格核对 T03_EL/D/AUTHOR,PASS,
+最终报告逐格核对 T06_EL/B/POEM,PASS,
+最终报告逐格核对 T06_EL/B/AUTHOR,PASS,
+最终报告逐格核对 T06_EL/C/POEM,PASS,
+最终报告逐格核对 T06_EL/C/AUTHOR,PASS,
+最终报告逐格核对 T06_EL/D/POEM,PASS,
+最终报告逐格核对 T06_EL/D/AUTHOR,PASS,
+最终报告逐格核对 T07_EL/B/POEM,PASS,
+最终报告逐格核对 T07_EL/B/AUTHOR,PASS,
+最终报告逐格核对 T07_EL/C/POEM,PASS,
+最终报告逐格核对 T07_EL/C/AUTHOR,PASS,
+最终报告逐格核对 T07_EL/D/POEM,PASS,
+最终报告逐格核对 T07_EL/D/AUTHOR,PASS,
+最终报告逐格核对 T08_EL/B/POEM,PASS,
+最终报告逐格核对 T08_EL/B/AUTHOR,PASS,
+最终报告逐格核对 T08_EL/C/POEM,PASS,
+最终报告逐格核对 T08_EL/C/AUTHOR,PASS,
+最终报告逐格核对 T08_EL/D/POEM,PASS,
+最终报告逐格核对 T08_EL/D/AUTHOR,PASS,
+最终报告逐格核对 T11_ML/B/POEM,PASS,
+最终报告逐格核对 T11_ML/B/AUTHOR,PASS,
+最终报告逐格核对 T11_ML/C/POEM,PASS,
+最终报告逐格核对 T11_ML/C/AUTHOR,PASS,
+最终报告逐格核对 T11_ML/D/POEM,PASS,
+最终报告逐格核对 T11_ML/D/AUTHOR,PASS,
+最终报告逐格核对 T16_EL/B/POEM,PASS,
+最终报告逐格核对 T16_EL/B/AUTHOR,PASS,
+最终报告逐格核对 T16_EL/C/POEM,PASS,
+最终报告逐格核对 T16_EL/C/AUTHOR,PASS,
+最终报告逐格核对 T16_EL/D/POEM,PASS,
+最终报告逐格核对 T16_EL/D/AUTHOR,PASS,
+最终报告逐格核对 T19_EH/B/POEM,PASS,
+最终报告逐格核对 T19_EH/B/AUTHOR,PASS,
+最终报告逐格核对 T19_EH/C/POEM,PASS,
+最终报告逐格核对 T19_EH/C/AUTHOR,PASS,
+最终报告逐格核对 T19_EH/D/POEM,PASS,
+最终报告逐格核对 T19_EH/D/AUTHOR,PASS,
+最终报告54行162数值完整核对,PASS,
+topic_03/POEM C原始与BCD四期均值,PASS,max_abs_error=8.33e-17; tolerance=1e-12
+topic_03/POEM 均值与CI点估计,PASS,max_abs_error=0; tolerance=0
+topic_03/POEM 四期CI有界,PASS,
+topic_03/AUTHOR C原始与BCD四期均值,PASS,max_abs_error=4.44e-16; tolerance=1e-12
+topic_03/AUTHOR 均值与CI点估计,PASS,max_abs_error=0; tolerance=0
+topic_03/AUTHOR 四期CI有界,PASS,
+topic_03 taxonomy名称,PASS,
+topic_06/POEM C原始与BCD四期均值,PASS,max_abs_error=5.2e-17; tolerance=1e-12
+topic_06/POEM 均值与CI点估计,PASS,max_abs_error=0; tolerance=0
+topic_06/POEM 四期CI有界,PASS,
+topic_06/AUTHOR C原始与BCD四期均值,PASS,max_abs_error=8.33e-17; tolerance=1e-12
+topic_06/AUTHOR 均值与CI点估计,PASS,max_abs_error=0; tolerance=0
+topic_06/AUTHOR 四期CI有界,PASS,
+topic_06 taxonomy名称,PASS,
+topic_08/POEM C原始与BCD四期均值,PASS,max_abs_error=9.71e-17; tolerance=1e-12
+topic_08/POEM 均值与CI点估计,PASS,max_abs_error=0; tolerance=0
+topic_08/POEM 四期CI有界,PASS,
+topic_08/AUTHOR C原始与BCD四期均值,PASS,max_abs_error=7.63e-17; tolerance=1e-12
+topic_08/AUTHOR 均值与CI点估计,PASS,max_abs_error=0; tolerance=0
+topic_08/AUTHOR 四期CI有界,PASS,
+topic_08 taxonomy名称,PASS,
+T03_EL/POEM C统计验证差值,PASS,max_abs_error=1.39e-17; tolerance=1e-12
+T03_EL/AUTHOR C统计验证差值,PASS,max_abs_error=1.67e-16; tolerance=1e-12
+T03_ML/POEM C统计验证差值,PASS,max_abs_error=1.73e-17; tolerance=1e-12
+T03_ML/AUTHOR C统计验证差值,PASS,max_abs_error=1.39e-17; tolerance=1e-12
+T06_EL/POEM C统计验证差值,PASS,max_abs_error=2.78e-17; tolerance=1e-12
+T06_EL/AUTHOR C统计验证差值,PASS,max_abs_error=2.78e-17; tolerance=1e-12
+T08_EL/POEM C统计验证差值,PASS,max_abs_error=4.16e-17; tolerance=1e-12
+T08_EL/AUTHOR C统计验证差值,PASS,max_abs_error=6.94e-18; tolerance=1e-12
+T16_EL/POEM C统计验证差值,PASS,max_abs_error=2.08e-17; tolerance=1e-12
+T16_EL/AUTHOR C统计验证差值,PASS,max_abs_error=2.78e-17; tolerance=1e-12
+T16六个效应同向为负,PASS,
+T16 B两种CI跨0,PASS,
+系统中文字体可用,PASS,
+Figure_01a_T03 文本不超出画布,PASS,[]
+Figure_02_T03_Ritual_Court_Praise_Trend 文本不超出画布,PASS,[]
+Figure_01b_T06 文本不超出画布,PASS,[]
+Figure_03_T06_Life_Career_Aging_Trend 文本不超出画布,PASS,[]
+Figure_01c_T08 文本不超出画布,PASS,[]
+Figure_04_T08_Temple_Reclusion_Trend 文本不超出画布,PASS,[]
+Figure_01_Core_Robust_Topic_Trends 文本不超出画布,PASS,[]
+Figure_01_Core_Robust_Topic_Trends_combined 文本不超出画布,PASS,[]
+Figure_05a_BCD_Effects_POEM 文本不超出画布,PASS,[]
+Figure_05b_BCD_Effects_AUTHOR 文本不超出画布,PASS,[]
+Figure_05_BCD_Core_Finding_Effect_Comparison 文本不超出画布,PASS,[]
+Figure_06a_T03_BCD_Period_Profile_POEM 文本不超出画布,PASS,[]
+Figure_06a_T03_BCD_Period_Profile_AUTHOR 文本不超出画布,PASS,[]
+Figure_06a_T03_BCD_Period_Profile 文本不超出画布,PASS,[]
+Figure_06b_T06_BCD_Period_Profile_POEM 文本不超出画布,PASS,[]
+Figure_06b_T06_BCD_Period_Profile_AUTHOR 文本不超出画布,PASS,[]
+Figure_06b_T06_BCD_Period_Profile 文本不超出画布,PASS,[]
+Figure_06c_T08_BCD_Period_Profile_POEM 文本不超出画布,PASS,[]
+Figure_06c_T08_BCD_Period_Profile_AUTHOR 文本不超出画布,PASS,[]
+Figure_06c_T08_BCD_Period_Profile 文本不超出画布,PASS,[]
+Figure_07_Finding_Robustness_Ladder 文本不超出画布,PASS,[]
+Figure_07b_Finding_Evidence_Matrix 文本不超出画布,PASS,[]
+Figure_08_T16_Border_War_Partial_Robustness 文本不超出画布,PASS,[]
+Figure_09_POEM_vs_AUTHOR_Core_Findings 文本不超出画布,PASS,[]
+作者排除点估计与CI来源,PASS,max_abs_error=0; tolerance=0
+topic_03/POEM Top1/3/5完整且无反向,PASS,
+topic_03/POEM Original核对,PASS,max_abs_error=0; tolerance=1e-12
+topic_03/AUTHOR Top1/3/5完整且无反向,PASS,
+topic_03/AUTHOR Original核对,PASS,max_abs_error=0; tolerance=1e-12
+topic_06/POEM Top1/3/5完整且无反向,PASS,
+topic_06/POEM Original核对,PASS,max_abs_error=0; tolerance=1e-12
+topic_06/AUTHOR Top1/3/5完整且无反向,PASS,
+topic_06/AUTHOR Original核对,PASS,max_abs_error=0; tolerance=1e-12
+topic_08/POEM Top1/3/5完整且无反向,PASS,
+topic_08/POEM Original核对,PASS,max_abs_error=0; tolerance=1e-12
+topic_08/AUTHOR Top1/3/5完整且无反向,PASS,
+topic_08/AUTHOR Original核对,PASS,max_abs_error=0; tolerance=1e-12
+Figure_10a_Author_Influence_POEM 文本不超出画布,PASS,[]
+Figure_10b_Author_Influence_AUTHOR 文本不超出画布,PASS,[]
+Figure_10_Author_Influence_Core_Findings 文本不超出画布,PASS,[]
+27个文件版本,PASS,
+13个核心图位,PASS,
+全部冻结来源前后哈希不变,PASS,

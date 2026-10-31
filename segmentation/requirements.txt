@@ -1,0 +1,11 @@
+# 运行环境建议使用 Python 3.10 或 3.11；sikufenci 复用现有 CPU/GPU PyTorch。
+torch>=1.13
+jieba==0.42.1
+jiayan==0.0.21
+sikufenci==0.0.28
+pytorch-pretrained-bert==0.6.1
+seqeval==1.2.2
+transformers==4.57.6
+
+# Jiayan 的推荐 CharHMMTokenizer 还需要 KenLM 与官方 jiayan.klm。
+# 本项目当前 Windows/Python 3.11 环境无法构建 KenLM，故使用官方 WordNgramTokenizer。

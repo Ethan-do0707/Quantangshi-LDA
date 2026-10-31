@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "target": "author",
+  "generated_at": "2026-09-01T07:51:08.453Z",
+  "output": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\master\\QTS_author_historical_metadata.xlsx",
+  "sheets": [
+    "Author_Metadata",
+    "Period_Coverage",
+    "Build_QC",
+    "Method_Notes"
+  ],
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "inspected_range": "{\"kind\":\"table\",\"sheet\":\"Author_Metadata\",\"address\":\"A1:L15\",\"rows\":15,\"cols\":12,\"values\":[[\"author_id_internal\",\"author_raw\",\"author_normalized\",\"author_display_name\",\"author_status\",\"poem_count\",\"cbdb_person_id\",\"cbdb_name\",\"cbdb_dynasty\",\"cbdb_match_status\",\"cbdb_match_confidence\",\"author_birth_year\"],[\"QTS_A_9B08B3C01205\",\"丁仙芝\",\"丁仙芝\",\"丁仙芝\",\"NAMED\",12,91897,\"丁仙芝\",\"唐\",\"MATCHED\",\"HIGH\",null],[\"QTS_A_0F5E3C7A9F78\",\"丁位\",\"丁位\",\"丁位\",\"NAMED\",1,91899,\"丁位\",\"唐\",\"MATCHED\",\"HIGH\",null],[\"QTS_A_4B58BE05B357\",\"丁元和\",\"丁元和\",\"丁元和\",\"NAMED\",1,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\",null],[\"QTS_A_6B4C2D2AB05C\",\"丁居晦\",\"丁居晦\",\"丁居晦\",\"NAMED\",1,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\",null],[\"QTS_A_16D970E7A800\",\"丁棱\",\"丁棱\",\"丁棱\",\"NAMED\",2,null,null,null,\"CBDB_NOT_FOUND\",\"UNRESOLVED\",null],[\"QTS_A_1E1562CC1590\",\"丁泽\",\"丁泽\",\"丁泽\",\"NAMED\",3,91900,\"丁澤\",\"唐\",\"MATCHED\",\"MEDIUM\",null],[\"QTS_A_C32044F60ED7\",\"七岁女子\",\"七岁女子\",\"七岁女子\",\"NAMED\",1,null,null,null,\"CBDB_NOT_FOUND\",\"UNRESOLVED\",null],[\"QTS_A_180C40591B94\",\"万俟造\",\"万俟造\",\"万俟造\",\"NAMED\",1,91928,\"万俟造\",\"唐\",\"MATCHED\",\"HIGH\",null],[\"QTS_A_AFA4CFFA4C31\",\"万彤云\",\"万彤云\",\"万彤云\",\"NAMED\",1,448698,\"萬彤雲\",\"唐\",\"MATCHED\",\"HIGH\",null],[\"QTS_A_12AC679C4305\",\"万楚\",\"万楚\",\"万楚\",\"NAMED\",9,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\",null],[\"QTS_A_2BF3372D3156\",\"万齐融\",\"万齐融\",\"万齐融\",\"NAMED\",4,91927,\"萬齊融\",\"唐\",\"MATCHED\",\"HIGH\",null],[\"QTS_A_CA8757CD2AF2\",\"上元夫人\",\"上元夫人\",\"上元夫人\",\"NAMED\",3,null,null,null,\"CBDB_NOT_FOUND\",\"UNRESOLVED\",null],[\"QTS_A_9BA70E350674\",\"上官仪\",\"上官仪\",\"上官仪\",\"NAMED\",20,91930,\"上官儀\",\"唐\",\"MATCHED\",\"MEDIUM\",607],[\"QTS_A_2C2858DA92F9\",\"上官昭容\",\"上官昭容\",\"上官昭容\",\"NAMED\",7,91931,\"上官婉兒\",\"唐\",\"MATCHED\",\"MEDIUM\",664]]}",
+  "previews": [
+    "author_Author_Metadata.png",
+    "author_Build_QC.png",
+    "author_Method_Notes.png",
+    "author_Period_Coverage.png",
+    "dictionary_Fields.png",
+    "dictionary_Period_Scheme.png",
+    "dictionary_Provenance_Notes.png",
+    "master_Author_History_Codebook.png",
+    "master_Build_QC.png",
+    "master_Codebook.png",
+    "master_Data_author_history.png",
+    "master_Data_original.png",
+    "master_Topic_Metadata.png",
+    "master_fresh_Author_History_Codebook.png",
+    "master_fresh_Build_QC.png",
+    "master_fresh_Data_author_history.png",
+    "master_fresh_Data_original.png",
+    "review_Candidate_Audit.png",
+    "review_Instructions.png",
+    "review_Review_Queue.png",
+    "source_Data_A_N.png"
+  ]
+}

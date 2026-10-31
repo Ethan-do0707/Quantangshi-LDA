@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "model_id": "C_K20",
+  "rebuild_signature": "39d522307d04f6e42cbb8d78df96ec7af4059d0d1bb9ba974b0c06c41562c931",
+  "reproduction_validation_passed": true,
+  "original_checkpoint_signature": "0140686a3435eb8bdc5fb4f76e3d47fb3300563b80045e610b52fa254755a0ee",
+  "corpus_matrix_fingerprint": "744baeb001f1c5fa43802f07bceb73c6142b605ff3bf69c12e3f14d5dc8eb779",
+  "outputs": [
+    {
+      "path": "document_index.csv",
+      "sha256": "2b316c921d8da8d4b5ed533b34839ae323693a2ec02f9300e2065192f0e32bbb",
+      "bytes": 2251706
+    },
+    {
+      "path": "document_topic_probabilities.npz",
+      "sha256": "b6f71b9e450873abedd2a9970b2a1aeea5a83a2c1858b84aeff7e293d9f4a966",
+      "bytes": 4718605
+    },
+    {
+      "path": "matrix_metadata.json",
+      "sha256": "e67f5b91940a6286516e1458b74744ca8b8594a4ca3bfbd05a453dadf353211d",
+      "bytes": 1009
+    },
+    {
+      "path": "model.joblib",
+      "sha256": "4b23ee5661afa3127fd52f4938ca166446a9c0903cf8706c0985c964446d6d6f",
+      "bytes": 6019561
+    },
+    {
+      "path": "representative_poems_top20.csv",
+      "sha256": "abe95728eaf8e08d479ae2c67cd3ce1284a335fd462e6a793c89a7a9881817c6",
+      "bytes": 161738
+    },
+    {
+      "path": "reproduced_representative_poems_top5.csv",
+      "sha256": "f527592bb22de5c60c3fcaade1de814647c24d84780239b01339a7f5ce53640d",
+      "bytes": 35590
+    },
+    {
+      "path": "reproduced_topics_top20.csv",
+      "sha256": "182a778ffc8b1b3443007ff632e3ca2643211617340dd45826261377e23615f4",
+      "bytes": 26991
+    },
+    {
+      "path": "reproduction_validation.json",
+      "sha256": "1047eb2528f79bcdbe4060318d4fd702ae481b16e3ab5bffa4bead926fb8af64",
+      "bytes": 2219
+    },
+    {
+      "path": "topic_word_components.npz",
+      "sha256": "ed9d099ad35ce8759651aeac8977c744528e9751bcf0cc301b5def035be10201",
+      "bytes": 2831134
+    },
+    {
+      "path": "topic_word_probabilities.npz",
+      "sha256": "a0fe6f09bc91e534c86db494c5f8b4d7e703198877409953d6e77c3fe04ec9e7",
+      "bytes": 2825396
+    },
+    {
+      "path": "topics_top30.csv",
+      "sha256": "5a08b732b78f88be627418f044d4ec9880f47f7651d9d3cf151e73f488a24571",
+      "bytes": 24939
+    },
+    {
+      "path": "vocabulary.csv",
+      "sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084",
+      "bytes": 1237177
+    }
+  ]
+}

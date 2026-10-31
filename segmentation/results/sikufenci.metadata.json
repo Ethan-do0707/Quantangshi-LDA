@@ -1,0 +1,17 @@
+{
+  "method": "sikufenci",
+  "source": "https://github.com/hsc748NLP/sikufenci",
+  "record_count": 43030,
+  "elapsed_seconds": 7831.496,
+  "implementation": "官方 BertForTokenClassification 微调权重；按原实现以 B/I/E/S 标签中的 E、S 为词尾",
+  "package_version": "sikufenci 0.0.28",
+  "limitations": [
+    "仅 CPU 推理；长文本在 510 个子词处切块，块边界被视为词边界。",
+    "模型面向繁体古籍，本 SQL 语料以简体为主，域与字形均存在偏移。"
+  ],
+  "weights_sha256": "50479a8de02ae47913c63de4a43d3ff104c57199e44fa70c52ee9d3c69ee975a",
+  "batch_size": 8,
+  "block_size": 256,
+  "resumed_from_records": 3584,
+  "elapsed_seconds_scope": "本次进程；若从断点续跑，不含此前进程耗时"
+}

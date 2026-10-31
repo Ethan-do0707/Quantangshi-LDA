@@ -1,0 +1,5 @@
+blind_model_id,AI_blind_rank,AI_blind_judgment,AI_blind_rationale,AI_review_status
+MODEL_A,1,BEST_BLIND_BALANCE,"主题规模较紧凑，CLEAR与BROAD合计10/12，平均文学可解释性最高、宽泛度与混杂度最低，且本轮未判定需再拆分；代价是两个明显残余主题仍存在。",AI_PROVISIONAL
+MODEL_C,2,STRONG_WITH_MIXED_EDGES,"多数主要题域边界可读，语义特异性最高，且仅一个NOISE；但行路社会悲愤、边塞春行与仙山宫苑三个MIXED提示局部欠拆。",AI_PROVISIONAL
+MODEL_D,3,GOOD_CORE_WITH_RESIDUAL_DUPLICATION,"边塞、闺情、江旅、郊庙和宫廷核心主题清晰，CLEAR比例最高；但三个MIXED及两个相近的数字仙道残余主题削弱整体稳定性。",AI_PROVISIONAL
+MODEL_B,4,OVERSEGMENTED_WITH_RESIDUAL_LOAD,"可识别题域数量最多，但MIXED与NOISE合计7/20，四个主题需再拆分，山寺幽居与林泉归隐又出现语义冗余，新增槽位未稳定转化为可用分辨率。",AI_PROVISIONAL

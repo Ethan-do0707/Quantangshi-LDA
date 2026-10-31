@@ -1,0 +1,7 @@
+model_id,tier,selection_role,key_strengths,key_weaknesses,rejection_or_retention_reason
+A_K20,Tier 3 — Rejected models,Rejected as main candidate,词表最宽；Topic Diversity 最高，因此仍位于宽口径 Pareto front。,NPMI、stability 与人工均分最低；60% Topic 为 noise，65% 为 mixed。,低频词过多引入大量残片、人名词和泛词噪声；单项 diversity 优势不足以抵消整体解释质量和稳定性缺陷。
+B_K20,Tier 2 — Useful robustness/control models,Broad-vocabulary control,人工均分最高；三场景均位于前 3；比 C/D 保留更多低频词。,NPMI 与 stability 低于 C/D；noise 与 mixed 比率仍高于 C_K20。,保留为较宽词表对照，可检验 C/D 过滤是否遗漏文学信息，但不作为主模型。
+B_K30,Tier 3 — Rejected models,Rejected as main candidate,相对 B_K20 的 stability 仅小幅上升；高质量 Topic 绝对数由 11 增至 12。,高质量比例下降 15 个百分点；人工均分下降 0.6583；mixed/noise 比率显著上升。,K=30 的新增主题主要体现拆分和噪声，绝对数量增加并未转化为比例质量改善，且被 C_K20、D_K20 Pareto 支配。
+C_K20,Tier 1 — Final candidates,Recommended Primary Model,三场景排名 1/1/2；高质量 Topic 比率最高；mixed 比率最低；noise 比率并列最低；自动指标亦处第一梯队。,NPMI、stability 与 diversity 略低于 D_K20；较 B_K20 少保留约 1.69 万词型。,在统计质量、文学可解释性和词汇保留之间形成最稳健折中，且未表现出 K=30 的过度拆分。
+D_K20,Tier 1 — Final candidates,Recommended Secondary / Robustness Model,mean NPMI 与 stability 均为六模型最高；diversity 第二；noise 比率并列最低；Quantitative-first 排名第一。,高质量 Topic 比率和 mixed 比率不及 C_K20、B_K20；词表最小，可能损失文学低频词。,适合作为严格过滤、统计稳定性优先的稳健性模型，用以验证主模型结论是否依赖较丰富词表。
+D_K30,Tier 3 — Rejected models,Rejected as main candidate,NPMI 仍处较高水平；高质量 Topic 绝对数为 13。,相对 D_K20 的 NPMI、stability、diversity、人工均分与高质量比例均下降，noise 翻倍。,在七项 Pareto 核心指标上被 D_K20 全面支配，K=30 没有带来可辩护的质量增益。

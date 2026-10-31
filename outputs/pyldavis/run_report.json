@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-09-04T19:07:06.883962+08:00",
+  "environment": {
+    "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\ASUS E23688\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+    "pyLDAvis_distribution": "3.4.1",
+    "pyLDAvis_module": "3.4.0",
+    "scikit_learn": "1.9.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "pandas": "2.3.3",
+    "api": "pyLDAvis.prepare",
+    "api_signature": "(topic_term_dists, doc_topic_dists, doc_lengths, vocab, term_frequency, R=30, lambda_step=0.01, mds=<function js_PCoA at 0x0000021DAE0B4A40>, n_jobs=-1, plot_opts=None, sort_topics=True, start_index=1)",
+    "sklearn_helper_checked": "(lda_model, dtm, vectorizer, **kwargs)",
+    "api_reason": "当前 sklearn 便捷接口无条件重复 transform；采用官方矩阵接口直接复用原始 Document×Topic，无需再次推断"
+  },
+  "script_sha256": "6732282f0be022814649365df3fdc9232de60aecba570aed67a0900821f31d7a",
+  "models": [
+    {
+      "model_id": "C_K20",
+      "inputs": {
+        "model": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\model.joblib",
+        "dtm": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\output\\tf_df_sensitivity\\C\\bow_matrix.npz",
+        "vocabulary": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\vocabulary.csv",
+        "corpus_vocabulary": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\output\\tf_df_sensitivity\\C\\vocabulary.csv",
+        "documents": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\document_index.csv",
+        "corpus_documents": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\output\\tf_df_sensitivity\\C\\document_index.csv",
+        "doc_topic": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\document_topic_probabilities.npz",
+        "components": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\topic_word_components.npz",
+        "matrix_metadata": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\matrix_metadata.json",
+        "artifact_manifest": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\artifact_manifest.json",
+        "corpus_metadata": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\output\\tf_df_sensitivity\\C\\corpus_metadata.json",
+        "top_words": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\topics_top30.csv"
+      },
+      "shapes": {
+        "lda_components": [
+          20,
+          35063
+        ],
+        "dtm": [
+          43015,
+          35063
+        ],
+        "vocabulary_terms": 35063,
+        "document_topic": [
+          43015,
+          20
+        ]
+      },
+      "input_sha256": {
+        "model": "4b23ee5661afa3127fd52f4938ca166446a9c0903cf8706c0985c964446d6d6f",
+        "dtm": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0",
+        "vocabulary": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084",
+        "corpus_vocabulary": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084",
+        "documents": "2b316c921d8da8d4b5ed533b34839ae323693a2ec02f9300e2065192f0e32bbb",
+        "corpus_documents": "2b316c921d8da8d4b5ed533b34839ae323693a2ec02f9300e2065192f0e32bbb",
+        "doc_topic": "b6f71b9e450873abedd2a9970b2a1aeea5a83a2c1858b84aeff7e293d9f4a966",
+        "components": "ed9d099ad35ce8759651aeac8977c744528e9751bcf0cc301b5def035be10201",
+        "matrix_metadata": "e67f5b91940a6286516e1458b74744ca8b8594a4ca3bfbd05a453dadf353211d",
+        "artifact_manifest": "7b1975efdf380d4e28b64e503325b45fde6356e6c01d70296483bcaf9570a4df",
+        "corpus_metadata": "26d9749caf638b11c39dc5769e9085cf9619adf6ac0f1506c19d0aada87a4a57",
+        "top_words": "5a08b732b78f88be627418f044d4ec9880f47f7651d9d3cf151e73f488a24571"
+      },
+      "shape_match": true,
+      "source_alignment_verified": true,
+      "selected_seed": 2026,
+      "vocabulary_interface": "SavedVocabulary：原始 CSV 的只读接口，无 CountVectorizer 拟合",
+      "documents": 43015,
+      "vocabulary_size": 35063,
+      "topics": 20,
+      "excluded_empty_documents_in_original_training": 15,
+      "topic_order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "topic_ids_verified": true,
+      "sort_topics": false,
+      "start_index": 1,
+      "R": 30,
+      "lambda_step": 0.01,
+      "doc_topic_source": "原始 document_topic_probabilities.npz",
+      "prevalence_definition": "sum_d(theta[d,k] * 原始DTM行词次[d]) / 全部词次",
+      "offline_assets_sha256": {
+        "d3": "5dbe924b3847df010f0b8572dd6ef42ea87d6370eeff72b13ea236247412a53c",
+        "ldavis": "889e4d5ea24cbad86aadbb7516c6b0abe6b95c5748c0f97444d6d3c86a7e8748",
+        "css": "b34d00f7d94397b8fa3a3a16e2c71f6d1fcae4f09a2c44e23d852f9166113350"
+      },
+      "html": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\pyldavis\\pyLDAvis_C_K20.html",
+      "html_sha256": "1ff5d09fedcd7cea04cb1cc7432337b188b5b74f6e40410ba8949df4e0b52373",
+      "offline_self_contained": true,
+      "status": "成功",
+      "source_inputs_unchanged": true
+    },
+    {
+      "model_id": "B_K20",
+      "inputs": {
+        "model": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\model.joblib",
+        "dtm": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\output\\tf_df_sensitivity\\B\\bow_matrix.npz",
+        "vocabulary": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\vocabulary.csv",
+        "corpus_vocabulary": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\output\\tf_df_sensitivity\\B\\vocabulary.csv",
+        "documents": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\document_index.csv",
+        "corpus_documents": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\output\\tf_df_sensitivity\\B\\document_index.csv",
+        "doc_topic": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\document_topic_probabilities.npz",
+        "components": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\topic_word_components.npz",
+        "matrix_metadata": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\matrix_metadata.json",
+        "artifact_manifest": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\artifact_manifest.json",
+        "corpus_metadata": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\output\\tf_df_sensitivity\\B\\corpus_metadata.json",
+        "top_words": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\topics_top30.csv"
+      },
+      "shapes": {
+        "lda_components": [
+          20,
+          51982
+        ],
+        "dtm": [
+          43016,
+          51982
+        ],
+        "vocabulary_terms": 51982,
+        "document_topic": [
+          43016,
+          20
+        ]
+      },
+      "input_sha256": {
+        "model": "d0907b37d5da7cb36e3487851627dbd9f159205050dd09ff164c3e2a8f54463a",
+        "dtm": "fe851ca705d49a232584efc4f58210457d2f2f1aa706c5d5b65970dee0b56ad3",
+        "vocabulary": "92b4fec4f6627bf6112e8ca2713f76d21e33f768796c45308a1d51854b5804e4",
+        "corpus_vocabulary": "92b4fec4f6627bf6112e8ca2713f76d21e33f768796c45308a1d51854b5804e4",
+        "documents": "583e18420126f12b1c63d4659913b6e43f9c109fbfa745e7c6ce3216a6345345",
+        "corpus_documents": "583e18420126f12b1c63d4659913b6e43f9c109fbfa745e7c6ce3216a6345345",
+        "doc_topic": "3c8f5a079bac9c9c2ec225d8ce5b21f1127f45d12cee903f537f6d3c32516a34",
+        "components": "a6957ed431189823fa533cabdcfc755eca84758b535f0e8c12335e1903c25392",
+        "matrix_metadata": "a1dc865228f0e76d12bf7994de7a1d7931d27f12344a5b3fbf5393f97c9c8b64",
+        "artifact_manifest": "a656c797e02eab4db04c1a679f4bf409da397bb53aa36bc295bcbd4fa9997762",
+        "corpus_metadata": "0a84b700ca2791a39ad945156aa3233cb12a68ae6a3f4e5d9e03d48de9229452",
+        "top_words": "82b88a39212838e9a62a4e976caad50338c799b2ee0fa171e1a23ef1027481c4"
+      },
+      "shape_match": true,
+      "source_alignment_verified": true,
+      "selected_seed": 20260830,
+      "vocabulary_interface": "SavedVocabulary：原始 CSV 的只读接口，无 CountVectorizer 拟合",
+      "documents": 43016,
+      "vocabulary_size": 51982,
+      "topics": 20,
+      "excluded_empty_documents_in_original_training": 14,
+      "topic_order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "topic_ids_verified": true,
+      "sort_topics": false,
+      "start_index": 1,
+      "R": 30,
+      "lambda_step": 0.01,
+      "doc_topic_source": "原始 document_topic_probabilities.npz",
+      "prevalence_definition": "sum_d(theta[d,k] * 原始DTM行词次[d]) / 全部词次",
+      "offline_assets_sha256": {
+        "d3": "5dbe924b3847df010f0b8572dd6ef42ea87d6370eeff72b13ea236247412a53c",
+        "ldavis": "889e4d5ea24cbad86aadbb7516c6b0abe6b95c5748c0f97444d6d3c86a7e8748",
+        "css": "b34d00f7d94397b8fa3a3a16e2c71f6d1fcae4f09a2c44e23d852f9166113350"
+      },
+      "html": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\pyldavis\\pyLDAvis_B_K20.html",
+      "html_sha256": "2522b6937f608e1e57d941edb226366d40b12a44b4e901825fdcb435777a76f5",
+      "offline_self_contained": true,
+      "status": "成功",
+      "source_inputs_unchanged": true
+    },
+    {
+      "model_id": "D_K20",
+      "inputs": {
+        "model": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\model.joblib",
+        "dtm": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\output\\tf_df_sensitivity\\D\\bow_matrix.npz",
+        "vocabulary": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\vocabulary.csv",
+        "corpus_vocabulary": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\output\\tf_df_sensitivity\\D\\vocabulary.csv",
+        "documents": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\document_index.csv",
+        "corpus_documents": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\output\\tf_df_sensitivity\\D\\document_index.csv",
+        "doc_topic": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\document_topic_probabilities.npz",
+        "components": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\topic_word_components.npz",
+        "matrix_metadata": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\matrix_metadata.json",
+        "artifact_manifest": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\artifact_manifest.json",
+        "corpus_metadata": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\output\\tf_df_sensitivity\\D\\corpus_metadata.json",
+        "top_words": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\topics_top30.csv"
+      },
+      "shapes": {
+        "lda_components": [
+          20,
+          23123
+        ],
+        "dtm": [
+          43014,
+          23123
+        ],
+        "vocabulary_terms": 23123,
+        "document_topic": [
+          43014,
+          20
+        ]
+      },
+      "input_sha256": {
+        "model": "7100c135964812ad224cfffbb20c869094be5961be3236cc315619a4b5ff0e95",
+        "dtm": "4724efc9b40146f4cbb3f723af3262dfc0ae7d4902b1233354d93bc44a6b0629",
+        "vocabulary": "1d99b4dd436a00fd6b9378dff3ca55b20e4a6ccded44d47aafd06ba09638b548",
+        "corpus_vocabulary": "1d99b4dd436a00fd6b9378dff3ca55b20e4a6ccded44d47aafd06ba09638b548",
+        "documents": "8b96c69052ee223a7cd07ec6632775eedee3f673569ec5dacd9e952c83ba5c19",
+        "corpus_documents": "8b96c69052ee223a7cd07ec6632775eedee3f673569ec5dacd9e952c83ba5c19",
+        "doc_topic": "061333b8d2247c9719cc8c2f46ede49fd4c2002c4d15ec9ac289a1a63820db40",
+        "components": "82b50af0d5bb68445e587e30b75bf9688478ab80bbd2cb47bb2a217f410a9a0f",
+        "matrix_metadata": "2c6df8d727c1f3a585419abfb424a544c22bec4147bc79cd57dc5748fa33a92a",
+        "artifact_manifest": "e996b299824e73fd0e817db0b840ef607bcf9ec3e1b467afdc764af921894ec0",
+        "corpus_metadata": "10d7b412781ce7577925911f822db42d8609b4ec89e0db09f18b23a4ee89c8bb",
+        "top_words": "950061b9a6efc60f467fe1831ebb229d6f3011d04d385fb6a66632149a588fbe"
+      },
+      "shape_match": true,
+      "source_alignment_verified": true,
+      "selected_seed": 42,
+      "vocabulary_interface": "SavedVocabulary：原始 CSV 的只读接口，无 CountVectorizer 拟合",
+      "documents": 43014,
+      "vocabulary_size": 23123,
+      "topics": 20,
+      "excluded_empty_documents_in_original_training": 16,
+      "topic_order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "topic_ids_verified": true,
+      "sort_topics": false,
+      "start_index": 1,
+      "R": 30,
+      "lambda_step": 0.01,
+      "doc_topic_source": "原始 document_topic_probabilities.npz",
+      "prevalence_definition": "sum_d(theta[d,k] * 原始DTM行词次[d]) / 全部词次",
+      "offline_assets_sha256": {
+        "d3": "5dbe924b3847df010f0b8572dd6ef42ea87d6370eeff72b13ea236247412a53c",
+        "ldavis": "889e4d5ea24cbad86aadbb7516c6b0abe6b95c5748c0f97444d6d3c86a7e8748",
+        "css": "b34d00f7d94397b8fa3a3a16e2c71f6d1fcae4f09a2c44e23d852f9166113350"
+      },
+      "html": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\pyldavis\\pyLDAvis_D_K20.html",
+      "html_sha256": "e6b45da302be0e55e523e0ae668537de2cef57314984e49024fe84559c82b06d",
+      "offline_self_contained": true,
+      "status": "成功",
+      "source_inputs_unchanged": true
+    }
+  ]
+}

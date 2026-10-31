@@ -1,0 +1,15 @@
+{
+  "method": "bert_ancient",
+  "source": "https://github.com/Jihuai-wpy/bert-ancient-chinese",
+  "record_count": 43030,
+  "elapsed_seconds": 56.895,
+  "implementation": "Jihuai/bert-ancient-chinese 官方 AutoTokenizer 的 WordPiece 边界；[UNK] 位置以原文片段保存",
+  "package_version": "transformers 4.57.6",
+  "limitations": [
+    "官方仓库仅发布预训练 Fill-Mask 模型，没有发布可直接推理的 CWS 任务头。",
+    "这一路是子词切分基线，不应解释为经过微调的古汉语词法分词。"
+  ],
+  "vocabulary_size": 38208,
+  "model_token_count": 3050731,
+  "unknown_token_count": 9877
+}

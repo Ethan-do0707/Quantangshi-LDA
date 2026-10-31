@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "target": "dictionary",
+  "generated_at": "2026-09-01T06:27:09.556Z",
+  "output": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\docs\\historical_metadata_data_dictionary.xlsx",
+  "sheets": [
+    "Fields",
+    "Period_Scheme",
+    "Provenance_Notes"
+  ],
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "inspected_range": "{\"kind\":\"table\",\"sheet\":\"Fields\",\"address\":\"A1:J15\",\"rows\":15,\"cols\":10,\"values\":[[\"field_name\",\"Chinese description\",\"English description\",\"data_type\",\"allowed_values\",\"source\",\"derived_or_original\",\"derivation_method\",\"confidence_field\",\"notes\"],[\"author_id_internal\",\"稳定内部作者 ID\",\"Stable internal author identifier\",\"string\",null,\"PIPELINE\",\"DERIVED\",\"SHA-256(author_raw) 前12位\",null,null],[\"author_raw\",\"母表原始作者值\",\"Original author value from the master dataset\",\"string\",null,\"C_K20 master\",\"ORIGINAL\",\"原样保留\",null,null],[\"author_normalized\",\"保守规范化作者名\",\"Conservatively normalized author name\",\"string\",null,\"PIPELINE\",\"DERIVED\",\"NFKC、首尾空格与技术控制字符清理；不覆盖简繁\",null,null],[\"author_display_name\",\"author_display_name 字段（详见方法文档）\",\"author display name\",\"string\",null,\"PIPELINE\",\"DERIVED\",\"由相应审计表或主表规则生成\",null,null],[\"author_status\",\"作者身份状态\",\"Author identity status\",\"category\",\"NAMED|ANONYMOUS|UNCERTAIN|COMPOSITE|TEXTUAL_DUPLICATE\",\"PIPELINE\",\"DERIVED\",\"规则分类\",null,null],[\"poem_count\",\"poem_count 字段（详见方法文档）\",\"poem count\",\"integer\",null,\"PIPELINE\",\"DERIVED\",\"由相应审计表或主表规则生成\",null,null],[\"cbdb_person_id\",\"CBDB 人物 ID\",\"Selected CBDB person identifier\",\"identifier\",null,\"CBDB\",\"DERIVED\",\"只有安全选中或 APPROVED 人工映射才填写\",\"cbdb_match_confidence\",null],[\"cbdb_name\",\"cbdb_name 字段（详见方法文档）\",\"cbdb name\",\"string\",null,\"PIPELINE\",\"DERIVED\",\"由相应审计表或主表规则生成\",\"cbdb_match_confidence\",null],[\"cbdb_dynasty\",\"cbdb_dynasty 字段（详见方法文档）\",\"cbdb dynasty\",\"string\",null,\"PIPELINE\",\"DERIVED\",\"由相应审计表或主表规则生成\",\"cbdb_match_confidence\",null],[\"cbdb_match_status\",\"CBDB 匹配状态\",\"CBDB resolution status\",\"category\",\"MATCHED|AMBIGUOUS|CBDB_NOT_FOUND|DYNASTY_CONFLICT|NOT_ELIGIBLE\",\"CBDB\",\"DERIVED\",\"候选解析\",\"cbdb_match_confidence\",null],[\"cbdb_match_confidence\",\"CBDB 身份匹配置信度\",\"CBDB identity-match confidence\",\"category\",\"HIGH|MEDIUM|LOW|UNRESOLVED\",\"CBDB\",\"DERIVED\",\"保守候选规则\",\"cbdb_match_confidence\",null],[\"author_birth_year\",\"CBDB 生年锚点\",\"CBDB birth-year anchor\",\"integer\",null,\"CBDB\",\"DERIVED\",\"不把 index year 或 floruit 当生年\",\"cbdb_match_confidence\",null],[\"author_birth_year_min\",\"author_birth_year_min 字段（详见方法文档）\",\"author birth year min\",\"integer\",null,\"PIPELINE\",\"DERIVED\",\"由相应审计表或主表规则生成\",null,null],[\"author_birth_year_max\",\"author_birth_year_max 字段（详见方法文档）\",\"author birth year max\",\"integer\",null,\"PIPELINE\",\"DERIVED\",\"由相应审计表或主表规则生成\",null,null]]}",
+  "previews": [
+    "author_Author_Metadata.png",
+    "author_Build_QC.png",
+    "author_Method_Notes.png",
+    "author_Period_Coverage.png",
+    "dictionary_Fields.png",
+    "dictionary_Period_Scheme.png",
+    "dictionary_Provenance_Notes.png",
+    "review_Candidate_Audit.png",
+    "review_Instructions.png",
+    "review_Review_Queue.png",
+    "source_Data_A_N.png"
+  ]
+}

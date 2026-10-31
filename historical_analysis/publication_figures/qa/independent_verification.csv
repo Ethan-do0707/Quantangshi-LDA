@@ -1,0 +1,2624 @@
+﻿check,status,detail
+81个格式化图文件,PASS,
+27个逐图底表,PASS,
+Figure_01a_T03_plot_data/2/mean_topic_probability,PASS,0.159758284266007 vs np.float64(0.159758284266007)
+Figure_01a_T03_plot_data/2/topic_id,PASS,
+Figure_01a_T03_plot_data/2/period,PASS,
+Figure_01a_T03_plot_data/2/aggregation,PASS,
+Figure_01a_T03_plot_data/2/CI/ci_2_5,PASS,0.100094667324857 vs np.float64(0.100094667324857)
+Figure_01a_T03_plot_data/2/CI/ci_97_5,PASS,0.222601971076638 vs np.float64(0.222601971076638)
+Figure_01a_T03_plot_data/3/mean_topic_probability,PASS,0.0939675683689781 vs np.float64(0.0939675683689781)
+Figure_01a_T03_plot_data/3/topic_id,PASS,
+Figure_01a_T03_plot_data/3/period,PASS,
+Figure_01a_T03_plot_data/3/aggregation,PASS,
+Figure_01a_T03_plot_data/3/CI/ci_2_5,PASS,0.0543547492843412 vs np.float64(0.0543547492843412)
+Figure_01a_T03_plot_data/3/CI/ci_97_5,PASS,0.136387994699635 vs np.float64(0.136387994699635)
+Figure_01a_T03_plot_data/4/mean_topic_probability,PASS,0.099814177203193 vs np.float64(0.099814177203193)
+Figure_01a_T03_plot_data/4/topic_id,PASS,
+Figure_01a_T03_plot_data/4/period,PASS,
+Figure_01a_T03_plot_data/4/aggregation,PASS,
+Figure_01a_T03_plot_data/4/CI/ci_2_5,PASS,0.0697938681431054 vs np.float64(0.0697938681431054)
+Figure_01a_T03_plot_data/4/CI/ci_97_5,PASS,0.131761028760817 vs np.float64(0.131761028760817)
+Figure_01a_T03_plot_data/5/mean_topic_probability,PASS,0.0346253523093932 vs np.float64(0.0346253523093932)
+Figure_01a_T03_plot_data/5/topic_id,PASS,
+Figure_01a_T03_plot_data/5/period,PASS,
+Figure_01a_T03_plot_data/5/aggregation,PASS,
+Figure_01a_T03_plot_data/5/CI/ci_2_5,PASS,0.0149439781641417 vs np.float64(0.0149439781641417)
+Figure_01a_T03_plot_data/5/CI/ci_97_5,PASS,0.0617947394986734 vs np.float64(0.0617947394986734)
+Figure_01a_T03_plot_data/6/mean_topic_probability,PASS,0.113394593537534 vs np.float64(0.113394593537534)
+Figure_01a_T03_plot_data/6/topic_id,PASS,
+Figure_01a_T03_plot_data/6/period,PASS,
+Figure_01a_T03_plot_data/6/aggregation,PASS,
+Figure_01a_T03_plot_data/6/CI/ci_2_5,PASS,0.0852629403972315 vs np.float64(0.0852629403972315)
+Figure_01a_T03_plot_data/6/CI/ci_97_5,PASS,0.161152596856162 vs np.float64(0.161152596856162)
+Figure_01a_T03_plot_data/7/mean_topic_probability,PASS,0.0388336258874024 vs np.float64(0.0388336258874024)
+Figure_01a_T03_plot_data/7/topic_id,PASS,
+Figure_01a_T03_plot_data/7/period,PASS,
+Figure_01a_T03_plot_data/7/aggregation,PASS,
+Figure_01a_T03_plot_data/7/CI/ci_2_5,PASS,0.0291015232989608 vs np.float64(0.0291015232989608)
+Figure_01a_T03_plot_data/7/CI/ci_97_5,PASS,0.0724583069964227 vs np.float64(0.0724583069964227)
+Figure_01a_T03_plot_data/8/mean_topic_probability,PASS,0.04234701140095 vs np.float64(0.04234701140095)
+Figure_01a_T03_plot_data/8/topic_id,PASS,
+Figure_01a_T03_plot_data/8/period,PASS,
+Figure_01a_T03_plot_data/8/aggregation,PASS,
+Figure_01a_T03_plot_data/8/CI/ci_2_5,PASS,0.0328018254170456 vs np.float64(0.0328018254170456)
+Figure_01a_T03_plot_data/8/CI/ci_97_5,PASS,0.055305608719782 vs np.float64(0.055305608719782)
+Figure_01a_T03_plot_data/9/mean_topic_probability,PASS,0.018925417416628 vs np.float64(0.018925417416628)
+Figure_01a_T03_plot_data/9/topic_id,PASS,
+Figure_01a_T03_plot_data/9/period,PASS,
+Figure_01a_T03_plot_data/9/aggregation,PASS,
+Figure_01a_T03_plot_data/9/CI/ci_2_5,PASS,0.0138587129964301 vs np.float64(0.0138587129964301)
+Figure_01a_T03_plot_data/9/CI/ci_97_5,PASS,0.0249123125373789 vs np.float64(0.0249123125373789)
+data\Figure_01a_T03_plot_data.csv/manifest行数,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/2/mean_topic_probability,PASS,0.159758284266007 vs np.float64(0.159758284266007)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/2/topic_id,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/2/period,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/2/aggregation,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/2/CI/ci_2_5,PASS,0.100094667324857 vs np.float64(0.100094667324857)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/2/CI/ci_97_5,PASS,0.222601971076638 vs np.float64(0.222601971076638)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/3/mean_topic_probability,PASS,0.0939675683689781 vs np.float64(0.0939675683689781)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/3/topic_id,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/3/period,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/3/aggregation,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/3/CI/ci_2_5,PASS,0.0543547492843412 vs np.float64(0.0543547492843412)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/3/CI/ci_97_5,PASS,0.136387994699635 vs np.float64(0.136387994699635)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/4/mean_topic_probability,PASS,0.099814177203193 vs np.float64(0.099814177203193)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/4/topic_id,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/4/period,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/4/aggregation,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/4/CI/ci_2_5,PASS,0.0697938681431054 vs np.float64(0.0697938681431054)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/4/CI/ci_97_5,PASS,0.131761028760817 vs np.float64(0.131761028760817)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/5/mean_topic_probability,PASS,0.0346253523093932 vs np.float64(0.0346253523093932)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/5/topic_id,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/5/period,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/5/aggregation,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/5/CI/ci_2_5,PASS,0.0149439781641417 vs np.float64(0.0149439781641417)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/5/CI/ci_97_5,PASS,0.0617947394986734 vs np.float64(0.0617947394986734)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/6/mean_topic_probability,PASS,0.113394593537534 vs np.float64(0.113394593537534)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/6/topic_id,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/6/period,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/6/aggregation,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/6/CI/ci_2_5,PASS,0.0852629403972315 vs np.float64(0.0852629403972315)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/6/CI/ci_97_5,PASS,0.161152596856162 vs np.float64(0.161152596856162)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/7/mean_topic_probability,PASS,0.0388336258874024 vs np.float64(0.0388336258874024)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/7/topic_id,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/7/period,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/7/aggregation,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/7/CI/ci_2_5,PASS,0.0291015232989608 vs np.float64(0.0291015232989608)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/7/CI/ci_97_5,PASS,0.0724583069964227 vs np.float64(0.0724583069964227)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/8/mean_topic_probability,PASS,0.04234701140095 vs np.float64(0.04234701140095)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/8/topic_id,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/8/period,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/8/aggregation,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/8/CI/ci_2_5,PASS,0.0328018254170456 vs np.float64(0.0328018254170456)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/8/CI/ci_97_5,PASS,0.055305608719782 vs np.float64(0.055305608719782)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/9/mean_topic_probability,PASS,0.018925417416628 vs np.float64(0.018925417416628)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/9/topic_id,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/9/period,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/9/aggregation,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/9/CI/ci_2_5,PASS,0.0138587129964301 vs np.float64(0.0138587129964301)
+Figure_02_T03_Ritual_Court_Praise_Trend_plot_data/9/CI/ci_97_5,PASS,0.0249123125373789 vs np.float64(0.0249123125373789)
+data\Figure_02_T03_Ritual_Court_Praise_Trend_plot_data.csv/manifest行数,PASS,
+Figure_01b_T06_plot_data/2/mean_topic_probability,PASS,0.040617983399141 vs np.float64(0.040617983399141)
+Figure_01b_T06_plot_data/2/topic_id,PASS,
+Figure_01b_T06_plot_data/2/period,PASS,
+Figure_01b_T06_plot_data/2/aggregation,PASS,
+Figure_01b_T06_plot_data/2/CI/ci_2_5,PASS,0.00973751361429176 vs np.float64(0.00973751361429176)
+Figure_01b_T06_plot_data/2/CI/ci_97_5,PASS,0.0897692682688673 vs np.float64(0.0897692682688673)
+Figure_01b_T06_plot_data/3/mean_topic_probability,PASS,0.0501713904072727 vs np.float64(0.0501713904072727)
+Figure_01b_T06_plot_data/3/topic_id,PASS,
+Figure_01b_T06_plot_data/3/period,PASS,
+Figure_01b_T06_plot_data/3/aggregation,PASS,
+Figure_01b_T06_plot_data/3/CI/ci_2_5,PASS,0.0180521157264967 vs np.float64(0.0180521157264967)
+Figure_01b_T06_plot_data/3/CI/ci_97_5,PASS,0.090038325186941 vs np.float64(0.090038325186941)
+Figure_01b_T06_plot_data/4/mean_topic_probability,PASS,0.0687932686747219 vs np.float64(0.0687932686747219)
+Figure_01b_T06_plot_data/4/topic_id,PASS,
+Figure_01b_T06_plot_data/4/period,PASS,
+Figure_01b_T06_plot_data/4/aggregation,PASS,
+Figure_01b_T06_plot_data/4/CI/ci_2_5,PASS,0.0436363306000033 vs np.float64(0.0436363306000033)
+Figure_01b_T06_plot_data/4/CI/ci_97_5,PASS,0.0982109722176693 vs np.float64(0.0982109722176693)
+Figure_01b_T06_plot_data/5/mean_topic_probability,PASS,0.110851967755065 vs np.float64(0.110851967755065)
+Figure_01b_T06_plot_data/5/topic_id,PASS,
+Figure_01b_T06_plot_data/5/period,PASS,
+Figure_01b_T06_plot_data/5/aggregation,PASS,
+Figure_01b_T06_plot_data/5/CI/ci_2_5,PASS,0.0693238102310764 vs np.float64(0.0693238102310764)
+Figure_01b_T06_plot_data/5/CI/ci_97_5,PASS,0.160677749720045 vs np.float64(0.160677749720045)
+Figure_01b_T06_plot_data/6/mean_topic_probability,PASS,0.0157701575736903 vs np.float64(0.0157701575736903)
+Figure_01b_T06_plot_data/6/topic_id,PASS,
+Figure_01b_T06_plot_data/6/period,PASS,
+Figure_01b_T06_plot_data/6/aggregation,PASS,
+Figure_01b_T06_plot_data/6/CI/ci_2_5,PASS,0.0102703971249665 vs np.float64(0.0102703971249665)
+Figure_01b_T06_plot_data/6/CI/ci_97_5,PASS,0.0210948950713357 vs np.float64(0.0210948950713357)
+Figure_01b_T06_plot_data/7/mean_topic_probability,PASS,0.0482428416938123 vs np.float64(0.0482428416938123)
+Figure_01b_T06_plot_data/7/topic_id,PASS,
+Figure_01b_T06_plot_data/7/period,PASS,
+Figure_01b_T06_plot_data/7/aggregation,PASS,
+Figure_01b_T06_plot_data/7/CI/ci_2_5,PASS,0.0278609882037592 vs np.float64(0.0278609882037592)
+Figure_01b_T06_plot_data/7/CI/ci_97_5,PASS,0.0666650091379745 vs np.float64(0.0666650091379745)
+Figure_01b_T06_plot_data/8/mean_topic_probability,PASS,0.0763359751315787 vs np.float64(0.0763359751315787)
+Figure_01b_T06_plot_data/8/topic_id,PASS,
+Figure_01b_T06_plot_data/8/period,PASS,
+Figure_01b_T06_plot_data/8/aggregation,PASS,
+Figure_01b_T06_plot_data/8/CI/ci_2_5,PASS,0.0534038886358757 vs np.float64(0.0534038886358757)
+Figure_01b_T06_plot_data/8/CI/ci_97_5,PASS,0.0971282812155021 vs np.float64(0.0971282812155021)
+Figure_01b_T06_plot_data/9/mean_topic_probability,PASS,0.10940246007669 vs np.float64(0.10940246007669)
+Figure_01b_T06_plot_data/9/topic_id,PASS,
+Figure_01b_T06_plot_data/9/period,PASS,
+Figure_01b_T06_plot_data/9/aggregation,PASS,
+Figure_01b_T06_plot_data/9/CI/ci_2_5,PASS,0.0706171556107828 vs np.float64(0.0706171556107828)
+Figure_01b_T06_plot_data/9/CI/ci_97_5,PASS,0.15728729375188 vs np.float64(0.15728729375188)
+data\Figure_01b_T06_plot_data.csv/manifest行数,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/2/mean_topic_probability,PASS,0.040617983399141 vs np.float64(0.040617983399141)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/2/topic_id,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/2/period,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/2/aggregation,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/2/CI/ci_2_5,PASS,0.00973751361429176 vs np.float64(0.00973751361429176)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/2/CI/ci_97_5,PASS,0.0897692682688673 vs np.float64(0.0897692682688673)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/3/mean_topic_probability,PASS,0.0501713904072727 vs np.float64(0.0501713904072727)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/3/topic_id,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/3/period,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/3/aggregation,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/3/CI/ci_2_5,PASS,0.0180521157264967 vs np.float64(0.0180521157264967)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/3/CI/ci_97_5,PASS,0.090038325186941 vs np.float64(0.090038325186941)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/4/mean_topic_probability,PASS,0.0687932686747219 vs np.float64(0.0687932686747219)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/4/topic_id,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/4/period,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/4/aggregation,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/4/CI/ci_2_5,PASS,0.0436363306000033 vs np.float64(0.0436363306000033)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/4/CI/ci_97_5,PASS,0.0982109722176693 vs np.float64(0.0982109722176693)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/5/mean_topic_probability,PASS,0.110851967755065 vs np.float64(0.110851967755065)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/5/topic_id,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/5/period,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/5/aggregation,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/5/CI/ci_2_5,PASS,0.0693238102310764 vs np.float64(0.0693238102310764)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/5/CI/ci_97_5,PASS,0.160677749720045 vs np.float64(0.160677749720045)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/6/mean_topic_probability,PASS,0.0157701575736903 vs np.float64(0.0157701575736903)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/6/topic_id,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/6/period,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/6/aggregation,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/6/CI/ci_2_5,PASS,0.0102703971249665 vs np.float64(0.0102703971249665)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/6/CI/ci_97_5,PASS,0.0210948950713357 vs np.float64(0.0210948950713357)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/7/mean_topic_probability,PASS,0.0482428416938123 vs np.float64(0.0482428416938123)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/7/topic_id,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/7/period,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/7/aggregation,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/7/CI/ci_2_5,PASS,0.0278609882037592 vs np.float64(0.0278609882037592)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/7/CI/ci_97_5,PASS,0.0666650091379745 vs np.float64(0.0666650091379745)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/8/mean_topic_probability,PASS,0.0763359751315787 vs np.float64(0.0763359751315787)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/8/topic_id,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/8/period,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/8/aggregation,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/8/CI/ci_2_5,PASS,0.0534038886358757 vs np.float64(0.0534038886358757)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/8/CI/ci_97_5,PASS,0.0971282812155021 vs np.float64(0.0971282812155021)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/9/mean_topic_probability,PASS,0.10940246007669 vs np.float64(0.10940246007669)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/9/topic_id,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/9/period,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/9/aggregation,PASS,
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/9/CI/ci_2_5,PASS,0.0706171556107828 vs np.float64(0.0706171556107828)
+Figure_03_T06_Life_Career_Aging_Trend_plot_data/9/CI/ci_97_5,PASS,0.15728729375188 vs np.float64(0.15728729375188)
+data\Figure_03_T06_Life_Career_Aging_Trend_plot_data.csv/manifest行数,PASS,
+Figure_01c_T08_plot_data/2/mean_topic_probability,PASS,0.0229394335157206 vs np.float64(0.0229394335157206)
+Figure_01c_T08_plot_data/2/topic_id,PASS,
+Figure_01c_T08_plot_data/2/period,PASS,
+Figure_01c_T08_plot_data/2/aggregation,PASS,
+Figure_01c_T08_plot_data/2/CI/ci_2_5,PASS,0.0127078632631367 vs np.float64(0.0127078632631367)
+Figure_01c_T08_plot_data/2/CI/ci_97_5,PASS,0.0357412067598532 vs np.float64(0.0357412067598532)
+Figure_01c_T08_plot_data/3/mean_topic_probability,PASS,0.0362256728887752 vs np.float64(0.0362256728887752)
+Figure_01c_T08_plot_data/3/topic_id,PASS,
+Figure_01c_T08_plot_data/3/period,PASS,
+Figure_01c_T08_plot_data/3/aggregation,PASS,
+Figure_01c_T08_plot_data/3/CI/ci_2_5,PASS,0.0160015158301324 vs np.float64(0.0160015158301324)
+Figure_01c_T08_plot_data/3/CI/ci_97_5,PASS,0.0669656599841926 vs np.float64(0.0669656599841926)
+Figure_01c_T08_plot_data/4/mean_topic_probability,PASS,0.0497627498839131 vs np.float64(0.0497627498839131)
+Figure_01c_T08_plot_data/4/topic_id,PASS,
+Figure_01c_T08_plot_data/4/period,PASS,
+Figure_01c_T08_plot_data/4/aggregation,PASS,
+Figure_01c_T08_plot_data/4/CI/ci_2_5,PASS,0.035209402012265 vs np.float64(0.035209402012265)
+Figure_01c_T08_plot_data/4/CI/ci_97_5,PASS,0.0664626996658484 vs np.float64(0.0664626996658484)
+Figure_01c_T08_plot_data/5/mean_topic_probability,PASS,0.064198285745158 vs np.float64(0.064198285745158)
+Figure_01c_T08_plot_data/5/topic_id,PASS,
+Figure_01c_T08_plot_data/5/period,PASS,
+Figure_01c_T08_plot_data/5/aggregation,PASS,
+Figure_01c_T08_plot_data/5/CI/ci_2_5,PASS,0.0381998412603397 vs np.float64(0.0381998412603397)
+Figure_01c_T08_plot_data/5/CI/ci_97_5,PASS,0.0947087802768027 vs np.float64(0.0947087802768027)
+Figure_01c_T08_plot_data/6/mean_topic_probability,PASS,0.0291273847048434 vs np.float64(0.0291273847048434)
+Figure_01c_T08_plot_data/6/topic_id,PASS,
+Figure_01c_T08_plot_data/6/period,PASS,
+Figure_01c_T08_plot_data/6/aggregation,PASS,
+Figure_01c_T08_plot_data/6/CI/ci_2_5,PASS,0.0190782206553954 vs np.float64(0.0190782206553954)
+Figure_01c_T08_plot_data/6/CI/ci_97_5,PASS,0.0347620506026654 vs np.float64(0.0347620506026654)
+Figure_01c_T08_plot_data/7/mean_topic_probability,PASS,0.0338804526491741 vs np.float64(0.0338804526491741)
+Figure_01c_T08_plot_data/7/topic_id,PASS,
+Figure_01c_T08_plot_data/7/period,PASS,
+Figure_01c_T08_plot_data/7/aggregation,PASS,
+Figure_01c_T08_plot_data/7/CI/ci_2_5,PASS,0.022699265524895 vs np.float64(0.022699265524895)
+Figure_01c_T08_plot_data/7/CI/ci_97_5,PASS,0.0443769386620669 vs np.float64(0.0443769386620669)
+Figure_01c_T08_plot_data/8/mean_topic_probability,PASS,0.0703867452303148 vs np.float64(0.0703867452303148)
+Figure_01c_T08_plot_data/8/topic_id,PASS,
+Figure_01c_T08_plot_data/8/period,PASS,
+Figure_01c_T08_plot_data/8/aggregation,PASS,
+Figure_01c_T08_plot_data/8/CI/ci_2_5,PASS,0.0557791887533122 vs np.float64(0.0557791887533122)
+Figure_01c_T08_plot_data/8/CI/ci_97_5,PASS,0.088496983967702 vs np.float64(0.088496983967702)
+Figure_01c_T08_plot_data/9/mean_topic_probability,PASS,0.0981198209142472 vs np.float64(0.0981198209142472)
+Figure_01c_T08_plot_data/9/topic_id,PASS,
+Figure_01c_T08_plot_data/9/period,PASS,
+Figure_01c_T08_plot_data/9/aggregation,PASS,
+Figure_01c_T08_plot_data/9/CI/ci_2_5,PASS,0.0713985541469003 vs np.float64(0.0713985541469003)
+Figure_01c_T08_plot_data/9/CI/ci_97_5,PASS,0.122721070458116 vs np.float64(0.122721070458116)
+data\Figure_01c_T08_plot_data.csv/manifest行数,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/2/mean_topic_probability,PASS,0.0229394335157206 vs np.float64(0.0229394335157206)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/2/topic_id,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/2/period,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/2/aggregation,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/2/CI/ci_2_5,PASS,0.0127078632631367 vs np.float64(0.0127078632631367)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/2/CI/ci_97_5,PASS,0.0357412067598532 vs np.float64(0.0357412067598532)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/3/mean_topic_probability,PASS,0.0362256728887752 vs np.float64(0.0362256728887752)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/3/topic_id,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/3/period,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/3/aggregation,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/3/CI/ci_2_5,PASS,0.0160015158301324 vs np.float64(0.0160015158301324)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/3/CI/ci_97_5,PASS,0.0669656599841926 vs np.float64(0.0669656599841926)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/4/mean_topic_probability,PASS,0.0497627498839131 vs np.float64(0.0497627498839131)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/4/topic_id,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/4/period,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/4/aggregation,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/4/CI/ci_2_5,PASS,0.035209402012265 vs np.float64(0.035209402012265)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/4/CI/ci_97_5,PASS,0.0664626996658484 vs np.float64(0.0664626996658484)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/5/mean_topic_probability,PASS,0.064198285745158 vs np.float64(0.064198285745158)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/5/topic_id,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/5/period,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/5/aggregation,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/5/CI/ci_2_5,PASS,0.0381998412603397 vs np.float64(0.0381998412603397)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/5/CI/ci_97_5,PASS,0.0947087802768027 vs np.float64(0.0947087802768027)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/6/mean_topic_probability,PASS,0.0291273847048434 vs np.float64(0.0291273847048434)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/6/topic_id,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/6/period,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/6/aggregation,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/6/CI/ci_2_5,PASS,0.0190782206553954 vs np.float64(0.0190782206553954)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/6/CI/ci_97_5,PASS,0.0347620506026654 vs np.float64(0.0347620506026654)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/7/mean_topic_probability,PASS,0.0338804526491741 vs np.float64(0.0338804526491741)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/7/topic_id,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/7/period,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/7/aggregation,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/7/CI/ci_2_5,PASS,0.022699265524895 vs np.float64(0.022699265524895)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/7/CI/ci_97_5,PASS,0.0443769386620669 vs np.float64(0.0443769386620669)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/8/mean_topic_probability,PASS,0.0703867452303148 vs np.float64(0.0703867452303148)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/8/topic_id,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/8/period,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/8/aggregation,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/8/CI/ci_2_5,PASS,0.0557791887533122 vs np.float64(0.0557791887533122)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/8/CI/ci_97_5,PASS,0.088496983967702 vs np.float64(0.088496983967702)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/9/mean_topic_probability,PASS,0.0981198209142472 vs np.float64(0.0981198209142472)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/9/topic_id,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/9/period,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/9/aggregation,PASS,
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/9/CI/ci_2_5,PASS,0.0713985541469003 vs np.float64(0.0713985541469003)
+Figure_04_T08_Temple_Reclusion_Trend_plot_data/9/CI/ci_97_5,PASS,0.122721070458116 vs np.float64(0.122721070458116)
+data\Figure_04_T08_Temple_Reclusion_Trend_plot_data.csv/manifest行数,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/2/mean_topic_probability,PASS,0.159758284266007 vs np.float64(0.159758284266007)
+Figure_01_Core_Robust_Topic_Trends_plot_data/2/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/2/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/2/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/2/CI/ci_2_5,PASS,0.100094667324857 vs np.float64(0.100094667324857)
+Figure_01_Core_Robust_Topic_Trends_plot_data/2/CI/ci_97_5,PASS,0.222601971076638 vs np.float64(0.222601971076638)
+Figure_01_Core_Robust_Topic_Trends_plot_data/3/mean_topic_probability,PASS,0.0939675683689781 vs np.float64(0.0939675683689781)
+Figure_01_Core_Robust_Topic_Trends_plot_data/3/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/3/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/3/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/3/CI/ci_2_5,PASS,0.0543547492843412 vs np.float64(0.0543547492843412)
+Figure_01_Core_Robust_Topic_Trends_plot_data/3/CI/ci_97_5,PASS,0.136387994699635 vs np.float64(0.136387994699635)
+Figure_01_Core_Robust_Topic_Trends_plot_data/4/mean_topic_probability,PASS,0.099814177203193 vs np.float64(0.099814177203193)
+Figure_01_Core_Robust_Topic_Trends_plot_data/4/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/4/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/4/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/4/CI/ci_2_5,PASS,0.0697938681431054 vs np.float64(0.0697938681431054)
+Figure_01_Core_Robust_Topic_Trends_plot_data/4/CI/ci_97_5,PASS,0.131761028760817 vs np.float64(0.131761028760817)
+Figure_01_Core_Robust_Topic_Trends_plot_data/5/mean_topic_probability,PASS,0.0346253523093932 vs np.float64(0.0346253523093932)
+Figure_01_Core_Robust_Topic_Trends_plot_data/5/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/5/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/5/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/5/CI/ci_2_5,PASS,0.0149439781641417 vs np.float64(0.0149439781641417)
+Figure_01_Core_Robust_Topic_Trends_plot_data/5/CI/ci_97_5,PASS,0.0617947394986734 vs np.float64(0.0617947394986734)
+Figure_01_Core_Robust_Topic_Trends_plot_data/6/mean_topic_probability,PASS,0.113394593537534 vs np.float64(0.113394593537534)
+Figure_01_Core_Robust_Topic_Trends_plot_data/6/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/6/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/6/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/6/CI/ci_2_5,PASS,0.0852629403972315 vs np.float64(0.0852629403972315)
+Figure_01_Core_Robust_Topic_Trends_plot_data/6/CI/ci_97_5,PASS,0.161152596856162 vs np.float64(0.161152596856162)
+Figure_01_Core_Robust_Topic_Trends_plot_data/7/mean_topic_probability,PASS,0.0388336258874024 vs np.float64(0.0388336258874024)
+Figure_01_Core_Robust_Topic_Trends_plot_data/7/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/7/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/7/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/7/CI/ci_2_5,PASS,0.0291015232989608 vs np.float64(0.0291015232989608)
+Figure_01_Core_Robust_Topic_Trends_plot_data/7/CI/ci_97_5,PASS,0.0724583069964227 vs np.float64(0.0724583069964227)
+Figure_01_Core_Robust_Topic_Trends_plot_data/8/mean_topic_probability,PASS,0.04234701140095 vs np.float64(0.04234701140095)
+Figure_01_Core_Robust_Topic_Trends_plot_data/8/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/8/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/8/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/8/CI/ci_2_5,PASS,0.0328018254170456 vs np.float64(0.0328018254170456)
+Figure_01_Core_Robust_Topic_Trends_plot_data/8/CI/ci_97_5,PASS,0.055305608719782 vs np.float64(0.055305608719782)
+Figure_01_Core_Robust_Topic_Trends_plot_data/9/mean_topic_probability,PASS,0.018925417416628 vs np.float64(0.018925417416628)
+Figure_01_Core_Robust_Topic_Trends_plot_data/9/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/9/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/9/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/9/CI/ci_2_5,PASS,0.0138587129964301 vs np.float64(0.0138587129964301)
+Figure_01_Core_Robust_Topic_Trends_plot_data/9/CI/ci_97_5,PASS,0.0249123125373789 vs np.float64(0.0249123125373789)
+Figure_01_Core_Robust_Topic_Trends_plot_data/10/mean_topic_probability,PASS,0.040617983399141 vs np.float64(0.040617983399141)
+Figure_01_Core_Robust_Topic_Trends_plot_data/10/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/10/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/10/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/10/CI/ci_2_5,PASS,0.00973751361429176 vs np.float64(0.00973751361429176)
+Figure_01_Core_Robust_Topic_Trends_plot_data/10/CI/ci_97_5,PASS,0.0897692682688673 vs np.float64(0.0897692682688673)
+Figure_01_Core_Robust_Topic_Trends_plot_data/11/mean_topic_probability,PASS,0.0501713904072727 vs np.float64(0.0501713904072727)
+Figure_01_Core_Robust_Topic_Trends_plot_data/11/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/11/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/11/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/11/CI/ci_2_5,PASS,0.0180521157264967 vs np.float64(0.0180521157264967)
+Figure_01_Core_Robust_Topic_Trends_plot_data/11/CI/ci_97_5,PASS,0.090038325186941 vs np.float64(0.090038325186941)
+Figure_01_Core_Robust_Topic_Trends_plot_data/12/mean_topic_probability,PASS,0.0687932686747219 vs np.float64(0.0687932686747219)
+Figure_01_Core_Robust_Topic_Trends_plot_data/12/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/12/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/12/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/12/CI/ci_2_5,PASS,0.0436363306000033 vs np.float64(0.0436363306000033)
+Figure_01_Core_Robust_Topic_Trends_plot_data/12/CI/ci_97_5,PASS,0.0982109722176693 vs np.float64(0.0982109722176693)
+Figure_01_Core_Robust_Topic_Trends_plot_data/13/mean_topic_probability,PASS,0.110851967755065 vs np.float64(0.110851967755065)
+Figure_01_Core_Robust_Topic_Trends_plot_data/13/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/13/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/13/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/13/CI/ci_2_5,PASS,0.0693238102310764 vs np.float64(0.0693238102310764)
+Figure_01_Core_Robust_Topic_Trends_plot_data/13/CI/ci_97_5,PASS,0.160677749720045 vs np.float64(0.160677749720045)
+Figure_01_Core_Robust_Topic_Trends_plot_data/14/mean_topic_probability,PASS,0.0157701575736903 vs np.float64(0.0157701575736903)
+Figure_01_Core_Robust_Topic_Trends_plot_data/14/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/14/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/14/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/14/CI/ci_2_5,PASS,0.0102703971249665 vs np.float64(0.0102703971249665)
+Figure_01_Core_Robust_Topic_Trends_plot_data/14/CI/ci_97_5,PASS,0.0210948950713357 vs np.float64(0.0210948950713357)
+Figure_01_Core_Robust_Topic_Trends_plot_data/15/mean_topic_probability,PASS,0.0482428416938123 vs np.float64(0.0482428416938123)
+Figure_01_Core_Robust_Topic_Trends_plot_data/15/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/15/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/15/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/15/CI/ci_2_5,PASS,0.0278609882037592 vs np.float64(0.0278609882037592)
+Figure_01_Core_Robust_Topic_Trends_plot_data/15/CI/ci_97_5,PASS,0.0666650091379745 vs np.float64(0.0666650091379745)
+Figure_01_Core_Robust_Topic_Trends_plot_data/16/mean_topic_probability,PASS,0.0763359751315787 vs np.float64(0.0763359751315787)
+Figure_01_Core_Robust_Topic_Trends_plot_data/16/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/16/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/16/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/16/CI/ci_2_5,PASS,0.0534038886358757 vs np.float64(0.0534038886358757)
+Figure_01_Core_Robust_Topic_Trends_plot_data/16/CI/ci_97_5,PASS,0.0971282812155021 vs np.float64(0.0971282812155021)
+Figure_01_Core_Robust_Topic_Trends_plot_data/17/mean_topic_probability,PASS,0.10940246007669 vs np.float64(0.10940246007669)
+Figure_01_Core_Robust_Topic_Trends_plot_data/17/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/17/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/17/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/17/CI/ci_2_5,PASS,0.0706171556107828 vs np.float64(0.0706171556107828)
+Figure_01_Core_Robust_Topic_Trends_plot_data/17/CI/ci_97_5,PASS,0.15728729375188 vs np.float64(0.15728729375188)
+Figure_01_Core_Robust_Topic_Trends_plot_data/18/mean_topic_probability,PASS,0.0229394335157206 vs np.float64(0.0229394335157206)
+Figure_01_Core_Robust_Topic_Trends_plot_data/18/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/18/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/18/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/18/CI/ci_2_5,PASS,0.0127078632631367 vs np.float64(0.0127078632631367)
+Figure_01_Core_Robust_Topic_Trends_plot_data/18/CI/ci_97_5,PASS,0.0357412067598532 vs np.float64(0.0357412067598532)
+Figure_01_Core_Robust_Topic_Trends_plot_data/19/mean_topic_probability,PASS,0.0362256728887752 vs np.float64(0.0362256728887752)
+Figure_01_Core_Robust_Topic_Trends_plot_data/19/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/19/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/19/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/19/CI/ci_2_5,PASS,0.0160015158301324 vs np.float64(0.0160015158301324)
+Figure_01_Core_Robust_Topic_Trends_plot_data/19/CI/ci_97_5,PASS,0.0669656599841926 vs np.float64(0.0669656599841926)
+Figure_01_Core_Robust_Topic_Trends_plot_data/20/mean_topic_probability,PASS,0.0497627498839131 vs np.float64(0.0497627498839131)
+Figure_01_Core_Robust_Topic_Trends_plot_data/20/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/20/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/20/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/20/CI/ci_2_5,PASS,0.035209402012265 vs np.float64(0.035209402012265)
+Figure_01_Core_Robust_Topic_Trends_plot_data/20/CI/ci_97_5,PASS,0.0664626996658484 vs np.float64(0.0664626996658484)
+Figure_01_Core_Robust_Topic_Trends_plot_data/21/mean_topic_probability,PASS,0.064198285745158 vs np.float64(0.064198285745158)
+Figure_01_Core_Robust_Topic_Trends_plot_data/21/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/21/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/21/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/21/CI/ci_2_5,PASS,0.0381998412603397 vs np.float64(0.0381998412603397)
+Figure_01_Core_Robust_Topic_Trends_plot_data/21/CI/ci_97_5,PASS,0.0947087802768027 vs np.float64(0.0947087802768027)
+Figure_01_Core_Robust_Topic_Trends_plot_data/22/mean_topic_probability,PASS,0.0291273847048434 vs np.float64(0.0291273847048434)
+Figure_01_Core_Robust_Topic_Trends_plot_data/22/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/22/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/22/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/22/CI/ci_2_5,PASS,0.0190782206553954 vs np.float64(0.0190782206553954)
+Figure_01_Core_Robust_Topic_Trends_plot_data/22/CI/ci_97_5,PASS,0.0347620506026654 vs np.float64(0.0347620506026654)
+Figure_01_Core_Robust_Topic_Trends_plot_data/23/mean_topic_probability,PASS,0.0338804526491741 vs np.float64(0.0338804526491741)
+Figure_01_Core_Robust_Topic_Trends_plot_data/23/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/23/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/23/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/23/CI/ci_2_5,PASS,0.022699265524895 vs np.float64(0.022699265524895)
+Figure_01_Core_Robust_Topic_Trends_plot_data/23/CI/ci_97_5,PASS,0.0443769386620669 vs np.float64(0.0443769386620669)
+Figure_01_Core_Robust_Topic_Trends_plot_data/24/mean_topic_probability,PASS,0.0703867452303148 vs np.float64(0.0703867452303148)
+Figure_01_Core_Robust_Topic_Trends_plot_data/24/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/24/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/24/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/24/CI/ci_2_5,PASS,0.0557791887533122 vs np.float64(0.0557791887533122)
+Figure_01_Core_Robust_Topic_Trends_plot_data/24/CI/ci_97_5,PASS,0.088496983967702 vs np.float64(0.088496983967702)
+Figure_01_Core_Robust_Topic_Trends_plot_data/25/mean_topic_probability,PASS,0.0981198209142472 vs np.float64(0.0981198209142472)
+Figure_01_Core_Robust_Topic_Trends_plot_data/25/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/25/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/25/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_plot_data/25/CI/ci_2_5,PASS,0.0713985541469003 vs np.float64(0.0713985541469003)
+Figure_01_Core_Robust_Topic_Trends_plot_data/25/CI/ci_97_5,PASS,0.122721070458116 vs np.float64(0.122721070458116)
+data\Figure_01_Core_Robust_Topic_Trends_plot_data.csv/manifest行数,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/2/mean_topic_probability,PASS,0.159758284266007 vs np.float64(0.159758284266007)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/2/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/2/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/2/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/2/CI/ci_2_5,PASS,0.100094667324857 vs np.float64(0.100094667324857)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/2/CI/ci_97_5,PASS,0.222601971076638 vs np.float64(0.222601971076638)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/3/mean_topic_probability,PASS,0.0939675683689781 vs np.float64(0.0939675683689781)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/3/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/3/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/3/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/3/CI/ci_2_5,PASS,0.0543547492843412 vs np.float64(0.0543547492843412)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/3/CI/ci_97_5,PASS,0.136387994699635 vs np.float64(0.136387994699635)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/4/mean_topic_probability,PASS,0.099814177203193 vs np.float64(0.099814177203193)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/4/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/4/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/4/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/4/CI/ci_2_5,PASS,0.0697938681431054 vs np.float64(0.0697938681431054)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/4/CI/ci_97_5,PASS,0.131761028760817 vs np.float64(0.131761028760817)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/5/mean_topic_probability,PASS,0.0346253523093932 vs np.float64(0.0346253523093932)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/5/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/5/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/5/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/5/CI/ci_2_5,PASS,0.0149439781641417 vs np.float64(0.0149439781641417)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/5/CI/ci_97_5,PASS,0.0617947394986734 vs np.float64(0.0617947394986734)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/6/mean_topic_probability,PASS,0.113394593537534 vs np.float64(0.113394593537534)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/6/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/6/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/6/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/6/CI/ci_2_5,PASS,0.0852629403972315 vs np.float64(0.0852629403972315)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/6/CI/ci_97_5,PASS,0.161152596856162 vs np.float64(0.161152596856162)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/7/mean_topic_probability,PASS,0.0388336258874024 vs np.float64(0.0388336258874024)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/7/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/7/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/7/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/7/CI/ci_2_5,PASS,0.0291015232989608 vs np.float64(0.0291015232989608)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/7/CI/ci_97_5,PASS,0.0724583069964227 vs np.float64(0.0724583069964227)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/8/mean_topic_probability,PASS,0.04234701140095 vs np.float64(0.04234701140095)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/8/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/8/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/8/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/8/CI/ci_2_5,PASS,0.0328018254170456 vs np.float64(0.0328018254170456)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/8/CI/ci_97_5,PASS,0.055305608719782 vs np.float64(0.055305608719782)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/9/mean_topic_probability,PASS,0.018925417416628 vs np.float64(0.018925417416628)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/9/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/9/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/9/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/9/CI/ci_2_5,PASS,0.0138587129964301 vs np.float64(0.0138587129964301)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/9/CI/ci_97_5,PASS,0.0249123125373789 vs np.float64(0.0249123125373789)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/10/mean_topic_probability,PASS,0.040617983399141 vs np.float64(0.040617983399141)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/10/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/10/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/10/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/10/CI/ci_2_5,PASS,0.00973751361429176 vs np.float64(0.00973751361429176)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/10/CI/ci_97_5,PASS,0.0897692682688673 vs np.float64(0.0897692682688673)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/11/mean_topic_probability,PASS,0.0501713904072727 vs np.float64(0.0501713904072727)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/11/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/11/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/11/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/11/CI/ci_2_5,PASS,0.0180521157264967 vs np.float64(0.0180521157264967)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/11/CI/ci_97_5,PASS,0.090038325186941 vs np.float64(0.090038325186941)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/12/mean_topic_probability,PASS,0.0687932686747219 vs np.float64(0.0687932686747219)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/12/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/12/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/12/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/12/CI/ci_2_5,PASS,0.0436363306000033 vs np.float64(0.0436363306000033)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/12/CI/ci_97_5,PASS,0.0982109722176693 vs np.float64(0.0982109722176693)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/13/mean_topic_probability,PASS,0.110851967755065 vs np.float64(0.110851967755065)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/13/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/13/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/13/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/13/CI/ci_2_5,PASS,0.0693238102310764 vs np.float64(0.0693238102310764)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/13/CI/ci_97_5,PASS,0.160677749720045 vs np.float64(0.160677749720045)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/14/mean_topic_probability,PASS,0.0157701575736903 vs np.float64(0.0157701575736903)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/14/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/14/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/14/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/14/CI/ci_2_5,PASS,0.0102703971249665 vs np.float64(0.0102703971249665)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/14/CI/ci_97_5,PASS,0.0210948950713357 vs np.float64(0.0210948950713357)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/15/mean_topic_probability,PASS,0.0482428416938123 vs np.float64(0.0482428416938123)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/15/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/15/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/15/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/15/CI/ci_2_5,PASS,0.0278609882037592 vs np.float64(0.0278609882037592)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/15/CI/ci_97_5,PASS,0.0666650091379745 vs np.float64(0.0666650091379745)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/16/mean_topic_probability,PASS,0.0763359751315787 vs np.float64(0.0763359751315787)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/16/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/16/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/16/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/16/CI/ci_2_5,PASS,0.0534038886358757 vs np.float64(0.0534038886358757)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/16/CI/ci_97_5,PASS,0.0971282812155021 vs np.float64(0.0971282812155021)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/17/mean_topic_probability,PASS,0.10940246007669 vs np.float64(0.10940246007669)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/17/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/17/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/17/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/17/CI/ci_2_5,PASS,0.0706171556107828 vs np.float64(0.0706171556107828)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/17/CI/ci_97_5,PASS,0.15728729375188 vs np.float64(0.15728729375188)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/18/mean_topic_probability,PASS,0.0229394335157206 vs np.float64(0.0229394335157206)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/18/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/18/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/18/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/18/CI/ci_2_5,PASS,0.0127078632631367 vs np.float64(0.0127078632631367)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/18/CI/ci_97_5,PASS,0.0357412067598532 vs np.float64(0.0357412067598532)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/19/mean_topic_probability,PASS,0.0362256728887752 vs np.float64(0.0362256728887752)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/19/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/19/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/19/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/19/CI/ci_2_5,PASS,0.0160015158301324 vs np.float64(0.0160015158301324)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/19/CI/ci_97_5,PASS,0.0669656599841926 vs np.float64(0.0669656599841926)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/20/mean_topic_probability,PASS,0.0497627498839131 vs np.float64(0.0497627498839131)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/20/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/20/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/20/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/20/CI/ci_2_5,PASS,0.035209402012265 vs np.float64(0.035209402012265)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/20/CI/ci_97_5,PASS,0.0664626996658484 vs np.float64(0.0664626996658484)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/21/mean_topic_probability,PASS,0.064198285745158 vs np.float64(0.064198285745158)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/21/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/21/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/21/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/21/CI/ci_2_5,PASS,0.0381998412603397 vs np.float64(0.0381998412603397)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/21/CI/ci_97_5,PASS,0.0947087802768027 vs np.float64(0.0947087802768027)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/22/mean_topic_probability,PASS,0.0291273847048434 vs np.float64(0.0291273847048434)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/22/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/22/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/22/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/22/CI/ci_2_5,PASS,0.0190782206553954 vs np.float64(0.0190782206553954)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/22/CI/ci_97_5,PASS,0.0347620506026654 vs np.float64(0.0347620506026654)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/23/mean_topic_probability,PASS,0.0338804526491741 vs np.float64(0.0338804526491741)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/23/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/23/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/23/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/23/CI/ci_2_5,PASS,0.022699265524895 vs np.float64(0.022699265524895)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/23/CI/ci_97_5,PASS,0.0443769386620669 vs np.float64(0.0443769386620669)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/24/mean_topic_probability,PASS,0.0703867452303148 vs np.float64(0.0703867452303148)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/24/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/24/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/24/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/24/CI/ci_2_5,PASS,0.0557791887533122 vs np.float64(0.0557791887533122)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/24/CI/ci_97_5,PASS,0.088496983967702 vs np.float64(0.088496983967702)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/25/mean_topic_probability,PASS,0.0981198209142472 vs np.float64(0.0981198209142472)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/25/topic_id,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/25/period,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/25/aggregation,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/25/CI/ci_2_5,PASS,0.0713985541469003 vs np.float64(0.0713985541469003)
+Figure_01_Core_Robust_Topic_Trends_combined_plot_data/25/CI/ci_97_5,PASS,0.122721070458116 vs np.float64(0.122721070458116)
+data\Figure_01_Core_Robust_Topic_Trends_combined_plot_data.csv/manifest行数,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/2/raw_delta,PASS,-0.07379864443745363 vs np.float64(-0.07379864443745363)
+Figure_05a_BCD_Effects_POEM_plot_data/2/bootstrap_ci_low,PASS,-0.11408301572006169 vs np.float64(-0.11408301572006169)
+Figure_05a_BCD_Effects_POEM_plot_data/2/bootstrap_ci_high,PASS,-0.042578767785901195 vs np.float64(-0.042578767785901195)
+Figure_05a_BCD_Effects_POEM_plot_data/2/model,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/2/aggregation,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/2/finding_id,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/2/mapped_topic_ids,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/3/raw_delta,PASS,-0.04374713176876736 vs np.float64(-0.04374713176876736)
+Figure_05a_BCD_Effects_POEM_plot_data/3/bootstrap_ci_low,PASS,-0.07654034087619972 vs np.float64(-0.07654034087619972)
+Figure_05a_BCD_Effects_POEM_plot_data/3/bootstrap_ci_high,PASS,-0.013725215230991005 vs np.float64(-0.013725215230991005)
+Figure_05a_BCD_Effects_POEM_plot_data/3/model,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/3/aggregation,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/3/finding_id,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/3/mapped_topic_ids,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/4/raw_delta,PASS,0.16442462869672303 vs np.float64(0.16442462869672303)
+Figure_05a_BCD_Effects_POEM_plot_data/4/bootstrap_ci_low,PASS,0.10252206133052935 vs np.float64(0.10252206133052935)
+Figure_05a_BCD_Effects_POEM_plot_data/4/bootstrap_ci_high,PASS,0.23342361293766656 vs np.float64(0.23342361293766656)
+Figure_05a_BCD_Effects_POEM_plot_data/4/model,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/4/aggregation,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/4/finding_id,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/4/mapped_topic_ids,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/5/raw_delta,PASS,0.035439840358706134 vs np.float64(0.035439840358706134)
+Figure_05a_BCD_Effects_POEM_plot_data/5/bootstrap_ci_low,PASS,0.0035942060801141757 vs np.float64(0.0035942060801141757)
+Figure_05a_BCD_Effects_POEM_plot_data/5/bootstrap_ci_high,PASS,0.06887857651713548 vs np.float64(0.06887857651713548)
+Figure_05a_BCD_Effects_POEM_plot_data/5/model,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/5/aggregation,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/5/finding_id,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/5/mapped_topic_ids,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/6/raw_delta,PASS,-0.09446917612090609 vs np.float64(-0.09446917612090609)
+Figure_05a_BCD_Effects_POEM_plot_data/6/bootstrap_ci_low,PASS,-0.14595592807494537 vs np.float64(-0.14595592807494537)
+Figure_05a_BCD_Effects_POEM_plot_data/6/bootstrap_ci_high,PASS,-0.0678232747143702 vs np.float64(-0.0678232747143702)
+Figure_05a_BCD_Effects_POEM_plot_data/6/model,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/6/aggregation,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/6/finding_id,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/6/mapped_topic_ids,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/7/raw_delta,PASS,-0.023421593984322083 vs np.float64(-0.023421593984322083)
+Figure_05a_BCD_Effects_POEM_plot_data/7/bootstrap_ci_low,PASS,-0.03864336745133643 vs np.float64(-0.03864336745133643)
+Figure_05a_BCD_Effects_POEM_plot_data/7/bootstrap_ci_high,PASS,-0.012283524107270159 vs np.float64(-0.012283524107270159)
+Figure_05a_BCD_Effects_POEM_plot_data/7/model,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/7/aggregation,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/7/finding_id,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/7/mapped_topic_ids,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/8/raw_delta,PASS,0.09363230250299967 vs np.float64(0.09363230250299967)
+Figure_05a_BCD_Effects_POEM_plot_data/8/bootstrap_ci_low,PASS,0.055772393020726285 vs np.float64(0.055772393020726285)
+Figure_05a_BCD_Effects_POEM_plot_data/8/bootstrap_ci_high,PASS,0.14073232933925015 vs np.float64(0.14073232933925015)
+Figure_05a_BCD_Effects_POEM_plot_data/8/model,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/8/aggregation,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/8/finding_id,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/8/mapped_topic_ids,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/9/raw_delta,PASS,0.06899243620940385 vs np.float64(0.06899243620940385)
+Figure_05a_BCD_Effects_POEM_plot_data/9/bootstrap_ci_low,PASS,0.04273345107448787 vs np.float64(0.04273345107448787)
+Figure_05a_BCD_Effects_POEM_plot_data/9/bootstrap_ci_high,PASS,0.09584166654483606 vs np.float64(0.09584166654483606)
+Figure_05a_BCD_Effects_POEM_plot_data/9/model,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/9/aggregation,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/9/finding_id,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/9/mapped_topic_ids,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/10/raw_delta,PASS,-0.10193034981114876 vs np.float64(-0.10193034981114876)
+Figure_05a_BCD_Effects_POEM_plot_data/10/bootstrap_ci_low,PASS,-0.14727863819144985 vs np.float64(-0.14727863819144985)
+Figure_05a_BCD_Effects_POEM_plot_data/10/bootstrap_ci_high,PASS,-0.07326969187760535 vs np.float64(-0.07326969187760535)
+Figure_05a_BCD_Effects_POEM_plot_data/10/model,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/10/aggregation,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/10/finding_id,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/10/mapped_topic_ids,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/11/raw_delta,PASS,-0.02073206181969537 vs np.float64(-0.02073206181969537)
+Figure_05a_BCD_Effects_POEM_plot_data/11/bootstrap_ci_low,PASS,-0.03967319946796751 vs np.float64(-0.03967319946796751)
+Figure_05a_BCD_Effects_POEM_plot_data/11/bootstrap_ci_high,PASS,-0.00756305397069202 vs np.float64(-0.00756305397069202)
+Figure_05a_BCD_Effects_POEM_plot_data/11/model,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/11/aggregation,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/11/finding_id,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/11/mapped_topic_ids,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/12/raw_delta,PASS,0.15102911919190237 vs np.float64(0.15102911919190237)
+Figure_05a_BCD_Effects_POEM_plot_data/12/bootstrap_ci_low,PASS,0.09920029795062361 vs np.float64(0.09920029795062361)
+Figure_05a_BCD_Effects_POEM_plot_data/12/bootstrap_ci_high,PASS,0.20485046270790455 vs np.float64(0.20485046270790455)
+Figure_05a_BCD_Effects_POEM_plot_data/12/model,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/12/aggregation,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/12/finding_id,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/12/mapped_topic_ids,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/13/raw_delta,PASS,0.07526355975977908 vs np.float64(0.07526355975977908)
+Figure_05a_BCD_Effects_POEM_plot_data/13/bootstrap_ci_low,PASS,0.04721601834310456 vs np.float64(0.04721601834310456)
+Figure_05a_BCD_Effects_POEM_plot_data/13/bootstrap_ci_high,PASS,0.10445557355361407 vs np.float64(0.10445557355361407)
+Figure_05a_BCD_Effects_POEM_plot_data/13/model,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/13/aggregation,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/13/finding_id,PASS,
+Figure_05a_BCD_Effects_POEM_plot_data/13/mapped_topic_ids,PASS,
+data\Figure_05a_BCD_Effects_POEM_plot_data.csv/manifest行数,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/2/raw_delta,PASS,-0.0690912351928902 vs np.float64(-0.0690912351928902)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/2/bootstrap_ci_low,PASS,-0.14111763540050376 vs np.float64(-0.14111763540050376)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/2/bootstrap_ci_high,PASS,-0.001849225238435552 vs np.float64(-0.001849225238435552)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/2/model,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/2/aggregation,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/2/finding_id,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/2/mapped_topic_ids,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/3/raw_delta,PASS,-0.06239361516166253 vs np.float64(-0.06239361516166253)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/3/bootstrap_ci_low,PASS,-0.11901398345780671 vs np.float64(-0.11901398345780671)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/3/bootstrap_ci_high,PASS,-0.005487883882363025 vs np.float64(-0.005487883882363025)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/3/model,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/3/aggregation,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/3/finding_id,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/3/mapped_topic_ids,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/4/raw_delta,PASS,0.08715017501915184 vs np.float64(0.08715017501915184)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/4/bootstrap_ci_low,PASS,0.016785870687219887 vs np.float64(0.016785870687219887)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/4/bootstrap_ci_high,PASS,0.15967011989650334 vs np.float64(0.15967011989650334)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/4/model,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/4/aggregation,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/4/finding_id,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/4/mapped_topic_ids,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/5/raw_delta,PASS,0.04995152068421484 vs np.float64(0.04995152068421484)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/5/bootstrap_ci_low,PASS,0.010528788210244612 vs np.float64(0.010528788210244612)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/5/bootstrap_ci_high,PASS,0.09364115531951527 vs np.float64(0.09364115531951527)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/5/model,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/5/aggregation,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/5/finding_id,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/5/mapped_topic_ids,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/6/raw_delta,PASS,-0.12513293195661418 vs np.float64(-0.12513293195661418)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/6/bootstrap_ci_low,PASS,-0.19268269408849065 vs np.float64(-0.19268269408849065)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/6/bootstrap_ci_high,PASS,-0.06349243473084878 vs np.float64(-0.06349243473084878)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/6/model,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/6/aggregation,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/6/finding_id,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/6/mapped_topic_ids,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/7/raw_delta,PASS,-0.06518882489379979 vs np.float64(-0.06518882489379979)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/7/bootstrap_ci_low,PASS,-0.10574061380283849 vs np.float64(-0.10574061380283849)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/7/bootstrap_ci_high,PASS,-0.026449386081775075 vs np.float64(-0.026449386081775075)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/7/model,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/7/aggregation,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/7/finding_id,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/7/mapped_topic_ids,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/8/raw_delta,PASS,0.07023398435592407 vs np.float64(0.07023398435592407)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/8/bootstrap_ci_low,PASS,0.006583109505984719 vs np.float64(0.006583109505984719)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/8/bootstrap_ci_high,PASS,0.13016587978952474 vs np.float64(0.13016587978952474)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/8/model,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/8/aggregation,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/8/finding_id,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/8/mapped_topic_ids,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/9/raw_delta,PASS,0.04125885222943739 vs np.float64(0.04125885222943739)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/9/bootstrap_ci_low,PASS,0.013837552091942588 vs np.float64(0.013837552091942588)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/9/bootstrap_ci_high,PASS,0.07246876069726225 vs np.float64(0.07246876069726225)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/9/model,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/9/aggregation,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/9/finding_id,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/9/mapped_topic_ids,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/10/raw_delta,PASS,-0.10299986912188078 vs np.float64(-0.10299986912188078)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/10/bootstrap_ci_low,PASS,-0.1724486342704521 vs np.float64(-0.1724486342704521)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/10/bootstrap_ci_high,PASS,-0.031109729399930345 vs np.float64(-0.031109729399930345)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/10/model,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/10/aggregation,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/10/finding_id,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/10/mapped_topic_ids,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/11/raw_delta,PASS,-0.06481606294693276 vs np.float64(-0.06481606294693276)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/11/bootstrap_ci_low,PASS,-0.11983407242460918 vs np.float64(-0.11983407242460918)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/11/bootstrap_ci_high,PASS,-0.005950008159312635 vs np.float64(-0.005950008159312635)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/11/model,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/11/aggregation,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/11/finding_id,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/11/mapped_topic_ids,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/12/raw_delta,PASS,0.14107298974523544 vs np.float64(0.14107298974523544)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/12/bootstrap_ci_low,PASS,0.08400856922778292 vs np.float64(0.08400856922778292)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/12/bootstrap_ci_high,PASS,0.2003587326763621 vs np.float64(0.2003587326763621)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/12/model,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/12/aggregation,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/12/finding_id,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/12/mapped_topic_ids,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/13/raw_delta,PASS,0.03452417230526317 vs np.float64(0.03452417230526317)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/13/bootstrap_ci_low,PASS,0.0017306523917530552 vs np.float64(0.0017306523917530552)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/13/bootstrap_ci_high,PASS,0.07110131762762271 vs np.float64(0.07110131762762271)
+Figure_05b_BCD_Effects_AUTHOR_plot_data/13/model,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/13/aggregation,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/13/finding_id,PASS,
+Figure_05b_BCD_Effects_AUTHOR_plot_data/13/mapped_topic_ids,PASS,
+data\Figure_05b_BCD_Effects_AUTHOR_plot_data.csv/manifest行数,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/2/raw_delta,PASS,-0.07379864443745363 vs np.float64(-0.07379864443745363)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/2/bootstrap_ci_low,PASS,-0.11408301572006169 vs np.float64(-0.11408301572006169)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/2/bootstrap_ci_high,PASS,-0.042578767785901195 vs np.float64(-0.042578767785901195)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/2/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/2/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/2/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/2/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/3/raw_delta,PASS,-0.0690912351928902 vs np.float64(-0.0690912351928902)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/3/bootstrap_ci_low,PASS,-0.14111763540050376 vs np.float64(-0.14111763540050376)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/3/bootstrap_ci_high,PASS,-0.001849225238435552 vs np.float64(-0.001849225238435552)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/3/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/3/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/3/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/3/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/4/raw_delta,PASS,-0.04374713176876736 vs np.float64(-0.04374713176876736)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/4/bootstrap_ci_low,PASS,-0.07654034087619972 vs np.float64(-0.07654034087619972)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/4/bootstrap_ci_high,PASS,-0.013725215230991005 vs np.float64(-0.013725215230991005)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/4/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/4/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/4/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/4/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/5/raw_delta,PASS,-0.06239361516166253 vs np.float64(-0.06239361516166253)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/5/bootstrap_ci_low,PASS,-0.11901398345780671 vs np.float64(-0.11901398345780671)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/5/bootstrap_ci_high,PASS,-0.005487883882363025 vs np.float64(-0.005487883882363025)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/5/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/5/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/5/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/5/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/6/raw_delta,PASS,0.16442462869672303 vs np.float64(0.16442462869672303)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/6/bootstrap_ci_low,PASS,0.10252206133052935 vs np.float64(0.10252206133052935)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/6/bootstrap_ci_high,PASS,0.23342361293766656 vs np.float64(0.23342361293766656)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/6/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/6/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/6/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/6/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/7/raw_delta,PASS,0.08715017501915184 vs np.float64(0.08715017501915184)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/7/bootstrap_ci_low,PASS,0.016785870687219887 vs np.float64(0.016785870687219887)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/7/bootstrap_ci_high,PASS,0.15967011989650334 vs np.float64(0.15967011989650334)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/7/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/7/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/7/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/7/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/8/raw_delta,PASS,0.035439840358706134 vs np.float64(0.035439840358706134)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/8/bootstrap_ci_low,PASS,0.0035942060801141757 vs np.float64(0.0035942060801141757)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/8/bootstrap_ci_high,PASS,0.06887857651713548 vs np.float64(0.06887857651713548)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/8/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/8/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/8/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/8/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/9/raw_delta,PASS,0.04995152068421484 vs np.float64(0.04995152068421484)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/9/bootstrap_ci_low,PASS,0.010528788210244612 vs np.float64(0.010528788210244612)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/9/bootstrap_ci_high,PASS,0.09364115531951527 vs np.float64(0.09364115531951527)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/9/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/9/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/9/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/9/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/10/raw_delta,PASS,-0.09446917612090609 vs np.float64(-0.09446917612090609)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/10/bootstrap_ci_low,PASS,-0.14595592807494537 vs np.float64(-0.14595592807494537)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/10/bootstrap_ci_high,PASS,-0.0678232747143702 vs np.float64(-0.0678232747143702)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/10/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/10/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/10/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/10/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/11/raw_delta,PASS,-0.12513293195661418 vs np.float64(-0.12513293195661418)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/11/bootstrap_ci_low,PASS,-0.19268269408849065 vs np.float64(-0.19268269408849065)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/11/bootstrap_ci_high,PASS,-0.06349243473084878 vs np.float64(-0.06349243473084878)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/11/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/11/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/11/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/11/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/12/raw_delta,PASS,-0.023421593984322083 vs np.float64(-0.023421593984322083)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/12/bootstrap_ci_low,PASS,-0.03864336745133643 vs np.float64(-0.03864336745133643)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/12/bootstrap_ci_high,PASS,-0.012283524107270159 vs np.float64(-0.012283524107270159)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/12/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/12/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/12/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/12/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/13/raw_delta,PASS,-0.06518882489379979 vs np.float64(-0.06518882489379979)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/13/bootstrap_ci_low,PASS,-0.10574061380283849 vs np.float64(-0.10574061380283849)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/13/bootstrap_ci_high,PASS,-0.026449386081775075 vs np.float64(-0.026449386081775075)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/13/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/13/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/13/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/13/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/14/raw_delta,PASS,0.09363230250299967 vs np.float64(0.09363230250299967)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/14/bootstrap_ci_low,PASS,0.055772393020726285 vs np.float64(0.055772393020726285)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/14/bootstrap_ci_high,PASS,0.14073232933925015 vs np.float64(0.14073232933925015)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/14/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/14/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/14/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/14/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/15/raw_delta,PASS,0.07023398435592407 vs np.float64(0.07023398435592407)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/15/bootstrap_ci_low,PASS,0.006583109505984719 vs np.float64(0.006583109505984719)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/15/bootstrap_ci_high,PASS,0.13016587978952474 vs np.float64(0.13016587978952474)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/15/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/15/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/15/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/15/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/16/raw_delta,PASS,0.06899243620940385 vs np.float64(0.06899243620940385)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/16/bootstrap_ci_low,PASS,0.04273345107448787 vs np.float64(0.04273345107448787)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/16/bootstrap_ci_high,PASS,0.09584166654483606 vs np.float64(0.09584166654483606)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/16/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/16/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/16/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/16/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/17/raw_delta,PASS,0.04125885222943739 vs np.float64(0.04125885222943739)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/17/bootstrap_ci_low,PASS,0.013837552091942588 vs np.float64(0.013837552091942588)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/17/bootstrap_ci_high,PASS,0.07246876069726225 vs np.float64(0.07246876069726225)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/17/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/17/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/17/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/17/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/18/raw_delta,PASS,-0.10193034981114876 vs np.float64(-0.10193034981114876)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/18/bootstrap_ci_low,PASS,-0.14727863819144985 vs np.float64(-0.14727863819144985)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/18/bootstrap_ci_high,PASS,-0.07326969187760535 vs np.float64(-0.07326969187760535)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/18/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/18/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/18/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/18/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/19/raw_delta,PASS,-0.10299986912188078 vs np.float64(-0.10299986912188078)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/19/bootstrap_ci_low,PASS,-0.1724486342704521 vs np.float64(-0.1724486342704521)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/19/bootstrap_ci_high,PASS,-0.031109729399930345 vs np.float64(-0.031109729399930345)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/19/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/19/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/19/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/19/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/20/raw_delta,PASS,-0.02073206181969537 vs np.float64(-0.02073206181969537)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/20/bootstrap_ci_low,PASS,-0.03967319946796751 vs np.float64(-0.03967319946796751)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/20/bootstrap_ci_high,PASS,-0.00756305397069202 vs np.float64(-0.00756305397069202)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/20/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/20/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/20/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/20/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/21/raw_delta,PASS,-0.06481606294693276 vs np.float64(-0.06481606294693276)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/21/bootstrap_ci_low,PASS,-0.11983407242460918 vs np.float64(-0.11983407242460918)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/21/bootstrap_ci_high,PASS,-0.005950008159312635 vs np.float64(-0.005950008159312635)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/21/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/21/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/21/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/21/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/22/raw_delta,PASS,0.15102911919190237 vs np.float64(0.15102911919190237)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/22/bootstrap_ci_low,PASS,0.09920029795062361 vs np.float64(0.09920029795062361)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/22/bootstrap_ci_high,PASS,0.20485046270790455 vs np.float64(0.20485046270790455)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/22/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/22/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/22/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/22/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/23/raw_delta,PASS,0.14107298974523544 vs np.float64(0.14107298974523544)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/23/bootstrap_ci_low,PASS,0.08400856922778292 vs np.float64(0.08400856922778292)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/23/bootstrap_ci_high,PASS,0.2003587326763621 vs np.float64(0.2003587326763621)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/23/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/23/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/23/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/23/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/24/raw_delta,PASS,0.07526355975977908 vs np.float64(0.07526355975977908)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/24/bootstrap_ci_low,PASS,0.04721601834310456 vs np.float64(0.04721601834310456)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/24/bootstrap_ci_high,PASS,0.10445557355361407 vs np.float64(0.10445557355361407)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/24/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/24/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/24/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/24/mapped_topic_ids,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/25/raw_delta,PASS,0.03452417230526317 vs np.float64(0.03452417230526317)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/25/bootstrap_ci_low,PASS,0.0017306523917530552 vs np.float64(0.0017306523917530552)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/25/bootstrap_ci_high,PASS,0.07110131762762271 vs np.float64(0.07110131762762271)
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/25/model,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/25/aggregation,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/25/finding_id,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data/25/mapped_topic_ids,PASS,
+data\Figure_05_BCD_Core_Finding_Effect_Comparison_plot_data.csv/manifest行数,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/2/mean_topic_probability,PASS,0.12916315962071012 vs np.float64(0.12916315962071012)
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/2/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/2/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/2/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/2/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/3/mean_topic_probability,PASS,0.10102811784494259 vs np.float64(0.10102811784494259)
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/3/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/3/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/3/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/3/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/4/mean_topic_probability,PASS,0.09911164695202385 vs np.float64(0.09911164695202385)
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/4/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/4/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/4/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/4/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/5/mean_topic_probability,PASS,0.05536451518325649 vs np.float64(0.05536451518325649)
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/5/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/5/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/5/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/5/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/6/mean_topic_probability,PASS,0.11339459353753409 vs np.float64(0.11339459353753409)
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/6/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/6/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/6/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/6/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/7/mean_topic_probability,PASS,0.03883362588740243 vs np.float64(0.03883362588740243)
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/7/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/7/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/7/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/7/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/8/mean_topic_probability,PASS,0.04234701140095008 vs np.float64(0.04234701140095008)
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/8/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/8/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/8/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/8/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/9/mean_topic_probability,PASS,0.018925417416628 vs np.float64(0.018925417416628)
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/9/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/9/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/9/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/9/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/10/mean_topic_probability,PASS,0.1388038660614623 vs np.float64(0.1388038660614623)
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/10/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/10/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/10/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/10/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/11/mean_topic_probability,PASS,0.05603316778789267 vs np.float64(0.05603316778789267)
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/11/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/11/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/11/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/11/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/12/mean_topic_probability,PASS,0.05760557807000892 vs np.float64(0.05760557807000892)
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/12/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/12/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/12/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/12/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/13/mean_topic_probability,PASS,0.03687351625031355 vs np.float64(0.03687351625031355)
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/13/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/13/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/13/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM_plot_data/13/时期,PASS,
+data\Figure_06a_T03_BCD_Period_Profile_POEM_plot_data.csv/manifest行数,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/2/mean_topic_probability,PASS,0.1726773917498951 vs np.float64(0.1726773917498951)
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/2/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/2/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/2/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/2/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/3/mean_topic_probability,PASS,0.13556830093249533 vs np.float64(0.13556830093249533)
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/3/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/3/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/3/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/3/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/4/mean_topic_probability,PASS,0.16597977171866743 vs np.float64(0.16597977171866743)
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/4/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/4/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/4/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/4/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/5/mean_topic_probability,PASS,0.1035861565570049 vs np.float64(0.1035861565570049)
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/5/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/5/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/5/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/5/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/6/mean_topic_probability,PASS,0.15975828426600744 vs np.float64(0.15975828426600744)
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/6/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/6/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/6/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/6/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/7/mean_topic_probability,PASS,0.09396756836897818 vs np.float64(0.09396756836897818)
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/7/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/7/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/7/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/7/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/8/mean_topic_probability,PASS,0.09981417720319305 vs np.float64(0.09981417720319305)
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/8/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/8/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/8/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/8/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/9/mean_topic_probability,PASS,0.034625352309393266 vs np.float64(0.034625352309393266)
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/9/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/9/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/9/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/9/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/10/mean_topic_probability,PASS,0.18419465115164663 vs np.float64(0.18419465115164663)
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/10/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/10/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/10/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/10/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/11/mean_topic_probability,PASS,0.10604140607682813 vs np.float64(0.10604140607682813)
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/11/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/11/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/11/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/11/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/12/mean_topic_probability,PASS,0.1460108449766986 vs np.float64(0.1460108449766986)
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/12/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/12/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/12/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/12/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/13/mean_topic_probability,PASS,0.08119478202976585 vs np.float64(0.08119478202976585)
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/13/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/13/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/13/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data/13/时期,PASS,
+data\Figure_06a_T03_BCD_Period_Profile_AUTHOR_plot_data.csv/manifest行数,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/2/mean_topic_probability,PASS,0.1726773917498951 vs np.float64(0.1726773917498951)
+Figure_06a_T03_BCD_Period_Profile_plot_data/2/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/2/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/2/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/2/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/3/mean_topic_probability,PASS,0.13556830093249533 vs np.float64(0.13556830093249533)
+Figure_06a_T03_BCD_Period_Profile_plot_data/3/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/3/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/3/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/3/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/4/mean_topic_probability,PASS,0.16597977171866743 vs np.float64(0.16597977171866743)
+Figure_06a_T03_BCD_Period_Profile_plot_data/4/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/4/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/4/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/4/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/5/mean_topic_probability,PASS,0.1035861565570049 vs np.float64(0.1035861565570049)
+Figure_06a_T03_BCD_Period_Profile_plot_data/5/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/5/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/5/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/5/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/6/mean_topic_probability,PASS,0.15975828426600744 vs np.float64(0.15975828426600744)
+Figure_06a_T03_BCD_Period_Profile_plot_data/6/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/6/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/6/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/6/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/7/mean_topic_probability,PASS,0.09396756836897818 vs np.float64(0.09396756836897818)
+Figure_06a_T03_BCD_Period_Profile_plot_data/7/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/7/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/7/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/7/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/8/mean_topic_probability,PASS,0.09981417720319305 vs np.float64(0.09981417720319305)
+Figure_06a_T03_BCD_Period_Profile_plot_data/8/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/8/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/8/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/8/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/9/mean_topic_probability,PASS,0.034625352309393266 vs np.float64(0.034625352309393266)
+Figure_06a_T03_BCD_Period_Profile_plot_data/9/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/9/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/9/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/9/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/10/mean_topic_probability,PASS,0.18419465115164663 vs np.float64(0.18419465115164663)
+Figure_06a_T03_BCD_Period_Profile_plot_data/10/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/10/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/10/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/10/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/11/mean_topic_probability,PASS,0.10604140607682813 vs np.float64(0.10604140607682813)
+Figure_06a_T03_BCD_Period_Profile_plot_data/11/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/11/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/11/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/11/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/12/mean_topic_probability,PASS,0.1460108449766986 vs np.float64(0.1460108449766986)
+Figure_06a_T03_BCD_Period_Profile_plot_data/12/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/12/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/12/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/12/时期,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/13/mean_topic_probability,PASS,0.08119478202976585 vs np.float64(0.08119478202976585)
+Figure_06a_T03_BCD_Period_Profile_plot_data/13/model,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/13/aggregation,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/13/mapped_topic_ids,PASS,
+Figure_06a_T03_BCD_Period_Profile_plot_data/13/时期,PASS,
+data\Figure_06a_T03_BCD_Period_Profile_plot_data.csv/manifest行数,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/2/mean_topic_probability,PASS,0.06272746371938215 vs np.float64(0.06272746371938215)
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/2/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/2/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/2/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/2/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/3/mean_topic_probability,PASS,0.17126335716472063 vs np.float64(0.17126335716472063)
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/3/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/3/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/3/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/3/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/4/mean_topic_probability,PASS,0.1952838248879791 vs np.float64(0.1952838248879791)
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/4/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/4/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/4/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/4/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/5/mean_topic_probability,PASS,0.22715209241610518 vs np.float64(0.22715209241610518)
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/5/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/5/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/5/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/5/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/6/mean_topic_probability,PASS,0.015770157573690352 vs np.float64(0.015770157573690352)
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/6/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/6/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/6/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/6/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/7/mean_topic_probability,PASS,0.04824284169381231 vs np.float64(0.04824284169381231)
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/7/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/7/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/7/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/7/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/8/mean_topic_probability,PASS,0.07633597513157873 vs np.float64(0.07633597513157873)
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/8/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/8/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/8/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/8/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/9/mean_topic_probability,PASS,0.10940246007669002 vs np.float64(0.10940246007669002)
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/9/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/9/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/9/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/9/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/10/mean_topic_probability,PASS,0.041035401053313755 vs np.float64(0.041035401053313755)
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/10/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/10/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/10/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/10/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/11/mean_topic_probability,PASS,0.12913734684755454 vs np.float64(0.12913734684755454)
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/11/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/11/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/11/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/11/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/12/mean_topic_probability,PASS,0.1656263916448688 vs np.float64(0.1656263916448688)
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/12/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/12/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/12/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/12/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/13/mean_topic_probability,PASS,0.19206452024521614 vs np.float64(0.19206452024521614)
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/13/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/13/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/13/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM_plot_data/13/时期,PASS,
+data\Figure_06b_T06_BCD_Period_Profile_POEM_plot_data.csv/manifest行数,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/2/mean_topic_probability,PASS,0.08737000288043334 vs np.float64(0.08737000288043334)
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/2/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/2/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/2/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/2/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/3/mean_topic_probability,PASS,0.13584324262887942 vs np.float64(0.13584324262887942)
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/3/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/3/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/3/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/3/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/4/mean_topic_probability,PASS,0.14013610629915377 vs np.float64(0.14013610629915377)
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/4/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/4/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/4/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/4/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/5/mean_topic_probability,PASS,0.17452017789958518 vs np.float64(0.17452017789958518)
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/5/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/5/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/5/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/5/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/6/mean_topic_probability,PASS,0.04061798339914102 vs np.float64(0.04061798339914102)
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/6/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/6/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/6/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/6/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/7/mean_topic_probability,PASS,0.050171390407272726 vs np.float64(0.050171390407272726)
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/7/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/7/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/7/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/7/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/8/mean_topic_probability,PASS,0.06879326867472195 vs np.float64(0.06879326867472195)
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/8/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/8/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/8/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/8/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/9/mean_topic_probability,PASS,0.11085196775506509 vs np.float64(0.11085196775506509)
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/9/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/9/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/9/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/9/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/10/mean_topic_probability,PASS,0.049738844204898956 vs np.float64(0.049738844204898956)
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/10/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/10/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/10/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/10/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/11/mean_topic_probability,PASS,0.08227713767497441 vs np.float64(0.08227713767497441)
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/11/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/11/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/11/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/11/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/12/mean_topic_probability,PASS,0.11575419846084391 vs np.float64(0.11575419846084391)
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/12/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/12/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/12/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/12/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/13/mean_topic_probability,PASS,0.1908118339501344 vs np.float64(0.1908118339501344)
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/13/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/13/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/13/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data/13/时期,PASS,
+data\Figure_06b_T06_BCD_Period_Profile_AUTHOR_plot_data.csv/manifest行数,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/2/mean_topic_probability,PASS,0.08737000288043334 vs np.float64(0.08737000288043334)
+Figure_06b_T06_BCD_Period_Profile_plot_data/2/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/2/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/2/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/2/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/3/mean_topic_probability,PASS,0.13584324262887942 vs np.float64(0.13584324262887942)
+Figure_06b_T06_BCD_Period_Profile_plot_data/3/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/3/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/3/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/3/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/4/mean_topic_probability,PASS,0.14013610629915377 vs np.float64(0.14013610629915377)
+Figure_06b_T06_BCD_Period_Profile_plot_data/4/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/4/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/4/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/4/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/5/mean_topic_probability,PASS,0.17452017789958518 vs np.float64(0.17452017789958518)
+Figure_06b_T06_BCD_Period_Profile_plot_data/5/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/5/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/5/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/5/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/6/mean_topic_probability,PASS,0.04061798339914102 vs np.float64(0.04061798339914102)
+Figure_06b_T06_BCD_Period_Profile_plot_data/6/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/6/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/6/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/6/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/7/mean_topic_probability,PASS,0.050171390407272726 vs np.float64(0.050171390407272726)
+Figure_06b_T06_BCD_Period_Profile_plot_data/7/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/7/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/7/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/7/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/8/mean_topic_probability,PASS,0.06879326867472195 vs np.float64(0.06879326867472195)
+Figure_06b_T06_BCD_Period_Profile_plot_data/8/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/8/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/8/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/8/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/9/mean_topic_probability,PASS,0.11085196775506509 vs np.float64(0.11085196775506509)
+Figure_06b_T06_BCD_Period_Profile_plot_data/9/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/9/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/9/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/9/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/10/mean_topic_probability,PASS,0.049738844204898956 vs np.float64(0.049738844204898956)
+Figure_06b_T06_BCD_Period_Profile_plot_data/10/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/10/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/10/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/10/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/11/mean_topic_probability,PASS,0.08227713767497441 vs np.float64(0.08227713767497441)
+Figure_06b_T06_BCD_Period_Profile_plot_data/11/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/11/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/11/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/11/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/12/mean_topic_probability,PASS,0.11575419846084391 vs np.float64(0.11575419846084391)
+Figure_06b_T06_BCD_Period_Profile_plot_data/12/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/12/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/12/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/12/时期,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/13/mean_topic_probability,PASS,0.1908118339501344 vs np.float64(0.1908118339501344)
+Figure_06b_T06_BCD_Period_Profile_plot_data/13/model,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/13/aggregation,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/13/mapped_topic_ids,PASS,
+Figure_06b_T06_BCD_Period_Profile_plot_data/13/时期,PASS,
+data\Figure_06b_T06_BCD_Period_Profile_plot_data.csv/manifest行数,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/2/mean_topic_probability,PASS,0.07251447493266074 vs np.float64(0.07251447493266074)
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/2/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/2/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/2/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/2/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/3/mean_topic_probability,PASS,0.05428675750755138 vs np.float64(0.05428675750755138)
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/3/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/3/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/3/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/3/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/4/mean_topic_probability,PASS,0.08407699734260096 vs np.float64(0.08407699734260096)
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/4/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/4/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/4/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/4/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/5/mean_topic_probability,PASS,0.10795431529136687 vs np.float64(0.10795431529136687)
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/5/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/5/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/5/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/5/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/6/mean_topic_probability,PASS,0.029127384704843457 vs np.float64(0.029127384704843457)
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/6/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/6/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/6/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/6/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/7/mean_topic_probability,PASS,0.033880452649174136 vs np.float64(0.033880452649174136)
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/7/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/7/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/7/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/7/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/8/mean_topic_probability,PASS,0.07038674523031482 vs np.float64(0.07038674523031482)
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/8/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/8/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/8/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/8/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/9/mean_topic_probability,PASS,0.0981198209142473 vs np.float64(0.0981198209142473)
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/9/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/9/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/9/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/9/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/10/mean_topic_probability,PASS,0.02784558538050816 vs np.float64(0.02784558538050816)
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/10/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/10/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/10/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/10/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/11/mean_topic_probability,PASS,0.04194768469594953 vs np.float64(0.04194768469594953)
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/11/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/11/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/11/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/11/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/12/mean_topic_probability,PASS,0.0802028604706155 vs np.float64(0.0802028604706155)
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/12/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/12/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/12/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/12/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/13/mean_topic_probability,PASS,0.10310914514028724 vs np.float64(0.10310914514028724)
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/13/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/13/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/13/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM_plot_data/13/时期,PASS,
+data\Figure_06c_T08_BCD_Period_Profile_POEM_plot_data.csv/manifest行数,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/2/mean_topic_probability,PASS,0.05079034297893395 vs np.float64(0.05079034297893395)
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/2/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/2/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/2/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/2/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/3/mean_topic_probability,PASS,0.12675685386598126 vs np.float64(0.12675685386598126)
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/3/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/3/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/3/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/3/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/4/mean_topic_probability,PASS,0.09292735128706943 vs np.float64(0.09292735128706943)
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/4/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/4/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/4/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/4/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/5/mean_topic_probability,PASS,0.10074186366314879 vs np.float64(0.10074186366314879)
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/5/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/5/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/5/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/5/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/6/mean_topic_probability,PASS,0.022939433515720635 vs np.float64(0.022939433515720635)
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/6/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/6/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/6/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/6/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/7/mean_topic_probability,PASS,0.03622567288877525 vs np.float64(0.03622567288877525)
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/7/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/7/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/7/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/7/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/8/mean_topic_probability,PASS,0.049762749883913174 vs np.float64(0.049762749883913174)
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/8/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/8/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/8/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/8/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/9/mean_topic_probability,PASS,0.06419828574515803 vs np.float64(0.06419828574515803)
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/9/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/9/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/9/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/9/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/10/mean_topic_probability,PASS,0.025619386967103492 vs np.float64(0.025619386967103492)
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/10/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/10/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/10/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/10/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/11/mean_topic_probability,PASS,0.0717842522777566 vs np.float64(0.0717842522777566)
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/11/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/11/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/11/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/11/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/12/mean_topic_probability,PASS,0.05425722556189878 vs np.float64(0.05425722556189878)
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/12/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/12/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/12/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/12/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/13/mean_topic_probability,PASS,0.06014355927236666 vs np.float64(0.06014355927236666)
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/13/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/13/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/13/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data/13/时期,PASS,
+data\Figure_06c_T08_BCD_Period_Profile_AUTHOR_plot_data.csv/manifest行数,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/2/mean_topic_probability,PASS,0.05079034297893395 vs np.float64(0.05079034297893395)
+Figure_06c_T08_BCD_Period_Profile_plot_data/2/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/2/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/2/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/2/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/3/mean_topic_probability,PASS,0.12675685386598126 vs np.float64(0.12675685386598126)
+Figure_06c_T08_BCD_Period_Profile_plot_data/3/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/3/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/3/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/3/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/4/mean_topic_probability,PASS,0.09292735128706943 vs np.float64(0.09292735128706943)
+Figure_06c_T08_BCD_Period_Profile_plot_data/4/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/4/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/4/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/4/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/5/mean_topic_probability,PASS,0.10074186366314879 vs np.float64(0.10074186366314879)
+Figure_06c_T08_BCD_Period_Profile_plot_data/5/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/5/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/5/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/5/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/6/mean_topic_probability,PASS,0.022939433515720635 vs np.float64(0.022939433515720635)
+Figure_06c_T08_BCD_Period_Profile_plot_data/6/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/6/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/6/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/6/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/7/mean_topic_probability,PASS,0.03622567288877525 vs np.float64(0.03622567288877525)
+Figure_06c_T08_BCD_Period_Profile_plot_data/7/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/7/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/7/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/7/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/8/mean_topic_probability,PASS,0.049762749883913174 vs np.float64(0.049762749883913174)
+Figure_06c_T08_BCD_Period_Profile_plot_data/8/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/8/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/8/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/8/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/9/mean_topic_probability,PASS,0.06419828574515803 vs np.float64(0.06419828574515803)
+Figure_06c_T08_BCD_Period_Profile_plot_data/9/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/9/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/9/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/9/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/10/mean_topic_probability,PASS,0.025619386967103492 vs np.float64(0.025619386967103492)
+Figure_06c_T08_BCD_Period_Profile_plot_data/10/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/10/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/10/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/10/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/11/mean_topic_probability,PASS,0.0717842522777566 vs np.float64(0.0717842522777566)
+Figure_06c_T08_BCD_Period_Profile_plot_data/11/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/11/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/11/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/11/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/12/mean_topic_probability,PASS,0.05425722556189878 vs np.float64(0.05425722556189878)
+Figure_06c_T08_BCD_Period_Profile_plot_data/12/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/12/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/12/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/12/时期,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/13/mean_topic_probability,PASS,0.06014355927236666 vs np.float64(0.06014355927236666)
+Figure_06c_T08_BCD_Period_Profile_plot_data/13/model,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/13/aggregation,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/13/mapped_topic_ids,PASS,
+Figure_06c_T08_BCD_Period_Profile_plot_data/13/时期,PASS,
+data\Figure_06c_T08_BCD_Period_Profile_plot_data.csv/manifest行数,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/2/finding_id,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/2/robustness_rank,PASS,1 vs np.int64(1)
+Figure_07_Finding_Robustness_Ladder_plot_data/2/finding_level_robustness,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/2/B_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/2/D_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/2/C_author_robustness_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/2/C_original_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/3/finding_id,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/3/robustness_rank,PASS,2 vs np.int64(2)
+Figure_07_Finding_Robustness_Ladder_plot_data/3/finding_level_robustness,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/3/B_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/3/D_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/3/C_author_robustness_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/3/C_original_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/4/finding_id,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/4/robustness_rank,PASS,3 vs np.int64(3)
+Figure_07_Finding_Robustness_Ladder_plot_data/4/finding_level_robustness,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/4/B_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/4/D_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/4/C_author_robustness_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/4/C_original_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/5/finding_id,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/5/robustness_rank,PASS,4 vs np.int64(4)
+Figure_07_Finding_Robustness_Ladder_plot_data/5/finding_level_robustness,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/5/B_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/5/D_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/5/C_author_robustness_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/5/C_original_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/6/finding_id,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/6/robustness_rank,PASS,5 vs np.int64(5)
+Figure_07_Finding_Robustness_Ladder_plot_data/6/finding_level_robustness,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/6/B_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/6/D_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/6/C_author_robustness_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/6/C_original_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/7/finding_id,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/7/robustness_rank,PASS,6 vs np.int64(6)
+Figure_07_Finding_Robustness_Ladder_plot_data/7/finding_level_robustness,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/7/B_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/7/D_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/7/C_author_robustness_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/7/C_original_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/8/finding_id,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/8/robustness_rank,PASS,7 vs np.int64(7)
+Figure_07_Finding_Robustness_Ladder_plot_data/8/finding_level_robustness,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/8/B_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/8/D_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/8/C_author_robustness_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/8/C_original_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/9/finding_id,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/9/robustness_rank,PASS,8 vs np.int64(8)
+Figure_07_Finding_Robustness_Ladder_plot_data/9/finding_level_robustness,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/9/B_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/9/D_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/9/C_author_robustness_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/9/C_original_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/10/finding_id,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/10/robustness_rank,PASS,9 vs np.int64(9)
+Figure_07_Finding_Robustness_Ladder_plot_data/10/finding_level_robustness,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/10/B_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/10/D_mapping_type,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/10/C_author_robustness_status,PASS,
+Figure_07_Finding_Robustness_Ladder_plot_data/10/C_original_status,PASS,
+data\Figure_07_Finding_Robustness_Ladder_plot_data.csv/manifest行数,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/2/finding_id,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/2/robustness_rank,PASS,1 vs np.int64(1)
+Figure_07b_Finding_Evidence_Matrix_plot_data/2/finding_level_robustness,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/2/B_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/2/D_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/2/C_author_robustness_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/2/C_original_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/3/finding_id,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/3/robustness_rank,PASS,2 vs np.int64(2)
+Figure_07b_Finding_Evidence_Matrix_plot_data/3/finding_level_robustness,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/3/B_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/3/D_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/3/C_author_robustness_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/3/C_original_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/4/finding_id,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/4/robustness_rank,PASS,3 vs np.int64(3)
+Figure_07b_Finding_Evidence_Matrix_plot_data/4/finding_level_robustness,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/4/B_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/4/D_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/4/C_author_robustness_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/4/C_original_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/5/finding_id,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/5/robustness_rank,PASS,4 vs np.int64(4)
+Figure_07b_Finding_Evidence_Matrix_plot_data/5/finding_level_robustness,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/5/B_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/5/D_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/5/C_author_robustness_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/5/C_original_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/6/finding_id,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/6/robustness_rank,PASS,5 vs np.int64(5)
+Figure_07b_Finding_Evidence_Matrix_plot_data/6/finding_level_robustness,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/6/B_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/6/D_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/6/C_author_robustness_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/6/C_original_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/7/finding_id,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/7/robustness_rank,PASS,6 vs np.int64(6)
+Figure_07b_Finding_Evidence_Matrix_plot_data/7/finding_level_robustness,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/7/B_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/7/D_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/7/C_author_robustness_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/7/C_original_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/8/finding_id,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/8/robustness_rank,PASS,7 vs np.int64(7)
+Figure_07b_Finding_Evidence_Matrix_plot_data/8/finding_level_robustness,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/8/B_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/8/D_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/8/C_author_robustness_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/8/C_original_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/9/finding_id,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/9/robustness_rank,PASS,8 vs np.int64(8)
+Figure_07b_Finding_Evidence_Matrix_plot_data/9/finding_level_robustness,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/9/B_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/9/D_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/9/C_author_robustness_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/9/C_original_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/10/finding_id,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/10/robustness_rank,PASS,9 vs np.int64(9)
+Figure_07b_Finding_Evidence_Matrix_plot_data/10/finding_level_robustness,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/10/B_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/10/D_mapping_type,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/10/C_author_robustness_status,PASS,
+Figure_07b_Finding_Evidence_Matrix_plot_data/10/C_original_status,PASS,
+data\Figure_07b_Finding_Evidence_Matrix_plot_data.csv/manifest行数,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/2/raw_delta,PASS,-0.014926257919135016 vs np.float64(-0.014926257919135016)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/2/bootstrap_ci_low,PASS,-0.042031425611214264 vs np.float64(-0.042031425611214264)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/2/bootstrap_ci_high,PASS,0.0017295496793992005 vs np.float64(0.0017295496793992005)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/2/model,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/2/aggregation,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/2/finding_id,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/2/mapped_topic_ids,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/3/raw_delta,PASS,-0.00902384589982319 vs np.float64(-0.00902384589982319)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/3/bootstrap_ci_low,PASS,-0.04313778575702777 vs np.float64(-0.04313778575702777)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/3/bootstrap_ci_high,PASS,0.02738255172222242 vs np.float64(0.02738255172222242)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/3/model,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/3/aggregation,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/3/finding_id,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/3/mapped_topic_ids,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/4/raw_delta,PASS,-0.018122186778624722 vs np.float64(-0.018122186778624722)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/4/bootstrap_ci_low,PASS,-0.04424952559504539 vs np.float64(-0.04424952559504539)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/4/bootstrap_ci_high,PASS,-0.0034344364011752847 vs np.float64(-0.0034344364011752847)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/4/model,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/4/aggregation,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/4/finding_id,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/4/mapped_topic_ids,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/5/raw_delta,PASS,-0.037910059507369975 vs np.float64(-0.037910059507369975)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/5/bootstrap_ci_low,PASS,-0.07602104479268716 vs np.float64(-0.07602104479268716)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/5/bootstrap_ci_high,PASS,-0.0031795536855421113 vs np.float64(-0.0031795536855421113)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/5/model,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/5/aggregation,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/5/finding_id,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/5/mapped_topic_ids,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/6/raw_delta,PASS,-0.03216005895666994 vs np.float64(-0.03216005895666994)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/6/bootstrap_ci_low,PASS,-0.06174980364959919 vs np.float64(-0.06174980364959919)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/6/bootstrap_ci_high,PASS,-0.014131714017433569 vs np.float64(-0.014131714017433569)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/6/model,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/6/aggregation,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/6/finding_id,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/6/mapped_topic_ids,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/7/raw_delta,PASS,-0.054063097837308845 vs np.float64(-0.054063097837308845)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/7/bootstrap_ci_low,PASS,-0.08642329091685048 vs np.float64(-0.08642329091685048)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/7/bootstrap_ci_high,PASS,-0.021427536446170774 vs np.float64(-0.021427536446170774)
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/7/model,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/7/aggregation,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/7/finding_id,PASS,
+Figure_08_T16_Border_War_Partial_Robustness_plot_data/7/mapped_topic_ids,PASS,
+data\Figure_08_T16_Border_War_Partial_Robustness_plot_data.csv/manifest行数,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/POEM/raw_delta_POEM,PASS,-0.09446917612090609 vs np.float64(-0.09446917612090609)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/POEM/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/POEM/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/AUTHOR/raw_delta_AUTHOR,PASS,-0.12513293195661418 vs np.float64(-0.12513293195661418)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/AUTHOR/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/AUTHOR/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/2/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/POEM/raw_delta_POEM,PASS,0.09363230250299967 vs np.float64(0.09363230250299967)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/POEM/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/POEM/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/AUTHOR/raw_delta_AUTHOR,PASS,0.07023398435592407 vs np.float64(0.07023398435592407)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/AUTHOR/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/AUTHOR/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/3/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/POEM/raw_delta_POEM,PASS,0.06899243620940385 vs np.float64(0.06899243620940385)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/POEM/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/POEM/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/AUTHOR/raw_delta_AUTHOR,PASS,0.04125885222943739 vs np.float64(0.04125885222943739)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/AUTHOR/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/AUTHOR/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/4/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/POEM/raw_delta_POEM,PASS,-0.018122186778624722 vs np.float64(-0.018122186778624722)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/POEM/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/POEM/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/聚合,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/AUTHOR/raw_delta_AUTHOR,PASS,-0.037910059507369975 vs np.float64(-0.037910059507369975)
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/AUTHOR/finding_id,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/AUTHOR/model,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data/5/聚合,PASS,
+data\Figure_09_POEM_vs_AUTHOR_Core_Findings_plot_data.csv/manifest行数,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/2/new_delta,PASS,-0.0944691761209061 vs np.float64(-0.0944691761209061)
+Figure_10a_Author_Influence_POEM_plot_data/2/topic_id,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/2/aggregation,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/2/CI/ci_low,PASS,-0.145884910290477 vs np.float64(-0.145884910290477)
+Figure_10a_Author_Influence_POEM_plot_data/2/CI/ci_high,PASS,-0.0663651239866327 vs np.float64(-0.0663651239866327)
+Figure_10a_Author_Influence_POEM_plot_data/3/new_delta,PASS,0.0936323025029997 vs np.float64(0.0936323025029997)
+Figure_10a_Author_Influence_POEM_plot_data/3/topic_id,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/3/aggregation,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/3/CI/ci_low,PASS,0.055574540072807 vs np.float64(0.055574540072807)
+Figure_10a_Author_Influence_POEM_plot_data/3/CI/ci_high,PASS,0.140470074955429 vs np.float64(0.140470074955429)
+Figure_10a_Author_Influence_POEM_plot_data/4/new_delta,PASS,0.0689924362094038 vs np.float64(0.0689924362094038)
+Figure_10a_Author_Influence_POEM_plot_data/4/topic_id,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/4/aggregation,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/4/CI/ci_low,PASS,0.0424027137346822 vs np.float64(0.0424027137346822)
+Figure_10a_Author_Influence_POEM_plot_data/4/CI/ci_high,PASS,0.0956640412536422 vs np.float64(0.0956640412536422)
+Figure_10a_Author_Influence_POEM_plot_data/5/new_delta,PASS,-0.10108289429904145 vs np.float64(-0.10108289429904145)
+Figure_10a_Author_Influence_POEM_plot_data/5/topic_id,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/5/aggregation,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/5/CI/ci_low,PASS,-0.16370173443731575 vs np.float64(-0.16370173443731575)
+Figure_10a_Author_Influence_POEM_plot_data/5/CI/ci_high,PASS,-0.06155144121218913 vs np.float64(-0.06155144121218913)
+Figure_10a_Author_Influence_POEM_plot_data/5/CI/new_delta,PASS,-0.10108289429904145 vs np.float64(-0.10108289429904145)
+Figure_10a_Author_Influence_POEM_plot_data/5/CI/N,PASS,1 vs np.int64(1)
+Figure_10a_Author_Influence_POEM_plot_data/6/new_delta,PASS,-0.08957222631780988 vs np.float64(-0.08957222631780988)
+Figure_10a_Author_Influence_POEM_plot_data/6/topic_id,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/6/aggregation,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/6/CI/ci_low,PASS,-0.14101057047549068 vs np.float64(-0.14101057047549068)
+Figure_10a_Author_Influence_POEM_plot_data/6/CI/ci_high,PASS,-0.06168784930711012 vs np.float64(-0.06168784930711012)
+Figure_10a_Author_Influence_POEM_plot_data/6/CI/new_delta,PASS,-0.08957222631780988 vs np.float64(-0.08957222631780988)
+Figure_10a_Author_Influence_POEM_plot_data/6/CI/N,PASS,3 vs np.int64(3)
+Figure_10a_Author_Influence_POEM_plot_data/7/new_delta,PASS,-0.08988842686621101 vs np.float64(-0.08988842686621101)
+Figure_10a_Author_Influence_POEM_plot_data/7/topic_id,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/7/aggregation,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/7/CI/ci_low,PASS,-0.14184266724045794 vs np.float64(-0.14184266724045794)
+Figure_10a_Author_Influence_POEM_plot_data/7/CI/ci_high,PASS,-0.06119530851456508 vs np.float64(-0.06119530851456508)
+Figure_10a_Author_Influence_POEM_plot_data/7/CI/new_delta,PASS,-0.08988842686621101 vs np.float64(-0.08988842686621101)
+Figure_10a_Author_Influence_POEM_plot_data/7/CI/N,PASS,5 vs np.int64(5)
+Figure_10a_Author_Influence_POEM_plot_data/8/new_delta,PASS,0.07612434073626717 vs np.float64(0.07612434073626717)
+Figure_10a_Author_Influence_POEM_plot_data/8/topic_id,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/8/aggregation,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/8/CI/ci_low,PASS,0.0467624095839837 vs np.float64(0.0467624095839837)
+Figure_10a_Author_Influence_POEM_plot_data/8/CI/ci_high,PASS,0.10400912629194162 vs np.float64(0.10400912629194162)
+Figure_10a_Author_Influence_POEM_plot_data/8/CI/new_delta,PASS,0.07612434073626717 vs np.float64(0.07612434073626717)
+Figure_10a_Author_Influence_POEM_plot_data/8/CI/N,PASS,1 vs np.int64(1)
+Figure_10a_Author_Influence_POEM_plot_data/9/new_delta,PASS,0.0579381401073986 vs np.float64(0.0579381401073986)
+Figure_10a_Author_Influence_POEM_plot_data/9/topic_id,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/9/aggregation,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/9/CI/ci_low,PASS,0.0367163945812469 vs np.float64(0.0367163945812469)
+Figure_10a_Author_Influence_POEM_plot_data/9/CI/ci_high,PASS,0.08957964716260813 vs np.float64(0.08957964716260813)
+Figure_10a_Author_Influence_POEM_plot_data/9/CI/new_delta,PASS,0.0579381401073986 vs np.float64(0.0579381401073986)
+Figure_10a_Author_Influence_POEM_plot_data/9/CI/N,PASS,3 vs np.int64(3)
+Figure_10a_Author_Influence_POEM_plot_data/10/new_delta,PASS,0.04500374159307244 vs np.float64(0.04500374159307244)
+Figure_10a_Author_Influence_POEM_plot_data/10/topic_id,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/10/aggregation,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/10/CI/ci_low,PASS,0.028928065142538005 vs np.float64(0.028928065142538005)
+Figure_10a_Author_Influence_POEM_plot_data/10/CI/ci_high,PASS,0.08278145631082864 vs np.float64(0.08278145631082864)
+Figure_10a_Author_Influence_POEM_plot_data/10/CI/new_delta,PASS,0.04500374159307244 vs np.float64(0.04500374159307244)
+Figure_10a_Author_Influence_POEM_plot_data/10/CI/N,PASS,5 vs np.int64(5)
+Figure_10a_Author_Influence_POEM_plot_data/11/new_delta,PASS,0.06707370251017859 vs np.float64(0.06707370251017859)
+Figure_10a_Author_Influence_POEM_plot_data/11/topic_id,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/11/aggregation,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/11/CI/ci_low,PASS,0.03951637967214131 vs np.float64(0.03951637967214131)
+Figure_10a_Author_Influence_POEM_plot_data/11/CI/ci_high,PASS,0.09921953440273491 vs np.float64(0.09921953440273491)
+Figure_10a_Author_Influence_POEM_plot_data/11/CI/new_delta,PASS,0.06707370251017859 vs np.float64(0.06707370251017859)
+Figure_10a_Author_Influence_POEM_plot_data/11/CI/N,PASS,1 vs np.int64(1)
+Figure_10a_Author_Influence_POEM_plot_data/12/new_delta,PASS,0.05038239696405519 vs np.float64(0.05038239696405519)
+Figure_10a_Author_Influence_POEM_plot_data/12/topic_id,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/12/aggregation,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/12/CI/ci_low,PASS,0.02486354802182278 vs np.float64(0.02486354802182278)
+Figure_10a_Author_Influence_POEM_plot_data/12/CI/ci_high,PASS,0.08346528674441922 vs np.float64(0.08346528674441922)
+Figure_10a_Author_Influence_POEM_plot_data/12/CI/new_delta,PASS,0.05038239696405519 vs np.float64(0.05038239696405519)
+Figure_10a_Author_Influence_POEM_plot_data/12/CI/N,PASS,3 vs np.int64(3)
+Figure_10a_Author_Influence_POEM_plot_data/13/new_delta,PASS,0.04014922317780485 vs np.float64(0.04014922317780485)
+Figure_10a_Author_Influence_POEM_plot_data/13/topic_id,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/13/aggregation,PASS,
+Figure_10a_Author_Influence_POEM_plot_data/13/CI/ci_low,PASS,0.016450093318242747 vs np.float64(0.016450093318242747)
+Figure_10a_Author_Influence_POEM_plot_data/13/CI/ci_high,PASS,0.08103547854471112 vs np.float64(0.08103547854471112)
+Figure_10a_Author_Influence_POEM_plot_data/13/CI/new_delta,PASS,0.04014922317780485 vs np.float64(0.04014922317780485)
+Figure_10a_Author_Influence_POEM_plot_data/13/CI/N,PASS,5 vs np.int64(5)
+data\Figure_10a_Author_Influence_POEM_plot_data.csv/manifest行数,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/2/new_delta,PASS,-0.125132931956614 vs np.float64(-0.125132931956614)
+Figure_10b_Author_Influence_AUTHOR_plot_data/2/topic_id,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/2/aggregation,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/2/CI/ci_low,PASS,-0.191481233020895 vs np.float64(-0.191481233020895)
+Figure_10b_Author_Influence_AUTHOR_plot_data/2/CI/ci_high,PASS,-0.0626572611645223 vs np.float64(-0.0626572611645223)
+Figure_10b_Author_Influence_AUTHOR_plot_data/3/new_delta,PASS,0.0702339843559241 vs np.float64(0.0702339843559241)
+Figure_10b_Author_Influence_AUTHOR_plot_data/3/topic_id,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/3/aggregation,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/3/CI/ci_low,PASS,0.00322655212172642 vs np.float64(0.00322655212172642)
+Figure_10b_Author_Influence_AUTHOR_plot_data/3/CI/ci_high,PASS,0.131405778198181 vs np.float64(0.131405778198181)
+Figure_10b_Author_Influence_AUTHOR_plot_data/4/new_delta,PASS,0.0412588522294374 vs np.float64(0.0412588522294374)
+Figure_10b_Author_Influence_AUTHOR_plot_data/4/topic_id,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/4/aggregation,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/4/CI/ci_low,PASS,0.0126486705597185 vs np.float64(0.0126486705597185)
+Figure_10b_Author_Influence_AUTHOR_plot_data/4/CI/ci_high,PASS,0.0737627960471725 vs np.float64(0.0737627960471725)
+Figure_10b_Author_Influence_AUTHOR_plot_data/5/new_delta,PASS,-0.12666318471112498 vs np.float64(-0.12666318471112498)
+Figure_10b_Author_Influence_AUTHOR_plot_data/5/topic_id,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/5/aggregation,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/5/CI/ci_low,PASS,-0.19647085429444217 vs np.float64(-0.19647085429444217)
+Figure_10b_Author_Influence_AUTHOR_plot_data/5/CI/ci_high,PASS,-0.06215008869233752 vs np.float64(-0.06215008869233752)
+Figure_10b_Author_Influence_AUTHOR_plot_data/5/CI/new_delta,PASS,-0.12666318471112498 vs np.float64(-0.12666318471112498)
+Figure_10b_Author_Influence_AUTHOR_plot_data/5/CI/N,PASS,1 vs np.int64(1)
+Figure_10b_Author_Influence_AUTHOR_plot_data/6/new_delta,PASS,-0.12246839799387578 vs np.float64(-0.12246839799387578)
+Figure_10b_Author_Influence_AUTHOR_plot_data/6/topic_id,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/6/aggregation,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/6/CI/ci_low,PASS,-0.19064275532344507 vs np.float64(-0.19064275532344507)
+Figure_10b_Author_Influence_AUTHOR_plot_data/6/CI/ci_high,PASS,-0.059937191922292604 vs np.float64(-0.059937191922292604)
+Figure_10b_Author_Influence_AUTHOR_plot_data/6/CI/new_delta,PASS,-0.12246839799387578 vs np.float64(-0.12246839799387578)
+Figure_10b_Author_Influence_AUTHOR_plot_data/6/CI/N,PASS,3 vs np.int64(3)
+Figure_10b_Author_Influence_AUTHOR_plot_data/7/new_delta,PASS,-0.12152206212249189 vs np.float64(-0.12152206212249189)
+Figure_10b_Author_Influence_AUTHOR_plot_data/7/topic_id,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/7/aggregation,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/7/CI/ci_low,PASS,-0.18972767537177457 vs np.float64(-0.18972767537177457)
+Figure_10b_Author_Influence_AUTHOR_plot_data/7/CI/ci_high,PASS,-0.056757730609274595 vs np.float64(-0.056757730609274595)
+Figure_10b_Author_Influence_AUTHOR_plot_data/7/CI/new_delta,PASS,-0.12152206212249189 vs np.float64(-0.12152206212249189)
+Figure_10b_Author_Influence_AUTHOR_plot_data/7/CI/N,PASS,5 vs np.int64(5)
+Figure_10b_Author_Influence_AUTHOR_plot_data/8/new_delta,PASS,0.06675022068350357 vs np.float64(0.06675022068350357)
+Figure_10b_Author_Influence_AUTHOR_plot_data/8/topic_id,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/8/aggregation,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/8/CI/ci_low,PASS,6.088543837899604e-05 vs np.float64(6.088543837899604e-05)
+Figure_10b_Author_Influence_AUTHOR_plot_data/8/CI/ci_high,PASS,0.12490692302781854 vs np.float64(0.12490692302781854)
+Figure_10b_Author_Influence_AUTHOR_plot_data/8/CI/new_delta,PASS,0.06675022068350357 vs np.float64(0.06675022068350357)
+Figure_10b_Author_Influence_AUTHOR_plot_data/8/CI/N,PASS,1 vs np.int64(1)
+Figure_10b_Author_Influence_AUTHOR_plot_data/9/new_delta,PASS,0.06550445319340027 vs np.float64(0.06550445319340027)
+Figure_10b_Author_Influence_AUTHOR_plot_data/9/topic_id,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/9/aggregation,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/9/CI/ci_low,PASS,0.0005138354602285791 vs np.float64(0.0005138354602285791)
+Figure_10b_Author_Influence_AUTHOR_plot_data/9/CI/ci_high,PASS,0.12729510112968045 vs np.float64(0.12729510112968045)
+Figure_10b_Author_Influence_AUTHOR_plot_data/9/CI/new_delta,PASS,0.06550445319340027 vs np.float64(0.06550445319340027)
+Figure_10b_Author_Influence_AUTHOR_plot_data/9/CI/N,PASS,3 vs np.int64(3)
+Figure_10b_Author_Influence_AUTHOR_plot_data/10/new_delta,PASS,0.06583987464949874 vs np.float64(0.06583987464949874)
+Figure_10b_Author_Influence_AUTHOR_plot_data/10/topic_id,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/10/aggregation,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/10/CI/ci_low,PASS,-0.0036288805945733087 vs np.float64(-0.0036288805945733087)
+Figure_10b_Author_Influence_AUTHOR_plot_data/10/CI/ci_high,PASS,0.12962166446252874 vs np.float64(0.12962166446252874)
+Figure_10b_Author_Influence_AUTHOR_plot_data/10/CI/new_delta,PASS,0.06583987464949874 vs np.float64(0.06583987464949874)
+Figure_10b_Author_Influence_AUTHOR_plot_data/10/CI/N,PASS,5 vs np.int64(5)
+Figure_10b_Author_Influence_AUTHOR_plot_data/11/new_delta,PASS,0.04015938017174285 vs np.float64(0.04015938017174285)
+Figure_10b_Author_Influence_AUTHOR_plot_data/11/topic_id,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/11/aggregation,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/11/CI/ci_low,PASS,0.011629358592015134 vs np.float64(0.011629358592015134)
+Figure_10b_Author_Influence_AUTHOR_plot_data/11/CI/ci_high,PASS,0.0708599344921981 vs np.float64(0.0708599344921981)
+Figure_10b_Author_Influence_AUTHOR_plot_data/11/CI/new_delta,PASS,0.04015938017174285 vs np.float64(0.04015938017174285)
+Figure_10b_Author_Influence_AUTHOR_plot_data/11/CI/N,PASS,1 vs np.int64(1)
+Figure_10b_Author_Influence_AUTHOR_plot_data/12/new_delta,PASS,0.03613317318020552 vs np.float64(0.03613317318020552)
+Figure_10b_Author_Influence_AUTHOR_plot_data/12/topic_id,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/12/aggregation,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/12/CI/ci_low,PASS,0.006881623909225878 vs np.float64(0.006881623909225878)
+Figure_10b_Author_Influence_AUTHOR_plot_data/12/CI/ci_high,PASS,0.06763933514340008 vs np.float64(0.06763933514340008)
+Figure_10b_Author_Influence_AUTHOR_plot_data/12/CI/new_delta,PASS,0.03613317318020552 vs np.float64(0.03613317318020552)
+Figure_10b_Author_Influence_AUTHOR_plot_data/12/CI/N,PASS,3 vs np.int64(3)
+Figure_10b_Author_Influence_AUTHOR_plot_data/13/new_delta,PASS,0.033758906757842044 vs np.float64(0.033758906757842044)
+Figure_10b_Author_Influence_AUTHOR_plot_data/13/topic_id,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/13/aggregation,PASS,
+Figure_10b_Author_Influence_AUTHOR_plot_data/13/CI/ci_low,PASS,0.0030613615790862398 vs np.float64(0.0030613615790862398)
+Figure_10b_Author_Influence_AUTHOR_plot_data/13/CI/ci_high,PASS,0.06955172799825125 vs np.float64(0.06955172799825125)
+Figure_10b_Author_Influence_AUTHOR_plot_data/13/CI/new_delta,PASS,0.033758906757842044 vs np.float64(0.033758906757842044)
+Figure_10b_Author_Influence_AUTHOR_plot_data/13/CI/N,PASS,5 vs np.int64(5)
+data\Figure_10b_Author_Influence_AUTHOR_plot_data.csv/manifest行数,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/2/new_delta,PASS,-0.0944691761209061 vs np.float64(-0.0944691761209061)
+Figure_10_Author_Influence_Core_Findings_plot_data/2/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/2/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/2/CI/ci_low,PASS,-0.145884910290477 vs np.float64(-0.145884910290477)
+Figure_10_Author_Influence_Core_Findings_plot_data/2/CI/ci_high,PASS,-0.0663651239866327 vs np.float64(-0.0663651239866327)
+Figure_10_Author_Influence_Core_Findings_plot_data/3/new_delta,PASS,-0.125132931956614 vs np.float64(-0.125132931956614)
+Figure_10_Author_Influence_Core_Findings_plot_data/3/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/3/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/3/CI/ci_low,PASS,-0.191481233020895 vs np.float64(-0.191481233020895)
+Figure_10_Author_Influence_Core_Findings_plot_data/3/CI/ci_high,PASS,-0.0626572611645223 vs np.float64(-0.0626572611645223)
+Figure_10_Author_Influence_Core_Findings_plot_data/4/new_delta,PASS,0.0936323025029997 vs np.float64(0.0936323025029997)
+Figure_10_Author_Influence_Core_Findings_plot_data/4/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/4/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/4/CI/ci_low,PASS,0.055574540072807 vs np.float64(0.055574540072807)
+Figure_10_Author_Influence_Core_Findings_plot_data/4/CI/ci_high,PASS,0.140470074955429 vs np.float64(0.140470074955429)
+Figure_10_Author_Influence_Core_Findings_plot_data/5/new_delta,PASS,0.0702339843559241 vs np.float64(0.0702339843559241)
+Figure_10_Author_Influence_Core_Findings_plot_data/5/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/5/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/5/CI/ci_low,PASS,0.00322655212172642 vs np.float64(0.00322655212172642)
+Figure_10_Author_Influence_Core_Findings_plot_data/5/CI/ci_high,PASS,0.131405778198181 vs np.float64(0.131405778198181)
+Figure_10_Author_Influence_Core_Findings_plot_data/6/new_delta,PASS,0.0689924362094038 vs np.float64(0.0689924362094038)
+Figure_10_Author_Influence_Core_Findings_plot_data/6/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/6/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/6/CI/ci_low,PASS,0.0424027137346822 vs np.float64(0.0424027137346822)
+Figure_10_Author_Influence_Core_Findings_plot_data/6/CI/ci_high,PASS,0.0956640412536422 vs np.float64(0.0956640412536422)
+Figure_10_Author_Influence_Core_Findings_plot_data/7/new_delta,PASS,0.0412588522294374 vs np.float64(0.0412588522294374)
+Figure_10_Author_Influence_Core_Findings_plot_data/7/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/7/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/7/CI/ci_low,PASS,0.0126486705597185 vs np.float64(0.0126486705597185)
+Figure_10_Author_Influence_Core_Findings_plot_data/7/CI/ci_high,PASS,0.0737627960471725 vs np.float64(0.0737627960471725)
+Figure_10_Author_Influence_Core_Findings_plot_data/8/new_delta,PASS,-0.12666318471112498 vs np.float64(-0.12666318471112498)
+Figure_10_Author_Influence_Core_Findings_plot_data/8/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/8/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/8/CI/ci_low,PASS,-0.19647085429444217 vs np.float64(-0.19647085429444217)
+Figure_10_Author_Influence_Core_Findings_plot_data/8/CI/ci_high,PASS,-0.06215008869233752 vs np.float64(-0.06215008869233752)
+Figure_10_Author_Influence_Core_Findings_plot_data/8/CI/new_delta,PASS,-0.12666318471112498 vs np.float64(-0.12666318471112498)
+Figure_10_Author_Influence_Core_Findings_plot_data/8/CI/N,PASS,1 vs np.int64(1)
+Figure_10_Author_Influence_Core_Findings_plot_data/9/new_delta,PASS,-0.12246839799387578 vs np.float64(-0.12246839799387578)
+Figure_10_Author_Influence_Core_Findings_plot_data/9/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/9/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/9/CI/ci_low,PASS,-0.19064275532344507 vs np.float64(-0.19064275532344507)
+Figure_10_Author_Influence_Core_Findings_plot_data/9/CI/ci_high,PASS,-0.059937191922292604 vs np.float64(-0.059937191922292604)
+Figure_10_Author_Influence_Core_Findings_plot_data/9/CI/new_delta,PASS,-0.12246839799387578 vs np.float64(-0.12246839799387578)
+Figure_10_Author_Influence_Core_Findings_plot_data/9/CI/N,PASS,3 vs np.int64(3)
+Figure_10_Author_Influence_Core_Findings_plot_data/10/new_delta,PASS,-0.12152206212249189 vs np.float64(-0.12152206212249189)
+Figure_10_Author_Influence_Core_Findings_plot_data/10/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/10/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/10/CI/ci_low,PASS,-0.18972767537177457 vs np.float64(-0.18972767537177457)
+Figure_10_Author_Influence_Core_Findings_plot_data/10/CI/ci_high,PASS,-0.056757730609274595 vs np.float64(-0.056757730609274595)
+Figure_10_Author_Influence_Core_Findings_plot_data/10/CI/new_delta,PASS,-0.12152206212249189 vs np.float64(-0.12152206212249189)
+Figure_10_Author_Influence_Core_Findings_plot_data/10/CI/N,PASS,5 vs np.int64(5)
+Figure_10_Author_Influence_Core_Findings_plot_data/11/new_delta,PASS,-0.10108289429904145 vs np.float64(-0.10108289429904145)
+Figure_10_Author_Influence_Core_Findings_plot_data/11/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/11/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/11/CI/ci_low,PASS,-0.16370173443731575 vs np.float64(-0.16370173443731575)
+Figure_10_Author_Influence_Core_Findings_plot_data/11/CI/ci_high,PASS,-0.06155144121218913 vs np.float64(-0.06155144121218913)
+Figure_10_Author_Influence_Core_Findings_plot_data/11/CI/new_delta,PASS,-0.10108289429904145 vs np.float64(-0.10108289429904145)
+Figure_10_Author_Influence_Core_Findings_plot_data/11/CI/N,PASS,1 vs np.int64(1)
+Figure_10_Author_Influence_Core_Findings_plot_data/12/new_delta,PASS,-0.08957222631780988 vs np.float64(-0.08957222631780988)
+Figure_10_Author_Influence_Core_Findings_plot_data/12/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/12/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/12/CI/ci_low,PASS,-0.14101057047549068 vs np.float64(-0.14101057047549068)
+Figure_10_Author_Influence_Core_Findings_plot_data/12/CI/ci_high,PASS,-0.06168784930711012 vs np.float64(-0.06168784930711012)
+Figure_10_Author_Influence_Core_Findings_plot_data/12/CI/new_delta,PASS,-0.08957222631780988 vs np.float64(-0.08957222631780988)
+Figure_10_Author_Influence_Core_Findings_plot_data/12/CI/N,PASS,3 vs np.int64(3)
+Figure_10_Author_Influence_Core_Findings_plot_data/13/new_delta,PASS,-0.08988842686621101 vs np.float64(-0.08988842686621101)
+Figure_10_Author_Influence_Core_Findings_plot_data/13/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/13/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/13/CI/ci_low,PASS,-0.14184266724045794 vs np.float64(-0.14184266724045794)
+Figure_10_Author_Influence_Core_Findings_plot_data/13/CI/ci_high,PASS,-0.06119530851456508 vs np.float64(-0.06119530851456508)
+Figure_10_Author_Influence_Core_Findings_plot_data/13/CI/new_delta,PASS,-0.08988842686621101 vs np.float64(-0.08988842686621101)
+Figure_10_Author_Influence_Core_Findings_plot_data/13/CI/N,PASS,5 vs np.int64(5)
+Figure_10_Author_Influence_Core_Findings_plot_data/14/new_delta,PASS,0.06675022068350357 vs np.float64(0.06675022068350357)
+Figure_10_Author_Influence_Core_Findings_plot_data/14/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/14/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/14/CI/ci_low,PASS,6.088543837899604e-05 vs np.float64(6.088543837899604e-05)
+Figure_10_Author_Influence_Core_Findings_plot_data/14/CI/ci_high,PASS,0.12490692302781854 vs np.float64(0.12490692302781854)
+Figure_10_Author_Influence_Core_Findings_plot_data/14/CI/new_delta,PASS,0.06675022068350357 vs np.float64(0.06675022068350357)
+Figure_10_Author_Influence_Core_Findings_plot_data/14/CI/N,PASS,1 vs np.int64(1)
+Figure_10_Author_Influence_Core_Findings_plot_data/15/new_delta,PASS,0.06550445319340027 vs np.float64(0.06550445319340027)
+Figure_10_Author_Influence_Core_Findings_plot_data/15/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/15/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/15/CI/ci_low,PASS,0.0005138354602285791 vs np.float64(0.0005138354602285791)
+Figure_10_Author_Influence_Core_Findings_plot_data/15/CI/ci_high,PASS,0.12729510112968045 vs np.float64(0.12729510112968045)
+Figure_10_Author_Influence_Core_Findings_plot_data/15/CI/new_delta,PASS,0.06550445319340027 vs np.float64(0.06550445319340027)
+Figure_10_Author_Influence_Core_Findings_plot_data/15/CI/N,PASS,3 vs np.int64(3)
+Figure_10_Author_Influence_Core_Findings_plot_data/16/new_delta,PASS,0.06583987464949874 vs np.float64(0.06583987464949874)
+Figure_10_Author_Influence_Core_Findings_plot_data/16/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/16/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/16/CI/ci_low,PASS,-0.0036288805945733087 vs np.float64(-0.0036288805945733087)
+Figure_10_Author_Influence_Core_Findings_plot_data/16/CI/ci_high,PASS,0.12962166446252874 vs np.float64(0.12962166446252874)
+Figure_10_Author_Influence_Core_Findings_plot_data/16/CI/new_delta,PASS,0.06583987464949874 vs np.float64(0.06583987464949874)
+Figure_10_Author_Influence_Core_Findings_plot_data/16/CI/N,PASS,5 vs np.int64(5)
+Figure_10_Author_Influence_Core_Findings_plot_data/17/new_delta,PASS,0.07612434073626717 vs np.float64(0.07612434073626717)
+Figure_10_Author_Influence_Core_Findings_plot_data/17/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/17/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/17/CI/ci_low,PASS,0.0467624095839837 vs np.float64(0.0467624095839837)
+Figure_10_Author_Influence_Core_Findings_plot_data/17/CI/ci_high,PASS,0.10400912629194162 vs np.float64(0.10400912629194162)
+Figure_10_Author_Influence_Core_Findings_plot_data/17/CI/new_delta,PASS,0.07612434073626717 vs np.float64(0.07612434073626717)
+Figure_10_Author_Influence_Core_Findings_plot_data/17/CI/N,PASS,1 vs np.int64(1)
+Figure_10_Author_Influence_Core_Findings_plot_data/18/new_delta,PASS,0.0579381401073986 vs np.float64(0.0579381401073986)
+Figure_10_Author_Influence_Core_Findings_plot_data/18/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/18/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/18/CI/ci_low,PASS,0.0367163945812469 vs np.float64(0.0367163945812469)
+Figure_10_Author_Influence_Core_Findings_plot_data/18/CI/ci_high,PASS,0.08957964716260813 vs np.float64(0.08957964716260813)
+Figure_10_Author_Influence_Core_Findings_plot_data/18/CI/new_delta,PASS,0.0579381401073986 vs np.float64(0.0579381401073986)
+Figure_10_Author_Influence_Core_Findings_plot_data/18/CI/N,PASS,3 vs np.int64(3)
+Figure_10_Author_Influence_Core_Findings_plot_data/19/new_delta,PASS,0.04500374159307244 vs np.float64(0.04500374159307244)
+Figure_10_Author_Influence_Core_Findings_plot_data/19/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/19/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/19/CI/ci_low,PASS,0.028928065142538005 vs np.float64(0.028928065142538005)
+Figure_10_Author_Influence_Core_Findings_plot_data/19/CI/ci_high,PASS,0.08278145631082864 vs np.float64(0.08278145631082864)
+Figure_10_Author_Influence_Core_Findings_plot_data/19/CI/new_delta,PASS,0.04500374159307244 vs np.float64(0.04500374159307244)
+Figure_10_Author_Influence_Core_Findings_plot_data/19/CI/N,PASS,5 vs np.int64(5)
+Figure_10_Author_Influence_Core_Findings_plot_data/20/new_delta,PASS,0.04015938017174285 vs np.float64(0.04015938017174285)
+Figure_10_Author_Influence_Core_Findings_plot_data/20/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/20/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/20/CI/ci_low,PASS,0.011629358592015134 vs np.float64(0.011629358592015134)
+Figure_10_Author_Influence_Core_Findings_plot_data/20/CI/ci_high,PASS,0.0708599344921981 vs np.float64(0.0708599344921981)
+Figure_10_Author_Influence_Core_Findings_plot_data/20/CI/new_delta,PASS,0.04015938017174285 vs np.float64(0.04015938017174285)
+Figure_10_Author_Influence_Core_Findings_plot_data/20/CI/N,PASS,1 vs np.int64(1)
+Figure_10_Author_Influence_Core_Findings_plot_data/21/new_delta,PASS,0.03613317318020552 vs np.float64(0.03613317318020552)
+Figure_10_Author_Influence_Core_Findings_plot_data/21/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/21/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/21/CI/ci_low,PASS,0.006881623909225878 vs np.float64(0.006881623909225878)
+Figure_10_Author_Influence_Core_Findings_plot_data/21/CI/ci_high,PASS,0.06763933514340008 vs np.float64(0.06763933514340008)
+Figure_10_Author_Influence_Core_Findings_plot_data/21/CI/new_delta,PASS,0.03613317318020552 vs np.float64(0.03613317318020552)
+Figure_10_Author_Influence_Core_Findings_plot_data/21/CI/N,PASS,3 vs np.int64(3)
+Figure_10_Author_Influence_Core_Findings_plot_data/22/new_delta,PASS,0.033758906757842044 vs np.float64(0.033758906757842044)
+Figure_10_Author_Influence_Core_Findings_plot_data/22/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/22/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/22/CI/ci_low,PASS,0.0030613615790862398 vs np.float64(0.0030613615790862398)
+Figure_10_Author_Influence_Core_Findings_plot_data/22/CI/ci_high,PASS,0.06955172799825125 vs np.float64(0.06955172799825125)
+Figure_10_Author_Influence_Core_Findings_plot_data/22/CI/new_delta,PASS,0.033758906757842044 vs np.float64(0.033758906757842044)
+Figure_10_Author_Influence_Core_Findings_plot_data/22/CI/N,PASS,5 vs np.int64(5)
+Figure_10_Author_Influence_Core_Findings_plot_data/23/new_delta,PASS,0.06707370251017859 vs np.float64(0.06707370251017859)
+Figure_10_Author_Influence_Core_Findings_plot_data/23/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/23/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/23/CI/ci_low,PASS,0.03951637967214131 vs np.float64(0.03951637967214131)
+Figure_10_Author_Influence_Core_Findings_plot_data/23/CI/ci_high,PASS,0.09921953440273491 vs np.float64(0.09921953440273491)
+Figure_10_Author_Influence_Core_Findings_plot_data/23/CI/new_delta,PASS,0.06707370251017859 vs np.float64(0.06707370251017859)
+Figure_10_Author_Influence_Core_Findings_plot_data/23/CI/N,PASS,1 vs np.int64(1)
+Figure_10_Author_Influence_Core_Findings_plot_data/24/new_delta,PASS,0.05038239696405519 vs np.float64(0.05038239696405519)
+Figure_10_Author_Influence_Core_Findings_plot_data/24/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/24/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/24/CI/ci_low,PASS,0.02486354802182278 vs np.float64(0.02486354802182278)
+Figure_10_Author_Influence_Core_Findings_plot_data/24/CI/ci_high,PASS,0.08346528674441922 vs np.float64(0.08346528674441922)
+Figure_10_Author_Influence_Core_Findings_plot_data/24/CI/new_delta,PASS,0.05038239696405519 vs np.float64(0.05038239696405519)
+Figure_10_Author_Influence_Core_Findings_plot_data/24/CI/N,PASS,3 vs np.int64(3)
+Figure_10_Author_Influence_Core_Findings_plot_data/25/new_delta,PASS,0.04014922317780485 vs np.float64(0.04014922317780485)
+Figure_10_Author_Influence_Core_Findings_plot_data/25/topic_id,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/25/aggregation,PASS,
+Figure_10_Author_Influence_Core_Findings_plot_data/25/CI/ci_low,PASS,0.016450093318242747 vs np.float64(0.016450093318242747)
+Figure_10_Author_Influence_Core_Findings_plot_data/25/CI/ci_high,PASS,0.08103547854471112 vs np.float64(0.08103547854471112)
+Figure_10_Author_Influence_Core_Findings_plot_data/25/CI/new_delta,PASS,0.04014922317780485 vs np.float64(0.04014922317780485)
+Figure_10_Author_Influence_Core_Findings_plot_data/25/CI/N,PASS,5 vs np.int64(5)
+data\Figure_10_Author_Influence_Core_Findings_plot_data.csv/manifest行数,PASS,
+Figure_01a_T03.png/输出哈希,PASS,
+Figure_01a_T03.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_01a_T03.png/像素尺寸,PASS,"(4680, 3240)"
+Figure_01a_T03.pdf/输出哈希,PASS,
+Figure_01a_T03.pdf/单页可打开,PASS,
+Figure_01a_T03.pdf/矢量非栅格PDF,PASS,0
+Figure_01a_T03.pdf/字体嵌入,PASS,2
+Figure_01a_T03.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.050
+0.100
+0.150
+0.200
+平均 Topic probability
+初唐—晚唐、中唐—晚唐：跨模型稳健
+T03 朝廷礼乐、应制与"
+Figure_01a_T03.pdf/无乱码替代符,PASS,
+Figure_01a_T03.pdf/Poppler渲染,PASS,
+Figure_01a_T03.svg/输出哈希,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend.png/输出哈希,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_02_T03_Ritual_Court_Praise_Trend.png/像素尺寸,PASS,"(4680, 3240)"
+Figure_02_T03_Ritual_Court_Praise_Trend.pdf/输出哈希,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend.pdf/单页可打开,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend.pdf/矢量非栅格PDF,PASS,0
+Figure_02_T03_Ritual_Court_Praise_Trend.pdf/字体嵌入,PASS,2
+Figure_02_T03_Ritual_Court_Praise_Trend.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.050
+0.100
+0.150
+0.200
+平均 Topic probability
+初唐—晚唐、中唐—晚唐：跨模型稳健
+T03 朝廷礼乐、应制与"
+Figure_02_T03_Ritual_Court_Praise_Trend.pdf/无乱码替代符,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend.pdf/Poppler渲染,PASS,
+Figure_02_T03_Ritual_Court_Praise_Trend.svg/输出哈希,PASS,
+Figure_01b_T06.png/输出哈希,PASS,
+Figure_01b_T06.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_01b_T06.png/像素尺寸,PASS,"(4680, 3240)"
+Figure_01b_T06.pdf/输出哈希,PASS,
+Figure_01b_T06.pdf/单页可打开,PASS,
+Figure_01b_T06.pdf/矢量非栅格PDF,PASS,0
+Figure_01b_T06.pdf/字体嵌入,PASS,2
+Figure_01b_T06.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.040
+0.080
+0.120
+0.160
+平均 Topic probability
+初唐—晚唐：跨模型稳健
+T06 老病身世、仕宦与人生感怀：
+"
+Figure_01b_T06.pdf/无乱码替代符,PASS,
+Figure_01b_T06.pdf/Poppler渲染,PASS,
+Figure_01b_T06.svg/输出哈希,PASS,
+Figure_03_T06_Life_Career_Aging_Trend.png/输出哈希,PASS,
+Figure_03_T06_Life_Career_Aging_Trend.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_03_T06_Life_Career_Aging_Trend.png/像素尺寸,PASS,"(4680, 3240)"
+Figure_03_T06_Life_Career_Aging_Trend.pdf/输出哈希,PASS,
+Figure_03_T06_Life_Career_Aging_Trend.pdf/单页可打开,PASS,
+Figure_03_T06_Life_Career_Aging_Trend.pdf/矢量非栅格PDF,PASS,0
+Figure_03_T06_Life_Career_Aging_Trend.pdf/字体嵌入,PASS,2
+Figure_03_T06_Life_Career_Aging_Trend.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.040
+0.080
+0.120
+0.160
+平均 Topic probability
+初唐—晚唐：跨模型稳健
+T06 老病身世、仕宦与人生感怀：
+"
+Figure_03_T06_Life_Career_Aging_Trend.pdf/无乱码替代符,PASS,
+Figure_03_T06_Life_Career_Aging_Trend.pdf/Poppler渲染,PASS,
+Figure_03_T06_Life_Career_Aging_Trend.svg/输出哈希,PASS,
+Figure_01c_T08.png/输出哈希,PASS,
+Figure_01c_T08.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_01c_T08.png/像素尺寸,PASS,"(4680, 3240)"
+Figure_01c_T08.pdf/输出哈希,PASS,
+Figure_01c_T08.pdf/单页可打开,PASS,
+Figure_01c_T08.pdf/矢量非栅格PDF,PASS,0
+Figure_01c_T08.pdf/字体嵌入,PASS,2
+Figure_01c_T08.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.030
+0.060
+0.090
+0.120
+平均 Topic probability
+初唐—晚唐：跨模型稳健
+T08 山居寺院、僧侣与幽居：
+按作"
+Figure_01c_T08.pdf/无乱码替代符,PASS,
+Figure_01c_T08.pdf/Poppler渲染,PASS,
+Figure_01c_T08.svg/输出哈希,PASS,
+Figure_04_T08_Temple_Reclusion_Trend.png/输出哈希,PASS,
+Figure_04_T08_Temple_Reclusion_Trend.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_04_T08_Temple_Reclusion_Trend.png/像素尺寸,PASS,"(4680, 3240)"
+Figure_04_T08_Temple_Reclusion_Trend.pdf/输出哈希,PASS,
+Figure_04_T08_Temple_Reclusion_Trend.pdf/单页可打开,PASS,
+Figure_04_T08_Temple_Reclusion_Trend.pdf/矢量非栅格PDF,PASS,0
+Figure_04_T08_Temple_Reclusion_Trend.pdf/字体嵌入,PASS,2
+Figure_04_T08_Temple_Reclusion_Trend.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.030
+0.060
+0.090
+0.120
+平均 Topic probability
+初唐—晚唐：跨模型稳健
+T08 山居寺院、僧侣与幽居：
+按作"
+Figure_04_T08_Temple_Reclusion_Trend.pdf/无乱码替代符,PASS,
+Figure_04_T08_Temple_Reclusion_Trend.pdf/Poppler渲染,PASS,
+Figure_04_T08_Temple_Reclusion_Trend.svg/输出哈希,PASS,
+Figure_01_Core_Robust_Topic_Trends.png/输出哈希,PASS,
+Figure_01_Core_Robust_Topic_Trends.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_01_Core_Robust_Topic_Trends.png/像素尺寸,PASS,"(4560, 5580)"
+Figure_01_Core_Robust_Topic_Trends.pdf/输出哈希,PASS,
+Figure_01_Core_Robust_Topic_Trends.pdf/单页可打开,PASS,
+Figure_01_Core_Robust_Topic_Trends.pdf/矢量非栅格PDF,PASS,0
+Figure_01_Core_Robust_Topic_Trends.pdf/字体嵌入,PASS,2
+Figure_01_Core_Robust_Topic_Trends.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+0.000
+0.050
+0.100
+0.150
+0.200
+平均 Topic probability
+a  T03  朝廷礼乐、应制与颂圣
+初唐 盛唐 中唐 晚唐
+0.000
+"
+Figure_01_Core_Robust_Topic_Trends.pdf/无乱码替代符,PASS,
+Figure_01_Core_Robust_Topic_Trends.pdf/Poppler渲染,PASS,
+Figure_01_Core_Robust_Topic_Trends.svg/输出哈希,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined.png/输出哈希,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_01_Core_Robust_Topic_Trends_combined.png/像素尺寸,PASS,"(4560, 5580)"
+Figure_01_Core_Robust_Topic_Trends_combined.pdf/输出哈希,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined.pdf/单页可打开,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined.pdf/矢量非栅格PDF,PASS,0
+Figure_01_Core_Robust_Topic_Trends_combined.pdf/字体嵌入,PASS,2
+Figure_01_Core_Robust_Topic_Trends_combined.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+0.000
+0.050
+0.100
+0.150
+0.200
+平均 Topic probability
+a  T03  朝廷礼乐、应制与颂圣
+初唐 盛唐 中唐 晚唐
+0.000
+"
+Figure_01_Core_Robust_Topic_Trends_combined.pdf/无乱码替代符,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined.pdf/Poppler渲染,PASS,
+Figure_01_Core_Robust_Topic_Trends_combined.svg/输出哈希,PASS,
+Figure_05a_BCD_Effects_POEM.png/输出哈希,PASS,
+Figure_05a_BCD_Effects_POEM.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_05a_BCD_Effects_POEM.png/像素尺寸,PASS,"(4920, 3420)"
+Figure_05a_BCD_Effects_POEM.pdf/输出哈希,PASS,
+Figure_05a_BCD_Effects_POEM.pdf/单页可打开,PASS,
+Figure_05a_BCD_Effects_POEM.pdf/矢量非栅格PDF,PASS,0
+Figure_05a_BCD_Effects_POEM.pdf/字体嵌入,PASS,2
+Figure_05a_BCD_Effects_POEM.pdf/作者时期中文文本,PASS,"T03  初唐—晚唐
+朝廷礼乐、
+应制与颂圣
+T03  中唐—晚唐
+朝廷礼乐、
+应制与颂圣
+T06  初唐—晚唐
+老病身世、仕宦
+与人生感怀
+T08  初唐—晚唐
+山居寺院、
+僧侣与幽居
+-0.150"
+Figure_05a_BCD_Effects_POEM.pdf/无乱码替代符,PASS,
+Figure_05a_BCD_Effects_POEM.pdf/Poppler渲染,PASS,
+Figure_05a_BCD_Effects_POEM.svg/输出哈希,PASS,
+Figure_05b_BCD_Effects_AUTHOR.png/输出哈希,PASS,
+Figure_05b_BCD_Effects_AUTHOR.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_05b_BCD_Effects_AUTHOR.png/像素尺寸,PASS,"(4920, 3420)"
+Figure_05b_BCD_Effects_AUTHOR.pdf/输出哈希,PASS,
+Figure_05b_BCD_Effects_AUTHOR.pdf/单页可打开,PASS,
+Figure_05b_BCD_Effects_AUTHOR.pdf/矢量非栅格PDF,PASS,0
+Figure_05b_BCD_Effects_AUTHOR.pdf/字体嵌入,PASS,2
+Figure_05b_BCD_Effects_AUTHOR.pdf/作者时期中文文本,PASS,"T03  初唐—晚唐
+朝廷礼乐、
+应制与颂圣
+T03  中唐—晚唐
+朝廷礼乐、
+应制与颂圣
+T06  初唐—晚唐
+老病身世、仕宦
+与人生感怀
+T08  初唐—晚唐
+山居寺院、
+僧侣与幽居
+-0.150"
+Figure_05b_BCD_Effects_AUTHOR.pdf/无乱码替代符,PASS,
+Figure_05b_BCD_Effects_AUTHOR.pdf/Poppler渲染,PASS,
+Figure_05b_BCD_Effects_AUTHOR.svg/输出哈希,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison.png/输出哈希,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_05_BCD_Core_Finding_Effect_Comparison.png/像素尺寸,PASS,"(4920, 5460)"
+Figure_05_BCD_Core_Finding_Effect_Comparison.pdf/输出哈希,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison.pdf/单页可打开,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison.pdf/矢量非栅格PDF,PASS,0
+Figure_05_BCD_Core_Finding_Effect_Comparison.pdf/字体嵌入,PASS,2
+Figure_05_BCD_Core_Finding_Effect_Comparison.pdf/作者时期中文文本,PASS,"T03  初唐—晚唐
+朝廷礼乐、
+应制与颂圣
+T03  中唐—晚唐
+朝廷礼乐、
+应制与颂圣
+T06  初唐—晚唐
+老病身世、仕宦
+与人生感怀
+T08  初唐—晚唐
+山居寺院、
+僧侣与幽居
+-0.150"
+Figure_05_BCD_Core_Finding_Effect_Comparison.pdf/无乱码替代符,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison.pdf/Poppler渲染,PASS,
+Figure_05_BCD_Core_Finding_Effect_Comparison.svg/输出哈希,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM.png/输出哈希,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_06a_T03_BCD_Period_Profile_POEM.png/像素尺寸,PASS,"(4680, 3060)"
+Figure_06a_T03_BCD_Period_Profile_POEM.pdf/输出哈希,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM.pdf/单页可打开,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM.pdf/矢量非栅格PDF,PASS,0
+Figure_06a_T03_BCD_Period_Profile_POEM.pdf/字体嵌入,PASS,2
+Figure_06a_T03_BCD_Period_Profile_POEM.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.050
+0.100
+0.150
+0.200
+平均 Topic probability
+T03 朝廷礼乐、应制与颂圣
+按诗等权（POEM） · CO"
+Figure_06a_T03_BCD_Period_Profile_POEM.pdf/无乱码替代符,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM.pdf/Poppler渲染,PASS,
+Figure_06a_T03_BCD_Period_Profile_POEM.svg/输出哈希,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR.png/输出哈希,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_06a_T03_BCD_Period_Profile_AUTHOR.png/像素尺寸,PASS,"(4680, 3060)"
+Figure_06a_T03_BCD_Period_Profile_AUTHOR.pdf/输出哈希,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR.pdf/单页可打开,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR.pdf/矢量非栅格PDF,PASS,0
+Figure_06a_T03_BCD_Period_Profile_AUTHOR.pdf/字体嵌入,PASS,2
+Figure_06a_T03_BCD_Period_Profile_AUTHOR.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.050
+0.100
+0.150
+0.200
+平均 Topic probability
+T03 朝廷礼乐、应制与颂圣
+作者均衡（AUTHOR） · "
+Figure_06a_T03_BCD_Period_Profile_AUTHOR.pdf/无乱码替代符,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR.pdf/Poppler渲染,PASS,
+Figure_06a_T03_BCD_Period_Profile_AUTHOR.svg/输出哈希,PASS,
+Figure_06a_T03_BCD_Period_Profile.png/输出哈希,PASS,
+Figure_06a_T03_BCD_Period_Profile.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_06a_T03_BCD_Period_Profile.png/像素尺寸,PASS,"(4680, 3060)"
+Figure_06a_T03_BCD_Period_Profile.pdf/输出哈希,PASS,
+Figure_06a_T03_BCD_Period_Profile.pdf/单页可打开,PASS,
+Figure_06a_T03_BCD_Period_Profile.pdf/矢量非栅格PDF,PASS,0
+Figure_06a_T03_BCD_Period_Profile.pdf/字体嵌入,PASS,2
+Figure_06a_T03_BCD_Period_Profile.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.050
+0.100
+0.150
+0.200
+平均 Topic probability
+T03 朝廷礼乐、应制与颂圣
+作者均衡（AUTHOR） · "
+Figure_06a_T03_BCD_Period_Profile.pdf/无乱码替代符,PASS,
+Figure_06a_T03_BCD_Period_Profile.pdf/Poppler渲染,PASS,
+Figure_06a_T03_BCD_Period_Profile.svg/输出哈希,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM.png/输出哈希,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_06b_T06_BCD_Period_Profile_POEM.png/像素尺寸,PASS,"(4680, 3060)"
+Figure_06b_T06_BCD_Period_Profile_POEM.pdf/输出哈希,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM.pdf/单页可打开,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM.pdf/矢量非栅格PDF,PASS,0
+Figure_06b_T06_BCD_Period_Profile_POEM.pdf/字体嵌入,PASS,2
+Figure_06b_T06_BCD_Period_Profile_POEM.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.060
+0.120
+0.180
+0.240
+平均 Topic probability
+T06 老病身世、仕宦与人生感怀
+按诗等权（POEM） · "
+Figure_06b_T06_BCD_Period_Profile_POEM.pdf/无乱码替代符,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM.pdf/Poppler渲染,PASS,
+Figure_06b_T06_BCD_Period_Profile_POEM.svg/输出哈希,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR.png/输出哈希,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_06b_T06_BCD_Period_Profile_AUTHOR.png/像素尺寸,PASS,"(4680, 3060)"
+Figure_06b_T06_BCD_Period_Profile_AUTHOR.pdf/输出哈希,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR.pdf/单页可打开,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR.pdf/矢量非栅格PDF,PASS,0
+Figure_06b_T06_BCD_Period_Profile_AUTHOR.pdf/字体嵌入,PASS,2
+Figure_06b_T06_BCD_Period_Profile_AUTHOR.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.060
+0.120
+0.180
+0.240
+平均 Topic probability
+T06 老病身世、仕宦与人生感怀
+作者均衡（AUTHOR） "
+Figure_06b_T06_BCD_Period_Profile_AUTHOR.pdf/无乱码替代符,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR.pdf/Poppler渲染,PASS,
+Figure_06b_T06_BCD_Period_Profile_AUTHOR.svg/输出哈希,PASS,
+Figure_06b_T06_BCD_Period_Profile.png/输出哈希,PASS,
+Figure_06b_T06_BCD_Period_Profile.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_06b_T06_BCD_Period_Profile.png/像素尺寸,PASS,"(4680, 3060)"
+Figure_06b_T06_BCD_Period_Profile.pdf/输出哈希,PASS,
+Figure_06b_T06_BCD_Period_Profile.pdf/单页可打开,PASS,
+Figure_06b_T06_BCD_Period_Profile.pdf/矢量非栅格PDF,PASS,0
+Figure_06b_T06_BCD_Period_Profile.pdf/字体嵌入,PASS,2
+Figure_06b_T06_BCD_Period_Profile.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.060
+0.120
+0.180
+0.240
+平均 Topic probability
+T06 老病身世、仕宦与人生感怀
+作者均衡（AUTHOR） "
+Figure_06b_T06_BCD_Period_Profile.pdf/无乱码替代符,PASS,
+Figure_06b_T06_BCD_Period_Profile.pdf/Poppler渲染,PASS,
+Figure_06b_T06_BCD_Period_Profile.svg/输出哈希,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM.png/输出哈希,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_06c_T08_BCD_Period_Profile_POEM.png/像素尺寸,PASS,"(4680, 3060)"
+Figure_06c_T08_BCD_Period_Profile_POEM.pdf/输出哈希,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM.pdf/单页可打开,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM.pdf/矢量非栅格PDF,PASS,0
+Figure_06c_T08_BCD_Period_Profile_POEM.pdf/字体嵌入,PASS,2
+Figure_06c_T08_BCD_Period_Profile_POEM.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.030
+0.060
+0.090
+0.120
+平均 Topic probability
+T08 山居寺院、僧侣与幽居
+按诗等权（POEM） · CO"
+Figure_06c_T08_BCD_Period_Profile_POEM.pdf/无乱码替代符,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM.pdf/Poppler渲染,PASS,
+Figure_06c_T08_BCD_Period_Profile_POEM.svg/输出哈希,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR.png/输出哈希,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_06c_T08_BCD_Period_Profile_AUTHOR.png/像素尺寸,PASS,"(4680, 3060)"
+Figure_06c_T08_BCD_Period_Profile_AUTHOR.pdf/输出哈希,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR.pdf/单页可打开,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR.pdf/矢量非栅格PDF,PASS,0
+Figure_06c_T08_BCD_Period_Profile_AUTHOR.pdf/字体嵌入,PASS,2
+Figure_06c_T08_BCD_Period_Profile_AUTHOR.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.030
+0.060
+0.090
+0.120
+平均 Topic probability
+T08 山居寺院、僧侣与幽居
+作者均衡（AUTHOR） · "
+Figure_06c_T08_BCD_Period_Profile_AUTHOR.pdf/无乱码替代符,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR.pdf/Poppler渲染,PASS,
+Figure_06c_T08_BCD_Period_Profile_AUTHOR.svg/输出哈希,PASS,
+Figure_06c_T08_BCD_Period_Profile.png/输出哈希,PASS,
+Figure_06c_T08_BCD_Period_Profile.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_06c_T08_BCD_Period_Profile.png/像素尺寸,PASS,"(4680, 3060)"
+Figure_06c_T08_BCD_Period_Profile.pdf/输出哈希,PASS,
+Figure_06c_T08_BCD_Period_Profile.pdf/单页可打开,PASS,
+Figure_06c_T08_BCD_Period_Profile.pdf/矢量非栅格PDF,PASS,0
+Figure_06c_T08_BCD_Period_Profile.pdf/字体嵌入,PASS,2
+Figure_06c_T08_BCD_Period_Profile.pdf/作者时期中文文本,PASS,"初唐 盛唐 中唐 晚唐
+作者所属时期
+0.000
+0.030
+0.060
+0.090
+0.120
+平均 Topic probability
+T08 山居寺院、僧侣与幽居
+作者均衡（AUTHOR） · "
+Figure_06c_T08_BCD_Period_Profile.pdf/无乱码替代符,PASS,
+Figure_06c_T08_BCD_Period_Profile.pdf/Poppler渲染,PASS,
+Figure_06c_T08_BCD_Period_Profile.svg/输出哈希,PASS,
+Figure_07_Finding_Robustness_Ladder.png/输出哈希,PASS,
+Figure_07_Finding_Robustness_Ladder.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_07_Finding_Robustness_Ladder.png/像素尺寸,PASS,"(5160, 4320)"
+Figure_07_Finding_Robustness_Ladder.pdf/输出哈希,PASS,
+Figure_07_Finding_Robustness_Ladder.pdf/单页可打开,PASS,
+Figure_07_Finding_Robustness_Ladder.pdf/矢量非栅格PDF,PASS,0
+Figure_07_Finding_Robustness_Ladder.pdf/字体嵌入,PASS,2
+Figure_07_Finding_Robustness_Ladder.pdf/作者时期中文文本,PASS,"顺序 主题发现 时期对比 最终等级
+1 T08  山居寺院、僧侣与幽居 初唐—晚唐 跨模型稳健
+2 T03  朝廷礼乐、应制与颂圣 初唐—晚唐 跨模型稳健
+3 T03  朝廷礼乐、应制与颂圣 中唐—晚"
+Figure_07_Finding_Robustness_Ladder.pdf/无乱码替代符,PASS,
+Figure_07_Finding_Robustness_Ladder.pdf/Poppler渲染,PASS,
+Figure_07_Finding_Robustness_Ladder.svg/输出哈希,PASS,
+Figure_07b_Finding_Evidence_Matrix.png/输出哈希,PASS,
+Figure_07b_Finding_Evidence_Matrix.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_07b_Finding_Evidence_Matrix.png/像素尺寸,PASS,"(5280, 4620)"
+Figure_07b_Finding_Evidence_Matrix.pdf/输出哈希,PASS,
+Figure_07b_Finding_Evidence_Matrix.pdf/单页可打开,PASS,
+Figure_07b_Finding_Evidence_Matrix.pdf/矢量非栅格PDF,PASS,0
+Figure_07b_Finding_Evidence_Matrix.pdf/字体嵌入,PASS,2
+Figure_07b_Finding_Evidence_Matrix.pdf/作者时期中文文本,PASS,"发现 C统计
+验证
+作者
+影响 B映射 D映射 效应证据
+简记
+最终
+稳健性
+T08 EL 强支持 集中但
+稳健
+直接
+高置信
+直接
+高置信 同向且CI支持 跨模型
+稳健
+T03 EL 强支持 集中但"
+Figure_07b_Finding_Evidence_Matrix.pdf/无乱码替代符,PASS,
+Figure_07b_Finding_Evidence_Matrix.pdf/Poppler渲染,PASS,
+Figure_07b_Finding_Evidence_Matrix.svg/输出哈希,PASS,
+Figure_08_T16_Border_War_Partial_Robustness.png/输出哈希,PASS,
+Figure_08_T16_Border_War_Partial_Robustness.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_08_T16_Border_War_Partial_Robustness.png/像素尺寸,PASS,"(4860, 3360)"
+Figure_08_T16_Border_War_Partial_Robustness.pdf/输出哈希,PASS,
+Figure_08_T16_Border_War_Partial_Robustness.pdf/单页可打开,PASS,
+Figure_08_T16_Border_War_Partial_Robustness.pdf/矢量非栅格PDF,PASS,0
+Figure_08_T16_Border_War_Partial_Robustness.pdf/字体嵌入,PASS,2
+Figure_08_T16_Border_War_Partial_Robustness.pdf/作者时期中文文本,PASS,"B C D
+-0.090
+-0.060
+-0.030
+0.000
+0.030
+raw Δ（主题概率差）
+B：CI跨0
+按诗等权（POEM）
+B C D
+B：CI跨0
+作者均衡（AUTHOR）
+T16 "
+Figure_08_T16_Border_War_Partial_Robustness.pdf/无乱码替代符,PASS,
+Figure_08_T16_Border_War_Partial_Robustness.pdf/Poppler渲染,PASS,
+Figure_08_T16_Border_War_Partial_Robustness.svg/输出哈希,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings.png/输出哈希,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_09_POEM_vs_AUTHOR_Core_Findings.png/像素尺寸,PASS,"(4560, 3960)"
+Figure_09_POEM_vs_AUTHOR_Core_Findings.pdf/输出哈希,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings.pdf/单页可打开,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings.pdf/矢量非栅格PDF,PASS,0
+Figure_09_POEM_vs_AUTHOR_Core_Findings.pdf/字体嵌入,PASS,2
+Figure_09_POEM_vs_AUTHOR_Core_Findings.pdf/作者时期中文文本,PASS,"-0.150 -0.100 -0.050 0.000 0.050 0.100
+POEM Δ（按诗等权）
+-0.150
+-0.100
+-0.050
+0.000
+0.050
+0.100
+AUTHOR Δ（"
+Figure_09_POEM_vs_AUTHOR_Core_Findings.pdf/无乱码替代符,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings.pdf/Poppler渲染,PASS,
+Figure_09_POEM_vs_AUTHOR_Core_Findings.svg/输出哈希,PASS,
+Figure_10a_Author_Influence_POEM.png/输出哈希,PASS,
+Figure_10a_Author_Influence_POEM.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_10a_Author_Influence_POEM.png/像素尺寸,PASS,"(4860, 3540)"
+Figure_10a_Author_Influence_POEM.pdf/输出哈希,PASS,
+Figure_10a_Author_Influence_POEM.pdf/单页可打开,PASS,
+Figure_10a_Author_Influence_POEM.pdf/矢量非栅格PDF,PASS,0
+Figure_10a_Author_Influence_POEM.pdf/字体嵌入,PASS,2
+Figure_10a_Author_Influence_POEM.pdf/作者时期中文文本,PASS,"原始 剔除Top1 剔除Top3 剔除Top5
+-0.200
+-0.100
+0.000
+0.100
+raw Δ（主题概率差）
+核心发现的作者排除敏感性
+按诗等权（POEM） · C_K20 CORE "
+Figure_10a_Author_Influence_POEM.pdf/无乱码替代符,PASS,
+Figure_10a_Author_Influence_POEM.pdf/Poppler渲染,PASS,
+Figure_10a_Author_Influence_POEM.svg/输出哈希,PASS,
+Figure_10b_Author_Influence_AUTHOR.png/输出哈希,PASS,
+Figure_10b_Author_Influence_AUTHOR.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_10b_Author_Influence_AUTHOR.png/像素尺寸,PASS,"(4860, 3540)"
+Figure_10b_Author_Influence_AUTHOR.pdf/输出哈希,PASS,
+Figure_10b_Author_Influence_AUTHOR.pdf/单页可打开,PASS,
+Figure_10b_Author_Influence_AUTHOR.pdf/矢量非栅格PDF,PASS,0
+Figure_10b_Author_Influence_AUTHOR.pdf/字体嵌入,PASS,2
+Figure_10b_Author_Influence_AUTHOR.pdf/作者时期中文文本,PASS,"原始 剔除Top1 剔除Top3 剔除Top5
+-0.200
+-0.100
+0.000
+0.100
+raw Δ（主题概率差）
+核心发现的作者排除敏感性
+作者均衡（AUTHOR） · C_K20 COR"
+Figure_10b_Author_Influence_AUTHOR.pdf/无乱码替代符,PASS,
+Figure_10b_Author_Influence_AUTHOR.pdf/Poppler渲染,PASS,
+Figure_10b_Author_Influence_AUTHOR.svg/输出哈希,PASS,
+Figure_10_Author_Influence_Core_Findings.png/输出哈希,PASS,
+Figure_10_Author_Influence_Core_Findings.png/600dpi,PASS,"(599.9988, 599.9988)"
+Figure_10_Author_Influence_Core_Findings.png/像素尺寸,PASS,"(4860, 5400)"
+Figure_10_Author_Influence_Core_Findings.pdf/输出哈希,PASS,
+Figure_10_Author_Influence_Core_Findings.pdf/单页可打开,PASS,
+Figure_10_Author_Influence_Core_Findings.pdf/矢量非栅格PDF,PASS,0
+Figure_10_Author_Influence_Core_Findings.pdf/字体嵌入,PASS,2
+Figure_10_Author_Influence_Core_Findings.pdf/作者时期中文文本,PASS,"原始 剔除Top1 剔除Top3 剔除Top5
+-0.200
+-0.100
+0.000
+0.100
+raw Δ（主题概率差）
+按诗等权（POEM）
+原始 剔除Top1 剔除Top3 剔除Top5
+-0"
+Figure_10_Author_Influence_Core_Findings.pdf/无乱码替代符,PASS,
+Figure_10_Author_Influence_Core_Findings.pdf/Poppler渲染,PASS,
+Figure_10_Author_Influence_Core_Findings.svg/输出哈希,PASS,
+冻结文件不变/QTS_Author_Period_Trend_Structure_Report.md,PASS,
+冻结文件不变/analysis_manifest.json,PASS,
+冻结文件不变/period_topic_means.csv,PASS,
+冻结文件不变/period_topic_bootstrap_ci.csv,PASS,
+冻结文件不变/clear_topic_trend_structure.csv,PASS,
+冻结文件不变/C_K20_literary_history_master_with_author_history.csv,PASS,
+冻结文件不变/topic_metadata.csv,PASS,
+冻结文件不变/period_metadata_sample_labels.csv,PASS,
+冻结文件不变/topic_missingness_risk.csv,PASS,
+冻结文件不变/audit_manifest.json,PASS,
+冻结文件不变/QTS_Author_Period_Effect_Size_Statistical_Validation_Report.md,PASS,
+冻结文件不变/analysis_manifest.json,PASS,
+冻结文件不变/clear_topic_primary_contrasts.csv,PASS,
+冻结文件不变/clear_topic_representativeness.csv,PASS,
+冻结文件不变/author_topic_profiles.csv,PASS,
+冻结文件不变/topic_trend_structure.csv,PASS,
+冻结文件不变/topic_trend_robustness.csv,PASS,
+冻结文件不变/poem_vs_author_trend_comparison.csv,PASS,
+冻结文件不变/period_topic_author_concentration.csv,PASS,
+冻结文件不变/trend_candidate_topics.csv,PASS,
+冻结文件不变/QTS_Author_Influence_LOAO_Report.md,PASS,
+冻结文件不变/analysis_manifest.json,PASS,
+冻结文件不变/author_validated_candidate_trends.csv,PASS,
+冻结文件不变/top_contributor_exclusion_effects.csv,PASS,
+冻结文件不变/top_exclusion_bootstrap_ci.csv,PASS,
+冻结文件不变/statistically_supported_candidate_trends.csv,PASS,
+冻结文件不变/clear_topic_effect_sensitivity_matrix.csv,PASS,
+冻结文件不变/author_influence_check_queue.csv,PASS,
+冻结文件不变/QTS_BCD_Finding_Level_Robustness_Report.md,PASS,
+冻结文件不变/analysis_manifest.json,PASS,
+冻结文件不变/BCD_finding_effects.csv,PASS,
+冻结文件不变/BCD_finding_robustness_comparison.csv,PASS,
+冻结文件不变/finding_robustness_ladder.csv,PASS,
+冻结文件不变/finding_semantic_mapping.csv,PASS,
+冻结文件不变/BCD_cross_model_topic_alignment.csv,PASS,
+冻结文件不变/all_topic_effect_sizes.csv,PASS,
+冻结文件不变/raw_vs_clr_direction_agreement.csv,PASS,
+冻结文件不变/artifact_manifest.json,PASS,
+冻结文件不变/document_index.csv,PASS,
+冻结文件不变/document_topic_probabilities.npz,PASS,
+冻结文件不变/matrix_metadata.json,PASS,
+冻结文件不变/model.joblib,PASS,
+冻结文件不变/model_manifest.json,PASS,
+冻结文件不变/representative_poems_top20.csv,PASS,
+冻结文件不变/reproduced_representative_poems_top5.csv,PASS,
+冻结文件不变/reproduced_topics_top20.csv,PASS,
+冻结文件不变/reproduction_validation.json,PASS,
+冻结文件不变/topic_word_components.npz,PASS,
+冻结文件不变/topic_word_probabilities.npz,PASS,
+冻结文件不变/topics_top30.csv,PASS,
+冻结文件不变/vocabulary.csv,PASS,
+冻结文件不变/artifact_manifest.json,PASS,
+冻结文件不变/document_index.csv,PASS,
+冻结文件不变/document_topic_probabilities.npz,PASS,
+冻结文件不变/matrix_metadata.json,PASS,
+冻结文件不变/model.joblib,PASS,
+冻结文件不变/model_manifest.json,PASS,
+冻结文件不变/representative_poems_top20.csv,PASS,
+冻结文件不变/reproduced_representative_poems_top5.csv,PASS,
+冻结文件不变/reproduced_topics_top20.csv,PASS,
+冻结文件不变/reproduction_validation.json,PASS,
+冻结文件不变/topic_word_components.npz,PASS,
+冻结文件不变/topic_word_probabilities.npz,PASS,
+冻结文件不变/topics_top30.csv,PASS,
+冻结文件不变/vocabulary.csv,PASS,
+冻结文件不变/artifact_manifest.json,PASS,
+冻结文件不变/document_index.csv,PASS,
+冻结文件不变/document_topic_probabilities.npz,PASS,
+冻结文件不变/matrix_metadata.json,PASS,
+冻结文件不变/model.joblib,PASS,
+冻结文件不变/model_manifest.json,PASS,
+冻结文件不变/representative_poems_top20.csv,PASS,
+冻结文件不变/reproduced_representative_poems_top5.csv,PASS,
+冻结文件不变/reproduced_topics_top20.csv,PASS,
+冻结文件不变/reproduction_validation.json,PASS,
+冻结文件不变/topic_word_components.npz,PASS,
+冻结文件不变/topic_word_probabilities.npz,PASS,
+冻结文件不变/topics_top30.csv,PASS,
+冻结文件不变/vocabulary.csv,PASS,

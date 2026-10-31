@@ -1,0 +1,29 @@
+{
+  "status": "AI_FILLED_WORKBOOK_CREATED",
+  "input_sha256": "04ae77e31b25691741a219ef3de953597803f1ab56f7c573952702d68ab7927a",
+  "output_sha256": "6075ae5a17391c91713445ec6f12649da59524779afd2916915f604b53ab6487",
+  "original_sheet_count": 11,
+  "output_sheet_count": 16,
+  "original_sheet_states": {
+    "Instructions": "visible",
+    "Blind_Topic_Review": "visible",
+    "Blind_Poem_Evidence": "visible",
+    "Model_Level_Review": "veryHidden",
+    "K12_to_K15_Splits": "veryHidden",
+    "K15_to_K20_Splits": "veryHidden",
+    "Fragmentation_Review": "veryHidden",
+    "Semantic_Family_Coverage": "veryHidden",
+    "Final_Evidence_Matrix": "veryHidden",
+    "Final_Decision": "veryHidden",
+    "Hidden_AI_Reference": "veryHidden"
+  },
+  "new_visible_sheets": [
+    "AI_Provisional_Review",
+    "AI_Model_Summary",
+    "AI_Split_Merge_Review",
+    "AI_Fragmentation_Review",
+    "AI_Researcher_Disagreement"
+  ],
+  "formula_error_count": 0,
+  "output": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\K12_K15_K20_human_adjudication\\QTS_K12_K15_K20_Human_Review_AI_Filled.xlsx"
+}

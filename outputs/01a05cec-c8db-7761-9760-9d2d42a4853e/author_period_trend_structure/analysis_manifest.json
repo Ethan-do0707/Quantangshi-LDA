@@ -1,0 +1,139 @@
+{
+  "analysis_version": "QTS_AUTHOR_PERIOD_TREND_STRUCTURE_V1",
+  "created_at_local_date": "2026-09-01",
+  "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "matplotlib": "3.11.1",
+  "config_path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\config\\trend_structure_config.yaml",
+  "config_sha256": "8ffa17692d000c9bf64542bb7fd7b6ad25bb4bcce490846c727064bf031b3076",
+  "inputs": {
+    "authoritative_master": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\master\\C_K20_literary_history_master_with_author_history.csv",
+      "sha256": "93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f"
+    },
+    "topic_metadata": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\taxonomy\\topic_metadata.csv",
+      "sha256": "9c17be32e1f988a734f457e16fba5a478ecbf9a8a90b27a9dfe31803633bdd5c"
+    },
+    "sample_labels": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\representativeness_audit\\data\\period_metadata_sample_labels.csv",
+      "sha256": "782ef57194db6f32f85cc1ce07fa42ee9e025f89abec857baec2438962fa047e"
+    },
+    "topic_missingness_risk": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\representativeness_audit\\data\\topic_missingness_risk.csv",
+      "sha256": "3094b25f7330c59064d2fb74386a22d3cda7323481a65616cfbebc92cf318d16"
+    },
+    "representativeness_audit_manifest": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\representativeness_audit\\audit_manifest.json",
+      "sha256": "07bc91e817093a25d53abe4ee1191753e14c9776bacffbaf78ccf9ee760cfc55"
+    }
+  },
+  "bootstrap": {
+    "iterations": 2000,
+    "seed": 20260901,
+    "algorithm": "period-stratified author-cluster multinomial-count resampling; sampled authors carry all eligible poems; identical author draws feed POEM and AUTHOR estimands",
+    "replicate_sha256": "348b610983b2cc66853b5aee7c6f3ba2ff4651563b5ed50ce0376a47de79a254"
+  },
+  "outputs": {
+    "data\\analysis_summary.json": {
+      "sha256": "bab49cad3c305e77eb3f6933283b2d4f11b62b8b806bbcbafb53c82e17e802ac",
+      "bytes": 33312
+    },
+    "data\\author_topic_profiles.csv": {
+      "sha256": "ca2d3d7aee10b4b9b72e5a02338373aff027e21a1dec0ba4c10a8c8f72642046",
+      "bytes": 366483
+    },
+    "data\\clear_topic_trend_structure.csv": {
+      "sha256": "11d8a7e9d81d258b4e8c52b89863e4a6117c6d83e905a0a86868b8670e2d5278",
+      "bytes": 5817
+    },
+    "data\\data_dictionary.csv": {
+      "sha256": "77721fba57a9a7c5a01f1f41e70c789725da7d6baf4e27514ad50b31b2f55d4f",
+      "bytes": 27023
+    },
+    "data\\invariance_tests.csv": {
+      "sha256": "5f0c753fdeb94d59dccd9b3b97bb497b0f767f9abd776bda039e742c85e6348f",
+      "bytes": 1769
+    },
+    "data\\period_counts.csv": {
+      "sha256": "57a6dfd5ecc8458e06b52622322634f27008f5abf79fc95ec30896c889d86b5b",
+      "bytes": 341
+    },
+    "data\\period_topic_author_concentration.csv": {
+      "sha256": "1e1d243c924abc322cbe47111ab92e970df40120913d60eedc8f5978373a11c4",
+      "bytes": 47071
+    },
+    "data\\period_topic_bootstrap_ci.csv": {
+      "sha256": "65b6fbcfa2de30ebe2179d4b5f543d568645d8fd12fa810f6ebdf47993be4ae6",
+      "bytes": 176228
+    },
+    "data\\period_topic_means.csv": {
+      "sha256": "25d66a1dd29d99e8014b3da322316654da7983d634827b11bea0b86600eabda7",
+      "bytes": 79279
+    },
+    "data\\poem_vs_author_trend_comparison.csv": {
+      "sha256": "9ace2ad71e81e11dae9aa18b3f2b9eed05d491862bc26aaf28e912ac80ec207a",
+      "bytes": 13083
+    },
+    "data\\sensitivity_flags.csv": {
+      "sha256": "768b4b1156c0b0e6b3faf088f8b2685f20a5bb2d8d570495d5154b781ec0577f",
+      "bytes": 2256
+    },
+    "data\\topic_trend_robustness.csv": {
+      "sha256": "4c549bd8dd8d983bff117794e27aefc6219f576cdce237f90249b8e05b451e28",
+      "bytes": 7586
+    },
+    "data\\topic_trend_structure.csv": {
+      "sha256": "cf0eec5b06ac2338002cfafd42ce9bc1445420f9ae565a2fa0abdbbd828011b1",
+      "bytes": 91249
+    },
+    "data\\trend_candidate_topics.csv": {
+      "sha256": "064afd10cc8f6b15d89b14905e00a87fed377d9e2ee2f4479ec448ea6baa8a58",
+      "bytes": 3063
+    },
+    "figures\\clear_topic_trend_small_multiples.png": {
+      "sha256": "ff41d29d74b8b377c51521024a28075b55ce7eaa9e10134d5397e32dc68f2fc5",
+      "bytes": 781413
+    },
+    "figures\\core_author_period_topic_heatmap.png": {
+      "sha256": "377af886313236a3a52a34167b30782f944f6945de51762840373dfa8e081fae",
+      "bytes": 286002
+    },
+    "figures\\core_poem_period_topic_heatmap.png": {
+      "sha256": "0e172ad0c97767de08891bee9db8d5ab078b063e354150de9d0da8c19edfb957",
+      "bytes": 285569
+    },
+    "figures\\period_topic_author_concentration.png": {
+      "sha256": "1c6337339f7063770c910ebec123d57b80845941c8fae4ae07a0fd34ec55abf9",
+      "bytes": 144168
+    },
+    "figures\\poem_vs_author_aggregation_difference.png": {
+      "sha256": "c17d3f2063c253e8a3d2e9f27e2b800ae008afb8c1fab8603abe726cfe021a8e",
+      "bytes": 84000
+    },
+    "figures\\trend_robustness_matrix.png": {
+      "sha256": "accf8939d40038ee543826d2ab46e97ce55cdf5efe9489b000545ce5003458bf",
+      "bytes": 142557
+    },
+    "QTS_Author_Period_Trend_Structure_Report.md": {
+      "sha256": "c6ca14fa62cdd2f41420a8a76302e3ac0f980ad011689981e3bc1fb39c1964d1",
+      "bytes": 20575
+    },
+    "README.md": {
+      "sha256": "db053fcf97885e6c6302409206802b9b67123f4f4ef5abb59a2d8dccbd5765ce",
+      "bytes": 2180
+    },
+    "QTS_Author_Period_Trend_Structure.xlsx": {
+      "sha256": "fbd7b23924127220db1fbab360db9223cd9de5bb791b196202d8e719d32c6716",
+      "bytes": 246393
+    },
+    "workbook_verification.json": {
+      "sha256": "a71f2b1505456dca26e10b002031bedcb5947b7ff0ff3b9f3e9cabbed4600e4d",
+      "bytes": 4975
+    }
+  },
+  "invariance_tests_passed": 15,
+  "invariance_tests_total": 15
+}

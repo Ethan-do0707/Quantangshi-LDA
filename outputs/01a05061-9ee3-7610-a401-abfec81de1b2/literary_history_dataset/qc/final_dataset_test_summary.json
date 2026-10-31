@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "test_id": "TEST_01",
+      "description": "C_K20 = K20",
+      "status": "PASS",
+      "observed": 20,
+      "expected": 20
+    },
+    {
+      "test_id": "TEST_02",
+      "description": "Document×Topic columns = 20",
+      "status": "PASS",
+      "observed": 20,
+      "expected": 20
+    },
+    {
+      "test_id": "TEST_03",
+      "description": "matrix rows = valid document index rows",
+      "status": "PASS",
+      "observed": 43015,
+      "expected": 43015
+    },
+    {
+      "test_id": "TEST_04",
+      "description": "每一概率在0与1之间",
+      "status": "PASS",
+      "observed": "min=1.9739439780820405e-05;max=0.9930147057788158",
+      "expected": "0<=theta<=1"
+    },
+    {
+      "test_id": "TEST_05",
+      "description": "每首诗20维概率和约等于1",
+      "status": "PASS",
+      "observed": 6.661338147750939e-16,
+      "expected": "<1e-6"
+    },
+    {
+      "test_id": "TEST_06",
+      "description": "dominant probability 等于20维最大值",
+      "status": "PASS",
+      "observed": 43015,
+      "expected": 43015
+    },
+    {
+      "test_id": "TEST_07",
+      "description": "second/third topic 排序正确",
+      "status": "PASS",
+      "observed": 43015,
+      "expected": 43015
+    },
+    {
+      "test_id": "TEST_08",
+      "description": "poem_id 连接唯一",
+      "status": "PASS",
+      "observed": 43015,
+      "expected": 43015
+    },
+    {
+      "test_id": "TEST_09",
+      "description": "最终 master 行数等于 valid document count",
+      "status": "PASS",
+      "observed": 43015,
+      "expected": 43015
+    },
+    {
+      "test_id": "TEST_10",
+      "description": "没有 merge 导致行数膨胀",
+      "status": "PASS",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "test_id": "TEST_11",
+      "description": "taxonomy 有且只有20行",
+      "status": "PASS",
+      "observed": 20,
+      "expected": 20
+    },
+    {
+      "test_id": "TEST_12",
+      "description": "每个 Topic ID 唯一",
+      "status": "PASS",
+      "observed": 20,
+      "expected": 20
+    },
+    {
+      "test_id": "TEST_13",
+      "description": "C_K20 topic labels 可从 topic_metadata 连接",
+      "status": "PASS",
+      "observed": 20,
+      "expected": 20
+    },
+    {
+      "test_id": "TEST_14",
+      "description": "B/C/D alignment 引用 Topic ID 真实存在",
+      "status": "PASS",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "test_id": "TEST_15",
+      "description": "所有概率字段无 NaN",
+      "status": "PASS",
+      "observed": "matrix=True;master=True",
+      "expected": "matrix=True;master=True"
+    }
+  ]
+}

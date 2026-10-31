@@ -1,0 +1,11 @@
+test_id,test_name,status,evidence
+TEST01,three_model_comparability,PASS,"3/3 READY; same corpus/vocabulary; FULL_CORPUS ORIGINAL_PRIOR max_iter=30"
+TEST02,all_47_topic_evidence,PASS,"47 topics; 1410 word rows; 1410 poem rows"
+TEST03,blind_cards_complete,PASS,"HR001-HR047; Top30 + Top20 + author-balanced Top10"
+TEST04,no_first_stage_identity_leak,PASS,"cards and public blind CSVs contain no K/model/seed/prior/metric identity"
+TEST05,workbook_visibility_and_ai_isolation,PASS,"only 3 first-stage sheets visible; 8 later/reference sheets veryHidden"
+TEST06,researcher_fields_blank,PASS,"47 x 14 topic-review researcher cells blank"
+TEST07,freeze_gate_blocks_incomplete_review,PASS,"0/47 returns TOPIC_REVIEW_INCOMPLETE; no frozen or unblinded output"
+TEST08,complete_review_gate_reachable,PASS,"synthetic 47/47 human-formatted frame validates COMPLETE without writing production data"
+TEST09,candidate_events_are_evidence_only,PASS,"20 + 16 split/merge events and 15 fragmentation pairs; all judgment fields blank"
+TEST10,author_balance_hashes_and_regression,PASS,"max 2 poems/author and >=5 authors/topic; inputs unchanged; 186+4+23 tests passed"

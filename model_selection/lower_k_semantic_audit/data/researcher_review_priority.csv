@@ -1,0 +1,31 @@
+﻿priority_rank,priority_level,K,topic_id,AI_provisional_label,AI_final_review,AI_under_split_risk,reason_for_researcher_review,review_card
+1,Priority 1,15,4,边塞军旅、归途与春景杂糅,MIXED,HIGH,军旅与春景归途被压入同题，属于高风险不合理合并。,review_cards/K15/K15_topic_04_review.md
+2,Priority 1,15,14,闲居清景、羁旅相思与仕隐杂糅,MIXED,HIGH,同时承载隐逸、羁旅、相思等多个 K20 语义场，边界最宽。,review_cards/K15/K15_topic_14_review.md
+3,Priority 1,15,1,仙山宫苑、歌舞器物与杂咏,MIXED,HIGH,神仙山岳与宫苑器物杂咏黏连，需判断是否仅为统计共现。,review_cards/K15/K15_topic_01_review.md
+4,Priority 1,15,6,老病身世、诗酒交游与仕宦自况,BROAD,MODERATE,老病仕宦与饮酒酬赠可能需要拆分，且 Top20 白居易占 65%。,review_cards/K15/K15_topic_06_review.md
+5,Priority 1,15,15,边塞征战、军功与神异杂咏,BROAD,MODERATE,边塞核心明确但夹入神异杂咏，需核定可接受边界。,review_cards/K15/K15_topic_15_review.md
+6,Priority 1,15,13,郊庙礼乐、神祀与祥瑞,BROAD,MODERATE,礼制神祀较完整，却对应两个 K20 主题，需核定 K20 是否碎片化。,review_cards/K15/K15_topic_13_review.md
+7,Priority 1,15,8,山居寺院、隐逸与寻幽,BROAD,MODERATE,山寺与隐逸被合理聚合的判断，需要研究者检验文学层级。,review_cards/K15/K15_topic_08_review.md
+8,Priority 1,15,11,春花、艳情与惜春,BROAD,MODERATE,女性春情与一般春景的合并是否损失关键分辨率，需人工确认。,review_cards/K15/K15_topic_11_review.md
+9,Priority 1,15,2,行路艰难、忠义生死与社会悲慨,MIXED,MODERATE,行路、忠义生死与社会悲慨混合，但与 K20 一对一，需判断问题来源。,review_cards/K15/K15_topic_02_review.md
+10,Priority 1,15,5,君子伦理、政治劝诫与社会批评,BROAD,LOW,政治伦理主题较宽，需核定劝诫、社会批评是否可由一标签承载。,review_cards/K15/K15_topic_05_review.md
+11,Priority 2,15,9,诗名仕途、行旅与杂咏噪声,NOISE,LOW,K15 中唯一 NOISE Topic，需确认泛化词是否确实无法形成文学解释。,review_cards/K15/K15_topic_09_review.md
+12,Priority 2,15,3,朝廷礼乐、应制与颂圣,CLEAR,LOW,AI 判为 CLEAR，仍需研究者确认礼乐、应制与颂圣边界。,review_cards/K15/K15_topic_03_review.md
+13,Priority 2,15,7,相思离愁、夜月与琴声,CLEAR,LOW,AI 判为 CLEAR，仍需确认相思、夜月与琴声是否构成稳定共现场。,review_cards/K15/K15_topic_07_review.md
+14,Priority 2,15,10,江湖羁旅、送别与思归,CLEAR,LOW,AI 判为 CLEAR，仍需确认送别、羁旅与思归的内部边界。,review_cards/K15/K15_topic_10_review.md
+15,Priority 2,15,12,春水花鸟与自然风物,CLEAR,LOW,AI 判为 CLEAR，仍需确认自然物候 Topic 的文学解释层级。,review_cards/K15/K15_topic_12_review.md
+16,Priority 3,10,3,怀人悲音、清景与身世感慨,MIXED,HIGH,K10 混合怀人、清景和身世，需与 K15 的细化结果对读。,review_cards/K10/K10_topic_03_review.md
+17,Priority 3,10,4,离别哀悼、女性悲情与人生感怀,MIXED,HIGH,K10 把离别、哀悼和女性悲情合并，需核定共同悲感是否足够。,review_cards/K10/K10_topic_04_review.md
+18,Priority 3,10,8,飞鸟夜声、宫怨与杂咏,MIXED,HIGH,K10 飞鸟夜声与宫怨杂咏边界模糊，需复核是否为噪声。,review_cards/K10/K10_topic_08_review.md
+19,Priority 3,10,9,闲居山寺、羁旅思归与诗酒身世,MIXED,HIGH,K10 山寺、羁旅和诗酒身世严重偏宽，需确认欠分程度。,review_cards/K10/K10_topic_09_review.md
+20,Priority 3,10,10,春花、艳情与自然物候,BROAD,MODERATE,K10 春花艳情与一般物候合并，需判断是否损失关键分辨率。,review_cards/K10/K10_topic_10_review.md
+21,Priority 3,10,2,仙山道观、山居修隐与寻幽,BROAD,MODERATE,K10 仙山、道观与山居隐逸为上位聚合，需确认其合理性。,review_cards/K10/K10_topic_02_review.md
+22,Priority 3,10,5,王朝礼制、颂德与政治教化,BROAD,MODERATE,K10 政治礼制主题较宽，需核定颂德与政治教化的关系。,review_cards/K10/K10_topic_05_review.md
+23,Priority 3,10,1,边塞征战与军旅,CLEAR,LOW,K10 边塞主题 AI 判为 CLEAR，作基准复核。,review_cards/K10/K10_topic_01_review.md
+24,Priority 3,10,6,江湖羁旅、送别与思归,CLEAR,LOW,K10 羁旅送别主题 AI 判为 CLEAR，作基准复核。,review_cards/K10/K10_topic_06_review.md
+25,Priority 3,10,7,老病身世、仕宦与诗酒自况,CLEAR,LOW,K10 身世主题受白居易集中影响，需用作者平衡样本复核。,review_cards/K10/K10_topic_07_review.md
+26,Priority 4,5,1,政治伦理、礼制颂德与人生玄思,MIXED,HIGH,K5 政治、宗教与人生玄思形成超大语义桶。,review_cards/K5/K5_topic_01_review.md
+27,Priority 4,5,3,边塞征战、人生功名与诗酒感怀,MIXED,HIGH,K5 军旅、身世和诗酒合并，检验最低 K 的欠分边界。,review_cards/K5/K5_topic_03_review.md
+28,Priority 4,5,5,山居寺院、隐逸与闲游,BROAD,MODERATE,K5 山寺隐逸为合理上位聚合候选，可与问题合并对照。,review_cards/K5/K5_topic_05_review.md
+29,Priority 4,5,4,江湖羁旅、送别与相思,BROAD,MODERATE,K5 羁旅送别与相思的聚合需核定文学层级。,review_cards/K5/K5_topic_04_review.md
+30,Priority 4,5,2,花香春情、女性歌舞与闺情,CLEAR,LOW,K5 唯一 CLEAR Topic，作为低 K 正向对照。,review_cards/K5/K5_topic_02_review.md

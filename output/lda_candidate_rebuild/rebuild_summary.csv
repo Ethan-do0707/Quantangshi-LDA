@@ -1,0 +1,7 @@
+﻿model_id,corpus,K,selected_seed,status,fit_seconds,iterations_run,training_perplexity,exact_top20_csv_hash_match,exact_top5_representatives_csv_hash_match,topic_word_rows,topic_word_columns,document_topic_rows,document_topic_columns,checkpoint_reused
+A_K20,A,20,20260830,passed,228.029826,30,9248.8129382380,True,True,20,123385,43019,20,True
+B_K20,B,20,20260830,passed,1899.508107,30,6018.6828696015,True,True,20,51982,43016,20,True
+B_K30,B,30,2026,passed,252.36106,30,6362.8187150876,True,True,30,51982,43016,30,True
+C_K20,C,20,2026,passed,237.119475,30,4990.1976031972,True,True,20,35063,43015,20,True
+D_K20,D,20,42,passed,219.391531,30,4079.3266498319,True,True,20,23123,43014,20,True
+D_K30,D,30,42,passed,227.46739,30,4320.4985900315,True,True,30,23123,43014,30,True

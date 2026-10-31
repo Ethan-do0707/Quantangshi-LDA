@@ -1,0 +1,7 @@
+model_id,npmi_rank,stability_rank,diversity_rank,mean_human_score_rank,high_quality_topic_ratio_rank,low_quality_topic_ratio_rank,mixed_topic_ratio_rank,noise_topic_ratio_rank,duplicate_topic_ratio_rank,mean_rank
+A_K20,6,6,1,6,6,6,6,6,1,4.8888888889
+B_K20,4,5,3,1,2,2,2,3,1,2.5555555556
+B_K30,5,4,6,5,5,5,5,5,1,4.5555555556
+C_K20,3,2,4,2,1,2,1,1,1,1.8888888889
+D_K20,1,1,2,3,3,1,3,1,1,1.7777777778
+D_K30,2,3,5,4,4,4,4,4,6,4

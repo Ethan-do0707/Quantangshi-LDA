@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "statistics_scope": "sikufenci_manual_gold 全量结果；TF/DF 均按诗篇文档计算",
+  "statistics_stage": "当前分词基线，尚未执行本目录的保护合并或可选语义映射",
+  "document_unit": "poem",
+  "input": {
+    "result": "segmentation/results/sikufenci_manual_gold.jsonl",
+    "poem_count": 43030,
+    "han_token_count": 2014981,
+    "han_type_count": 123490,
+    "non_han_token_count": 465517
+  },
+  "order": [
+    "可选词形规范视图（不覆盖原文）",
+    "先识别并锁定专名、典故和固定表达",
+    "可选语义映射（默认关闭）",
+    "若词界或词面发生变化，重新统计TF/DF",
+    "删除非汉字词元",
+    "删除所选档位的停用词",
+    "应用最小TF与最小DF"
+  ],
+  "default_profile": {
+    "stopword_tier": "core",
+    "min_tf": 5,
+    "min_df": 3,
+    "protected_terms_bypass_minimums": true,
+    "automatic_max_df": null,
+    "high_df_manual_audit_rate": 0.1,
+    "single_character_policy": "不按长度删除；单字同样执行停用词和TF/DF规则",
+    "retained_type_count": 23123,
+    "removed_type_count": 100367,
+    "retained_token_count": 1485707,
+    "retained_token_rate": 0.73733053
+  },
+  "strict_sensitivity_profile": {
+    "stopword_tier": "extended",
+    "min_tf": 10,
+    "min_df": 5,
+    "protected_terms_bypass_minimums": true,
+    "automatic_max_df": null,
+    "high_df_manual_audit_rate": 0.1,
+    "retained_type_count": 13510,
+    "removed_type_count": 109980,
+    "retained_token_count": 1276405,
+    "retained_token_rate": 0.63345759
+  },
+  "resource_counts": {
+    "core_stopword_count": 105,
+    "extended_stopword_count": 164,
+    "protected_surface_count": 182
+  },
+  "frequency_distribution": {
+    "1": {
+      "types_with_tf_at_least": 123490,
+      "types_with_df_at_least": 123490
+    },
+    "2": {
+      "types_with_tf_at_least": 52424,
+      "types_with_df_at_least": 52086
+    },
+    "3": {
+      "types_with_tf_at_least": 35396,
+      "types_with_df_at_least": 35162
+    },
+    "5": {
+      "types_with_tf_at_least": 23241,
+      "types_with_df_at_least": 23094
+    },
+    "10": {
+      "types_with_tf_at_least": 13653,
+      "types_with_df_at_least": 13528
+    },
+    "20": {
+      "types_with_tf_at_least": 7866,
+      "types_with_df_at_least": 7781
+    },
+    "50": {
+      "types_with_tf_at_least": 3654,
+      "types_with_df_at_least": 3613
+    },
+    "100": {
+      "types_with_tf_at_least": 2119,
+      "types_with_df_at_least": 2086
+    }
+  },
+  "rationale": {
+    "minimums": "默认档 TF>=5 且 DF>=3，降低偶见切分误差和只见于极少诗篇的词型；严格档用于稳健性比较。",
+    "maximum_df": "不自动按高DF删除，因为风、云、山、月等高频词仍有主题区分价值；高DF只触发人工审计。",
+    "protection": "保护词优先级最高，避免低频典故、专名和固定表达被阈值误删。",
+    "semantic_mapping": "默认关闭；实体别称与概念候选只作旁表，不回写原词。",
+    "baseline_estimate": "本文件的保留规模按当前分词基线估算；实际执行保护合并或语义映射后应重新统计。"
+  }
+}

@@ -1,0 +1,3063 @@
+{
+  "status": "TOPIC_REVIEW_INCOMPLETE",
+  "completed_topics": 0,
+  "expected_topics": 47,
+  "issue_count": 611,
+  "issues": [
+    {
+      "blind_topic_id": "HR001",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR001",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR001",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR001",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR001",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR001",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR001",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR001",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR001",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR001",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR001",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR001",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR001",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR002",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR002",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR002",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR002",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR002",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR002",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR002",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR002",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR002",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR002",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR002",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR002",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR002",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR003",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR003",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR003",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR003",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR003",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR003",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR003",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR003",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR003",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR003",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR003",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR003",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR003",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR004",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR004",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR004",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR004",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR004",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR004",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR004",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR004",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR004",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR004",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR004",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR004",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR004",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR005",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR005",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR005",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR005",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR005",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR005",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR005",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR005",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR005",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR005",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR005",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR005",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR005",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR006",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR006",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR006",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR006",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR006",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR006",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR006",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR006",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR006",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR006",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR006",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR006",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR006",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR007",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR007",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR007",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR007",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR007",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR007",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR007",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR007",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR007",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR007",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR007",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR007",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR007",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR008",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR008",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR008",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR008",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR008",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR008",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR008",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR008",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR008",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR008",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR008",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR008",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR008",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR009",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR009",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR009",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR009",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR009",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR009",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR009",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR009",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR009",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR009",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR009",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR009",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR009",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR010",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR010",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR010",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR010",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR010",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR010",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR010",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR010",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR010",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR010",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR010",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR010",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR010",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR011",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR011",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR011",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR011",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR011",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR011",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR011",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR011",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR011",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR011",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR011",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR011",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR011",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR012",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR012",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR012",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR012",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR012",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR012",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR012",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR012",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR012",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR012",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR012",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR012",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR012",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR013",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR013",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR013",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR013",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR013",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR013",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR013",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR013",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR013",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR013",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR013",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR013",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR013",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR014",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR014",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR014",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR014",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR014",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR014",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR014",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR014",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR014",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR014",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR014",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR014",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR014",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR015",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR015",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR015",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR015",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR015",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR015",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR015",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR015",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR015",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR015",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR015",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR015",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR015",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR016",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR016",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR016",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR016",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR016",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR016",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR016",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR016",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR016",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR016",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR016",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR016",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR016",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR017",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR017",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR017",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR017",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR017",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR017",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR017",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR017",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR017",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR017",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR017",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR017",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR017",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR018",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR018",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR018",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR018",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR018",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR018",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR018",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR018",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR018",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR018",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR018",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR018",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR018",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR019",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR019",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR019",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR019",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR019",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR019",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR019",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR019",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR019",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR019",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR019",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR019",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR019",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR020",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR020",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR020",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR020",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR020",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR020",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR020",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR020",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR020",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR020",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR020",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR020",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR020",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR021",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR021",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR021",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR021",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR021",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR021",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR021",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR021",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR021",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR021",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR021",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR021",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR021",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR022",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR022",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR022",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR022",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR022",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR022",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR022",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR022",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR022",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR022",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR022",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR022",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR022",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR023",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR023",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR023",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR023",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR023",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR023",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR023",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR023",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR023",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR023",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR023",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR023",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR023",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR024",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR024",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR024",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR024",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR024",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR024",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR024",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR024",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR024",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR024",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR024",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR024",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR024",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR025",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR025",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR025",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR025",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR025",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR025",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR025",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR025",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR025",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR025",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR025",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR025",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR025",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR026",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR026",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR026",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR026",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR026",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR026",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR026",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR026",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR026",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR026",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR026",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR026",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR026",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR027",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR027",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR027",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR027",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR027",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR027",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR027",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR027",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR027",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR027",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR027",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR027",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR027",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR028",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR028",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR028",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR028",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR028",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR028",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR028",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR028",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR028",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR028",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR028",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR028",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR028",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR029",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR029",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR029",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR029",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR029",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR029",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR029",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR029",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR029",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR029",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR029",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR029",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR029",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR030",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR030",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR030",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR030",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR030",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR030",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR030",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR030",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR030",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR030",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR030",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR030",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR030",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR031",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR031",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR031",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR031",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR031",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR031",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR031",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR031",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR031",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR031",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR031",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR031",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR031",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR032",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR032",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR032",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR032",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR032",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR032",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR032",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR032",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR032",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR032",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR032",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR032",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR032",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR033",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR033",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR033",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR033",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR033",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR033",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR033",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR033",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR033",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR033",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR033",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR033",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR033",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR034",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR034",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR034",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR034",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR034",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR034",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR034",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR034",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR034",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR034",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR034",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR034",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR034",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR035",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR035",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR035",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR035",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR035",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR035",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR035",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR035",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR035",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR035",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR035",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR035",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR035",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR036",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR036",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR036",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR036",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR036",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR036",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR036",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR036",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR036",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR036",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR036",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR036",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR036",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR037",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR037",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR037",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR037",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR037",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR037",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR037",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR037",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR037",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR037",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR037",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR037",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR037",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR038",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR038",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR038",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR038",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR038",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR038",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR038",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR038",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR038",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR038",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR038",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR038",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR038",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR039",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR039",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR039",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR039",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR039",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR039",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR039",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR039",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR039",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR039",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR039",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR039",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR039",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR040",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR040",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR040",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR040",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR040",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR040",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR040",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR040",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR040",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR040",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR040",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR040",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR040",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR041",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR041",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR041",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR041",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR041",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR041",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR041",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR041",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR041",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR041",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR041",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR041",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR041",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR042",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR042",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR042",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR042",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR042",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR042",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR042",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR042",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR042",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR042",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR042",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR042",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR042",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR043",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR043",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR043",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR043",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR043",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR043",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR043",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR043",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR043",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR043",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR043",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR043",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR043",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR044",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR044",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR044",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR044",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR044",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR044",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR044",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR044",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR044",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR044",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR044",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR044",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR044",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR045",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR045",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR045",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR045",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR045",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR045",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR045",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR045",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR045",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR045",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR045",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR045",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR045",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR046",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR046",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR046",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR046",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR046",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR046",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR046",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR046",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR046",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR046",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR046",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR046",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR046",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR047",
+      "field": "Researcher_Label",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR047",
+      "field": "Researcher_Word_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR047",
+      "field": "Researcher_Poem_Coherence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR047",
+      "field": "Researcher_Word_Poem_Agreement",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR047",
+      "field": "Researcher_Labelability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR047",
+      "field": "Researcher_Literary_Interpretability",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR047",
+      "field": "Researcher_Semantic_Specificity",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR047",
+      "field": "Researcher_Overbreadth",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR047",
+      "field": "Researcher_Internal_Mixedness",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR047",
+      "field": "Researcher_Topic_Type",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR047",
+      "field": "Researcher_Needs_Splitting",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR047",
+      "field": "Researcher_Confidence",
+      "issue": "REQUIRED_BLANK"
+    },
+    {
+      "blind_topic_id": "HR047",
+      "field": "Researcher_Notes",
+      "issue": "REQUIRED_BLANK"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "checkpoint_signature": "6ff983976302da8d7009840db2d6e11ec76a542d498229651d0c7ff7a3b79698",
+  "run_type": "full_corpus_model_selection_diagnostic",
+  "corpus": "C",
+  "K": 5,
+  "seed": 42,
+  "documents": 43015,
+  "vocabulary_size": 35063,
+  "iterations_run": 30,
+  "fit_time_seconds": 940.5935,
+  "training_perplexity": 4414.213785221853,
+  "mean_NPMI": 0.09682464442993863,
+  "min_topic_NPMI": 0.07962783128116352,
+  "max_topic_NPMI": 0.11777626234216602,
+  "Topic_Diversity": 0.7,
+  "metric_top_words": 20,
+  "model_parameters": {
+    "implementation": "sklearn.decomposition.LatentDirichletAllocation",
+    "learning_method": "batch",
+    "max_iter": 30,
+    "n_jobs": -1,
+    "evaluate_every": -1,
+    "perp_tol": 0.1,
+    "mean_change_tol": 0.001,
+    "max_doc_update_iter": 100,
+    "doc_topic_prior": null,
+    "topic_word_prior": null,
+    "verbose": 1
+  },
+  "outputs": [
+    {
+      "path": "model.joblib",
+      "sha256": "e6ad9d41bfe368ac3e5fffaf43455e9b19ccb19d2d222862ae216716e3c21a26",
+      "bytes": 2605214
+    },
+    {
+      "path": "topic_word_components.npz",
+      "sha256": "7f39d1afa4b8478e18358789397dec92f2cc7f761de46679d3923e97d39ca314",
+      "bytes": 1532708
+    },
+    {
+      "path": "topic_word_probabilities.npz",
+      "sha256": "becfeeb370eab46e2a06a4476b75b4d1c9c1f0e12ca1a4ac141698d6f3608b7e",
+      "bytes": 1527228
+    },
+    {
+      "path": "document_topic_probabilities.npz",
+      "sha256": "b5f7faf903d88a93b9383622525c24623aa71b991f40698ca04df7cd77f5f9d7",
+      "bytes": 1686391
+    },
+    {
+      "path": "topic_similarity.npy",
+      "sha256": "f6105ba4bd9bf6c5b713bf32b1561f43d334ef932dfbef9ee4a764776acd5085",
+      "bytes": 328
+    },
+    {
+      "path": "topics_top30.csv",
+      "sha256": "75ce9a5e854cb33c9e18d5f4ac0c982f27eb4c162b861960611606d7c9540f3d",
+      "bytes": 22889
+    },
+    {
+      "path": "representative_poems_top20.csv",
+      "sha256": "5793ff3958b25b56f07093f42b95d212fdd6f00f8fbd3969db2586869a8d42d0",
+      "bytes": 98028
+    }
+  ]
+}

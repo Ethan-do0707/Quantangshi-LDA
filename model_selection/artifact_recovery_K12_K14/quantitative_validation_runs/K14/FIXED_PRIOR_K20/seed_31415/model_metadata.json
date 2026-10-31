@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "K": 14,
+  "seed": 31415,
+  "prior_regime": "FIXED_PRIOR_K20",
+  "fit_scope": "TRAIN_ONLY",
+  "purpose": "QUANTITATIVE_VALIDATION_ARTIFACT_RECOVERY",
+  "max_iter": 30,
+  "fit_parameters": {
+    "batch_size": 128,
+    "doc_topic_prior": 0.05,
+    "evaluate_every": -1,
+    "learning_decay": 0.7,
+    "learning_method": "batch",
+    "learning_offset": 10.0,
+    "max_doc_update_iter": 100,
+    "max_iter": 30,
+    "mean_change_tol": 0.001,
+    "n_components": 14,
+    "n_jobs": -1,
+    "perp_tol": 0.1,
+    "random_state": 31415,
+    "topic_word_prior": 0.05,
+    "total_samples": 1000000.0,
+    "verbose": 1
+  },
+  "effective_alpha": 0.05,
+  "effective_eta": 0.05,
+  "n_iter_": 30,
+  "fit_time_seconds": 5197.3324421,
+  "train_size": 34412,
+  "test_size": 8603,
+  "full_size": 43015,
+  "vocab_size": 35063,
+  "DTM_file_sha256": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0",
+  "DTM_fingerprint": "744baeb001f1c5fa43802f07bceb73c6142b605ff3bf69c12e3f14d5dc8eb779",
+  "vocab_sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084",
+  "train_rows_sha256": "5b14c68dd4f4f8a6f3f3ae600c731c5b15941022843a0b6cecef0a3f977b860a",
+  "test_rows_sha256": "d9955e72eb63667d0dce94bec4dce3530846a556cc53500896be38386ceb8130",
+  "existing_npz_path": "model_selection/quantitative_candidate_validation/topic_matrices/FIXED_PRIOR_K20_K14_seed_31415.npz",
+  "existing_npz_sha256": "2ccce309a3278380c7686e3f78347e8e85d1c5e210632f8249d0b0b476eb7bb4",
+  "reproduced_model_sha256": "ad13988635a4d4deacfa8dcc52a469b24fdc89ddefff99df27305475329ad557",
+  "components_sha256": "d151d9f1b7a9f6936f6818f3e8d99cba5dab5325150b7286ed0f41c2f3e3029a",
+  "theta_full_sha256": "dcab15323d3f98476b3d70521a0dd7cc394c1298b03993cb95a0e7a5d3642d9a",
+  "software_versions": {
+    "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+    "python_version": "3.11.15",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "machine": "AMD64",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.9.0",
+    "joblib": "1.5.3",
+    "executable": "C:\\Users\\ASUS E23688\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe"
+  },
+  "environment_status": "MATCHES_RECORDED_ENVIRONMENT",
+  "reproduction_status": "EXACT_REPRODUCTION",
+  "prevalence_max_abs_difference_from_original_checkpoint": 0.0,
+  "theta_checks": {
+    "doc_topic_train": {
+      "shape": [
+        34412,
+        14
+      ],
+      "dtype": "float64",
+      "shape_correct": true,
+      "all_finite": true,
+      "all_non_negative": true,
+      "max_row_sum_error": 6.661338147750939e-16,
+      "row_sum_tolerance": 1e-10,
+      "row_sums_valid": true,
+      "passed": true
+    },
+    "doc_topic_test": {
+      "shape": [
+        8603,
+        14
+      ],
+      "dtype": "float64",
+      "shape_correct": true,
+      "all_finite": true,
+      "all_non_negative": true,
+      "max_row_sum_error": 6.661338147750939e-16,
+      "row_sum_tolerance": 1e-10,
+      "row_sums_valid": true,
+      "passed": true
+    },
+    "doc_topic_full": {
+      "shape": [
+        43015,
+        14
+      ],
+      "dtype": "float64",
+      "shape_correct": true,
+      "all_finite": true,
+      "all_non_negative": true,
+      "max_row_sum_error": 6.661338147750939e-16,
+      "row_sum_tolerance": 1e-10,
+      "row_sums_valid": true,
+      "passed": true
+    }
+  },
+  "outputs": [
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/lda_model.joblib",
+      "bytes": 4276154,
+      "sha256": "ad13988635a4d4deacfa8dcc52a469b24fdc89ddefff99df27305475329ad557"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/model_artifacts_enriched.npz",
+      "bytes": 11113346,
+      "sha256": "532cd9c4d4efd73a0e5cd231a88733fbfacc70c2af340fbf792614f2abe77d26"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/original_reference.json",
+      "bytes": 5804,
+      "sha256": "648a22f0f50051eec2c8943b45877af43fe927f6b02bf4293984d4b5c1783b3b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/representative_poems_author_balanced_top20.csv",
+      "bytes": 152667,
+      "sha256": "03b9ccf8c3fbb78b14b0519cb5efe126d800452ccb1cec7fa6aacec0057ac3ac"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/representative_poems_top100.csv",
+      "bytes": 561311,
+      "sha256": "c4c5a3cdbb56e7d4863b854be723561a3ab4ed3c2f0eff791022c7d56d3428f1"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/representative_poems_top20.csv",
+      "bytes": 155444,
+      "sha256": "ecf9cdfeb0799f8c134116a9ee24078ae40530e717f5fbbac831800d6ecba86b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/representative_poems_top50.csv",
+      "bytes": 313305,
+      "sha256": "a379026e8d1308f9578d84f02566bd74a3ddf64b7b187b2d8331f74d5194f877"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/reproduction_validation.json",
+      "bytes": 2044,
+      "sha256": "ca91463b2623023bd84811b143e0dc918fb486612c55b0c5aa1577899fb0404b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/topic_permutation_map.csv",
+      "bytes": 979,
+      "sha256": "0a9b3dcf001816e0ed91fb023d8d45c0d68ea52cf8f1bff76f50f2c0e6677c3c"
+    }
+  ]
+}

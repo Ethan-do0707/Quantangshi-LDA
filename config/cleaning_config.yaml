@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "paths": {
+    "corpus": "segmentation/data/poems.jsonl",
+    "tokenized_corpus": "segmentation/results/sikufenci_manual_gold.jsonl",
+    "normalization": "segmentation/manual_gold/resources/01_variant_normalization.tsv",
+    "stopwords": {
+      "core": "segmentation/manual_gold/resources/02_stopwords_core.txt",
+      "extended": "segmentation/manual_gold/resources/02_stopwords_extended.txt"
+    },
+    "protected_words": "segmentation/manual_gold/resources/03_protected_terms.tsv",
+    "filtering_rules": "segmentation/manual_gold/resources/04_tf_df_rules.json",
+    "semantic_mapping": "segmentation/manual_gold/resources/05_semantic_mapping.tsv",
+    "output_dir": "output",
+    "reports_dir": "reports",
+    "logs_dir": "logs"
+  },
+  "cleaning": {
+    "profile": "default_profile",
+    "apply_automatic_normalization_only": true,
+    "token_separator": " "
+  },
+  "quality_review": {
+    "low_token_count_threshold": 5,
+    "low_retention_ratio_threshold": 0.2,
+    "manual_sample_size": 200,
+    "random_seed": 20260830
+  }
+}

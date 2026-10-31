@@ -1,0 +1,194 @@
+{
+  "identity": "46ef09c112d372360227be30e7eac2c10026c1e2bd7ad2b74a79484d3d23cae0",
+  "schema_version": 1,
+  "config": {
+    "schema_version": 1,
+    "output_root": "model_selection/quantitative_candidate_validation",
+    "original_lda_config": "config/tf_df_lda_config.yaml",
+    "corpus_root": "output/tf_df_sensitivity/C",
+    "frozen_split": "model_selection/perplexity_diagnostic/splits/perplexity_split_C.csv",
+    "frozen_split_audit": "model_selection/perplexity_diagnostic/audit/split_C.json",
+    "frozen_perplexity_config": "model_selection/perplexity_diagnostic/config/perplexity_config.yaml",
+    "primary_candidates": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      20
+    ],
+    "supplementary_candidates": [],
+    "seeds": [
+      42,
+      2026,
+      20260830,
+      7,
+      17,
+      101,
+      31415,
+      271828,
+      20260907,
+      12345
+    ],
+    "prior_regimes": {
+      "ORIGINAL_PRIOR": {
+        "doc_topic_prior": null,
+        "topic_word_prior": null,
+        "interpretation": "sklearn 默认有效 alpha=eta=1/K"
+      },
+      "FIXED_PRIOR_K20": {
+        "doc_topic_prior": 0.05,
+        "topic_word_prior": 0.05,
+        "interpretation": "固定为原 K20 默认有效先验，仅作 sensitivity"
+      }
+    },
+    "metrics": {
+      "coherence": "document_npmi",
+      "npmi_reference": "TRAIN",
+      "top_words": 20,
+      "topic_diversity": "top_20_unique_ratio",
+      "topic_matching": "hungarian_max_full_topic_word_cosine",
+      "matched_jaccard": "same_cosine_hungarian_alignment_top20_jaccard",
+      "low_prevalence_threshold": 0.01,
+      "high_cosine_thresholds": [
+        0.85,
+        0.9
+      ],
+      "high_jaccard_threshold": 0.5,
+      "standard_deviation_ddof": 1
+    },
+    "practical_equivalence": {
+      "absolute_npmi_bands": [
+        0.0005,
+        0.001
+      ],
+      "relative_global_max_band": 0.01,
+      "plateau_min_contiguous_members": 3
+    },
+    "status_rules": {
+      "outlier_iqr_multiplier": 1.5,
+      "prior_sensitive_rank_change": 2,
+      "strong_stability_reference": "within_regime_median",
+      "shortlist_maximum": 4
+    },
+    "checkpoint": {
+      "resume": true
+    },
+    "expected": {
+      "corpus": "C",
+      "min_tf": 3,
+      "min_df": 3,
+      "n_documents": 43015,
+      "n_train": 34412,
+      "n_test": 8603,
+      "vocab_size": 35063,
+      "main_fit_count": 120,
+      "split_sha256": "ba4c0940e2dcc3792a135df6ed8810a13a94c5eaf10b04ca2c2ebdf7e4f79dd0",
+      "matrix_sha256": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0"
+    }
+  },
+  "base_lda": {
+    "implementation": "sklearn.decomposition.LatentDirichletAllocation",
+    "learning_method": "batch",
+    "topic_counts": [
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "random_seeds": [
+      42,
+      2026,
+      20260830
+    ],
+    "max_iter": 30,
+    "n_jobs": -1,
+    "evaluate_every": -1,
+    "perp_tol": 0.1,
+    "mean_change_tol": 0.001,
+    "max_doc_update_iter": 100,
+    "doc_topic_prior": null,
+    "topic_word_prior": null,
+    "verbose": 1
+  },
+  "original_audited_parameters": {
+    "learning_method": "batch",
+    "max_iter": 30,
+    "doc_topic_prior": null,
+    "topic_word_prior": null,
+    "learning_decay": 0.7,
+    "learning_offset": 10.0,
+    "max_doc_update_iter": 100,
+    "mean_change_tol": 0.001,
+    "evaluate_every": -1,
+    "perp_tol": 0.1,
+    "n_jobs": -1,
+    "verbose": 1
+  },
+  "regime_parameters": {
+    "ORIGINAL_PRIOR": {
+      "batch_size": 128,
+      "doc_topic_prior": null,
+      "evaluate_every": -1,
+      "learning_decay": 0.7,
+      "learning_method": "batch",
+      "learning_offset": 10.0,
+      "max_doc_update_iter": 100,
+      "max_iter": 30,
+      "mean_change_tol": 0.001,
+      "n_components": 11,
+      "n_jobs": -1,
+      "perp_tol": 0.1,
+      "random_state": 42,
+      "topic_word_prior": null,
+      "total_samples": 1000000.0,
+      "verbose": 1
+    },
+    "FIXED_PRIOR_K20": {
+      "batch_size": 128,
+      "doc_topic_prior": 0.05,
+      "evaluate_every": -1,
+      "learning_decay": 0.7,
+      "learning_method": "batch",
+      "learning_offset": 10.0,
+      "max_doc_update_iter": 100,
+      "max_iter": 30,
+      "mean_change_tol": 0.001,
+      "n_components": 11,
+      "n_jobs": -1,
+      "perp_tol": 0.1,
+      "random_state": 42,
+      "topic_word_prior": 0.05,
+      "total_samples": 1000000.0,
+      "verbose": 1
+    }
+  },
+  "matrix_sha256": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0",
+  "vocabulary_sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084",
+  "split_audit": {
+    "corpus": "C",
+    "n_train": 34412,
+    "n_test": 8603,
+    "vocab_size": 35063,
+    "train_token_count": 1218602,
+    "test_token_count": 307330,
+    "split_sha256": "ba4c0940e2dcc3792a135df6ed8810a13a94c5eaf10b04ca2c2ebdf7e4f79dd0",
+    "fit_rows_sha256": "5b14c68dd4f4f8a6f3f3ae600c731c5b15941022843a0b6cecef0a3f977b860a",
+    "test_rows_sha256": "d9955e72eb63667d0dce94bec4dce3530846a556cc53500896be38386ceb8130",
+    "train_test_overlap": 0,
+    "empty_train_rows": 0,
+    "empty_test_rows": 0,
+    "unseen_in_train_vocabulary_size": 69,
+    "test_tokens_unseen_in_train": 212,
+    "matrix_sha256": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0"
+  },
+  "source_hashes": {
+    "topic_top_indices": "7c8836b0a8140600f4afc96c5073eadcb24d6caa9c16b13dbc834b101377ce36",
+    "topic_npmi_scores": "f2fc16c857d746093e3331d534bb8228c9615dcf3eea56d100c8fc30893afb10",
+    "topic_diversity": "7f4362ace87a87fc777a243129fca9e30cdd54d2d205d9931fe369a06618d11e",
+    "model_factory": "53115811fce4c350350eb8428de93b6568493773eaa025daa63b300ac222d205",
+    "hungarian_match": "daf3d01492da65ac19e631fdca77562db1942687bcd30c29bcc93839b353393d",
+    "evaluate_one": "dc8860be80016650a9a0c036875640237305543c09abdc5f85d2d0ebbc11b3bb"
+  }
+}

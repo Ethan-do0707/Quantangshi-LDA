@@ -1,0 +1,1512 @@
+{
+  "schema_version": 2,
+  "method": "complete_human_topic_review_from_exactly_rebuilt_models",
+  "generated_at": "2026-08-30T22:45:27+08:00",
+  "candidate_rebuild_validated": true,
+  "all_six_exact_reproductions_passed": true,
+  "lda_training_performed_during_package_generation": false,
+  "corpus_modified": false,
+  "automatic_topic_labels_generated": false,
+  "automatic_human_scores_generated": false,
+  "candidate_count": 6,
+  "topic_review_card_count": 140,
+  "review_card_counts": {
+    "A_K20": 20,
+    "B_K20": 20,
+    "B_K30": 30,
+    "C_K20": 20,
+    "D_K20": 20,
+    "D_K30": 30
+  },
+  "selected_seeds": {
+    "A_K20": 20260830,
+    "B_K20": 20260830,
+    "B_K30": 2026,
+    "C_K20": 2026,
+    "D_K20": 42,
+    "D_K30": 42
+  },
+  "availability": {
+    "top_words_per_topic": 30,
+    "representative_poems_per_topic": 20,
+    "random_high_probability_poems_per_topic": 20,
+    "full_prevalence": true,
+    "full_topic_word_distribution": true,
+    "full_document_topic_probability": true,
+    "model_objects": true,
+    "topic_similarity": true,
+    "cross_model_topic_matching": true
+  },
+  "high_similarity_pair_counts": {
+    "A_K20": 28,
+    "B_K20": 34,
+    "B_K30": 42,
+    "C_K20": 28,
+    "D_K20": 26,
+    "D_K30": 18
+  },
+  "C_only_TF3_or_TF4_token_count": 11940,
+  "C_D_hungarian_match_count": 20,
+  "B_possible_split_topic_count": 19,
+  "D_possible_split_topic_count": 19,
+  "validation": {
+    "input_hashes_unchanged": true,
+    "review_card_count_matches_sum_K": true,
+    "all_topics_have_top30": true,
+    "all_topics_have_top20_representatives": true,
+    "all_topics_have_random_sample": true,
+    "all_complete_capabilities_present": true
+  },
+  "inputs": [
+    {
+      "path": "config/human_topic_review_config.yaml",
+      "sha256": "a510d743abadd91cc5b77518c09dc7c455dcb5943fe5bf4525c7923fc2894cca"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/artifact_manifest.json",
+      "sha256": "10ffc3719f7fbdb1a9504a0ba8cd1d517518d68e279f2b7c31171853a4fee43b"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/document_index.csv",
+      "sha256": "4c40794deab63c0f8a50dfbc43d3a02538735f8001aa68efd56bc2d74736308d"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/document_topic_probabilities.npz",
+      "sha256": "fe60de1f4a14c837034a81d7151395d8ad34a9c64e2a4c6847751385b58b3920"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/matrix_metadata.json",
+      "sha256": "5c3bf011bfc822dc9bd9350a687a1e91c4eadeea3677ef609f4771cc94589dd2"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/model.joblib",
+      "sha256": "68c8330c17153cdfdc34b9185f7d8f8fe67d842a64f7cc662d8242274e516bdd"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/representative_poems_top20.csv",
+      "sha256": "e5c6a9c92ab1c3aaa7f050eb1d829983487c86b2e2ae287ef07a2a2034323c99"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/reproduced_representative_poems_top5.csv",
+      "sha256": "5aebb86abf0282ed5ac4743a85e02c1d9db5e0a3cd360858f8948705d19c805c"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/reproduced_topics_top20.csv",
+      "sha256": "613109ed4982d926d29b81f71daa3e71e442b26b18d388da0054559a95e8b7c4"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/reproduction_validation.json",
+      "sha256": "d1d9649caab21694662031f9e1d896254dba47ad459ae67df6ccfdaea224e4d7"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/topic_word_components.npz",
+      "sha256": "9499e4304c060c577afc730f54b0b9668765199936320012e48d9ea494c0c6f3"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/topic_word_probabilities.npz",
+      "sha256": "5035cddd1b91275018dbc4c4f18983e72c28e6a6062c1aad43f535f3730c96dc"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/topics_top30.csv",
+      "sha256": "20b1623768f354322d65f0396639c8c2084dcff67e528e8533d354b49f099b10"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/vocabulary.csv",
+      "sha256": "208c4ce8abdcc137e23c530acff84eb92d09cfaf31b3d6baccecc2d41a2f6eb9"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/artifact_manifest.json",
+      "sha256": "a656c797e02eab4db04c1a679f4bf409da397bb53aa36bc295bcbd4fa9997762"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/document_index.csv",
+      "sha256": "583e18420126f12b1c63d4659913b6e43f9c109fbfa745e7c6ce3216a6345345"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/document_topic_probabilities.npz",
+      "sha256": "3c8f5a079bac9c9c2ec225d8ce5b21f1127f45d12cee903f537f6d3c32516a34"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/matrix_metadata.json",
+      "sha256": "a1dc865228f0e76d12bf7994de7a1d7931d27f12344a5b3fbf5393f97c9c8b64"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/model.joblib",
+      "sha256": "d0907b37d5da7cb36e3487851627dbd9f159205050dd09ff164c3e2a8f54463a"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/representative_poems_top20.csv",
+      "sha256": "52ea9b1da2ff06625829abd295843e6b2a51841f15e27970681447f82a893be5"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/reproduced_representative_poems_top5.csv",
+      "sha256": "9629421f0ea5829a3d1befe4fcf70e3885c4d8941b6667ce2358e79b85846451"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/reproduced_topics_top20.csv",
+      "sha256": "52619f9662d1bb96efb25c5503b2ca94ec26f8475a35a4fe7ada8a3d24307545"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/reproduction_validation.json",
+      "sha256": "2dbd21c2647bcda4e7691c1a229c3488d18238676257ded98e1b83d82f8f341f"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/topic_word_components.npz",
+      "sha256": "a6957ed431189823fa533cabdcfc755eca84758b535f0e8c12335e1903c25392"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/topic_word_probabilities.npz",
+      "sha256": "49d461578d5a0d715b4800762355a576aaf552dc4160d21a05ffcbac622a8e9c"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/topics_top30.csv",
+      "sha256": "82b88a39212838e9a62a4e976caad50338c799b2ee0fa171e1a23ef1027481c4"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/vocabulary.csv",
+      "sha256": "92b4fec4f6627bf6112e8ca2713f76d21e33f768796c45308a1d51854b5804e4"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/artifact_manifest.json",
+      "sha256": "2d4ddd3430782e5cff64716d673ca15679c1ed83f6a91087a68e4be2f6ad526b"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/document_index.csv",
+      "sha256": "583e18420126f12b1c63d4659913b6e43f9c109fbfa745e7c6ce3216a6345345"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/document_topic_probabilities.npz",
+      "sha256": "b79f7e8558f17c3cd3d14b701370be4936260c3b4bd33bd158c2891d3102efb9"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/matrix_metadata.json",
+      "sha256": "17310ad016b1cf5e10a03cb5f93d083d54747c487d36742943ce02b727192181"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/model.joblib",
+      "sha256": "398ee6f7a8ee807c8596804f317bd665444e0dd0df2bca771500465dc7ff87d4"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/representative_poems_top20.csv",
+      "sha256": "b2ec0ac1e8204ed677990a5f8c94cf39779416d6625ced4052ba1b0cdccf7c20"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/reproduced_representative_poems_top5.csv",
+      "sha256": "a8293ee8f9cf940c6dda89806508f555263580c9822771c6a09f516435a11133"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/reproduced_topics_top20.csv",
+      "sha256": "e23066d74d11db8808f69b1526736cf7e8ff395ac88a11a45fd58dbc95124341"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/reproduction_validation.json",
+      "sha256": "c10719fb9d6bc01231a22f0300445d1294bcb0622b98d32d2fbac652b14d5b2c"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/topic_word_components.npz",
+      "sha256": "207c78e0630f68dfbf380a70b2591bce3a9b7436643ef09dd313c87544b2a880"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/topic_word_probabilities.npz",
+      "sha256": "de0ba024b7305a8061f6f27606ec5041a3344f1ec068165ee91244cad7899d59"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/topics_top30.csv",
+      "sha256": "9a9e624f8e805df49260b5461c0d5ad6097dd097e8ad0fe6ecb471e79f4c91ec"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/vocabulary.csv",
+      "sha256": "92b4fec4f6627bf6112e8ca2713f76d21e33f768796c45308a1d51854b5804e4"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/artifact_manifest.json",
+      "sha256": "7b1975efdf380d4e28b64e503325b45fde6356e6c01d70296483bcaf9570a4df"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/document_index.csv",
+      "sha256": "2b316c921d8da8d4b5ed533b34839ae323693a2ec02f9300e2065192f0e32bbb"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/document_topic_probabilities.npz",
+      "sha256": "b6f71b9e450873abedd2a9970b2a1aeea5a83a2c1858b84aeff7e293d9f4a966"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/matrix_metadata.json",
+      "sha256": "e67f5b91940a6286516e1458b74744ca8b8594a4ca3bfbd05a453dadf353211d"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/model.joblib",
+      "sha256": "4b23ee5661afa3127fd52f4938ca166446a9c0903cf8706c0985c964446d6d6f"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/representative_poems_top20.csv",
+      "sha256": "abe95728eaf8e08d479ae2c67cd3ce1284a335fd462e6a793c89a7a9881817c6"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/reproduced_representative_poems_top5.csv",
+      "sha256": "f527592bb22de5c60c3fcaade1de814647c24d84780239b01339a7f5ce53640d"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/reproduced_topics_top20.csv",
+      "sha256": "182a778ffc8b1b3443007ff632e3ca2643211617340dd45826261377e23615f4"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/reproduction_validation.json",
+      "sha256": "1047eb2528f79bcdbe4060318d4fd702ae481b16e3ab5bffa4bead926fb8af64"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/topic_word_components.npz",
+      "sha256": "ed9d099ad35ce8759651aeac8977c744528e9751bcf0cc301b5def035be10201"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/topic_word_probabilities.npz",
+      "sha256": "a0fe6f09bc91e534c86db494c5f8b4d7e703198877409953d6e77c3fe04ec9e7"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/topics_top30.csv",
+      "sha256": "5a08b732b78f88be627418f044d4ec9880f47f7651d9d3cf151e73f488a24571"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/vocabulary.csv",
+      "sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/artifact_manifest.json",
+      "sha256": "e996b299824e73fd0e817db0b840ef607bcf9ec3e1b467afdc764af921894ec0"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/document_index.csv",
+      "sha256": "8b96c69052ee223a7cd07ec6632775eedee3f673569ec5dacd9e952c83ba5c19"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/document_topic_probabilities.npz",
+      "sha256": "061333b8d2247c9719cc8c2f46ede49fd4c2002c4d15ec9ac289a1a63820db40"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/matrix_metadata.json",
+      "sha256": "2c6df8d727c1f3a585419abfb424a544c22bec4147bc79cd57dc5748fa33a92a"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/model.joblib",
+      "sha256": "7100c135964812ad224cfffbb20c869094be5961be3236cc315619a4b5ff0e95"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/representative_poems_top20.csv",
+      "sha256": "329705ba9d05b64af1f0b4a6dfcc30882641b7792ac172baefcf885c3693fbc1"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/reproduced_representative_poems_top5.csv",
+      "sha256": "2826b226c3f988e0bebfbd0e7546aaf560a5c4a70a21d3bfc186a64898c88271"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/reproduced_topics_top20.csv",
+      "sha256": "3258960b7f3989a064630855f4d262e8302734d8b9b68bf8db7d277bfaa31ba0"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/reproduction_validation.json",
+      "sha256": "399b1fbcf1b80b9e57a4ccc3c6add0bb34f3902171c42ee5f1ac44d8ddcfe393"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/topic_word_components.npz",
+      "sha256": "82b50af0d5bb68445e587e30b75bf9688478ab80bbd2cb47bb2a217f410a9a0f"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/topic_word_probabilities.npz",
+      "sha256": "9cb9c03a92afe90f70c88d0245d7ab02392a7a249fb22956c16829c51005e5c2"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/topics_top30.csv",
+      "sha256": "950061b9a6efc60f467fe1831ebb229d6f3011d04d385fb6a66632149a588fbe"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/vocabulary.csv",
+      "sha256": "1d99b4dd436a00fd6b9378dff3ca55b20e4a6ccded44d47aafd06ba09638b548"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/artifact_manifest.json",
+      "sha256": "90c8c686124327c2281626fa9819940cc493a5582b640aceca580d28b67ee3f6"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/document_index.csv",
+      "sha256": "8b96c69052ee223a7cd07ec6632775eedee3f673569ec5dacd9e952c83ba5c19"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/document_topic_probabilities.npz",
+      "sha256": "2029df08384528427a1b639bda22d8585c3c3141dce113baf6b821ba8192c760"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/matrix_metadata.json",
+      "sha256": "176349d916a29c518d0ea5967d04416bb1769f77d785bb5b4b33423b975e0b7b"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/model.joblib",
+      "sha256": "2266f92ad730985d78160fbef93a69c3b37e999b9443203fbeab52e16ebf2f44"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/representative_poems_top20.csv",
+      "sha256": "e9cae2eaf08e8713979143797df7a5cc6ac929ea46167220c188037817c5a3c7"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/reproduced_representative_poems_top5.csv",
+      "sha256": "81189b9b083049135688eeb804653109d29e01b35d7f9be90040c4c29bf08bf1"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/reproduced_topics_top20.csv",
+      "sha256": "8810cc6f18e988da3fb6428e11c8032491d785da9fa585de54d32a04191f4e1f"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/reproduction_validation.json",
+      "sha256": "6140ee0b64e7c7ca952e5fb528d71131c23bb3db3ecf550ae2ef3d18d102c096"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/topic_word_components.npz",
+      "sha256": "b17a03ee3dbb5575dbb85af662f63bddc6a0eeca168c2a74ae588bed42ee3c25"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/topic_word_probabilities.npz",
+      "sha256": "36f74fdfeb8734a3e01f903e14e9ff93a8f484ae4621d8a537840759fe382fd3"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/topics_top30.csv",
+      "sha256": "320a54474d8f16f74fd671022cf4206e1c555fc3ed3010a846c5234500408a9c"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/vocabulary.csv",
+      "sha256": "1d99b4dd436a00fd6b9378dff3ca55b20e4a6ccded44d47aafd06ba09638b548"
+    },
+    {
+      "path": "output/lda_candidate_rebuild/run_metadata.json",
+      "sha256": "2f7a7acf5c39b22c5d0f8590d9c730d3395d19328372f96c4bbb31ee357fd777"
+    },
+    {
+      "path": "output/tf_df_sensitivity/A/lda_corpus.csv",
+      "sha256": "80d30f877374b5df68c76b6d73fdf72f10461fe3f0519c74486607ee212ed8f3"
+    },
+    {
+      "path": "output/tf_df_sensitivity/A/vocabulary.csv",
+      "sha256": "208c4ce8abdcc137e23c530acff84eb92d09cfaf31b3d6baccecc2d41a2f6eb9"
+    },
+    {
+      "path": "output/tf_df_sensitivity/B/lda_corpus.csv",
+      "sha256": "1cc1d84d974840de6ccd95c2979b81582339a9e4a8ba727aac98a3ed621b6683"
+    },
+    {
+      "path": "output/tf_df_sensitivity/B/vocabulary.csv",
+      "sha256": "92b4fec4f6627bf6112e8ca2713f76d21e33f768796c45308a1d51854b5804e4"
+    },
+    {
+      "path": "output/tf_df_sensitivity/C/lda_corpus.csv",
+      "sha256": "eb1a5b2a8e41eda0253a3f355024ccdf6a72d39a90aa930fa629606160f985d0"
+    },
+    {
+      "path": "output/tf_df_sensitivity/C/vocabulary.csv",
+      "sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084"
+    },
+    {
+      "path": "output/tf_df_sensitivity/D/lda_corpus.csv",
+      "sha256": "bf8c21de1d90f4215fb36b18c5c792b1f9a92b9e21d1a56918278d90c7914292"
+    },
+    {
+      "path": "output/tf_df_sensitivity/D/vocabulary.csv",
+      "sha256": "1d99b4dd436a00fd6b9378dff3ca55b20e4a6ccded44d47aafd06ba09638b548"
+    },
+    {
+      "path": "reports/lda_sensitivity/model_metrics.csv",
+      "sha256": "107b5c89231943eff840ab98aa21a482284a1c0adfd2eca79057985f412051cf"
+    },
+    {
+      "path": "reports/lda_sensitivity/stability_metrics.csv",
+      "sha256": "748681424c58835eb286362851b8b84b59ab8e7b1832a5b40143ffb6ab4f6674"
+    },
+    {
+      "path": "src/build_complete_human_topic_review.py",
+      "sha256": "d6b9b9128f807b4ce11b2769619e1c4e484a3befa05a7d172bb3f2c608d3acb6"
+    },
+    {
+      "path": "src/build_human_topic_review.py",
+      "sha256": "d9eb624d80603ec1665c9c4344f7eaf7c5a16015e5523443e98cace26f3501ef"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "human_topic_review/A_K20/high_similarity_topic_pairs.csv",
+      "sha256": "19f30af9798b10362c124ccc32fdd364dc2e30dec31330a0e90d9fac787590c2",
+      "bytes": 1836
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_01.md",
+      "sha256": "ed148f39ab20bc02e33bdd6e265f8e58bb9341d03c19ed5807f243a03c3371ba",
+      "bytes": 22951
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_02.md",
+      "sha256": "1ff8b4977d6ef552deae4ee19743c936aa167b5c403bc5e4907e835adbb1667c",
+      "bytes": 21812
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_03.md",
+      "sha256": "6cb4b061ec5a957cb76fe4732506fb055e5c6732251c3a6498d4fbc49474431a",
+      "bytes": 30838
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_04.md",
+      "sha256": "1f1f2a9d7c6ebc0d7a046eab0aa053741370eeca9684b48cc323e252313124f8",
+      "bytes": 38893
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_05.md",
+      "sha256": "f3de8e41b9de988c1297da2215252cb70ec3b871e3334916e4543cabcfd29890",
+      "bytes": 22367
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_06.md",
+      "sha256": "aca88747550fd36c8da7e19f8dea684b2be07dd36af8e5b4abb45cf5f731af7b",
+      "bytes": 22389
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_07.md",
+      "sha256": "15005bd5f3091cee15068541b53f8f69194b7f531d5daee9353a8c7680dd61f9",
+      "bytes": 22218
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_08.md",
+      "sha256": "ad2412ec89f9fa7d3cb981b1f234beb707ea06d90d955680f9cd34d35239cd8f",
+      "bytes": 26807
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_09.md",
+      "sha256": "473a61d6f00bf87e59b2590608b13023649f8009d748375ba7a1f12235b07b7d",
+      "bytes": 21981
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_10.md",
+      "sha256": "9d5a52d074a445e5bbc7448cf1421a27da1c131c1551b1bf980bd0b80cf7e6b5",
+      "bytes": 22047
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_11.md",
+      "sha256": "6bd8992c9d83a827c99be758ad8f12d509ecca0936f18be831a6df93b06b623a",
+      "bytes": 19316
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_12.md",
+      "sha256": "97fbbf4a2c5c8eb558ac0131c4dc7038337cc05e54006ce58bbecc9c3b43a140",
+      "bytes": 21938
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_13.md",
+      "sha256": "6c68e100c3a76b9d914ecb1e821136ccd9243e47b0ca281fcf8a8568ddad2a6c",
+      "bytes": 21880
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_14.md",
+      "sha256": "0aefe7b6377242b3033e0e722ed77598a0e5f113fa056dea5e9712f4c4244693",
+      "bytes": 21041
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_15.md",
+      "sha256": "c0bb059b36895542faa2191536fd9c421150fe3309cc059f94b1d598cc2a0a9b",
+      "bytes": 18729
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_16.md",
+      "sha256": "9e4ec750bb7e3798f6ddd1f03da54746a758405769360baa4e23fdcf3010ae82",
+      "bytes": 28051
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_17.md",
+      "sha256": "af388b731a567299a98fbb33b14ad8d294d9d6ee003950c2e947d01ff34ecf8e",
+      "bytes": 26862
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_18.md",
+      "sha256": "3a0d84ec83dca0664585e1368d83648786fbb9c3db4dbf4a212c3b24d82b7458",
+      "bytes": 20961
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_19.md",
+      "sha256": "9db752823d2a7b91862957479865d3901e6011d6b3bdc410e6c0c744d3815daf",
+      "bytes": 31475
+    },
+    {
+      "path": "human_topic_review/A_K20/review_cards/A_K20_topic_20.md",
+      "sha256": "394254d52e7eaa744b9cbd1e876b0f8fce54e695deb7f8b342bdfac1623645f3",
+      "bytes": 48233
+    },
+    {
+      "path": "human_topic_review/A_K20/topic_prevalence.csv",
+      "sha256": "cb65a6d9b7d74d4833d9b038d95f2558ac553e6b7553842200ccbdd66d8bf857",
+      "bytes": 2268
+    },
+    {
+      "path": "human_topic_review/A_K20/topic_random_high_probability_poems.csv",
+      "sha256": "01fbdf7fedb200e01579f7c1db920212c1f0bdc32bfc51c2f825ad9480e9ad4d",
+      "bytes": 201929
+    },
+    {
+      "path": "human_topic_review/A_K20/topic_similarity_matrix.csv",
+      "sha256": "f4aaf17b04ee9bb9023036d973005d16f69eb181678a6bc3d392796b323c4df4",
+      "bytes": 5593
+    },
+    {
+      "path": "human_topic_review/A_K20/topic_top_representative_poems.csv",
+      "sha256": "c97696eeeebc091fa02c61e604555743e272f50dfa846519d0b9735db9ec90b0",
+      "bytes": 214227
+    },
+    {
+      "path": "human_topic_review/A_K20/topic_top_words.csv",
+      "sha256": "b7089a02362b0bd79871ce4e8da988889a8137297561a790c76d0f87049180cd",
+      "bytes": 55522
+    },
+    {
+      "path": "human_topic_review/A_K20/topic_top_words.md",
+      "sha256": "749794e0a3c4036fba423060654c4ce261a175d12b693e0cb66a1f8f3f1e1530",
+      "bytes": 17125
+    },
+    {
+      "path": "human_topic_review/B_K20/high_similarity_topic_pairs.csv",
+      "sha256": "7291a7141b6a328a5b819ce314f32aca24c19fddb44fb2b74d3c55f8978a5ad9",
+      "bytes": 2011
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_01.md",
+      "sha256": "777c4fcd3702e3a63172c74687c3127cb98959818dffe4ff10794e749cf13c26",
+      "bytes": 23791
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_02.md",
+      "sha256": "c6ab52f7a6020c804a894912be12a23b2324784f97da0bba966ba0c2c942f364",
+      "bytes": 23770
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_03.md",
+      "sha256": "253baee0a9efb92987d1831023315a2c6d272729a6848a3df7f6e3c2843c1a5a",
+      "bytes": 19112
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_04.md",
+      "sha256": "b123825ef4b4f1f3d8d5366a315d4c9e607074c98cad0d09fa97be49f372b42f",
+      "bytes": 28162
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_05.md",
+      "sha256": "f09559a8d88a18cc2f5ff58d9074d7683c991266c3b003b65507b8fb10f95c4e",
+      "bytes": 19787
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_06.md",
+      "sha256": "66f9674d926db818d7757707abbb6814250dad13c9306b8abe4534ee17640208",
+      "bytes": 30512
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_07.md",
+      "sha256": "9f461e5213bbe15df27e32a5f70f0d798b6439e580e69af097bc68a86740d88c",
+      "bytes": 28651
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_08.md",
+      "sha256": "9294126ca0b533fdb3ab0791d9ab3fd8cc110ed659d5b9df907a37a8fd7ddacc",
+      "bytes": 31703
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_09.md",
+      "sha256": "4561a3fadca65acc894cd1a885d53549366447ddeb96f0606fa028f04d2db04f",
+      "bytes": 23109
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_10.md",
+      "sha256": "9a7c46f807c4f525f05bea4f6728bd5dccf4a2c88473e0b6a346e3d23224d4bb",
+      "bytes": 26920
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_11.md",
+      "sha256": "da485dd3a478d42c1ae7e8918767a7f0e809c7dbb39d7e158afe8b73ea8a7a5c",
+      "bytes": 22486
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_12.md",
+      "sha256": "81f02ac40245b768a072d9ce5773345ec5fc04d5979196346f8f8f40fd26a06d",
+      "bytes": 27228
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_13.md",
+      "sha256": "8ad7c9aba5446e2beb9549ec1a6baafb0c2c207f41b0b792c36ac9302266d766",
+      "bytes": 24650
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_14.md",
+      "sha256": "3dd62079e7ea5156132985becfca533fc8c123f6acc1dbf1e3b71ad6b2343a36",
+      "bytes": 24507
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_15.md",
+      "sha256": "e9de89f55388f070d95ea80c386db0131ec86758cd3e6b9857f1288ea3ef73fb",
+      "bytes": 22416
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_16.md",
+      "sha256": "dc533b2c5cc49256412e5ad2f09232b0a821572e2397fe2c25f85e8a6d7b9219",
+      "bytes": 22899
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_17.md",
+      "sha256": "2534f2b655dcdf845072531b1c40795c9aa2d4f129303e28e38359ca98c9bfcc",
+      "bytes": 25891
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_18.md",
+      "sha256": "965480df5371a66afeac3e084f6d36b715ca58542c2fc262af0ea95821f60dbb",
+      "bytes": 21874
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_19.md",
+      "sha256": "eb7bf0a656a5dd62f3a54b1fc5aae2590861fd085c5c47df51b076eef3c061e0",
+      "bytes": 34613
+    },
+    {
+      "path": "human_topic_review/B_K20/review_cards/B_K20_topic_20.md",
+      "sha256": "f9e559b4715e9514df0c12c40b06906d3b848c1a139c42fb5cb24777459d5887",
+      "bytes": 19228
+    },
+    {
+      "path": "human_topic_review/B_K20/topic_prevalence.csv",
+      "sha256": "c61553328479abe91e265ce8588110b4eede59c058fd977767c2c5f906a7b38b",
+      "bytes": 2276
+    },
+    {
+      "path": "human_topic_review/B_K20/topic_random_high_probability_poems.csv",
+      "sha256": "0d7c6b9c52abd24c22d3fc045d3d3dca2e95f64881256eb30afd703c88da9710",
+      "bytes": 215034
+    },
+    {
+      "path": "human_topic_review/B_K20/topic_similarity_matrix.csv",
+      "sha256": "56ecebbea1fab38d1df442ed5570c838509cc4945ca50e707494708eff41b071",
+      "bytes": 5593
+    },
+    {
+      "path": "human_topic_review/B_K20/topic_top_representative_poems.csv",
+      "sha256": "ac782e6ee915019179d19e5a503cf1cec615740f5d4f3e7a4092935526beb4ed",
+      "bytes": 191453
+    },
+    {
+      "path": "human_topic_review/B_K20/topic_top_words.csv",
+      "sha256": "21baad820f32fc5b66987d54ac353aa0915a15b4ad34c452c7295b4d6842b28e",
+      "bytes": 55544
+    },
+    {
+      "path": "human_topic_review/B_K20/topic_top_words.md",
+      "sha256": "27b29dbd990c93635501086894cc119a87d9284d554c7f869fd3ed25a31d40a6",
+      "bytes": 17050
+    },
+    {
+      "path": "human_topic_review/B_K30/high_similarity_topic_pairs.csv",
+      "sha256": "1cc1d4c1e6447d88a194a187a321782d51a6fbd840b3d0a98fe22b2a2ef75ae3",
+      "bytes": 2735
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_01.md",
+      "sha256": "0be6dfe66b0197249c7651e32e02ad26bb46cda56d1deb03739cab31cb1c7ad8",
+      "bytes": 34275
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_02.md",
+      "sha256": "84049c5b35786110c0baf76cf0dcc846b431d9b85b4737bab84bf2b2f42c401d",
+      "bytes": 21360
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_03.md",
+      "sha256": "1ad813df8aa665d47bee91c0481519cd9592d25032405fdf3ff940589b7b452b",
+      "bytes": 25294
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_04.md",
+      "sha256": "72491687232be54a94fed273d8d60b975e24bedf0c9288d3186d736dd0b61c2d",
+      "bytes": 25558
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_05.md",
+      "sha256": "51c964ea5b92c779e01027c32783a1271b99280a6263aa88b53b714b449943c7",
+      "bytes": 22921
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_06.md",
+      "sha256": "cf05b61fbd246b8ae988898d5dbe0cbc518c193003582a41aa48791438f48b55",
+      "bytes": 29154
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_07.md",
+      "sha256": "98fcbab28b6ab14ac10c22251a5fb819682cfd9ad6853bd04919d79a603ebce1",
+      "bytes": 23414
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_08.md",
+      "sha256": "0bebb37e6ce89202ca1dc6f842c246e7a56ed7c60f61b6f5c9780a2be267eb1e",
+      "bytes": 26720
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_09.md",
+      "sha256": "ef897baa23fb9ba44c062eb7943903bb03aaf6ca1e418d19d96b46802ba65e5a",
+      "bytes": 20893
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_10.md",
+      "sha256": "1f3d1d838363581b917cef281c34fc300ecd5c198950bdf3b96bceab62e48796",
+      "bytes": 21175
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_11.md",
+      "sha256": "b65ac16d7e0c1f291a84d25b6d8c06a24fa89fd2caf9a0c60bc61b6acc256128",
+      "bytes": 21374
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_12.md",
+      "sha256": "c664194e1e31c666baf1b1e60a27f3dfac75f694f4f8dab37cf8e1ae6109e63c",
+      "bytes": 28994
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_13.md",
+      "sha256": "998e08c1b2c7e6d358d434ef238a2d7d4a41f0ab9957781b8b996b29d33e2a31",
+      "bytes": 27248
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_14.md",
+      "sha256": "2a34180fdb16f2c6b602d042e8c8dbbcbeb27c39434f435bbd0d63752567f04c",
+      "bytes": 23174
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_15.md",
+      "sha256": "efd949beda99e9dd3e85221e1e89cfb097a27c9c83f27cc198b43b37978737d4",
+      "bytes": 20853
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_16.md",
+      "sha256": "37cf350d058cd98712cefd3e55f6300c40b34c7ea0880d22f89988938660ca32",
+      "bytes": 24178
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_17.md",
+      "sha256": "260a1f3f361e3171e4a732b0022663d894d279d2fb7061f7e017b374f868d829",
+      "bytes": 21744
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_18.md",
+      "sha256": "3e50f717799ac740dd0a60182afe210ee1c15b50c3a9ecd1201141a560427a36",
+      "bytes": 22352
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_19.md",
+      "sha256": "aa45db0633dd78b7e1313e711044367f29ffd7f28b6f802d010e2dad5bb51e6d",
+      "bytes": 25670
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_20.md",
+      "sha256": "9aac538c2f03f921452fe7990ee602be44e41b640b4c6eec1ab119cb7e397783",
+      "bytes": 24502
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_21.md",
+      "sha256": "f2b1c4904a7292d9fecb223dd9ec7f427306d1ab5cd84369bf9cefd6fe3b9a61",
+      "bytes": 23770
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_22.md",
+      "sha256": "0c834cc383f90d0c8481cf74bf74a6b22f8bc6f609217d182dee024322ef5761",
+      "bytes": 23123
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_23.md",
+      "sha256": "ccae8fff663f1765acd43547a1c0506754e3b44366051a0caa568b9ebbf902b3",
+      "bytes": 23152
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_24.md",
+      "sha256": "144b2ce07f79eec6846a1574875aefbf5f625933c89c40b8a64e4c5ad36787ed",
+      "bytes": 27293
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_25.md",
+      "sha256": "9a5127e5c3b407bf6d94c69f4974aa7c1794a4291572a4302e9dfa318f581a0c",
+      "bytes": 23486
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_26.md",
+      "sha256": "b732cffcdbac429afa0ab73794c40c0ef4afd9e7b70e78852a6050b249f0efe6",
+      "bytes": 25484
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_27.md",
+      "sha256": "94940b21eb0893586e9b2f6ce76df5d411a8ec18a8898f89f8c00c15db0e456d",
+      "bytes": 25301
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_28.md",
+      "sha256": "605fb8205732f3c4be213ac4464bc4a1f6283898d49692b75363feae2b69611e",
+      "bytes": 38738
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_29.md",
+      "sha256": "b345586a74914063175c53a9822cd6f64a12d74d62c2f6622796e94705c52e7c",
+      "bytes": 21483
+    },
+    {
+      "path": "human_topic_review/B_K30/review_cards/B_K30_topic_30.md",
+      "sha256": "ac1ac724f54e2a6908f435399136c65209f714ffe6e3fa7c0994016ce912fe1d",
+      "bytes": 30871
+    },
+    {
+      "path": "human_topic_review/B_K30/topic_prevalence.csv",
+      "sha256": "690b896482c92473a81bd946a5f9d02713aae119eb18e7417450407cae9b455f",
+      "bytes": 3269
+    },
+    {
+      "path": "human_topic_review/B_K30/topic_random_high_probability_poems.csv",
+      "sha256": "5ef0f521be6eabe803054b9cf0d60d912e2b160aabe1dd483c2a00e615561e2a",
+      "bytes": 340808
+    },
+    {
+      "path": "human_topic_review/B_K30/topic_similarity_matrix.csv",
+      "sha256": "9d7a0a476e59f901b62bf0cfd90325a8bf3320c12a7adea2af670270763bb2c1",
+      "bytes": 12283
+    },
+    {
+      "path": "human_topic_review/B_K30/topic_top_representative_poems.csv",
+      "sha256": "a1c37095f0f8f4d1448b70f1aeb50149b3e5d8fdd0dd8fbc5af96dada727f886",
+      "bytes": 269929
+    },
+    {
+      "path": "human_topic_review/B_K30/topic_top_words.csv",
+      "sha256": "1039cb46d1c4bea1ffdb1b94fd8bca4ac678347611c2d90b354674700caf0e0e",
+      "bytes": 83211
+    },
+    {
+      "path": "human_topic_review/B_K30/topic_top_words.md",
+      "sha256": "95f541a11e9236aef12f7f56cd6573cae444451a80b7710795d54cbf4dee4fb1",
+      "bytes": 25571
+    },
+    {
+      "path": "human_topic_review/C_K20/high_similarity_topic_pairs.csv",
+      "sha256": "8f6f1ce3fa02fa14c5e065285175dac329987b19614a83f2684652d29e27d52e",
+      "bytes": 1849
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_01.md",
+      "sha256": "96c467d661db085bc65d897e533e1aa023ae4e853ba1722290a38e0b8b483e81",
+      "bytes": 26330
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_02.md",
+      "sha256": "2707da51690c532177ca7bde7bba1e5adc51bce787c35dd38e8f5f2580a70175",
+      "bytes": 25968
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_03.md",
+      "sha256": "3c581bd9e6131ad661bfcd0c5948d9918114c36d9b0d2e765a265d2d81d712de",
+      "bytes": 24534
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_04.md",
+      "sha256": "ca6224c3b0c8f56dda8693e2a6e4ffbca46179cfa26f3d201981ddfe6bc53c01",
+      "bytes": 19805
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_05.md",
+      "sha256": "1cb6c0ea233d2d6f4988623a915f7b137a4f8e93c852b77210794cbde68296d3",
+      "bytes": 28268
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_06.md",
+      "sha256": "a63fd734bf20e2377e1a96ce3451315bb95f55ce6ee25c3eded5128caa7e6bf6",
+      "bytes": 23197
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_07.md",
+      "sha256": "fc5ea0d70629a93239da3a699c60135813b9fe20682e7630f4d6d8969baeda20",
+      "bytes": 22673
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_08.md",
+      "sha256": "839574e6a2aee9c79cb0de401bddf825db7b9fa1c5df2d6dda96a9ce8a195729",
+      "bytes": 21145
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_09.md",
+      "sha256": "720f8480d09d57667882810a7f18f0779bfd676c62c2d71ec7c89b339b9a362e",
+      "bytes": 20923
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_10.md",
+      "sha256": "c2f0acea98a0aae07fab442b015d94a8335f3d24a45a11acf6b4c3f241ca055e",
+      "bytes": 21823
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_11.md",
+      "sha256": "9db897c878facc22c41f0e6716bc059140549951f47a304b81880afc9b6dee3b",
+      "bytes": 25742
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_12.md",
+      "sha256": "ccc6be8e477392f1e02aa4333f98469cbdf4917996002b31707707db245c201f",
+      "bytes": 20730
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_13.md",
+      "sha256": "03ea719e989ef2c4c137e513d26f548a49da16f89c21eeff950a0d76599a64b0",
+      "bytes": 23088
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_14.md",
+      "sha256": "52cf3f0ec789e19e0fce84425293075284779f285b4163d62d071b8aed96f9b0",
+      "bytes": 22654
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_15.md",
+      "sha256": "83b0c2c599442748fe3358bb2ef76ca33ffaa58ebcae293e54dff4b1626f908a",
+      "bytes": 21220
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_16.md",
+      "sha256": "7ed040cca4f9390627a2a178eab9ff5719a0845994d71135fd5f487bcd7df9d5",
+      "bytes": 26478
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_17.md",
+      "sha256": "4672de979f2f80e3c675c0e1b0b54c3748e5479e8ba166b183e73562640adf5e",
+      "bytes": 21714
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_18.md",
+      "sha256": "41b3bf6746d963acdce847afe5b556d6c663f3a0a34d0491c89c80b3fc136bc9",
+      "bytes": 21520
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_19.md",
+      "sha256": "8edd58542ac10cf4bb99f2b5c81fabe733323119c46a99ab09c12b700b1cb3cb",
+      "bytes": 24156
+    },
+    {
+      "path": "human_topic_review/C_K20/review_cards/C_K20_topic_20.md",
+      "sha256": "337a9250a8c62804faf8b9c3a287d740389bf79ff714625f369eb7635df9a1a5",
+      "bytes": 21667
+    },
+    {
+      "path": "human_topic_review/C_K20/topic_prevalence.csv",
+      "sha256": "8451368adbf332ee25447b64e97c78a0470f64db816b6e069c234c05ee085965",
+      "bytes": 2280
+    },
+    {
+      "path": "human_topic_review/C_K20/topic_random_high_probability_poems.csv",
+      "sha256": "bf0da38ea7a06ee47dd4bd96a7c80399182ed368e44b6c74c2f0135766041101",
+      "bytes": 204303
+    },
+    {
+      "path": "human_topic_review/C_K20/topic_similarity_matrix.csv",
+      "sha256": "8a19b4c142dbcc34f8f62cdd757484d79955e06a9e9a48281dd3a11bfe2b4e1f",
+      "bytes": 5593
+    },
+    {
+      "path": "human_topic_review/C_K20/topic_top_representative_poems.csv",
+      "sha256": "977786e1727fb916159e30492f15c576640f18229b96b17ba0a11712ed4e0784",
+      "bytes": 164147
+    },
+    {
+      "path": "human_topic_review/C_K20/topic_top_words.csv",
+      "sha256": "93c8473aec11fd4881b844c6225458e75fdbe0534f1e8d770a0716b7a972226a",
+      "bytes": 55607
+    },
+    {
+      "path": "human_topic_review/C_K20/topic_top_words.md",
+      "sha256": "b6d32619efb7feed490136505bc654eff454e4cc7a045d3bf6ca65c2b25077cc",
+      "bytes": 17034
+    },
+    {
+      "path": "human_topic_review/D_K20/high_similarity_topic_pairs.csv",
+      "sha256": "f79fbfe9f0c32cb7fd6185a4b7008ffc7b4a1e2099693463a32208578215f418",
+      "bytes": 1632
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_01.md",
+      "sha256": "196e8e9184e90f12b21eb2a9907693bcd6bf363ab72d0ae5b4551ab8b1e9e18c",
+      "bytes": 26465
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_02.md",
+      "sha256": "f612b997a2fa990982cddbff0bd5be78009e313e065e2a5eba840b757e2d70ac",
+      "bytes": 20504
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_03.md",
+      "sha256": "0f6b3774777c9cc9e4d8297c7079241fa984e663bf946a30d33b65361424f21a",
+      "bytes": 24182
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_04.md",
+      "sha256": "079f9156887d5d429ff311be13cd7c8ff1827213c98ce3cd3318590198e346ea",
+      "bytes": 22148
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_05.md",
+      "sha256": "e3cbd4e09e129cdca8b2e71aea2765a9f4e22d792ba6c7ed9a8ef24ca2a98088",
+      "bytes": 20904
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_06.md",
+      "sha256": "f276f95e3943f263a53638909a380959ce89f06cb32e239adfd34dd670622ab1",
+      "bytes": 19328
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_07.md",
+      "sha256": "62367f754ea9fc7eb29f76c8682f02a612e7f2c1868f9d17142abd0dfd627c1f",
+      "bytes": 17931
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_08.md",
+      "sha256": "416ee61a10ea2cc721cab1a17a144e9231322c48936365de74377bcc019843e6",
+      "bytes": 24125
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_09.md",
+      "sha256": "98181f8e94ef79b1bf0f3f0c8cbb1cf611ffe3d433fd60eb6cd62dffa0d33145",
+      "bytes": 19236
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_10.md",
+      "sha256": "2b4ea44d1a3166006784b7f316c43ee012deff960b66ae536b98a7627f08ffc3",
+      "bytes": 20818
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_11.md",
+      "sha256": "0ccf41258b19d74904c02a51d8d5b4f097dd6fa3cec1fb5538d634747d293c63",
+      "bytes": 24611
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_12.md",
+      "sha256": "e36d20e87ab2f82c6007f8129657a5c57ddc6d8bc10f438f4e97407922588e6e",
+      "bytes": 20616
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_13.md",
+      "sha256": "f9aa200206b4721ef9d30ee246ef0856463ca7bca32e0e1468881cb0cdecaae9",
+      "bytes": 24719
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_14.md",
+      "sha256": "8c76e830a649585e8e640157a5114dc3e5809bdc71addb58b03869fee7dec4f8",
+      "bytes": 23706
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_15.md",
+      "sha256": "f1a161aff356b16f0bf9a035f12b0e7e5a74006a6631dfec7f4430734659e40f",
+      "bytes": 19542
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_16.md",
+      "sha256": "072d2f55b0f8f20ae175309ddac5a070a44c10304c23244a501cb115ce8a54c1",
+      "bytes": 21794
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_17.md",
+      "sha256": "1d84b9d15d211720a1b5998e57a2a2828be7c686b872f527bbaac450f53355d1",
+      "bytes": 23175
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_18.md",
+      "sha256": "9a8346d9f739c2d632b389115be3ea33deeffa69cd7cc7edf78f0ec94f08e91a",
+      "bytes": 21415
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_19.md",
+      "sha256": "9dedcf6cd6e7a1096cf1e6b4f7852a6f6c6967008dfb6bf79fc897cf8d7b2e22",
+      "bytes": 25549
+    },
+    {
+      "path": "human_topic_review/D_K20/review_cards/D_K20_topic_20.md",
+      "sha256": "fbb63d57218b12e28044dda0c9fcfd647c5ed4112eb4c88282672082ecddf1aa",
+      "bytes": 20389
+    },
+    {
+      "path": "human_topic_review/D_K20/topic_prevalence.csv",
+      "sha256": "117af8a528eec264eb8f2930fb26b121645d5d91eb79dc3098807fe279ec98d0",
+      "bytes": 2281
+    },
+    {
+      "path": "human_topic_review/D_K20/topic_random_high_probability_poems.csv",
+      "sha256": "937af0db3f6ff18a446d7bd87bd4c1853b5f68ce1f3d14d96f3866faf52d1257",
+      "bytes": 200797
+    },
+    {
+      "path": "human_topic_review/D_K20/topic_similarity_matrix.csv",
+      "sha256": "d20e6f870e9bd1c0bdcae257899662e349c080f6568406bafc61cd995234a3cc",
+      "bytes": 5593
+    },
+    {
+      "path": "human_topic_review/D_K20/topic_top_representative_poems.csv",
+      "sha256": "1f5fbeaa76b80d54b4432a612eab5f4665fe6e782823685346db800fa9aebaac",
+      "bytes": 145984
+    },
+    {
+      "path": "human_topic_review/D_K20/topic_top_words.csv",
+      "sha256": "97285777499d0c04f7769369dc1af60fefff74ac2f220cf93ed73c5fd5fc5dd0",
+      "bytes": 55656
+    },
+    {
+      "path": "human_topic_review/D_K20/topic_top_words.md",
+      "sha256": "e5f9ab645e3f950fff281542717b30e9b0bcceaa99e00be695c7a3c0bcad58eb",
+      "bytes": 17050
+    },
+    {
+      "path": "human_topic_review/D_K30/high_similarity_topic_pairs.csv",
+      "sha256": "b8473acc47257d904eb4ce00c7110a98e6035f79ab16401c02e17dd6266bbfa4",
+      "bytes": 1142
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_01.md",
+      "sha256": "130755b355b78484ec4bf864a41d75a2240cb9bca7b54ef67926172246203467",
+      "bytes": 22301
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_02.md",
+      "sha256": "45595d6f1a34b8b79254570020cfb11ef31dc0524b507f83cd21a34a622626f5",
+      "bytes": 24487
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_03.md",
+      "sha256": "4d3c3ebae8fb43abce7e5f932b5801408cc61451f01508eee77fe63d24d33f45",
+      "bytes": 22095
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_04.md",
+      "sha256": "be3da8418650d44b61508f25cb652b4a362c9aa4b01aa0f7f66ff58b27f16679",
+      "bytes": 25537
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_05.md",
+      "sha256": "1bdd88b92f156b052a6cdafb4c8c528e7f3b71c933a9b3f4fb0e0cd9ce32d784",
+      "bytes": 18966
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_06.md",
+      "sha256": "be1c70f74070045c71708fb888998b73fae824a2f6a06df4b490118a59c9f8cd",
+      "bytes": 21669
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_07.md",
+      "sha256": "d9576c2e4e7a3bac07fcf3c3666e79bc8bdc9affd73557bf6c76706834552a0c",
+      "bytes": 17926
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_08.md",
+      "sha256": "20a76162ea4e507bcb8dadf3ac789e4ea29003e25a8a4b383190e1e0e60b095f",
+      "bytes": 23765
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_09.md",
+      "sha256": "23b239ef25ee387dfd87017c0d69947d16be3f085868775d44e4539e9384fc33",
+      "bytes": 20524
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_10.md",
+      "sha256": "a2ca7925970993c60cfac6a1328aa77e18762d8b8388f46ed310c123b7a61fd7",
+      "bytes": 19003
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_11.md",
+      "sha256": "880be6c7e982aae4d7a5e96f98ba32c2d3e19a542a07b6a7861cd7979bc2838d",
+      "bytes": 20305
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_12.md",
+      "sha256": "6607bf702197b8ce8899f091c57ac99bb37c06d9454891cba7502f4681e644a7",
+      "bytes": 20364
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_13.md",
+      "sha256": "9092ba596ab739c1c9d60fb1623722f23d3a17a89ae288b75d6126e7fccd4393",
+      "bytes": 19714
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_14.md",
+      "sha256": "7e6845425c3a1dc8a7429d7a499eccc429497a379975fb60679ec09393333cf5",
+      "bytes": 26745
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_15.md",
+      "sha256": "37b82ca7e3bb35a3f9d63785de9755e12e7700a71825c16bef8d83142740dcc9",
+      "bytes": 19902
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_16.md",
+      "sha256": "4bd2ae2714871202857bece1b94b66b43e34108a63254d70fa15bf8d789f7795",
+      "bytes": 19264
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_17.md",
+      "sha256": "abe92b8c7d8e029de9b17d5050de6bd7b81994dda9c58627095505ddc271080e",
+      "bytes": 23089
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_18.md",
+      "sha256": "f8eed3fa11f2cd033857774f528bdfb94a805627b1e78be6d905325e751ec9ed",
+      "bytes": 22146
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_19.md",
+      "sha256": "53f51c709490adb99948772233f270741e2d96bb278f29cf3f214dc08f9e2b67",
+      "bytes": 20504
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_20.md",
+      "sha256": "069c0161fc4c9f91df114c54c8a28000759bf60fdc98849f0581888e0f79dc86",
+      "bytes": 18411
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_21.md",
+      "sha256": "d490524f6dad4e030d0ee5be1cb20ec0480b43c3d911a1a92427da2f0c650398",
+      "bytes": 21770
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_22.md",
+      "sha256": "cb3a72f4b9381243568446e1664dab3cc9b7c329cb085d08ff3f337f38c038a0",
+      "bytes": 25253
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_23.md",
+      "sha256": "2bc05e67c1ca107cb7477d50b62dbbed32a1b1fa9adcd100143d044f835b6b1c",
+      "bytes": 22608
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_24.md",
+      "sha256": "cc847e356b5bdcae7acd8a0c91ba4d0a6c3007a7af6d2b8d66b64b326ff8e42d",
+      "bytes": 22071
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_25.md",
+      "sha256": "4b9fb87bd8d3be9cd8588a960df3fb5895bd0c84129363f19232362762334c73",
+      "bytes": 19353
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_26.md",
+      "sha256": "f4a5fdedf0be2165872089dc9bedd1ec531d2bb60cd23bc04bebf1942da84435",
+      "bytes": 26860
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_27.md",
+      "sha256": "c057157b14fcb3eae7756f1da23a4c9c1d13b9552ec27319293d952559220620",
+      "bytes": 25269
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_28.md",
+      "sha256": "26c774887c4af79a199f03c0affa8f763a54f6472d94444ed3c634724864a0af",
+      "bytes": 21154
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_29.md",
+      "sha256": "35ebc49ef0467be5bca3755f4b84d102bb7bde324266403554598af244844ba5",
+      "bytes": 25120
+    },
+    {
+      "path": "human_topic_review/D_K30/review_cards/D_K30_topic_30.md",
+      "sha256": "3237af27cf259c9e8f6d27b66740430fde768b4fe6ac14cdc1362d3b197c9433",
+      "bytes": 36317
+    },
+    {
+      "path": "human_topic_review/D_K30/topic_prevalence.csv",
+      "sha256": "d14272a99585b60b03b607c368a15bae1ef901859eea5cee53d281a2a5786870",
+      "bytes": 3273
+    },
+    {
+      "path": "human_topic_review/D_K30/topic_random_high_probability_poems.csv",
+      "sha256": "cc1ec50c62b22d4945d29204b8619ec7f6197fa5163a7ca75fbb860ff5463fe3",
+      "bytes": 318545
+    },
+    {
+      "path": "human_topic_review/D_K30/topic_similarity_matrix.csv",
+      "sha256": "de442f9ec807ae793adacb53f058c0025271cf58641cfbfa3845d16ba14ac9b1",
+      "bytes": 12283
+    },
+    {
+      "path": "human_topic_review/D_K30/topic_top_representative_poems.csv",
+      "sha256": "0948b0ceaea162bba99f126713053671bf67207a333d75bddeb2cfc3447028f6",
+      "bytes": 211850
+    },
+    {
+      "path": "human_topic_review/D_K30/topic_top_words.csv",
+      "sha256": "7361739ea0de5cc4c3ac19e40e1732edaa1520712bf7d4e8560173f1475d9aa7",
+      "bytes": 83447
+    },
+    {
+      "path": "human_topic_review/D_K30/topic_top_words.md",
+      "sha256": "f1a50e4b6f28ebe83186f33638bee4337238c612eecd853979e011031e1a62e8",
+      "bytes": 25539
+    },
+    {
+      "path": "human_topic_review/README.md",
+      "sha256": "3666dcecdbfae5011623f127f60fc0ae7ff029ad7890b384bcc6283d7d18e0dd",
+      "bytes": 3106
+    },
+    {
+      "path": "human_topic_review/comparison/B_K20_vs_B_K30/B_K20_vs_K30_topic_mapping.csv",
+      "sha256": "cbacd8865e01e54f5bf1824fe5ca6d9aa83001985edfa5ce7e8f7987960a4e38",
+      "bytes": 4823
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/C_only_low_frequency_tokens.csv",
+      "sha256": "707f84ca0940066062a74202ee8ea6d53574075db7f3f1b9272d7959411826e7",
+      "bytes": 143461
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_matching.csv",
+      "sha256": "c8bb9b36ee0c9e56a9e74585ed4748029e3204b6e5bdf6b72f2813b8569deedf",
+      "bytes": 4280
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_01__D_topic_09.md",
+      "sha256": "d5a31596681d7c002d3add52d1c5d5333cd9c4c2dbd5e676c1465a3b78d0d715",
+      "bytes": 8337
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_02__D_topic_02.md",
+      "sha256": "0a99fe24c971e6ff35e49a0a44060145e57b0629f0034b2ab2a0063ad067259d",
+      "bytes": 9245
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_03__D_topic_08.md",
+      "sha256": "35c240cfe170de70d7ec827bd37c287d5353649db483339fee8e60daea2ccecc",
+      "bytes": 10882
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_04__D_topic_06.md",
+      "sha256": "1e447c8c03969160f6ed146e1e777df33106dcc953d5ba9d17f7e1d11d0ee95c",
+      "bytes": 9546
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_05__D_topic_11.md",
+      "sha256": "180f1aca98f61e2bcc435b0c41bff2e631420ccaf79c78b2c9102c3903eaa180",
+      "bytes": 11549
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_06__D_topic_05.md",
+      "sha256": "32627d335739c2a27d6ffed710f9a49a222de82859e06b16593a508c0ed57a62",
+      "bytes": 11474
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_07__D_topic_04.md",
+      "sha256": "29a7b1061cb01f836e27b43b63067f1762136fc8a5417b5901a866024e63df72",
+      "bytes": 10167
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_08__D_topic_12.md",
+      "sha256": "bcb467e8d570ab71baefc64791f395fa0fb5e8e152bd6fbe4bf634b361359bee",
+      "bytes": 9924
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_09__D_topic_03.md",
+      "sha256": "4b90af6819714259cde0cc350908254f4d4b0cbb184784def8031c4814083997",
+      "bytes": 8816
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_10__D_topic_16.md",
+      "sha256": "c0f7c3c9e6840db1a047e745a61b97238b64ac960195af3bc5fe44af125ad595",
+      "bytes": 11707
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_11__D_topic_13.md",
+      "sha256": "580e1daf60abcd8bfe2841df0c2f556b9d00826c5fe34402b4a71d8e5314a816",
+      "bytes": 13561
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_12__D_topic_15.md",
+      "sha256": "858894b9b52484addd22a32448362ac0ced33d889df6b68b44f6d294ad8c1427",
+      "bytes": 10120
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_13__D_topic_01.md",
+      "sha256": "eba633204b1b7450111d4ba614467de0ebee6ace2e32d281013ad1ef7556d2c0",
+      "bytes": 10384
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_14__D_topic_18.md",
+      "sha256": "bb9e2df946627ee50f4475cddad258a3ae16dc7d4fa410f3ff2c354fcde581d2",
+      "bytes": 10091
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_15__D_topic_17.md",
+      "sha256": "58b97021fa39712a4adce285600e316700415d144e48ae6362739d7db0fe8c9e",
+      "bytes": 10318
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_16__D_topic_19.md",
+      "sha256": "70c12896c094e6c68596e55b6785688d9e6fe7f20afa44c5455b3c2b025a05fc",
+      "bytes": 12852
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_17__D_topic_14.md",
+      "sha256": "4ccec6a3f198aaa9c9f628784ffe290d03f99857440b6ec6d905a5ad4211178e",
+      "bytes": 9640
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_18__D_topic_20.md",
+      "sha256": "7c9824428b55d2142d0838e49f760a883ec411a9f4e41252701ad7a50f0d5ba3",
+      "bytes": 8782
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_19__D_topic_10.md",
+      "sha256": "92ddc61160f27e3bab3f198c1a21e927977b7eb58e1c83fc3e659d62a79492cd",
+      "bytes": 9337
+    },
+    {
+      "path": "human_topic_review/comparison/C_K20_vs_D_K20/topic_pair_review/C_topic_20__D_topic_07.md",
+      "sha256": "e78ee7670e0a0905d4d10b7833a6ca5a729e61e53b43e5213965f7bea80c1a37",
+      "bytes": 8018
+    },
+    {
+      "path": "human_topic_review/comparison/D_K20_vs_D_K30/D_K20_vs_K30_topic_mapping.csv",
+      "sha256": "cfdbcf2012270086d5c1c762d69ef989369ab062ec2ceb6b7caceeb0946fe4b3",
+      "bytes": 5096
+    },
+    {
+      "path": "human_topic_review/comparison/comparison_status.csv",
+      "sha256": "3d83b8b380089dbaf553ef12ac96975a16d6a8e70833c754ffa5419a692e419c",
+      "bytes": 340
+    },
+    {
+      "path": "human_topic_review/data_completeness_report.csv",
+      "sha256": "eea26900d6cfa810cb6c29fbf5a3aba8d73c5d5492dab0fd23a263a88c399894",
+      "bytes": 2594
+    },
+    {
+      "path": "human_topic_review/human_topic_evaluation.csv",
+      "sha256": "26211d5cbfcacb175d3f41fac297ae22c3b5ac007c430477c9d2e7cc1fe65a8e",
+      "bytes": 4435
+    },
+    {
+      "path": "human_topic_review/missing_data_report.csv",
+      "sha256": "c3886b45a67644e11e09cb97392d9c1dcbcc38d283931531602d0c72d811429d",
+      "bytes": 58
+    },
+    {
+      "path": "human_topic_review/model_human_evaluation_summary.csv",
+      "sha256": "c1175ff6d67e2064425eedfbb65e689ac053e764b8a6ed0cce359fc17781c1ab",
+      "bytes": 669
+    },
+    {
+      "path": "human_topic_review/model_seed_metrics.csv",
+      "sha256": "f025cea21c9755129171339880898232a3d3525124f972c0e033357c35a33b9f",
+      "bytes": 1495
+    },
+    {
+      "path": "human_topic_review/model_selection_summary.csv",
+      "sha256": "b246e8596f769e98f0bb452540e9a589c3e2213c3d199b3187babf7825a931e2",
+      "bytes": 2148
+    },
+    {
+      "path": "human_topic_review/model_stability_metrics.csv",
+      "sha256": "09f3ad40017be306d08f7de41b3c9a8df84dc323d4b47c09a9e27a72e725187f",
+      "bytes": 712
+    },
+    {
+      "path": "human_topic_review/representative_probability_diagnostics.csv",
+      "sha256": "2b9493e28983e22c7539b41fd50348d5fde52eaf149d435414415b9328733738",
+      "bytes": 16793
+    }
+  ]
+}

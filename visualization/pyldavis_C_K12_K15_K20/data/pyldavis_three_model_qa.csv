@@ -1,0 +1,26 @@
+﻿qa_item,status,evidence
+QA01_K12_topic_term_shape,PASS,12x35063
+QA02_K15_topic_term_shape,PASS,15x35063
+QA03_K20_topic_term_shape,PASS,20x35063
+QA04_all_doc_topic_43015_rows,PASS,43015x12; 43015x15; 43015x20
+QA05_same_vocab_hash,PASS,a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084
+QA06_same_document_order,PASS,2b316c921d8da8d4b5ed533b34839ae323693a2ec02f9300e2065192f0e32bbb
+QA07_topic_term_row_sum,PASS,max_abs_error=4.44e-16
+QA08_doc_topic_row_sum,PASS,max_abs_error=6.66e-16
+QA09_sort_topics_false,PASS,config sort_topics=false
+QA10_all_47_topic_ids_preserved,PASS,47/47
+QA11_three_html_openable_self_contained,PASS,C_K12_pyLDAvis.html:522492; C_K15_pyLDAvis.html:599630; C_K20_pyLDAvis.html:725933
+QA12_chinese_utf8_and_fallback_fonts,PASS,UTF-8 标题及中文字体回退存在
+QA13_comparison_three_links,PASS,"['C_K12_pyLDAvis.html', 'C_K15_pyLDAvis.html', 'C_K20_pyLDAvis.html']"
+QA14_no_fit_or_transform_calls,PASS,forbidden_calls=[]
+QA15_source_artifact_hashes_unchanged,PASS,15 files unchanged
+EXTRA_prepared_K12,PASS,topic_order 1..12
+EXTRA_relevant_terms_K12,PASS,1080 rows
+EXTRA_prepared_K15,PASS,topic_order 1..15
+EXTRA_relevant_terms_K15,PASS,1350 rows
+EXTRA_prepared_K20,PASS,topic_order 1..20
+EXTRA_relevant_terms_K20,PASS,1800 rows
+EXTRA_eight_figures,PASS,"[('C_K12_topic_distance_map.png', (2028, 1735)), ('C_K15_topic_distance_map.png', (2028, 1735)), ('C_K20_topic_distance_map.png', (2028, 1735)), ('C_K12_K15_K20_topic_prevalence_comparison.png', (3727, 1237)), ('C_K12_K15_K20_topic_pair_similarity_distribution.png', (2226, 1350)), ('C_K12_K15_K20_nearest_topic_similarity.png', (2729, 1348)), ('C_K12_K15_K20_high_similarity_pair_counts.png', (1976, 1275)), ('C_K12_K15_K20_resolution_diagnostic.png', (2728, 1188))]"
+EXTRA_adjacent_alignment,PASS,55 rows
+EXTRA_report_17_sections,PASS,17/17 sections
+EXTRA_researcher_workbook,PASS,22790 bytes

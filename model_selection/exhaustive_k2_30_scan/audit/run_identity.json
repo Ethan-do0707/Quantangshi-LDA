@@ -1,0 +1,120 @@
+{
+  "identity": "5f550a72fe4f12a78b3b9d5facf74d735fb3f8814cf5fa9645be9a44e7cc9a6b",
+  "schema_version": 1,
+  "config": {
+    "schema_version": 1,
+    "output_root": "model_selection/exhaustive_k2_30_scan",
+    "original_lda_config": "config/tf_df_lda_config.yaml",
+    "corpus_root": "output/tf_df_sensitivity/C",
+    "frozen_split": "model_selection/perplexity_diagnostic/splits/perplexity_split_C.csv",
+    "frozen_split_audit": "model_selection/perplexity_diagnostic/audit/split_C.json",
+    "frozen_perplexity_config": "model_selection/perplexity_diagnostic/config/perplexity_config.yaml",
+    "topic_counts": {
+      "start": 2,
+      "stop": 30,
+      "step": 1
+    },
+    "seeds": [
+      42,
+      2026,
+      20260830
+    ],
+    "metrics": {
+      "coherence": "document_npmi",
+      "top_words": 20,
+      "npmi_reference": "TRAIN",
+      "standard_deviation_ddof": 1
+    },
+    "diagnostics": {
+      "primary_window": [
+        10,
+        20
+      ],
+      "npmi_top_bands": [
+        0.99,
+        0.98
+      ],
+      "broad_plateau_min_contiguous_k": 3,
+      "mostly_increasing_min_fraction": 0.8,
+      "stable_perplexity_cv_percent_max": 1.0
+    },
+    "checkpoint": {
+      "resume": true
+    },
+    "expected": {
+      "corpus": "C",
+      "min_tf": 3,
+      "min_df": 3,
+      "n_documents": 43015,
+      "n_train": 34412,
+      "n_test": 8603,
+      "vocab_size": 35063,
+      "split_sha256": "ba4c0940e2dcc3792a135df6ed8810a13a94c5eaf10b04ca2c2ebdf7e4f79dd0",
+      "matrix_sha256": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0"
+    }
+  },
+  "original_lda": {
+    "implementation": "sklearn.decomposition.LatentDirichletAllocation",
+    "learning_method": "batch",
+    "topic_counts": [
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "random_seeds": [
+      42,
+      2026,
+      20260830
+    ],
+    "max_iter": 30,
+    "n_jobs": -1,
+    "evaluate_every": -1,
+    "perp_tol": 0.1,
+    "mean_change_tol": 0.001,
+    "max_doc_update_iter": 100,
+    "doc_topic_prior": null,
+    "topic_word_prior": null,
+    "verbose": 1
+  },
+  "audited_sklearn_parameters": {
+    "learning_method": "batch",
+    "max_iter": 30,
+    "doc_topic_prior": null,
+    "topic_word_prior": null,
+    "learning_decay": 0.7,
+    "learning_offset": 10.0,
+    "max_doc_update_iter": 100,
+    "mean_change_tol": 0.001,
+    "evaluate_every": -1,
+    "perp_tol": 0.1,
+    "n_jobs": -1,
+    "verbose": 1
+  },
+  "matrix_sha256": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0",
+  "vocabulary_sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084",
+  "split_audit": {
+    "corpus": "C",
+    "n_train": 34412,
+    "n_test": 8603,
+    "vocab_size": 35063,
+    "train_token_count": 1218602,
+    "test_token_count": 307330,
+    "split_sha256": "ba4c0940e2dcc3792a135df6ed8810a13a94c5eaf10b04ca2c2ebdf7e4f79dd0",
+    "fit_rows_sha256": "5b14c68dd4f4f8a6f3f3ae600c731c5b15941022843a0b6cecef0a3f977b860a",
+    "test_rows_sha256": "d9955e72eb63667d0dce94bec4dce3530846a556cc53500896be38386ceb8130",
+    "train_test_overlap": 0,
+    "empty_train_rows": 0,
+    "empty_test_rows": 0,
+    "unseen_in_train_vocabulary_size": 69,
+    "test_tokens_unseen_in_train": 212,
+    "matrix_sha256": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0"
+  },
+  "source_hashes": {
+    "topic_top_indices": "7c8836b0a8140600f4afc96c5073eadcb24d6caa9c16b13dbc834b101377ce36",
+    "topic_npmi_scores": "f2fc16c857d746093e3331d534bb8228c9615dcf3eea56d100c8fc30893afb10",
+    "model_factory": "53115811fce4c350350eb8428de93b6568493773eaa025daa63b300ac222d205",
+    "evaluate_one": "33e37388e72a9b201bcfeb1a137d656bcee775d42f1bb4c72f5c2e6e07d62e24"
+  }
+}

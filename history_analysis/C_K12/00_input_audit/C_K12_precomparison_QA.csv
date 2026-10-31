@@ -1,0 +1,19 @@
+test_id,test_name,status,observed,expected
+QA_01,C_K12 theta shape,PASS,"[43015, 12]","[43015, 12]"
+QA_02,theta row sum,PASS,5.551115123125783e-16,"""<=1e-10"""
+QA_03,document mapping,PASS,true,true
+QA_04,样本数量,PASS,"{""PASS"": 30}","""全部 PASS"""
+QA_05,CORE period counts,PASS,"[{""period"": ""初唐"", ""poem_count"": 623, ""author_count"": 41}, {""period"": ""盛唐"", ""poem_count"": 3191, ""author_count"": 43}, {""period"": ""中唐"", ""poem_count"": 4153, ""author_count"": 83}, {""period"": ""晚唐"", ""poem_count"": 2874, ""author_count"": 40}]","{""初唐"": [623, 41], ""盛唐"": [3191, 43], ""中唐"": [4153, 83], ""晚唐"": [2874, 40]}"
+QA_06,POEM/AUTHOR 定义,PASS,"[""AUTHOR"", ""POEM""]","[""AUTHOR"", ""POEM""]"
+QA_07,6个 CLEAR 进入 primary,PASS,"[""topic_03"", ""topic_05"", ""topic_06"", ""topic_08"", ""topic_09"", ""topic_11""]","[""topic_03"", ""topic_05"", ""topic_06"", ""topic_08"", ""topic_09"", ""topic_11""]"
+QA_08,BROAD 不进入 primary FDR,PASS,false,false
+QA_09,NOISE 不进入候选,PASS,[],[]
+QA_10,bootstrap 按 author cluster,PASS,"[""author""]","[""author""]"
+QA_11,CORE_POEM CR1,PASS,206,206
+QA_12,CORE_AUTHOR HC3,PASS,203,203
+QA_13,BH-FDR 分别计算,PASS,"{""omnibus"": {""AUTHOR"": 6, ""POEM"": 6}, ""contrasts"": {""AUTHOR"": 24, ""POEM"": 24}}","{""omnibus_each"": 6, ""contrast_each"": 24}"
+QA_14,CLR 基于完整12维,PASS,"{""topic_count"": 12, ""zero_count"": 0}","{""topic_count"": 12}"
+QA_15,LOAO 删除单位是 author_id_internal,PASS,"{""id_nonempty"": ""True"", ""all_poems"": true}",true
+QA_16,Top contributor 针对 K12 重算,PASS,51,"""全部来自 K12 CORE 作者表"""
+QA_17,冻结前未读取 K20 历史结果,PASS,"""K12_ONLY_PHASE""","""K12_ONLY_PHASE"""
+QA_18,冻结输入未覆盖,PASS,"{""theta"": ""1c58db1f99c1e5375e539d86a5c104ee60b9e1a6fdd7b2a5213da42c2e681191"", ""metadata_master"": ""93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f"", ""sample_labels"": ""782ef57194db6f32f85cc1ce07fa42ee9e025f89abec857baec2438962fa047e"", ""taxonomy_workbook"": ""7418b362741a214cbefafa32e6a72f9e228dd4e30da0bafb3cbc7debdec73614""}","{""theta"": ""1c58db1f99c1e5375e539d86a5c104ee60b9e1a6fdd7b2a5213da42c2e681191"", ""metadata_master"": ""93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f"", ""sample_labels"": ""782ef57194db6f32f85cc1ce07fa42ee9e025f89abec857baec2438962fa047e"", ""taxonomy_workbook"": ""7418b362741a214cbefafa32e6a72f9e228dd4e30da0bafb3cbc7debdec73614""}"

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "paths": {
+    "model_metrics": "reports/lda_sensitivity/model_metrics.csv",
+    "stability_metrics": "reports/lda_sensitivity/stability_metrics.csv",
+    "model_root": "output/lda_sensitivity/models",
+    "rebuild_root": "output/lda_candidate_rebuild",
+    "rebuild_metadata": "output/lda_candidate_rebuild/run_metadata.json",
+    "corpus_root": "output/tf_df_sensitivity",
+    "output_root": "human_topic_review",
+    "log_path": "logs/human_topic_review.log"
+  },
+  "candidates": [
+    {"model_id": "A_K20", "corpus": "A", "min_tf": 1, "min_df": 1, "K": 20},
+    {"model_id": "B_K20", "corpus": "B", "min_tf": 2, "min_df": 2, "K": 20},
+    {"model_id": "B_K30", "corpus": "B", "min_tf": 2, "min_df": 2, "K": 30},
+    {"model_id": "C_K20", "corpus": "C", "min_tf": 3, "min_df": 3, "K": 20},
+    {"model_id": "D_K20", "corpus": "D", "min_tf": 5, "min_df": 3, "K": 20},
+    {"model_id": "D_K30", "corpus": "D", "min_tf": 5, "min_df": 3, "K": 30}
+  ],
+  "review": {
+    "requested_top_words": 30,
+    "requested_representative_poems": 20,
+    "requested_random_poems": 20,
+    "random_seed": 20260830,
+    "high_probability_pool_fraction": 0.10,
+    "high_similarity_threshold": 0.50,
+    "split_similarity_threshold": 0.40,
+    "similarity_fallback_top_words": 100,
+    "fixed_probability_thresholds": [0.2, 0.3, 0.5]
+  }
+}

@@ -1,0 +1,21 @@
+test_id,test_name,status,observed,expected
+QA_01,C_K12 theta shape,PASS,"[43015, 12]","[43015, 12]"
+QA_02,theta row sum,PASS,5.551115123125783e-16,"""<=1e-10"""
+QA_03,document mapping,PASS,true,true
+QA_04,样本数量,PASS,"{""PASS"": 30}","""全部 PASS"""
+QA_05,CORE period counts,PASS,"[{""period"": ""初唐"", ""poem_count"": 623, ""author_count"": 41}, {""period"": ""盛唐"", ""poem_count"": 3191, ""author_count"": 43}, {""period"": ""中唐"", ""poem_count"": 4153, ""author_count"": 83}, {""period"": ""晚唐"", ""poem_count"": 2874, ""author_count"": 40}]","{""初唐"": [623, 41], ""盛唐"": [3191, 43], ""中唐"": [4153, 83], ""晚唐"": [2874, 40]}"
+QA_06,POEM/AUTHOR 定义,PASS,"[""AUTHOR"", ""POEM""]","[""AUTHOR"", ""POEM""]"
+QA_07,6个 CLEAR 进入 primary,PASS,"[""topic_03"", ""topic_05"", ""topic_06"", ""topic_08"", ""topic_09"", ""topic_11""]","[""topic_03"", ""topic_05"", ""topic_06"", ""topic_08"", ""topic_09"", ""topic_11""]"
+QA_08,BROAD 不进入 primary FDR,PASS,false,false
+QA_09,NOISE 不进入候选,PASS,[],[]
+QA_10,bootstrap 按 author cluster,PASS,"[""author""]","[""author""]"
+QA_11,CORE_POEM CR1,PASS,206,206
+QA_12,CORE_AUTHOR HC3,PASS,203,203
+QA_13,BH-FDR 分别计算,PASS,"{""omnibus"": {""AUTHOR"": 6, ""POEM"": 6}, ""contrasts"": {""AUTHOR"": 24, ""POEM"": 24}}","{""omnibus_each"": 6, ""contrast_each"": 24}"
+QA_14,CLR 基于完整12维,PASS,"{""topic_count"": 12, ""zero_count"": 0}","{""topic_count"": 12}"
+QA_15,LOAO 删除单位是 author_id_internal,PASS,"{""id_nonempty"": ""True"", ""all_poems"": true}",true
+QA_16,Top contributor 针对 K12 重算,PASS,51,"""全部来自 K12 CORE 作者表"""
+QA_17,冻结前未读取 K20 历史结果,PASS,"""K12_ONLY_PHASE""","""K12_ONLY_PHASE"""
+QA_18,旧 K20 文件未被覆盖,PASS,"{""blind_alignment"": ""6e959f43284170dd4e8fe60fd56336fbb2a2ef0fccda4b12d5bd01d66a92c9db"", ""blind_topic_secret"": ""42649f98844857b5e24617bf583c982d0d74e9accb79e50702b0b90d05b344d1"", ""k12_k15_candidates"": ""bb32338efcaa95a7c2471cd2eabd333754922f8efd312d8274deb4ed49cc4088"", ""k15_k20_candidates"": ""a891b581f34a985b7a889eb28ffc2de09da027ab77ba63d427193d8eca3247dd"", ""old_candidates"": ""1b8fda5403f5c1b530ec0f3a19830f2a882a4f879ae3f05c25ff85a3dcbb45b7""}","{""blind_alignment"": ""6e959f43284170dd4e8fe60fd56336fbb2a2ef0fccda4b12d5bd01d66a92c9db"", ""blind_topic_secret"": ""42649f98844857b5e24617bf583c982d0d74e9accb79e50702b0b90d05b344d1"", ""k12_k15_candidates"": ""bb32338efcaa95a7c2471cd2eabd333754922f8efd312d8274deb4ed49cc4088"", ""k15_k20_candidates"": ""a891b581f34a985b7a889eb28ffc2de09da027ab77ba63d427193d8eca3247dd"", ""old_candidates"": ""1b8fda5403f5c1b530ec0f3a19830f2a882a4f879ae3f05c25ff85a3dcbb45b7""}"
+QA_19,所有关键输出已 hash,PASS,"{""blind_manifest_files"": 37, ""comparison_rows"": 9}","{""blind_manifest_files"": 37, ""comparison_rows"": 9}"
+QA_20,最终报告明确 author period ≠ poem date,PASS,True,True

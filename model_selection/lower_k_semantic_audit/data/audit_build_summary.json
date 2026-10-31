@@ -1,0 +1,13 @@
+{
+  "review_topics": 30,
+  "review_cards": 30,
+  "figures": 4,
+  "invariance_pass": 15,
+  "invariance_total": 15,
+  "k15_problematic_merge": "T01, T04, T14",
+  "k15_meaningful_aggregation": "T08, T11",
+  "k15_relative_to_k20": "COMPARABLE",
+  "K15_semantic_competitiveness": "K15_COMPETITIVE_WITH_CAVEATS",
+  "next_recommendation": "REVIEW_K15_TO_K20_FINE_GRID",
+  "K16_to_K19_run": false
+}

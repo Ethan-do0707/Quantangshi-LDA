@@ -1,0 +1,8 @@
+{
+  "blind_frozen_sha256_before": "7c7c33d5e581e5e7ebf67961cd415e2166862c503203ea529139f4b056739a8b",
+  "blind_frozen_sha256_after": "7c7c33d5e581e5e7ebf67961cd415e2166862c503203ea529139f4b056739a8b",
+  "blind_scores_modified_after_unblind": false,
+  "model_training_calls": 0,
+  "downstream_rerun_performed": false,
+  "final_selection_status": "PREFER_K12"
+}

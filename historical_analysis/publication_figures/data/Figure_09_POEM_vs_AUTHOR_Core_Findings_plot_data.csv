@@ -1,0 +1,5 @@
+﻿finding_id,c_topic_id,c_topic_label,contrast,model,sample,raw_delta_AUTHOR,raw_delta_POEM,source_row_AUTHOR,source_row_POEM,source_file,finding_level_robustness
+T03_EL,topic_03,朝廷礼乐、应制与颂圣,E-L,C,CORE,-0.12513293195661418,-0.09446917612090609,77.0,76.0,D:\中大中文系工作相关\論文發表與投稿\全唐詩LDA\outputs\01a0628d-ef13-7961-85ce-146e0a14f60a\BCD_finding_level_robustness\data\BCD_finding_effects.csv,ROBUST_ACROSS_BCD
+T06_EL,topic_06,老病身世、仕宦与人生感怀,E-L,C,CORE,0.07023398435592407,0.09363230250299967,81.0,80.0,D:\中大中文系工作相关\論文發表與投稿\全唐詩LDA\outputs\01a0628d-ef13-7961-85ce-146e0a14f60a\BCD_finding_level_robustness\data\BCD_finding_effects.csv,ROBUST_ACROSS_BCD
+T08_EL,topic_08,山居寺院、僧侣与幽居,E-L,C,CORE,0.04125885222943739,0.06899243620940385,85.0,84.0,D:\中大中文系工作相关\論文發表與投稿\全唐詩LDA\outputs\01a0628d-ef13-7961-85ce-146e0a14f60a\BCD_finding_level_robustness\data\BCD_finding_effects.csv,ROBUST_ACROSS_BCD
+T16_EL,topic_16,边塞征战与军旅,E-L,C,CORE,-0.037910059507369975,-0.018122186778624722,89.0,88.0,D:\中大中文系工作相关\論文發表與投稿\全唐詩LDA\outputs\01a0628d-ef13-7961-85ce-146e0a14f60a\BCD_finding_level_robustness\data\BCD_finding_effects.csv,PARTIALLY_ROBUST

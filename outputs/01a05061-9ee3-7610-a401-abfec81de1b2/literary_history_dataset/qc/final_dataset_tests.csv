@@ -1,0 +1,16 @@
+﻿test_id,description,status,observed,expected
+TEST_01,C_K20 = K20,PASS,20,20
+TEST_02,Document×Topic columns = 20,PASS,20,20
+TEST_03,matrix rows = valid document index rows,PASS,43015,43015
+TEST_04,每一概率在0与1之间,PASS,min=1.9739439780820405e-05;max=0.9930147057788158,0<=theta<=1
+TEST_05,每首诗20维概率和约等于1,PASS,6.661338147750939e-16,<1e-6
+TEST_06,dominant probability 等于20维最大值,PASS,43015,43015
+TEST_07,second/third topic 排序正确,PASS,43015,43015
+TEST_08,poem_id 连接唯一,PASS,43015,43015
+TEST_09,最终 master 行数等于 valid document count,PASS,43015,43015
+TEST_10,没有 merge 导致行数膨胀,PASS,0,0
+TEST_11,taxonomy 有且只有20行,PASS,20,20
+TEST_12,每个 Topic ID 唯一,PASS,20,20
+TEST_13,C_K20 topic labels 可从 topic_metadata 连接,PASS,20,20
+TEST_14,B/C/D alignment 引用 Topic ID 真实存在,PASS,[],[]
+TEST_15,所有概率字段无 NaN,PASS,matrix=True;master=True,matrix=True;master=True

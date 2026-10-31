@@ -1,0 +1,362 @@
+{
+  "analysis_version": "QTS_BCD_FINDING_ROBUSTNESS_V1",
+  "created_at": "2026-09-03T10:03:54.209430+08:00",
+  "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\ASUS E23688\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "config_sha256": "42842846b6e52435e3092c529dbcaa540769900c4b2d87e9670d48cdc689724a",
+  "implementation": {
+    "run_bcd_finding_robustness.py": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\src\\run_bcd_finding_robustness.py",
+      "sha256": "c048864fbb87b9e40093eafca9479db8e02aafb6f222e3d81e1acb7ed0646235"
+    },
+    "bcd_robustness_reporting.py": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\src\\bcd_robustness_reporting.py",
+      "sha256": "f01f64cad19268c868b37984ebc334e4ab2fd03b74c04bcc1797317ced03050c"
+    },
+    "build_workbook.mjs": {
+      "path": "C:\\Users\\ASUS E23688\\.codex\\visualizations\\2026\\09\\02\\01a0628d-ef13-7961-85ce-146e0a14f60a\\bcd_workbook\\build_workbook.mjs",
+      "sha256": "a83d0c1222b936c7d5efb0b188db2a9f95b07a802dcc078ab6499cc199e71b13"
+    }
+  },
+  "inputs": {
+    "authoritative_master": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\master\\C_K20_literary_history_master_with_author_history.csv",
+      "sha256": "93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f"
+    },
+    "sample_labels": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\representativeness_audit\\data\\period_metadata_sample_labels.csv",
+      "sha256": "782ef57194db6f32f85cc1ce07fa42ee9e025f89abec857baec2438962fa047e"
+    },
+    "alignment": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\alignment\\BCD_cross_model_topic_alignment.csv",
+      "sha256": "b562271ed822eb5ee6f99ae0f3cd6ebc41a25ac35e7309434a86fa44eb1dcb0e"
+    },
+    "eligible_findings": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_influence_loao\\data\\author_validated_candidate_trends.csv",
+      "sha256": "1b8fda5403f5c1b530ec0f3a19830f2a882a4f879ae3f05c25ff85a3dcbb45b7"
+    },
+    "original_effects": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_effect_validation\\data\\all_topic_effect_sizes.csv",
+      "sha256": "f5f50e6a43f32041445534d54738db051158810d0ba3fbde65329c28b56ed637"
+    },
+    "original_clr": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_effect_validation\\data\\raw_vs_clr_direction_agreement.csv",
+      "sha256": "aaf6201347bba102e95ffcf888314cb3ae77efd527562e7853b002fc894144f3"
+    },
+    "freeze_B_artifact_manifest.json": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\artifact_manifest.json",
+      "sha256": "a656c797e02eab4db04c1a679f4bf409da397bb53aa36bc295bcbd4fa9997762"
+    },
+    "freeze_B_document_index.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\document_index.csv",
+      "sha256": "583e18420126f12b1c63d4659913b6e43f9c109fbfa745e7c6ce3216a6345345"
+    },
+    "freeze_B_document_topic_probabilities.npz": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\document_topic_probabilities.npz",
+      "sha256": "3c8f5a079bac9c9c2ec225d8ce5b21f1127f45d12cee903f537f6d3c32516a34"
+    },
+    "freeze_B_matrix_metadata.json": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\matrix_metadata.json",
+      "sha256": "a1dc865228f0e76d12bf7994de7a1d7931d27f12344a5b3fbf5393f97c9c8b64"
+    },
+    "freeze_B_model.joblib": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\model.joblib",
+      "sha256": "d0907b37d5da7cb36e3487851627dbd9f159205050dd09ff164c3e2a8f54463a"
+    },
+    "freeze_B_model_manifest.json": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\model_manifest.json",
+      "sha256": "5c3f7eec1a76ae55c920b0cc0425289d96d6092abf94d6f4dd46af52dbd636da"
+    },
+    "freeze_B_representative_poems_top20.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\representative_poems_top20.csv",
+      "sha256": "52ea9b1da2ff06625829abd295843e6b2a51841f15e27970681447f82a893be5"
+    },
+    "freeze_B_reproduced_representative_poems_top5.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\reproduced_representative_poems_top5.csv",
+      "sha256": "9629421f0ea5829a3d1befe4fcf70e3885c4d8941b6667ce2358e79b85846451"
+    },
+    "freeze_B_reproduced_topics_top20.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\reproduced_topics_top20.csv",
+      "sha256": "52619f9662d1bb96efb25c5503b2ca94ec26f8475a35a4fe7ada8a3d24307545"
+    },
+    "freeze_B_reproduction_validation.json": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\reproduction_validation.json",
+      "sha256": "2dbd21c2647bcda4e7691c1a229c3488d18238676257ded98e1b83d82f8f341f"
+    },
+    "freeze_B_topic_word_components.npz": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\topic_word_components.npz",
+      "sha256": "a6957ed431189823fa533cabdcfc755eca84758b535f0e8c12335e1903c25392"
+    },
+    "freeze_B_topic_word_probabilities.npz": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\topic_word_probabilities.npz",
+      "sha256": "49d461578d5a0d715b4800762355a576aaf552dc4160d21a05ffcbac622a8e9c"
+    },
+    "freeze_B_topics_top30.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\topics_top30.csv",
+      "sha256": "82b88a39212838e9a62a4e976caad50338c799b2ee0fa171e1a23ef1027481c4"
+    },
+    "freeze_B_vocabulary.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\B_K20\\vocabulary.csv",
+      "sha256": "92b4fec4f6627bf6112e8ca2713f76d21e33f768796c45308a1d51854b5804e4"
+    },
+    "freeze_C_artifact_manifest.json": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\artifact_manifest.json",
+      "sha256": "7b1975efdf380d4e28b64e503325b45fde6356e6c01d70296483bcaf9570a4df"
+    },
+    "freeze_C_document_index.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\document_index.csv",
+      "sha256": "2b316c921d8da8d4b5ed533b34839ae323693a2ec02f9300e2065192f0e32bbb"
+    },
+    "freeze_C_document_topic_probabilities.npz": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\document_topic_probabilities.npz",
+      "sha256": "b6f71b9e450873abedd2a9970b2a1aeea5a83a2c1858b84aeff7e293d9f4a966"
+    },
+    "freeze_C_matrix_metadata.json": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\matrix_metadata.json",
+      "sha256": "e67f5b91940a6286516e1458b74744ca8b8594a4ca3bfbd05a453dadf353211d"
+    },
+    "freeze_C_model.joblib": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\model.joblib",
+      "sha256": "4b23ee5661afa3127fd52f4938ca166446a9c0903cf8706c0985c964446d6d6f"
+    },
+    "freeze_C_model_manifest.json": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\model_manifest.json",
+      "sha256": "03164f1c9ef0446debf840db1d3cd720fcc01bab294ad52f4f699e9d283561d7"
+    },
+    "freeze_C_representative_poems_top20.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\representative_poems_top20.csv",
+      "sha256": "abe95728eaf8e08d479ae2c67cd3ce1284a335fd462e6a793c89a7a9881817c6"
+    },
+    "freeze_C_reproduced_representative_poems_top5.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\reproduced_representative_poems_top5.csv",
+      "sha256": "f527592bb22de5c60c3fcaade1de814647c24d84780239b01339a7f5ce53640d"
+    },
+    "freeze_C_reproduced_topics_top20.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\reproduced_topics_top20.csv",
+      "sha256": "182a778ffc8b1b3443007ff632e3ca2643211617340dd45826261377e23615f4"
+    },
+    "freeze_C_reproduction_validation.json": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\reproduction_validation.json",
+      "sha256": "1047eb2528f79bcdbe4060318d4fd702ae481b16e3ab5bffa4bead926fb8af64"
+    },
+    "freeze_C_topic_word_components.npz": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\topic_word_components.npz",
+      "sha256": "ed9d099ad35ce8759651aeac8977c744528e9751bcf0cc301b5def035be10201"
+    },
+    "freeze_C_topic_word_probabilities.npz": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\topic_word_probabilities.npz",
+      "sha256": "a0fe6f09bc91e534c86db494c5f8b4d7e703198877409953d6e77c3fe04ec9e7"
+    },
+    "freeze_C_topics_top30.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\topics_top30.csv",
+      "sha256": "5a08b732b78f88be627418f044d4ec9880f47f7651d9d3cf151e73f488a24571"
+    },
+    "freeze_C_vocabulary.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\C_K20\\vocabulary.csv",
+      "sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084"
+    },
+    "freeze_D_artifact_manifest.json": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\artifact_manifest.json",
+      "sha256": "e996b299824e73fd0e817db0b840ef607bcf9ec3e1b467afdc764af921894ec0"
+    },
+    "freeze_D_document_index.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\document_index.csv",
+      "sha256": "8b96c69052ee223a7cd07ec6632775eedee3f673569ec5dacd9e952c83ba5c19"
+    },
+    "freeze_D_document_topic_probabilities.npz": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\document_topic_probabilities.npz",
+      "sha256": "061333b8d2247c9719cc8c2f46ede49fd4c2002c4d15ec9ac289a1a63820db40"
+    },
+    "freeze_D_matrix_metadata.json": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\matrix_metadata.json",
+      "sha256": "2c6df8d727c1f3a585419abfb424a544c22bec4147bc79cd57dc5748fa33a92a"
+    },
+    "freeze_D_model.joblib": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\model.joblib",
+      "sha256": "7100c135964812ad224cfffbb20c869094be5961be3236cc315619a4b5ff0e95"
+    },
+    "freeze_D_model_manifest.json": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\model_manifest.json",
+      "sha256": "d06c6b7f302cb4679ba0bede5b5c47698714e716a857f7eb1b6f793a7aaa06e0"
+    },
+    "freeze_D_representative_poems_top20.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\representative_poems_top20.csv",
+      "sha256": "329705ba9d05b64af1f0b4a6dfcc30882641b7792ac172baefcf885c3693fbc1"
+    },
+    "freeze_D_reproduced_representative_poems_top5.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\reproduced_representative_poems_top5.csv",
+      "sha256": "2826b226c3f988e0bebfbd0e7546aaf560a5c4a70a21d3bfc186a64898c88271"
+    },
+    "freeze_D_reproduced_topics_top20.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\reproduced_topics_top20.csv",
+      "sha256": "3258960b7f3989a064630855f4d262e8302734d8b9b68bf8db7d277bfaa31ba0"
+    },
+    "freeze_D_reproduction_validation.json": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\reproduction_validation.json",
+      "sha256": "399b1fbcf1b80b9e57a4ccc3c6add0bb34f3902171c42ee5f1ac44d8ddcfe393"
+    },
+    "freeze_D_topic_word_components.npz": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\topic_word_components.npz",
+      "sha256": "82b50af0d5bb68445e587e30b75bf9688478ab80bbd2cb47bb2a217f410a9a0f"
+    },
+    "freeze_D_topic_word_probabilities.npz": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\topic_word_probabilities.npz",
+      "sha256": "9cb9c03a92afe90f70c88d0245d7ab02392a7a249fb22956c16829c51005e5c2"
+    },
+    "freeze_D_topics_top30.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\topics_top30.csv",
+      "sha256": "950061b9a6efc60f467fe1831ebb229d6f3011d04d385fb6a66632149a588fbe"
+    },
+    "freeze_D_vocabulary.csv": {
+      "path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05061-9ee3-7610-a401-abfec81de1b2\\literary_history_dataset\\freeze\\D_K20\\vocabulary.csv",
+      "sha256": "1d99b4dd436a00fd6b9378dff3ca55b20e4a6ccded44d47aafd06ba09638b548"
+    }
+  },
+  "bootstrap": {
+    "iterations": 5000,
+    "seed": 20260902,
+    "replicate_hashes": {
+      "B_COMMON": "6be851ee3e2eb88edc3186aac42b46926e0bc7bd9d7c7e062f8bb36157a60152",
+      "B_SINGLE_BEST": "7fffe3aa9844507918b6dca64f11334fb4d7774e05d502015e217d1de818c443",
+      "B_NATIVE": "6be851ee3e2eb88edc3186aac42b46926e0bc7bd9d7c7e062f8bb36157a60152",
+      "C_COMMON": "fb4f12671d139c0ee064a0e213c8aeb356a61e792a8d8d9ef535e937be142562",
+      "D_COMMON": "d2811b6b7dc9787886d4a82059fd2a35cc37a75dec13f8bf43255300e326f3cb",
+      "D_SINGLE_BEST": "77a21deb5f6b648e1d3895e477d0e981fc3fa59b6e97264f2a13632a1d0e6773",
+      "D_NATIVE": "d2811b6b7dc9787886d4a82059fd2a35cc37a75dec13f8bf43255300e326f3cb",
+      "B_CLR": "3627e8491335a27e1d520c61a819fdeb9fa4b2de7736ca655fff8574d85cb2c5",
+      "D_CLR": "e4a02bca6cfcb817125493a77298cccc644fbc2ce2b7bae5b1094c958e9e6911"
+    }
+  },
+  "outputs": {
+    "data\\BCD_common_document_index.csv": {
+      "sha256": "d87cbb6149202a84eff27ac4bbb0985149d4ece9be779761d25275e8cce9b6f4",
+      "bytes": 4835648
+    },
+    "data\\BCD_common_universe_qc.csv": {
+      "sha256": "19b9a705a08ad8af7ce3834b59ac36685e3cb2aa3af96332b33c5fb076cee6dc",
+      "bytes": 2023
+    },
+    "data\\finding_semantic_mapping.csv": {
+      "sha256": "518acf44c012391d9902e2685fe244e72387000ad0077863b97dcd5ee04f3487",
+      "bytes": 10984
+    },
+    "data\\BCD_finding_effects.csv": {
+      "sha256": "d320850bdeacaa8f6ba14088f55fa4b569abc6fbf8305459b81cbc92bb7fe650",
+      "bytes": 75758
+    },
+    "data\\C_original_vs_common.csv": {
+      "sha256": "0792d16c521e653eab96b9ce109b0c8163e8e956c10b3ace36dddc362935d4e9",
+      "bytes": 18397
+    },
+    "data\\model_native_sensitivity.csv": {
+      "sha256": "1ee275e08ee0910fa1c9a2a9dea6b9c705e3565d5d636c7b51a52f484d857557",
+      "bytes": 53978
+    },
+    "data\\split_single_best_sensitivity.csv": {
+      "sha256": "1edc7a710d9576596a8aa359a964f1110da5e392856c423aa725d0dfca8e1bf8",
+      "bytes": 37581
+    },
+    "data\\sample_direction_summary.csv": {
+      "sha256": "ec1dcd263c99c40b20f4dfda5c1985b02a0d89ee036074f7014b89c1353fede5",
+      "bytes": 6278
+    },
+    "data\\aggregation_sensitivity.csv": {
+      "sha256": "ac7980ae01d00fb24ea6c510a58db507b201d7428edeae392d0c37390f087480",
+      "bytes": 9497
+    },
+    "data\\shape_similarity.csv": {
+      "sha256": "c5ab0b857fc3cb1b2c50336d7a9dfe7a6a9adcdd34bfdf5be586586275ca17e7",
+      "bytes": 15034
+    },
+    "data\\priority_author_sensitivity.csv": {
+      "sha256": "d33c55606296f56f592590e377db3a765c1e8ead329da58de7dd882136e50725",
+      "bytes": 7731
+    },
+    "data\\clr_sensitivity.csv": {
+      "sha256": "252af1ecd108254220306726983ebb3e061377e3365cccd5a317c42b5244301a",
+      "bytes": 1608
+    },
+    "data\\BCD_finding_robustness_comparison.csv": {
+      "sha256": "183f9595e2536ebc989cc9dc35024b6195160d81d9c0efd228137d8b2749f11e",
+      "bytes": 16248
+    },
+    "data\\model_sensitivity_diagnostics.csv": {
+      "sha256": "12647bc7133dd1e9f001a9f1bce87b6e86bc35e26aea722e4bdf2040832aad96",
+      "bytes": 3783
+    },
+    "data\\finding_robustness_ladder.csv": {
+      "sha256": "29e2f786593c67ca86ee8c5a054dc4d0cd8c437ed577de8d02c581d8b2d80887",
+      "bytes": 17176
+    },
+    "data\\BCD_priority_four_results.csv": {
+      "sha256": "52961bd0bda479f03f24a11a2a44ef194a5dd2245e91a670eb8f9c18b14dc777",
+      "bytes": 12472
+    },
+    "data\\excluded_findings_status.csv": {
+      "sha256": "7a969a72ae6f6fdf6e99bc7b097178e68e457232b3c8f887750c6f6588d123f0",
+      "bytes": 2850
+    },
+    "data\\invariance_tests.csv": {
+      "sha256": "2ab6b1a8430e2380950ce8e9688e6c6409bd48cf19411f135c3df9ddae78eb3f",
+      "bytes": 2041
+    },
+    "data\\data_dictionary.csv": {
+      "sha256": "2c546b8df2da6468d3ae33131c94762f55d60bb41a6eba6c2729a05770a9e059",
+      "bytes": 65504
+    },
+    "figures\\BCD_finding_effect_comparison_poem.png": {
+      "sha256": "ca426b7b0f49e58e3b06ca352c642b75b05e2f2a557b81a585cff9186eaa4a16",
+      "bytes": 74290
+    },
+    "figures\\BCD_finding_effect_comparison_author.png": {
+      "sha256": "f52cdab262854f9f7bb930dfaa1862c9d5176d158e180aaaa382970b202b4c38",
+      "bytes": 74947
+    },
+    "figures\\BCD_finding_direction_matrix.png": {
+      "sha256": "073507f66325925f3adaae18407282c5078d89f763e0cce29f27038948b21f84",
+      "bytes": 159822
+    },
+    "figures\\BCD_finding_semantic_mapping.png": {
+      "sha256": "3daa6af5be32dfef0c84e9eefbe2553108fb96926bb44326a4b3f2d2676e2b16",
+      "bytes": 169717
+    },
+    "figures\\BCD_finding_robustness_matrix.png": {
+      "sha256": "577b506800866eb1dbfe3d3a85ca57660e625d6a7e862e6f15a6287be9b13ae8",
+      "bytes": 195001
+    },
+    "figures\\BCD_priority_four_trends.png": {
+      "sha256": "46d1fed8f9c765dd11e2b2d9f1a02b0f09de8418c50aa41636023fd57b573a7e",
+      "bytes": 506101
+    },
+    "QTS_BCD_Finding_Level_Robustness_Report.md": {
+      "sha256": "f0379cb87f32da29a4df2ca43234f79ce34e526b5d2356dba31641ea205e8eec",
+      "bytes": 20589
+    },
+    "README.md": {
+      "sha256": "54ba7c2398cd02664edc765a95e14623ed721b2508f021b9d3457268292971b7",
+      "bytes": 2299
+    },
+    "BCD_robustness_config.yaml": {
+      "sha256": "42842846b6e52435e3092c529dbcaa540769900c4b2d87e9670d48cdc689724a",
+      "bytes": 3521
+    },
+    "data\\analysis_summary.json": {
+      "sha256": "9d0c66d04ec06e429617aa0cc6229d6c6b8aab4cc2ab77819da20a2f8921da5d",
+      "bytes": 44463
+    },
+    "QTS_BCD_Finding_Level_Robustness.xlsx": {
+      "sha256": "13cb45f42df695913aaf8dea16d087da95892ac6ceb4b0e9f30965b5008c9661",
+      "bytes": 96919
+    },
+    "workbook_verification.json": {
+      "sha256": "70cfd0cc0b1967999732cc696fe93f609b3dba63d0c1cde2759497a7e810d8d0",
+      "bytes": 6458
+    }
+  },
+  "invariance_tests_total": 20,
+  "invariance_tests_passed": 20,
+  "lda_refit_performed": false
+}

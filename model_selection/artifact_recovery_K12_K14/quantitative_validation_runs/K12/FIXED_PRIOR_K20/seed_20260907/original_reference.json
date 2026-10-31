@@ -1,0 +1,154 @@
+{
+  "K": 12,
+  "seed": 20260907,
+  "prior_regime": "FIXED_PRIOR_K20",
+  "original_npz_path": "model_selection/quantitative_candidate_validation/topic_matrices/FIXED_PRIOR_K20_K12_seed_20260907.npz",
+  "original_npz_sha256": "43b11370d51da569ba9e53a6e56bebcd64296136b0c032b7e010c0484a3adfb7",
+  "original_checkpoint_path": "model_selection/quantitative_candidate_validation/checkpoints/FIXED_PRIOR_K20_K12_seed_20260907.json",
+  "original_checkpoint_sha256": "add2fa883e98bcaa31a0aea1395bffc53912daaf8507f2b6ffe5bcf163a55fc4",
+  "original_result": {
+    "K": 12,
+    "seed": 20260907,
+    "prior_regime": "FIXED_PRIOR_K20",
+    "NPMI": 0.0968729604160904,
+    "test_perplexity": 11685.048196738127,
+    "train_perplexity": 4910.191151638561,
+    "test_score": -2878472.8706636056,
+    "train_score": -10356981.447088763,
+    "topic_diversity": 0.5041666666666667,
+    "mean_pairwise_topic_cosine": 0.4913633168294475,
+    "max_pairwise_topic_cosine": 0.7196526350158526,
+    "mean_pairwise_top20_jaccard": 0.11406257276058351,
+    "max_pairwise_top20_jaccard": 0.2903225806451613,
+    "high_cosine_090_pairs": 0,
+    "high_cosine_085_pairs": 0,
+    "high_jaccard_050_pairs": 0,
+    "min_topic_prevalence": 0.03645747515346064,
+    "max_topic_prevalence": 0.16739769599413487,
+    "min_dominant_topic_share": 0.02374171800534697,
+    "max_dominant_topic_share": 0.19635592235266766,
+    "low_prevalence_topic_count": 0,
+    "fit_time": 163.30679139995482,
+    "n_iter": 30,
+    "doc_topic_prior_effective": 0.05,
+    "topic_word_prior_effective": 0.05,
+    "n_train": 34412,
+    "n_test": 8603,
+    "vocab_size": 35063
+  },
+  "original_audit": {
+    "fit_scope": "X_train_only",
+    "test_used_for_fit": false,
+    "npmi_reference": "X_train_only",
+    "npmi_top_words": 20,
+    "topic_diversity_definition": "top_20_unique_ratio",
+    "matching_definition": "hungarian_max_full_topic_word_cosine",
+    "fit_n_jobs": -1,
+    "evaluation_n_jobs": 1,
+    "model_parameters": {
+      "batch_size": 128,
+      "doc_topic_prior": 0.05,
+      "evaluate_every": -1,
+      "learning_decay": 0.7,
+      "learning_method": "batch",
+      "learning_offset": 10.0,
+      "max_doc_update_iter": 100,
+      "max_iter": 30,
+      "mean_change_tol": 0.001,
+      "n_components": 12,
+      "n_jobs": -1,
+      "perp_tol": 0.1,
+      "random_state": 20260907,
+      "topic_word_prior": 0.05,
+      "total_samples": 1000000.0,
+      "verbose": 1
+    },
+    "components_sha256": "d06294d2e861e9b48b5aad82ab785bc220719e48e25798528fa0011dd0aa0882",
+    "topic_prevalence": [
+      {
+        "topic_id": 1,
+        "mean_probability": 0.07312622011160327,
+        "dominant_topic_document_count": 2346,
+        "dominant_share": 0.06817389282808323,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 2,
+        "mean_probability": 0.05732539461587328,
+        "dominant_topic_document_count": 1649,
+        "dominant_share": 0.04791933046611647,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 3,
+        "mean_probability": 0.10110668237720141,
+        "dominant_topic_document_count": 3748,
+        "dominant_share": 0.10891549459490875,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 4,
+        "mean_probability": 0.057108363405129696,
+        "dominant_topic_document_count": 1658,
+        "dominant_share": 0.04818086713936999,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 5,
+        "mean_probability": 0.11138038133485717,
+        "dominant_topic_document_count": 3991,
+        "dominant_share": 0.11597698477275369,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 6,
+        "mean_probability": 0.16739769599413487,
+        "dominant_topic_document_count": 6757,
+        "dominant_share": 0.19635592235266766,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 7,
+        "mean_probability": 0.06466007716358513,
+        "dominant_topic_document_count": 1973,
+        "dominant_share": 0.057334650703243055,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 8,
+        "mean_probability": 0.09516014476628272,
+        "dominant_topic_document_count": 3621,
+        "dominant_share": 0.10522492153899803,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 9,
+        "mean_probability": 0.07803425493992933,
+        "dominant_topic_document_count": 2662,
+        "dominant_share": 0.0773567360223178,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 10,
+        "mean_probability": 0.03645747515346064,
+        "dominant_topic_document_count": 817,
+        "dominant_share": 0.02374171800534697,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 11,
+        "mean_probability": 0.04644906024864979,
+        "dominant_topic_document_count": 1208,
+        "dominant_share": 0.03510403347669418,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 12,
+        "mean_probability": 0.11179424988929505,
+        "dominant_topic_document_count": 3982,
+        "dominant_share": 0.11571544809950017,
+        "low_prevalence_flag": false
+      }
+    ]
+  }
+}

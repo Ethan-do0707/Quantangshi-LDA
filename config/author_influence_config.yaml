@@ -1,0 +1,70 @@
+{
+  "analysis_version": "QTS_AUTHOR_INFLUENCE_LOAO_V1_1",
+  "authoritative_master": "historical_metadata/master/C_K20_literary_history_master_with_author_history.csv",
+  "expected_master_sha256": "93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f",
+  "topic_metadata": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/taxonomy/topic_metadata.csv",
+  "sample_labels": "historical_metadata/representativeness_audit/data/period_metadata_sample_labels.csv",
+  "effect_output_root": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation",
+  "trend_output_root": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure",
+  "output_root": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao",
+  "expected_poem_count": 43015,
+  "expected_topic_count": 20,
+  "expected_clear_topic_count": 9,
+  "expected_supported_candidate_count": 13,
+  "period_order": ["初唐", "盛唐", "中唐", "晚唐"],
+  "period_codes": {"初唐": "E", "盛唐": "H", "中唐": "M", "晚唐": "L"},
+  "samples": {
+    "STRICT": "eligible_period_strict",
+    "CORE": "eligible_period_core",
+    "EXPANDED": "eligible_period_expanded"
+  },
+  "primary_contrasts": [
+    {"code": "E-H", "period_a": "初唐", "period_b": "盛唐"},
+    {"code": "H-M", "period_a": "盛唐", "period_b": "中唐"},
+    {"code": "M-L", "period_a": "中唐", "period_b": "晚唐"},
+    {"code": "E-L", "period_a": "初唐", "period_b": "晚唐"}
+  ],
+  "priority_pairs": [
+    {"topic_id": "topic_03", "contrast": "E-L"},
+    {"topic_id": "topic_06", "contrast": "E-L"},
+    {"topic_id": "topic_08", "contrast": "E-L"},
+    {"topic_id": "topic_16", "contrast": "E-H"},
+    {"topic_id": "topic_16", "contrast": "M-L"}
+  ],
+  "aggregation_conflict_topics": ["topic_07", "topic_11", "topic_16", "topic_19"],
+  "top_exclusion_n": [1, 3, 5, 10],
+  "primary_exclusion_scheme": "GLOBAL_TOP",
+  "secondary_exclusion_scheme": "PER_PERIOD_TOP",
+  "classification_exclusion_n": [1, 3, 5],
+  "sensitivity_top_exclusion_n": [1, 3, 5],
+  "bootstrap_exclusion_n": [1, 3, 5],
+  "bootstrap_iterations": 2000,
+  "random_seed": 20260902,
+  "bootstrap_algorithm": "period-stratified author-cluster multinomial-count resampling after contributor exclusion",
+  "thresholds": {
+    "numeric_zero_tolerance": 1e-12,
+    "relative_change_minimum_original": 1e-6,
+    "attenuation_strong": 0.70,
+    "attenuation_noticeable": 0.50,
+    "top1_share_high": 0.30,
+    "top5_share_high": 0.70,
+    "top5_remaining_ratio_minimum": 0.30,
+    "near_zero_original_delta": 0.005,
+    "material_exclusion_absolute_change": 0.01,
+    "conflict_resolution_max_n": 5
+  },
+  "influence_score_weights": {
+    "absolute_change": 0.45,
+    "sign_flip": 0.20,
+    "attenuation": 0.20,
+    "topic_mass_share": 0.10,
+    "poem_share": 0.05
+  },
+  "status_order": [
+    "AUTHOR_ROBUST",
+    "CONCENTRATED_BUT_ROBUST",
+    "AUTHOR_SENSITIVE",
+    "ESTIMAND_DEPENDENT",
+    "INCONCLUSIVE"
+  ]
+}

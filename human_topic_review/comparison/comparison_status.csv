@@ -1,0 +1,4 @@
+﻿comparison,status,method,output_rows,split_candidates
+C_K20_vs_D_K20_topic_matching,complete,Hungarian matching on full union-aligned Topic×Word cosine,20,
+B_K20_vs_B_K30_topic_mapping,complete,Top 3 full Topic×Word cosine per K20 topic,60,19
+D_K20_vs_D_K30_topic_mapping,complete,Top 3 full Topic×Word cosine per K20 topic,60,19

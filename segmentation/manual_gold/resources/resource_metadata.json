@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "method": "manual_gold_overlay_preprocessing_resources",
+  "inputs": {
+    "corpus": {
+      "path": "segmentation/data/poems.jsonl",
+      "sha256": "bf8a292bd6f7517c8d965e29aa2cb7c38900abd547b631c8ccb8ef69f97a6a98"
+    },
+    "results": {
+      "path": "segmentation/results/sikufenci_manual_gold.jsonl",
+      "sha256": "0fa04536fa9a00ec13484f160069d399c9ebfd07ab8400263a08df474a826caf"
+    },
+    "result_metadata": {
+      "path": "segmentation/results/sikufenci_manual_gold.metadata.json",
+      "sha256": "5ad8edf0e3d8dfd7f628d810b92c6c936eb89347e7a80b168684f0216dda62db"
+    },
+    "core_stopwords": {
+      "path": "stopwords/tang_poetry_stopwords_core.txt",
+      "sha256": "753f9020190fc865eec1f0b1a82d2c964b44280e157da6552a7681df61d0c920"
+    },
+    "extended_stopwords": {
+      "path": "stopwords/tang_poetry_stopwords_extended.txt",
+      "sha256": "69169fbf6758a76944358c8376df32bfc866b46f1f95cf210fa475e6a8bff3f9"
+    },
+    "protected_seed": {
+      "path": "segmentation/lda_standard/protected_term_seed.tsv",
+      "sha256": "7d276fee5f835771a2282cddc595ac23ef44c58d7aab65cc2a050fa7997dc8c8"
+    },
+    "entity_seed": {
+      "path": "segmentation/lda_standard/named_entity_seed.tsv",
+      "sha256": "8cf4561b0a3771b8a87286035a5122f9cbcfd6e5cc5a3d8c38ba18b285a79de9"
+    }
+  },
+  "coverage": {
+    "poem_count": 43030,
+    "manual_annotated_poem_count": 485,
+    "full_annotation_count": 426,
+    "prefix_annotation_count": 59,
+    "unannotated_poem_count": 42545
+  },
+  "counts": {
+    "han_token_count": 2014981,
+    "han_type_count": 123490,
+    "variant_row_count": 4,
+    "core_stopword_count": 105,
+    "extended_stopword_count": 164,
+    "protected_surface_count": 182,
+    "semantic_mapping_count": 27
+  },
+  "validation": {
+    "line_count_and_id_alignment": true,
+    "core_is_subset_of_extended": true,
+    "stopword_protected_conflict_count": 0,
+    "source_result_reconstructs_base_text": true
+  },
+  "outputs": {
+    "variants": {
+      "path": "segmentation/manual_gold/resources/01_variant_normalization.tsv",
+      "sha256": "6b05bef80d6dcfa492bc6f8274a420a8a462c4a3ae5f268930b8a1e24a9d1393"
+    },
+    "core_stopwords": {
+      "path": "segmentation/manual_gold/resources/02_stopwords_core.txt",
+      "sha256": "6a3479c353bf94dd8fdb137a3ae27f7aefbe451697712b1bcda9d2dfd0a8c6b8"
+    },
+    "extended_stopwords": {
+      "path": "segmentation/manual_gold/resources/02_stopwords_extended.txt",
+      "sha256": "799099bb7ba9d0071e73d797f93e6f7f4624e658496e7ee77fc286fac81a6c2e"
+    },
+    "stopword_audit": {
+      "path": "segmentation/manual_gold/resources/02_stopword_audit.csv",
+      "sha256": "2e5b718b3b7c96872b0a83af63f55346c62af952fc2feab1a00c27beaa073cf2"
+    },
+    "protected_terms": {
+      "path": "segmentation/manual_gold/resources/03_protected_terms.tsv",
+      "sha256": "f3169c6d56d0fe046d0fdc761c11f7e90831fc52a33f9210388b5d150af3cdc6"
+    },
+    "tf_df_rules": {
+      "path": "segmentation/manual_gold/resources/04_tf_df_rules.json",
+      "sha256": "9499abd7af4685412fcebb12f668cbbf81557664aa9c86ce57d32c7c24249837"
+    },
+    "token_statistics": {
+      "path": "segmentation/manual_gold/resources/04_token_statistics.csv",
+      "sha256": "ece16034065f49c3092e349ce0d8aecaf9309d72740223e34823bef74db82c22"
+    },
+    "semantic_mapping": {
+      "path": "segmentation/manual_gold/resources/05_semantic_mapping.tsv",
+      "sha256": "783d84fae79920b03e3c561a2e561b0e62e310a950a65c31f46abf4981456dd6"
+    },
+    "readme": {
+      "path": "segmentation/manual_gold/resources/README.md",
+      "sha256": "4d999c29fa8254b37e6c7d74d78358091b61ab0196333e7068ee5a829eda6f43"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "checkpoint_signature": "a8699dd981a7e3980226eea7e3c161e2f53d18269afb4bb8027b2cd4120e7d40",
+  "params": {
+    "batch_size": 128,
+    "doc_topic_prior": null,
+    "evaluate_every": -1,
+    "learning_decay": 0.7,
+    "learning_method": "batch",
+    "learning_offset": 10.0,
+    "max_doc_update_iter": 100,
+    "max_iter": 30,
+    "mean_change_tol": 0.001,
+    "n_components": 20,
+    "n_jobs": -1,
+    "perp_tol": 0.1,
+    "random_state": 42,
+    "topic_word_prior": null,
+    "total_samples": 1000000.0,
+    "verbose": 1
+  },
+  "result": {
+    "corpus": "C",
+    "n_train": 34412,
+    "n_test": 8603,
+    "vocab_size": 35063,
+    "train_token_count": 1218602,
+    "test_token_count": 307330,
+    "split_sha256": "ba4c0940e2dcc3792a135df6ed8810a13a94c5eaf10b04ca2c2ebdf7e4f79dd0",
+    "fit_rows_sha256": "5b14c68dd4f4f8a6f3f3ae600c731c5b15941022843a0b6cecef0a3f977b860a",
+    "test_rows_sha256": "d9955e72eb63667d0dce94bec4dce3530846a556cc53500896be38386ceb8130",
+    "K": 20,
+    "seed": 42,
+    "train_perplexity": 5212.859553298451,
+    "test_perplexity": 15387.433010487257,
+    "train_score": -10429872.968577169,
+    "test_score": -2963062.701130828,
+    "n_iter_": 30,
+    "fit_time_seconds": 125.14213869997184,
+    "evaluation_time_seconds": 6526.484480700019,
+    "checkpoint_signature": "a8699dd981a7e3980226eea7e3c161e2f53d18269afb4bb8027b2cd4120e7d40"
+  },
+  "result_sha256": "f4790dc3aca1e3b56887794affdc6b832c1870cdb0a2832250e031de1324103a"
+}

@@ -1,0 +1,13 @@
+{
+  "checks": 2369,
+  "all_passed": true,
+  "pdfs_rendered": 27,
+  "source_files_unchanged": 79,
+  "verifier_python": "C:\\Users\\ASUS E23688\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "manual_visual_review": "PASS_ALL_27_VERSIONS",
+  "post_revision_figure9_checks": "PASS: exact source values, embedded font/vector PDF, PNG DPI, Poppler rerender and visual review",
+  "final_output_hashes_verified": 81,
+  "verifier_sha256": "a8b3eb9e1f21ee4d0ade587ce292ea50d269cd635abaa0d7b176b7880dedb6c5",
+  "final_verified_at": "2026-09-03T18:54:04.790900+08:00",
+  "final_source_hashes_verified": 79
+}

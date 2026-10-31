@@ -1,0 +1,4 @@
+author_status,author_count,period_known_author_count,period_unknown_author_count,period_known_author_ratio,poem_count,period_known_poem_count,period_unknown_poem_count,period_known_poem_ratio
+ANONYMOUS,7,0,7,0,1209,0,1209,0
+NAMED,2498,479,2019,0.191753402722178,41734,23609,18125,0.565701825849427
+TEXTUAL_DUPLICATE,23,0,23,0,72,0,72,0

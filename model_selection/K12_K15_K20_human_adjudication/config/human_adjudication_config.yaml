@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "output_root": "model_selection/K12_K15_K20_human_adjudication",
+  "ready_manifest": "model_selection/artifact_recovery_K12_K14/data/blind_audit_ready_model_manifest.csv",
+  "corpus_root": "output/tf_df_sensitivity/C",
+  "candidate_K": [12, 15, 20],
+  "topic_mapping_seed": 2026090904,
+  "top_word_count": 30,
+  "raw_poem_count": 20,
+  "author_balanced_poem_count": 10,
+  "author_maximum_per_topic": 2,
+  "alignment_top_n": 3,
+  "split_cosine_min": 0.4,
+  "split_relative_to_best": 0.78,
+  "fragmentation_cosine_min": 0.55,
+  "fragmentation_jaccard_min": 0.25,
+  "fragmentation_top_n_floor": 10
+}

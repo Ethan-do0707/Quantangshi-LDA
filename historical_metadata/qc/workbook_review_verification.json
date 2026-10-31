@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "target": "review",
+  "generated_at": "2026-09-01T06:26:52.431Z",
+  "output": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\historical_metadata\\review\\author_metadata_human_review.xlsx",
+  "sheets": [
+    "Review_Queue",
+    "Candidate_Audit",
+    "Instructions"
+  ],
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "inspected_range": "{\"kind\":\"table\",\"sheet\":\"Review_Queue\",\"address\":\"A1:M15\",\"rows\":15,\"cols\":13,\"values\":[[\"review_priority\",\"review_reasons\",\"author_id_internal\",\"author_raw\",\"author_normalized\",\"author_display_name\",\"author_status\",\"poem_count\",\"cbdb_person_id\",\"cbdb_name\",\"cbdb_dynasty\",\"cbdb_match_status\",\"cbdb_match_confidence\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_27C3617D3289\",\"刘长卿\",\"刘长卿\",\"刘长卿\",\"NAMED\",508,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_043F314546ED\",\"皎然\",\"皎然\",\"皎然\",\"NAMED\",506,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_E68C49B0C2F4\",\"王建\",\"王建\",\"王建\",\"NAMED\",395,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_59897FB9B4E6\",\"温庭筠\",\"温庭筠\",\"温庭筠\",\"NAMED\",351,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_E57C7C68C861\",\"权德舆\",\"权德舆\",\"权德舆\",\"NAMED\",339,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_655AE6421ABE\",\"韦庄\",\"韦庄\",\"韦庄\",\"NAMED\",336,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_3DC14978A158\",\"王维\",\"王维\",\"王维\",\"NAMED\",328,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_5B28525042D1\",\"郑谷\",\"郑谷\",\"郑谷\",\"NAMED\",312,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_3D0C04A04AC8\",\"张说\",\"张说\",\"张说\",\"NAMED\",298,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_9D0D113F0181\",\"戴叔伦\",\"戴叔伦\",\"戴叔伦\",\"NAMED\",289,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_C43556CE4CB6\",\"李中\",\"李中\",\"李中\",\"NAMED\",287,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_BEC38E524855\",\"李端\",\"李端\",\"李端\",\"NAMED\",271,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_6D91A265E3C3\",\"徐夤\",\"徐夤\",\"徐夤\",\"NAMED\",245,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"],[1,\"CBDB_IDENTITY_AMBIGUOUS;PERIOD_UNRESOLVED\",\"QTS_A_F1253BFD62AB\",\"顾况\",\"顾况\",\"顾况\",\"NAMED\",235,null,null,null,\"AMBIGUOUS\",\"UNRESOLVED\"]]}",
+  "previews": [
+    "author_Author_Metadata.png",
+    "author_Build_QC.png",
+    "author_Method_Notes.png",
+    "author_Period_Coverage.png",
+    "review_Candidate_Audit.png",
+    "review_Instructions.png",
+    "review_Review_Queue.png",
+    "source_Data_A_N.png"
+  ]
+}

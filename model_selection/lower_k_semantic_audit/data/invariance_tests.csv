@@ -1,0 +1,16 @@
+﻿test_id,test_name,status,evidence
+TEST 01,不重新训练模型,PASS,生成脚本只读冻结产物；源码不含 LatentDirichletAllocation、fit_transform 或 .fit( 调用。
+TEST 02,K5/K10/K15 matrices 未修改,PASS,source_inventory SHA-256 全部一致。
+TEST 03,C_K20 未修改,PASS,K20 taxonomy、Top30、Top20 的 SHA-256 与证据构建时一致。
+TEST 04,每 Topic 读取 Top30 words,PASS,30/30 Topic 具有 30 个带原概率词项。
+TEST 05,每 Topic 读取至少 Top20 poems,PASS,30/30 Topic 具有 20 个 representative poem IDs。
+TEST 06,30 Topic reviews 全部完成,PASS,实际 30 条。
+TEST 07,alignment 不强制一对一,PASS,保留 one-to-many matched topics；未用 Hungarian 结果覆盖。
+TEST 08,automatic merge 与 semantic under-split 分列,PASS,两个字段分别计算且三个 K 均不相等。
+TEST 09,Researcher_* 字段全部为空,PASS,CSV 源列全部为空；artifact-tool 工作簿核验=PASS。
+TEST 10,AI 评分明确为 provisional,PASS,评分字段均以 AI_ 开头，30/30 状态为 PROVISIONAL_REVIEW。
+TEST 11,评分范围为 1–5,PASS,六项评分均通过范围检查。
+TEST 12,K 分组数量准确,PASS,K5=5、K10=10、K15=15。
+TEST 13,优先来源无缺失,PASS,FOUND=53；SOURCE_MISSING=0。
+TEST 14,K15 merge judgment 使用许可值,PASS,15/15 值合法。
+TEST 15,K15 core coverage 恰含九个指定字段,PASS,九项顺序和标签已核验。

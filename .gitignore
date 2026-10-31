@@ -1,0 +1,49 @@
+# Python 缓存与本地开发环境
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv*/
+venv/
+
+# 本地依赖、运行时与下载缓存
+.segmentation-runtime/
+models/
+**/huggingface-cache/
+**/.cache/
+
+# 临时文件与本地构建中间件
+~$*
+*.tmp
+*.bak
+*.baiduyun.uploading.cfg
+**/.build/
+**/.artifact_work/
+*.inspect.ndjson
+historical_metadata/master/tmpw77q2ph7
+
+# 大型外部快照与归档文件
+historical_metadata/cbdb/source_snapshot/
+*.rar
+*.zip
+*.sqlite3
+
+# 可由流水线重建的模型与数值检查点
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# 尚未公开的盲审映射，避免破坏研究者盲审
+**/_private/
+**/_private_unblind/
+**/*secret*.csv

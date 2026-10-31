@@ -1,0 +1,83 @@
+{
+  "complete": true,
+  "n_runs": 87,
+  "passed": 15,
+  "total": 15,
+  "checks": [
+    {
+      "test": "TEST_01",
+      "description": "C corpus 不变化",
+      "passed": true
+    },
+    {
+      "test": "TEST_02",
+      "description": "词表不变化",
+      "passed": true
+    },
+    {
+      "test": "TEST_03",
+      "description": "train/test split 与旧 diagnostic 完全一致",
+      "passed": true
+    },
+    {
+      "test": "TEST_04",
+      "description": "K=2–30 共29个 K",
+      "passed": true
+    },
+    {
+      "test": "TEST_05",
+      "description": "每K 3 seeds",
+      "passed": true
+    },
+    {
+      "test": "TEST_06",
+      "description": "总 run 数 = 87",
+      "passed": true
+    },
+    {
+      "test": "TEST_07",
+      "description": "所有 test perplexity finite positive",
+      "passed": true
+    },
+    {
+      "test": "TEST_08",
+      "description": "所有 NPMI finite",
+      "passed": true
+    },
+    {
+      "test": "TEST_09",
+      "description": "test set 未参与 fit",
+      "passed": true
+    },
+    {
+      "test": "TEST_10",
+      "description": "NPMI reference corpus = train only",
+      "passed": true
+    },
+    {
+      "test": "TEST_11",
+      "description": "所有 K 使用相同 preprocessing",
+      "passed": true
+    },
+    {
+      "test": "TEST_12",
+      "description": "所有 K 使用相同 split",
+      "passed": true
+    },
+    {
+      "test": "TEST_13",
+      "description": "除 K 和 seed 外 LDA 参数不变化",
+      "passed": true
+    },
+    {
+      "test": "TEST_14",
+      "description": "不覆盖原 frozen model",
+      "passed": true
+    },
+    {
+      "test": "TEST_15",
+      "description": "不自动修改 C_K20 主模型状态",
+      "passed": true
+    }
+  ]
+}

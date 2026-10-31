@@ -1,0 +1,20 @@
+finding,model,problem_type,evidence,interpretation_limit,finding_level_robustness
+T03_EH,B,SEMANTIC_SPLIT,来源split=topic_08;topic_19；single方向依赖=False,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T03_EH,D,SEMANTIC_SPLIT,来源split=topic_17;topic_08；single方向依赖=False,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T07_EL,B,SEMANTIC_SPLIT,来源split=topic_18;topic_04;topic_07；single方向依赖=True,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T07_EL,B,SIGN_REVERSAL,反向数值规格=4/6；反向CI支持=0/6,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T07_EL,B,SAMPLE_SENSITIVITY,与C核心方向一致=2/6,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T07_EL,B,AGGREGATION_SENSITIVITY,POEM=NEGATIVE；AUTHOR=POSITIVE,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T07_EL,B,MAGNITUDE_COLLAPSE,作者g由C非微小档降至VERY_SMALL：C=-0.2271，B=0.0544；不凭raw ratio判定,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T07_EL,B,COMPOSITIONAL_SENSITIVITY,POEM raw=NEGATIVE CLR=POSITIVE;AUTHOR raw=POSITIVE CLR=POSITIVE,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T07_EL,D,SEMANTIC_SPLIT,来源split=topic_16;topic_13;topic_04；single方向依赖=True,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T07_EL,D,SIGN_REVERSAL,反向数值规格=2/6；反向CI支持=0/6,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T07_EL,D,SAMPLE_SENSITIVITY,与C核心方向一致=4/6,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T07_EL,D,MAGNITUDE_COLLAPSE,作者g由C非微小档降至VERY_SMALL：C=-0.2271，D=-0.0931；不凭raw ratio判定,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T11_ML,B,SEMANTIC_SPLIT,来源split=topic_04;topic_10；single方向依赖=False,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T11_ML,D,SEMANTIC_SPLIT,来源split=topic_13;topic_06；single方向依赖=False,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T11_ML,D,MAGNITUDE_COLLAPSE,作者g由C非微小档降至VERY_SMALL：C=0.5169，D=0.1459；不凭raw ratio判定,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T16_EL,B,MAGNITUDE_COLLAPSE,作者g由C非微小档降至VERY_SMALL：C=-0.4361，B=-0.1088；不凭raw ratio判定,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T19_EH,D,SEMANTIC_MERGE,隐逸闲居在三模型可辨，但 B13 混入诗酒老病，D12 同时承载山寺幽居。,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T19_EH,D,SIGN_REVERSAL,反向数值规格=1/6；反向CI支持=0/6,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST
+T19_EH,D,SAMPLE_SENSITIVITY,与C核心方向一致=5/6,只诊断模型/样本/估计量敏感性；不能据此证明词汇过滤或文学史因果,PARTIALLY_ROBUST

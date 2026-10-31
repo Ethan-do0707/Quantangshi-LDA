@@ -1,0 +1,110 @@
+{
+  "poem_count": 43030,
+  "candidate_boundary_count": 2120759,
+  "unanimous_boundary_decision_rate": 0.421577,
+  "all_four_exact_poem_rate": 0.000279,
+  "method_statistics": [
+    {
+      "method": "sikufenci",
+      "tokens": 2481055,
+      "lexical_tokens": 2015735,
+      "han_chars": 2583493,
+      "multi_char_tokens": 550999,
+      "types": 123332,
+      "mean_han_chars_per_lexical_token": 1.281663,
+      "multi_char_token_rate": 0.273349
+    },
+    {
+      "method": "bert_ancient",
+      "tokens": 3050731,
+      "lexical_tokens": 2583493,
+      "han_chars": 2583493,
+      "multi_char_tokens": 0,
+      "types": 7515,
+      "mean_han_chars_per_lexical_token": 1.0,
+      "multi_char_token_rate": 0.0
+    },
+    {
+      "method": "jiayan",
+      "tokens": 2768692,
+      "lexical_tokens": 2306151,
+      "han_chars": 2583493,
+      "multi_char_tokens": 275722,
+      "types": 19949,
+      "mean_han_chars_per_lexical_token": 1.120262,
+      "multi_char_token_rate": 0.119559
+    },
+    {
+      "method": "jieba",
+      "tokens": 1935883,
+      "lexical_tokens": 1470023,
+      "han_chars": 2583493,
+      "multi_char_tokens": 940538,
+      "types": 311301,
+      "mean_han_chars_per_lexical_token": 1.757451,
+      "multi_char_token_rate": 0.639812
+    }
+  ],
+  "pairwise": [
+    {
+      "method_a": "sikufenci",
+      "method_b": "bert_ancient",
+      "boundaries_a": 1553005,
+      "boundaries_b": 2120759,
+      "common_boundaries": 1553005,
+      "boundary_dice": 0.845457,
+      "boundary_jaccard": 0.732287,
+      "exact_poem_rate": 0.002696
+    },
+    {
+      "method_a": "sikufenci",
+      "method_b": "jiayan",
+      "boundaries_a": 1553005,
+      "boundaries_b": 1843417,
+      "common_boundaries": 1471858,
+      "boundary_dice": 0.866711,
+      "boundary_jaccard": 0.764775,
+      "exact_poem_rate": 0.003718
+    },
+    {
+      "method_a": "sikufenci",
+      "method_b": "jieba",
+      "boundaries_a": 1553005,
+      "boundaries_b": 1007289,
+      "common_boundaries": 908509,
+      "boundary_dice": 0.709691,
+      "boundary_jaccard": 0.550016,
+      "exact_poem_rate": 0.00072
+    },
+    {
+      "method_a": "bert_ancient",
+      "method_b": "jiayan",
+      "boundaries_a": 2120759,
+      "boundaries_b": 1843417,
+      "common_boundaries": 1843417,
+      "boundary_dice": 0.930038,
+      "boundary_jaccard": 0.869225,
+      "exact_poem_rate": 0.023821
+    },
+    {
+      "method_a": "bert_ancient",
+      "method_b": "jieba",
+      "boundaries_a": 2120759,
+      "boundaries_b": 1007289,
+      "common_boundaries": 1007289,
+      "boundary_dice": 0.644037,
+      "boundary_jaccard": 0.474966,
+      "exact_poem_rate": 0.000279
+    },
+    {
+      "method_a": "jiayan",
+      "method_b": "jieba",
+      "boundaries_a": 1843417,
+      "boundaries_b": 1007289,
+      "common_boundaries": 974766,
+      "boundary_dice": 0.683877,
+      "boundary_jaccard": 0.519615,
+      "exact_poem_rate": 0.000325
+    }
+  ]
+}

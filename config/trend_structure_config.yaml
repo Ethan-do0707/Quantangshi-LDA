@@ -1,0 +1,41 @@
+{
+  "analysis_version": "QTS_AUTHOR_PERIOD_TREND_STRUCTURE_V1",
+  "authoritative_master": "historical_metadata/master/C_K20_literary_history_master_with_author_history.csv",
+  "topic_metadata": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/taxonomy/topic_metadata.csv",
+  "sample_labels": "historical_metadata/representativeness_audit/data/period_metadata_sample_labels.csv",
+  "topic_missingness_risk": "historical_metadata/representativeness_audit/data/topic_missingness_risk.csv",
+  "representativeness_audit_manifest": "historical_metadata/representativeness_audit/audit_manifest.json",
+  "output_root": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure",
+  "expected_poem_count": 43015,
+  "expected_topic_count": 20,
+  "period_order": ["初唐", "盛唐", "中唐", "晚唐"],
+  "period_codes": {"初唐": "E", "盛唐": "H", "中唐": "M", "晚唐": "L"},
+  "samples": {
+    "STRICT": "eligible_period_strict",
+    "CORE": "eligible_period_core",
+    "EXPANDED": "eligible_period_expanded"
+  },
+  "bootstrap_iterations": 2000,
+  "bootstrap_batch_size": 250,
+  "random_seed": 20260901,
+  "bootstrap_algorithm": "period-stratified author-cluster multinomial-count resampling; sampled authors carry all eligible poems; identical author draws feed POEM and AUTHOR estimands",
+  "thresholds": {
+    "numeric_flat_relative_delta": 0.01,
+    "numeric_absolute_epsilon": 1e-12,
+    "near_flat_normalized_range": 0.10,
+    "normalized_range_min_mean": 1e-9,
+    "peak_tie_tolerance": 1e-12,
+    "peak_trough_ratio_min_denominator": 1e-6,
+    "high_peak_consistency_count": 5,
+    "low_peak_consistency_count": 3,
+    "high_transition_consistency_count": 5,
+    "high_min_consistent_transitions": 2,
+    "low_global_direction_conflict_count": 2,
+    "author_concentration_moderate_top1": 0.15,
+    "author_concentration_moderate_top5": 0.40,
+    "author_concentration_moderate_hhi": 0.08,
+    "author_concentration_high_top1": 0.25,
+    "author_concentration_high_top5": 0.60,
+    "author_concentration_high_hhi": 0.15
+  }
+}

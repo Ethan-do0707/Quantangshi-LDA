@@ -1,0 +1,10 @@
+topic_id,topic_label,topic_type,representativeness_risk,all_primary_poem_author_sign_consistent,aggregation_conflict_count,sample_sign_reversal_count,clr_direction_disagreement_count,strong_count,supported_count,tentative_count,unsupported_count,conflicting_count,eh_status,hm_status,ml_status,el_status
+topic_03,朝廷礼乐、应制与颂圣,CLEAR,MODERATE,True,0,1,0,2,1,0,0,1,SUPPORTED,CONFLICTING,STRONG,STRONG
+topic_06,老病身世、仕宦与人生感怀,CLEAR,MODERATE,True,0,2,0,1,0,3,0,0,TENTATIVE,TENTATIVE,TENTATIVE,STRONG
+topic_07,相思离愁、夜月与琴声,CLEAR,LOW,False,2,2,0,0,1,1,0,2,TENTATIVE,CONFLICTING,CONFLICTING,SUPPORTED
+topic_08,山居寺院、僧侣与幽居,CLEAR,MODERATE,True,0,1,1,1,0,2,0,1,CONFLICTING,TENTATIVE,TENTATIVE,STRONG
+topic_10,江湖羁旅、送别与思归,CLEAR,LOW,True,0,2,0,0,1,2,1,0,TENTATIVE,UNSUPPORTED,TENTATIVE,SUPPORTED
+topic_11,花香春情、女性与闺情,CLEAR,MODERATE,False,2,1,2,0,1,1,0,2,TENTATIVE,CONFLICTING,SUPPORTED,CONFLICTING
+topic_16,边塞征战与军旅,CLEAR,LOW,False,2,2,0,0,2,0,0,2,CONFLICTING,SUPPORTED,CONFLICTING,SUPPORTED
+topic_19,闲居山林与隐逸生活,CLEAR,LOW,False,1,1,0,0,2,0,1,1,SUPPORTED,UNSUPPORTED,CONFLICTING,SUPPORTED
+topic_20,饮酒酬赠、宴集与送别,CLEAR,MODERATE,True,0,2,2,0,1,1,0,2,SUPPORTED,CONFLICTING,CONFLICTING,TENTATIVE

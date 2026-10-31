@@ -1,0 +1,16 @@
+test_id,test_name,status,observed,expected
+TEST_01,"43,015 authoritative rows 不变",PASS,43015,43015
+TEST_02,不覆盖 authoritative master,PASS,"""93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f""","""93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f"""
+TEST_03,20 Topic probability 不变,PASS,"{""topic_count"": 20, ""matrix_sha256"": ""8a66d23e00487ac24c3b97c1b17c6cddb95fccf56dd6690e0f66a4ae4aa9b29b""}","{""topic_count"": 20, ""row_sum"": 1.0}"
+TEST_04,period metadata 与审计标签不变,PASS,true,true
+TEST_05,CLEAR Topic classification 不变,PASS,"[""topic_03"", ""topic_06"", ""topic_07"", ""topic_08"", ""topic_10"", ""topic_11"", ""topic_16"", ""topic_19"", ""topic_20""]","[""topic_03"", ""topic_06"", ""topic_07"", ""topic_08"", ""topic_10"", ""topic_11"", ""topic_16"", ""topic_19"", ""topic_20""]"
+TEST_06,primary contrasts 固定,PASS,"[""E-H"", ""H-M"", ""M-L"", ""E-L""]","[""E-H"", ""H-M"", ""M-L"", ""E-L""]"
+TEST_07,CORE_POEM cluster SE groups 为 author,PASS,206,206
+TEST_08,CORE_AUTHOR 一行一作者,PASS,207,207
+TEST_09,bootstrap unit 为 author,PASS,"[""author""]","[""author""]"
+TEST_10,BH-FDR family 正确,PASS,"{""CORE_AUTHOR_9_CLEAR_X_4_PRIMARY"": 36, ""CORE_POEM_9_CLEAR_X_4_PRIMARY"": 36}","""两套各36个 planned contrasts"""
+TEST_11,STRICT/CORE/EXPANDED 六规格完整,PASS,"[""CORE_AUTHOR"", ""CORE_POEM"", ""EXPANDED_AUTHOR"", ""EXPANDED_POEM"", ""STRICT_AUTHOR"", ""STRICT_POEM""]","[""CORE_AUTHOR"", ""CORE_POEM"", ""EXPANDED_AUTHOR"", ""EXPANDED_POEM"", ""STRICT_AUTHOR"", ""STRICT_POEM""]"
+TEST_12,raw vs CLR 只做临时分析,PASS,"{""clr_sha256"": ""af1dd72d84f61797d3d1f6a920c9cf53d99642f2299c43ca1d65c09c21eb6d57"", ""zero_count"": 0}","""CLR 独立临时矩阵且 master 未改"""
+TEST_13,MIXED/NOISE 未静默删除,PASS,"{""BROAD"": 4, ""CLEAR"": 9, ""MIXED"": 4, ""NOISE"": 3}","""包含 MIXED 与 NOISE"""
+TEST_14,所有随机过程可由 seed 重现,PASS,"""2a94eacbdb09a891d0d121194567f5b246b475b56206f1b497d4a49d68ba9ca6""","""2a94eacbdb09a891d0d121194567f5b246b475b56206f1b497d4a49d68ba9ca6"""
+TEST_15,所有 primary result 同时报 effect size 与 CI,PASS,72,72

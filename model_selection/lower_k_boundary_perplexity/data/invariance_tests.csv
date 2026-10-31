@@ -1,0 +1,18 @@
+﻿test_id,test,status,evidence
+TEST 01,C corpus 输入不变,PASS,C matrix/vocabulary/index/corpus/metadata SHA-256
+TEST 02,原 frozen models 不覆盖,PASS,核验 13 个 C_K20 冻结文件
+TEST 03,K5/10/15 输出独立,PASS,独立 lower_k_models 目录
+TEST 04,三个 seeds 完整,PASS,"[(5, 42), (5, 2026), (5, 20260830), (10, 42), (10, 2026), (10, 20260830), (15, 42), (15, 2026), (15, 20260830)]"
+TEST 05,lower-K full-corpus runs = 9,PASS,9
+TEST 06,held-out runs = 69,PASS,69
+TEST 07,C 所有 8 个 K 使用相同 split,PASS,"{('831cfc717928a726c6ca32918a3efef0505893412248b26e0bff9f66c69eb4df', '7e54f1056c4002d84d485df6c84bcee8c6bcc9c2e384dd8c64dc12ce1cb187c0')}"
+TEST 08,A/B/D 各自 5 个 K 使用同一 split,PASS,"{'A': 1, 'B': 1, 'C': 1, 'D': 1}"
+TEST 09,test data 未参与 fit,PASS,所有 run 标记 X_train_only
+TEST 10,所有 test perplexity finite positive,PASS,69 runs
+TEST 11,原 K20–60 指标与原报告一致,PASS,逐 run 重聚合容差 5e-11
+TEST 12,NPMI 实现不变化,PASS,f2fc16c857d746093e3331d534bb8228c9615dcf3eea56d100c8fc30893afb10
+TEST 13,stability 算法不变化,PASS,6d1a7ef07e59a7395b229e7a3a1e7e1b8989ee275a80d0c2a7164771abaab21a
+TEST 14,Topic Diversity 定义不变化,PASS,7f4362ace87a87fc777a243129fca9e30cdd54d2d205d9931fe369a06618d11e
+TEST 15,lower-K alignment 不强制一对一,PASS,保留一对多候选与独立 Hungarian 诊断
+TEST 16,人评不修改模型,PASS,评分字段为空且审核材料位于 review/
+TEST 17,原 C_K20 结论不自动覆盖,PASS,原冻结目录 SHA-256 不变

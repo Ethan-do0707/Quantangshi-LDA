@@ -1,0 +1,16 @@
+﻿unmatched_type,model_row_id,poem_id,original_corpus_index,author,title,reason,empty_after_filter
+metadata_not_in_C_matrix,,3325,3324,长孙正隐,晦日宴高氏林亭,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,8327,8326,岑参,峨眉东脚临江听猿，怀二室旧庐,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,8505,8504,岑参,省中即事,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,11804,11803,严维,九日登高,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,14638,14637,刘迥,烂柯山四首。石桥,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,14639,14638,刘迥,烂柯山四首。仙人棋,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,14640,14639,刘迥,烂柯山四首。石室二禅师,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,18225,18224,李贺,秦宫诗,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,33889,33888,吴融,风雨吟,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,42122,42121,佚名,青羊宫砖记,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,42179,42178,佚名,八友语,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,42239,42238,佚名,郝南容引谚,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,42243,42242,佚名,宋守敬引谚,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,42331,42330,佚名,桂管童谣,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True
+metadata_not_in_C_matrix,,42764,42763,牛峤,江城子,C corpus empty_after_filter; retained in metadata but excluded from BoW/Document×Topic,True

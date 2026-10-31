@@ -1,0 +1,13 @@
+topic_id,topic_label,topic_type,aggregation_sensitive,sample_sensitive,direction_unstable,metadata_bias_warning,sensitivity_flags
+topic_01,高山瀑布、仙境寻真与登临清赏,BROAD,True,True,False,True,AGGREGATION_SENSITIVE;SAMPLE_SENSITIVE;METADATA_RISK
+topic_02,老病退居、诗酒知命与士人自况,BROAD,True,True,False,True,AGGREGATION_SENSITIVE;SAMPLE_SENSITIVE;METADATA_RISK
+topic_03,江水舟行、秋景与客中怀归,CLEAR,True,True,False,False,AGGREGATION_SENSITIVE;SAMPLE_SENSITIVE
+topic_04,仕宦行旅、寺观仙踪与咏史杂咏,NOISE,True,True,False,False,AGGREGATION_SENSITIVE;SAMPLE_SENSITIVE
+topic_05,皇家礼仪、郊庙宴庆与应制颂德,CLEAR,False,False,False,True,METADATA_RISK
+topic_06,宫闺月夜、相思与女性哀怨,CLEAR,True,True,False,True,AGGREGATION_SENSITIVE;SAMPLE_SENSITIVE;METADATA_RISK
+topic_07,民生疾苦、伦理讽喻与数字杂咏,NOISE,True,True,False,True,AGGREGATION_SENSITIVE;SAMPLE_SENSITIVE;METADATA_RISK
+topic_08,王朝功德、郊庙礼乐与忠贤颂咏,CLEAR,True,True,False,False,AGGREGATION_SENSITIVE;SAMPLE_SENSITIVE
+topic_09,山寺禅居、僧侣往还与清夜幽境,CLEAR,False,False,False,True,METADATA_RISK
+topic_10,山水送别、怀友与归隐心绪,BROAD,False,False,False,False,NONE
+topic_11,边塞征战、征人思归与战争悲悯,CLEAR,True,True,False,False,AGGREGATION_SENSITIVE;SAMPLE_SENSITIVE
+topic_12,春日花酒、宴游与惜时送别,BROAD,True,True,False,True,AGGREGATION_SENSITIVE;SAMPLE_SENSITIVE;METADATA_RISK

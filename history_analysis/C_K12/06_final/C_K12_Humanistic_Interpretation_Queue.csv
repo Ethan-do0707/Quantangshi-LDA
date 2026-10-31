@@ -1,0 +1,8 @@
+queue_type,topic_id,topic_label,contrast,final_status,priority,researcher_action,interpretation_guardrail
+CLEAR_STATISTICAL_CANDIDATE,topic_05,皇家礼仪、郊庙宴庆与应制颂德,E-H,KEEP_WITH_CAUTION,2,核读对应时期代表诗、同文异署与外部文学史材料,候选不等于 LITERARY_HISTORY_CONFIRMED；author period 不等于 poem date
+CLEAR_STATISTICAL_CANDIDATE,topic_05,皇家礼仪、郊庙宴庆与应制颂德,E-L,KEEP_WITH_CAUTION,2,核读对应时期代表诗、同文异署与外部文学史材料,候选不等于 LITERARY_HISTORY_CONFIRMED；author period 不等于 poem date
+CLEAR_STATISTICAL_CANDIDATE,topic_05,皇家礼仪、郊庙宴庆与应制颂德,M-L,KEEP_WITH_CAUTION,2,核读对应时期代表诗、同文异署与外部文学史材料,候选不等于 LITERARY_HISTORY_CONFIRMED；author period 不等于 poem date
+CLEAR_STATISTICAL_CANDIDATE,topic_06,宫闺月夜、相思与女性哀怨,M-L,KEEP_WITH_CAUTION,2,核读对应时期代表诗、同文异署与外部文学史材料,候选不等于 LITERARY_HISTORY_CONFIRMED；author period 不等于 poem date
+CLEAR_STATISTICAL_CANDIDATE,topic_08,王朝功德、郊庙礼乐与忠贤颂咏,H-M,KEEP_WITH_CAUTION,2,核读对应时期代表诗、同文异署与外部文学史材料,候选不等于 LITERARY_HISTORY_CONFIRMED；author period 不等于 poem date
+CLEAR_STATISTICAL_CANDIDATE,topic_09,山寺禅居、僧侣往还与清夜幽境,E-L,KEEP_WITH_CAUTION,2,核读对应时期代表诗、同文异署与外部文学史材料,候选不等于 LITERARY_HISTORY_CONFIRMED；author period 不等于 poem date
+CLEAR_STATISTICAL_CANDIDATE,topic_11,边塞征战、征人思归与战争悲悯,H-M,KEEP_WITH_CAUTION,2,核读对应时期代表诗、同文异署与外部文学史材料,候选不等于 LITERARY_HISTORY_CONFIRMED；author period 不等于 poem date

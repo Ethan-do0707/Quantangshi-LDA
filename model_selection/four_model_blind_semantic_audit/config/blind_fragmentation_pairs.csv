@@ -1,0 +1,3 @@
+blind_model_id,blind_topic_id_1,blind_topic_id_2,AI_fragmentation_flag,AI_fragmentation_judgment,AI_fragmentation_rationale,AI_review_status
+MODEL_B,BT018,BT027,TRUE,FRAGMENTATION,"两主题代表诗都以山寺、僧侣、松月、闲居和归隐为中心，差异主要是题材权重而非可独立解释的文学语义边界。",AI_PROVISIONAL
+MODEL_D,BT059,BT060,TRUE,FRAGMENTATION,"两主题均由数字时序、仙道想象及互不相干的杂咏构成；分成两个残余槽位没有产生稳定的新语义。",AI_PROVISIONAL

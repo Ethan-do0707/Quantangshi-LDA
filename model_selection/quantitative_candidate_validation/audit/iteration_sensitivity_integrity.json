@@ -1,0 +1,45 @@
+{
+  "main_identity": "46ef09c112d372360227be30e7eac2c10026c1e2bd7ad2b74a79484d3d23cae0",
+  "triggers": {
+    "trigger_A_practical_equivalence": [
+      {
+        "prior_regime": "ORIGINAL_PRIOR",
+        "comparison": "K12-K15",
+        "difference": 0.00036579123670449354
+      },
+      {
+        "prior_regime": "FIXED_PRIOR_K20",
+        "comparison": "K12-K15",
+        "difference": -0.0008207164053322946
+      },
+      {
+        "prior_regime": "FIXED_PRIOR_K20",
+        "comparison": "K12-K20",
+        "difference": 0.0003376461418816007
+      }
+    ],
+    "trigger_B_seed_sensitive_K": [
+      20
+    ],
+    "trigger_C_rank_change_abs_ge_2_K": [
+      12,
+      13,
+      15
+    ],
+    "affected_K": [
+      12,
+      13,
+      15,
+      20
+    ]
+  },
+  "registered_rows": 24,
+  "unique_new_fits": 21,
+  "k20_prior_equivalence_reused_rows": 3,
+  "all_finite": true,
+  "artifacts": {
+    "model_selection/quantitative_candidate_validation/data/iteration_sensitivity_all_runs.csv": "efd0ec5b70a00eecf30aa7113bbc61b5f8ce918de665b0c5a93523a8ba2bc329",
+    "model_selection/quantitative_candidate_validation/data/iteration_sensitivity_summary.csv": "f1b3ad4a6ad26fbbec34f1594ca69579d7b232b99e55cad91f30f4e66eeed38d",
+    "model_selection/quantitative_candidate_validation/ITERATION_SENSITIVITY.md": "f5e64fa925e5f3853c4eebc0f968974ad6b12dea2e28149458f75022120a76a2"
+  }
+}

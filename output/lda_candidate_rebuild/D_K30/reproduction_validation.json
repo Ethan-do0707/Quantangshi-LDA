@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "model_id": "D_K30",
+  "status": "passed",
+  "validated_at": "2026-08-30T22:14:30+08:00",
+  "original_checkpoint_signature": "73978cd4c1edbb331e2907b2ba4316333f067020decd9153744c207075385f2a",
+  "original_topics_sha256": "8810cc6f18e988da3fb6428e11c8032491d785da9fa585de54d32a04191f4e1f",
+  "rebuilt_topics_sha256": "8810cc6f18e988da3fb6428e11c8032491d785da9fa585de54d32a04191f4e1f",
+  "exact_top20_csv_hash_match": true,
+  "original_representatives_sha256": "81189b9b083049135688eeb804653109d29e01b35d7f9be90040c4c29bf08bf1",
+  "rebuilt_representatives_sha256": "81189b9b083049135688eeb804653109d29e01b35d7f9be90040c4c29bf08bf1",
+  "exact_top5_representatives_csv_hash_match": true,
+  "metric_absolute_tolerance": 1e-10,
+  "metric_comparisons": {
+    "iterations_run": {
+      "original": 30,
+      "rebuilt": 30,
+      "absolute_difference": 0,
+      "passed": true
+    },
+    "training_perplexity": {
+      "original": 4320.498590031535,
+      "rebuilt": 4320.498590031535,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    "mean_topic_npmi": {
+      "original": 0.10406896441173386,
+      "rebuilt": 0.10406896441173386,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    "min_topic_npmi": {
+      "original": 0.06461613987319088,
+      "rebuilt": 0.06461613987319088,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    "max_topic_npmi": {
+      "original": 0.2161998136726084,
+      "rebuilt": 0.2161998136726084,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    "topic_diversity": {
+      "original": 0.42,
+      "rebuilt": 0.42,
+      "absolute_difference": 0.0,
+      "passed": true
+    }
+  },
+  "matrix_checks": {
+    "components_shape": [
+      30,
+      23123
+    ],
+    "topic_word_shape": [
+      30,
+      23123
+    ],
+    "document_topic_shape": [
+      43014,
+      30
+    ],
+    "topic_word_max_row_sum_error": 4.440892098500626e-16,
+    "document_topic_max_row_sum_error": 6.661338147750939e-16,
+    "dtype": "float64"
+  },
+  "fit_seconds": 227.46739,
+  "model_object_reload_components_exact": true,
+  "npz_roundtrip_exact": true
+}

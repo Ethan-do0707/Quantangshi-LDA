@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "method": "tf_threshold_sensitivity_only",
+  "started_at": "2026-08-30T10:57:45+08:00",
+  "finished_at": "2026-08-30T10:58:21+08:00",
+  "runtime_seconds": 35.564717,
+  "inputs": [
+    {
+      "path": "src/run_tf_sensitivity.py",
+      "sha256": "a0d39dea8f65d43a03577684a32846cfff317072fa9801a0d5406360df329f44"
+    },
+    {
+      "path": "src/clean_corpus.py",
+      "sha256": "4311e6300d9442b595d959024d3f171d71c9bfedfcf9531098e0a39196190b0b"
+    },
+    {
+      "path": "config/tf_sensitivity_config.yaml",
+      "sha256": "396cb2fbb9edb46912204c6f0377afa05edb38d85ebdc9c486a34fb1491acae8"
+    },
+    {
+      "path": "config/cleaning_config.yaml",
+      "sha256": "e50679f9c28e1778247bb610c4afdf80aea2b75265973e78a8b2d260f900b687"
+    },
+    {
+      "path": "segmentation/data/poems.jsonl",
+      "sha256": "bf8a292bd6f7517c8d965e29aa2cb7c38900abd547b631c8ccb8ef69f97a6a98"
+    },
+    {
+      "path": "segmentation/results/sikufenci_manual_gold.jsonl",
+      "sha256": "0fa04536fa9a00ec13484f160069d399c9ebfd07ab8400263a08df474a826caf"
+    },
+    {
+      "path": "segmentation/manual_gold/resources/01_variant_normalization.tsv",
+      "sha256": "6b05bef80d6dcfa492bc6f8274a420a8a462c4a3ae5f268930b8a1e24a9d1393"
+    },
+    {
+      "path": "segmentation/manual_gold/resources/02_stopwords_core.txt",
+      "sha256": "6a3479c353bf94dd8fdb137a3ae27f7aefbe451697712b1bcda9d2dfd0a8c6b8"
+    },
+    {
+      "path": "segmentation/manual_gold/resources/03_protected_terms.tsv",
+      "sha256": "f3169c6d56d0fe046d0fdc761c11f7e90831fc52a33f9210388b5d150af3cdc6"
+    },
+    {
+      "path": "segmentation/manual_gold/resources/04_tf_df_rules.json",
+      "sha256": "9499abd7af4685412fcebb12f668cbbf81557664aa9c86ce57d32c7c24249837"
+    },
+    {
+      "path": "segmentation/manual_gold/resources/05_semantic_mapping.tsv",
+      "sha256": "783d84fae79920b03e3c561a2e561b0e62e310a950a65c31f46abf4981456dd6"
+    }
+  ],
+  "experimental_variable": {
+    "name": "LOW_TF threshold",
+    "thresholds": [
+      1,
+      2,
+      3,
+      5
+    ]
+  },
+  "frozen_rules": {
+    "stopword_tier": "core",
+    "min_df": 3,
+    "protected_terms_bypass_minimums": true,
+    "automatic_max_df": null,
+    "high_df_manual_audit_rate": 0.1,
+    "single_character_policy": "不按长度删除；单字同样执行停用词和TF/DF规则"
+  },
+  "base_profile_reference_statistics": {
+    "retained_type_count": 23123,
+    "removed_type_count": 100367,
+    "retained_token_count": 1485707,
+    "retained_token_rate": 0.73733053
+  },
+  "resource_counts": {
+    "poems": 43030,
+    "normalization_rules": 4,
+    "normalization_occurrences": 0,
+    "stopwords": 105,
+    "protected_words": 182,
+    "protected_present_token_types": 176,
+    "protected_token_occurrences": 22500,
+    "data_quality_issue_rows": 25,
+    "literary_candidate_rows": 100249,
+    "extreme_length_rows": 1984
+  },
+  "groups": {
+    "TF1": {
+      "threshold": "TF1",
+      "min_tf": 1,
+      "fixed_min_df": 3,
+      "fixed_automatic_max_df": null,
+      "poem_count": 43030,
+      "valid_poem_count": 43015,
+      "empty_poem_count": 15,
+      "total_tokens": 1525932,
+      "vocabulary_size": 35063,
+      "document_length": {
+        "min": 0,
+        "p10": 14.0,
+        "p25": 19.0,
+        "p50": 27.0,
+        "mean": 35.462049732744596,
+        "median": 27.0,
+        "p75": 36.0,
+        "p90": 61.0,
+        "p95": 85.0,
+        "p99": 185.0,
+        "max": 2532
+      },
+      "vocabulary_frequency_bands": {
+        "tf_eq_1_types": 1,
+        "tf_eq_2_types": 5,
+        "tf_eq_3_types": 7536,
+        "tf_eq_4_types": 4412,
+        "tf_ge_5_types": 23109
+      },
+      "protected_vocabulary_size": 176,
+      "protected_token_occurrences": 22500,
+      "low_tf_removed_vocabulary": 0,
+      "low_tf_removed_occurrences": 0,
+      "poems_at_or_below_5_tokens": 208,
+      "poems_at_or_below_10_tokens": 1342,
+      "poems_above_p99": 429,
+      "percentile_method": "linear interpolation at (n-1)*p",
+      "outputs": {
+        "lda_corpus": {
+          "path": "output/tf_sensitivity/TF1/lda_corpus.csv",
+          "sha256": "eb1a5b2a8e41eda0253a3f355024ccdf6a72d39a90aa930fa629606160f985d0"
+        },
+        "lda_tokens": {
+          "path": "output/tf_sensitivity/TF1/lda_tokens.txt",
+          "sha256": "f0f83b5ed08727df2f05ed5d4ba40c8458f5e2c810b4eb8bd293d9bcd7b5955b"
+        }
+      }
+    },
+    "TF2": {
+      "threshold": "TF2",
+      "min_tf": 2,
+      "fixed_min_df": 3,
+      "fixed_automatic_max_df": null,
+      "poem_count": 43030,
+      "valid_poem_count": 43015,
+      "empty_poem_count": 15,
+      "total_tokens": 1525932,
+      "vocabulary_size": 35063,
+      "document_length": {
+        "min": 0,
+        "p10": 14.0,
+        "p25": 19.0,
+        "p50": 27.0,
+        "mean": 35.462049732744596,
+        "median": 27.0,
+        "p75": 36.0,
+        "p90": 61.0,
+        "p95": 85.0,
+        "p99": 185.0,
+        "max": 2532
+      },
+      "vocabulary_frequency_bands": {
+        "tf_eq_1_types": 1,
+        "tf_eq_2_types": 5,
+        "tf_eq_3_types": 7536,
+        "tf_eq_4_types": 4412,
+        "tf_ge_5_types": 23109
+      },
+      "protected_vocabulary_size": 176,
+      "protected_token_occurrences": 22500,
+      "low_tf_removed_vocabulary": 71065,
+      "low_tf_removed_occurrences": 71065,
+      "poems_at_or_below_5_tokens": 208,
+      "poems_at_or_below_10_tokens": 1342,
+      "poems_above_p99": 429,
+      "percentile_method": "linear interpolation at (n-1)*p",
+      "outputs": {
+        "lda_corpus": {
+          "path": "output/tf_sensitivity/TF2/lda_corpus.csv",
+          "sha256": "eb1a5b2a8e41eda0253a3f355024ccdf6a72d39a90aa930fa629606160f985d0"
+        },
+        "lda_tokens": {
+          "path": "output/tf_sensitivity/TF2/lda_tokens.txt",
+          "sha256": "f0f83b5ed08727df2f05ed5d4ba40c8458f5e2c810b4eb8bd293d9bcd7b5955b"
+        }
+      }
+    },
+    "TF3": {
+      "threshold": "TF3",
+      "min_tf": 3,
+      "fixed_min_df": 3,
+      "fixed_automatic_max_df": null,
+      "poem_count": 43030,
+      "valid_poem_count": 43015,
+      "empty_poem_count": 15,
+      "total_tokens": 1525932,
+      "vocabulary_size": 35063,
+      "document_length": {
+        "min": 0,
+        "p10": 14.0,
+        "p25": 19.0,
+        "p50": 27.0,
+        "mean": 35.462049732744596,
+        "median": 27.0,
+        "p75": 36.0,
+        "p90": 61.0,
+        "p95": 85.0,
+        "p99": 185.0,
+        "max": 2532
+      },
+      "vocabulary_frequency_bands": {
+        "tf_eq_1_types": 1,
+        "tf_eq_2_types": 5,
+        "tf_eq_3_types": 7536,
+        "tf_eq_4_types": 4412,
+        "tf_ge_5_types": 23109
+      },
+      "protected_vocabulary_size": 176,
+      "protected_token_occurrences": 22500,
+      "low_tf_removed_vocabulary": 88088,
+      "low_tf_removed_occurrences": 105111,
+      "poems_at_or_below_5_tokens": 208,
+      "poems_at_or_below_10_tokens": 1342,
+      "poems_above_p99": 429,
+      "percentile_method": "linear interpolation at (n-1)*p",
+      "outputs": {
+        "lda_corpus": {
+          "path": "output/tf_sensitivity/TF3/lda_corpus.csv",
+          "sha256": "eb1a5b2a8e41eda0253a3f355024ccdf6a72d39a90aa930fa629606160f985d0"
+        },
+        "lda_tokens": {
+          "path": "output/tf_sensitivity/TF3/lda_tokens.txt",
+          "sha256": "f0f83b5ed08727df2f05ed5d4ba40c8458f5e2c810b4eb8bd293d9bcd7b5955b"
+        }
+      }
+    },
+    "TF5": {
+      "threshold": "TF5",
+      "min_tf": 5,
+      "fixed_min_df": 3,
+      "fixed_automatic_max_df": null,
+      "poem_count": 43030,
+      "valid_poem_count": 43014,
+      "empty_poem_count": 16,
+      "total_tokens": 1485707,
+      "vocabulary_size": 23123,
+      "document_length": {
+        "min": 0,
+        "p10": 14.0,
+        "p25": 19.0,
+        "p50": 26.0,
+        "mean": 34.52723681152684,
+        "median": 26.0,
+        "p75": 36.0,
+        "p90": 59.0,
+        "p95": 83.0,
+        "p99": 179.0,
+        "max": 2465
+      },
+      "vocabulary_frequency_bands": {
+        "tf_eq_1_types": 1,
+        "tf_eq_2_types": 5,
+        "tf_eq_3_types": 1,
+        "tf_eq_4_types": 7,
+        "tf_ge_5_types": 23109
+      },
+      "protected_vocabulary_size": 176,
+      "protected_token_occurrences": 22500,
+      "low_tf_removed_vocabulary": 100235,
+      "low_tf_removed_occurrences": 146003,
+      "poems_at_or_below_5_tokens": 228,
+      "poems_at_or_below_10_tokens": 1550,
+      "poems_above_p99": 428,
+      "percentile_method": "linear interpolation at (n-1)*p",
+      "outputs": {
+        "lda_corpus": {
+          "path": "output/tf_sensitivity/TF5/lda_corpus.csv",
+          "sha256": "bf8c21de1d90f4215fb36b18c5c792b1f9a92b9e21d1a56918278d90c7914292"
+        },
+        "lda_tokens": {
+          "path": "output/tf_sensitivity/TF5/lda_tokens.txt",
+          "sha256": "3d038606ab9b79dbfb7529ccb8b3152bf72b83301039f789c2c3c02d80fc73f1"
+        }
+      }
+    }
+  },
+  "incremental_losses": {
+    "TF1_vs_TF2": {
+      "vocabulary": 0,
+      "occurrences": 0
+    },
+    "TF2_vs_TF3": {
+      "vocabulary": 0,
+      "occurrences": 0
+    },
+    "TF3_vs_TF5": {
+      "vocabulary": 11940,
+      "occurrences": 40225
+    }
+  },
+  "figures": {
+    "preferred_backend": "matplotlib",
+    "actual_backend": "deterministic_svg",
+    "matplotlib_version": null,
+    "paths": [
+      "reports/tf_sensitivity/figures/vocabulary_size.svg",
+      "reports/tf_sensitivity/figures/total_tokens.svg",
+      "reports/tf_sensitivity/figures/mean_document_length.svg",
+      "reports/tf_sensitivity/figures/vocabulary_retention_rate.svg"
+    ]
+  },
+  "environment": {
+    "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+    "implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "validation": {
+    "only_min_tf_varies": true,
+    "input_hashes_unchanged": true,
+    "existing_tf5_hashes_unchanged": true,
+    "protected_tokens_retained_in_all_groups": true,
+    "token_order_monotonic_subsequence": true,
+    "poem_count_and_order_constructed_from_one_source": true,
+    "tf5_matches_existing_output": {
+      "row_count_new": 43030,
+      "row_count_existing": 43030,
+      "row_content_mismatch_count": 0,
+      "lda_tokens_sha256_new": "3d038606ab9b79dbfb7529ccb8b3152bf72b83301039f789c2c3c02d80fc73f1",
+      "lda_tokens_sha256_existing": "3d038606ab9b79dbfb7529ccb8b3152bf72b83301039f789c2c3c02d80fc73f1",
+      "matches": true
+    },
+    "tf1_tf2_tf3_tokens_identical": true,
+    "semantic_mapping_applied": false,
+    "lda_executed": false
+  },
+  "outputs": [
+    {
+      "path": "output/tf_sensitivity/TF1/corpus_statistics.json",
+      "sha256": "56deb22e5c78a31de6c1d701d6a747c54c1ea31423e283bb4c8cf458ffe31159",
+      "bytes": 1335
+    },
+    {
+      "path": "output/tf_sensitivity/TF1/lda_corpus.csv",
+      "sha256": "eb1a5b2a8e41eda0253a3f355024ccdf6a72d39a90aa930fa629606160f985d0",
+      "bytes": 18667168
+    },
+    {
+      "path": "output/tf_sensitivity/TF1/lda_tokens.txt",
+      "sha256": "f0f83b5ed08727df2f05ed5d4ba40c8458f5e2c810b4eb8bd293d9bcd7b5955b",
+      "bytes": 7461120
+    },
+    {
+      "path": "output/tf_sensitivity/TF2/corpus_statistics.json",
+      "sha256": "6aac19f381e358b4b0c32a81c8c4e504bce40bde728b819bcfa8088e270178f9",
+      "bytes": 1343
+    },
+    {
+      "path": "output/tf_sensitivity/TF2/lda_corpus.csv",
+      "sha256": "eb1a5b2a8e41eda0253a3f355024ccdf6a72d39a90aa930fa629606160f985d0",
+      "bytes": 18667168
+    },
+    {
+      "path": "output/tf_sensitivity/TF2/lda_tokens.txt",
+      "sha256": "f0f83b5ed08727df2f05ed5d4ba40c8458f5e2c810b4eb8bd293d9bcd7b5955b",
+      "bytes": 7461120
+    },
+    {
+      "path": "output/tf_sensitivity/TF3/corpus_statistics.json",
+      "sha256": "ade543d3c3d95f84f62435ba4ff3f1293a8c2dbafff717bed1e3e0da535917d3",
+      "bytes": 1344
+    },
+    {
+      "path": "output/tf_sensitivity/TF3/lda_corpus.csv",
+      "sha256": "eb1a5b2a8e41eda0253a3f355024ccdf6a72d39a90aa930fa629606160f985d0",
+      "bytes": 18667168
+    },
+    {
+      "path": "output/tf_sensitivity/TF3/lda_tokens.txt",
+      "sha256": "f0f83b5ed08727df2f05ed5d4ba40c8458f5e2c810b4eb8bd293d9bcd7b5955b",
+      "bytes": 7461120
+    },
+    {
+      "path": "output/tf_sensitivity/TF5/corpus_statistics.json",
+      "sha256": "6b268bbf3854eefda1f5b0b5610907dd61464b198e57831c88496371ff048deb",
+      "bytes": 1338
+    },
+    {
+      "path": "output/tf_sensitivity/TF5/lda_corpus.csv",
+      "sha256": "bf8c21de1d90f4215fb36b18c5c792b1f9a92b9e21d1a56918278d90c7914292",
+      "bytes": 18384897
+    },
+    {
+      "path": "output/tf_sensitivity/TF5/lda_tokens.txt",
+      "sha256": "3d038606ab9b79dbfb7529ccb8b3152bf72b83301039f789c2c3c02d80fc73f1",
+      "bytes": 7179087
+    },
+    {
+      "path": "reports/tf_sensitivity/TF1_vs_TF2_removed.csv",
+      "sha256": "06bcb650acc8e67597ff27b325862ffcd37065bed6df93090d6eab5cdd9f8fa7",
+      "bytes": 107
+    },
+    {
+      "path": "reports/tf_sensitivity/TF2_vs_TF3_removed.csv",
+      "sha256": "06bcb650acc8e67597ff27b325862ffcd37065bed6df93090d6eab5cdd9f8fa7",
+      "bytes": 107
+    },
+    {
+      "path": "reports/tf_sensitivity/TF3_vs_TF5_removed.csv",
+      "sha256": "1ede6b7d962506192036869323158594671b749f583ff995e0f298ca5f653c49",
+      "bytes": 609212
+    },
+    {
+      "path": "reports/tf_sensitivity/case_token_tracking.csv",
+      "sha256": "6d4e58f1cd001d0cbc0d9f9e70a0c0bf093ec3f7daeecfe56df5b1b9c69fe1d1",
+      "bytes": 1677
+    },
+    {
+      "path": "reports/tf_sensitivity/extreme_length_poems.csv",
+      "sha256": "7a982f5637d2d0cdf8894a0723645bf0ec962f5b706f344fc2c02d6d10555b44",
+      "bytes": 1169654
+    },
+    {
+      "path": "reports/tf_sensitivity/figures/mean_document_length.svg",
+      "sha256": "8e86b6c60c2fe35ee3961afa09d3d53645a17a61b3de038deaaeca578d8d92ce",
+      "bytes": 3487
+    },
+    {
+      "path": "reports/tf_sensitivity/figures/total_tokens.svg",
+      "sha256": "95565a1df3dcc09676521f35f2db45043a6418a83ca3a652dcff100e807fb218",
+      "bytes": 3513
+    },
+    {
+      "path": "reports/tf_sensitivity/figures/vocabulary_retention_rate.svg",
+      "sha256": "92bbb1b430b62660ee20ccd4253f48c5d2b6ab89845be82d9589237eaaeb59b8",
+      "bytes": 3488
+    },
+    {
+      "path": "reports/tf_sensitivity/figures/vocabulary_size.svg",
+      "sha256": "9e188de7a81d8ba2c31c3044d92d176d2bb35a1ed200d67941001d870485c4c7",
+      "bytes": 3489
+    },
+    {
+      "path": "reports/tf_sensitivity/literary_low_frequency_candidates.csv",
+      "sha256": "48d7e816f12442d73b76d8bcfe0abf9ddcc42fdb2ba44b18a5668b3b0f4a058e",
+      "bytes": 12157123
+    },
+    {
+      "path": "reports/tf_sensitivity/removed_by_TF2.csv",
+      "sha256": "70e0eea5fd0ed90eb1dd3a767ba34667c9e758f0e70eccd352af1e6b6be58c83",
+      "bytes": 3577482
+    },
+    {
+      "path": "reports/tf_sensitivity/removed_by_TF3.csv",
+      "sha256": "efc32f04fa150679f3d12771ec03083e238da44a9744a5a7418d317023a31634",
+      "bytes": 4431068
+    },
+    {
+      "path": "reports/tf_sensitivity/removed_by_TF5.csv",
+      "sha256": "788aed28d6f9552f47c203f3182f29533b2b215b99e16a6661319f1f3235c77c",
+      "bytes": 4955075
+    },
+    {
+      "path": "reports/tf_sensitivity/tf_sensitivity_report.md",
+      "sha256": "d19b6e8e8367d50dd51494f16a7cd8dfbb4b79e725a423987100983c5fb41c84",
+      "bytes": 6039
+    },
+    {
+      "path": "reports/tf_sensitivity/tf_threshold_comparison.csv",
+      "sha256": "b6ac556b36048dc9c2ebb72fb6faadfb819c8c05748663c1b987933a3a4a7e4f",
+      "bytes": 1461
+    }
+  ]
+}

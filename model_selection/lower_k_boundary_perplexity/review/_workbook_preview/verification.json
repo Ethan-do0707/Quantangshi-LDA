@@ -1,0 +1,21 @@
+{
+  "workbook": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\lower_k_boundary_perplexity\\review\\lower_k_human_review.xlsx",
+  "source": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\lower_k_boundary_perplexity\\review\\lower_k_human_review_source.csv",
+  "sheetCount": 3,
+  "reviewRows": 30,
+  "previews": [
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\lower_k_boundary_perplexity\\review\\_workbook_preview\\Review.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\lower_k_boundary_perplexity\\review\\_workbook_preview\\Instructions.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\lower_k_boundary_perplexity\\review\\_workbook_preview\\Summary.png"
+  ],
+  "liveFormulaInputCheck": [
+    5,
+    5,
+    1,
+    4,
+    5,
+    1,
+    1
+  ],
+  "formulaErrorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+}

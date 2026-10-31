@@ -1,0 +1,19 @@
+{
+  "status": "READY_FOR_RESEARCHER_REVIEW",
+  "models_ready": 3,
+  "topics": 47,
+  "cards": 47,
+  "K12_to_K15_candidate_pairs": 119,
+  "K12_to_K15_split_merge_events": 20,
+  "K12_to_K15_split_events": 8,
+  "K12_to_K15_merge_events": 12,
+  "K15_to_K20_candidate_pairs": 171,
+  "K15_to_K20_split_merge_events": 16,
+  "K15_to_K20_split_events": 8,
+  "K15_to_K20_merge_events": 8,
+  "K20_fragmentation_candidate_pairs": 15,
+  "researcher_fields_prefilled": 0,
+  "blind_material_leaks": 0,
+  "model_training_calls": 0,
+  "topic_review_freeze_status": "TOPIC_REVIEW_INCOMPLETE"
+}

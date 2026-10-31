@@ -1,0 +1,7 @@
+﻿model_id,corpus,K,mean_semantic_coherence,mean_poem_coherence,mean_interpretability,mean_distinctiveness,mean_total_score,number_of_topics_scored,number_of_uninterpretable_topics,uninterpretable_topic_ratio,number_of_duplicate_topics,duplicate_topic_ratio,number_of_mixed_topics,number_of_noise_topics,summary_status
+A_K20,A,20,2.750000,2.350000,2.500000,2.550000,2.537500,20,12,0.600000,0,0.000000,13,12,partial_or_complete_human_scores
+B_K20,B,20,3.950000,3.800000,3.950000,3.300000,3.750000,20,5,0.250000,0,0.000000,8,5,partial_or_complete_human_scores
+B_K30,B,30,3.166667,3.133333,3.166667,2.900000,3.091667,30,14,0.466667,0,0.000000,17,13,partial_or_complete_human_scores
+C_K20,C,20,,,,,,,,,,,,,awaiting_complete_four_score_rows
+D_K20,D,20,,,,,,,,,,,,,awaiting_complete_four_score_rows
+D_K30,D,30,,,,,,,,,,,,,awaiting_complete_four_score_rows

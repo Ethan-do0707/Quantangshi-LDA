@@ -1,0 +1,83 @@
+{
+  "complete": true,
+  "n_runs": 120,
+  "passed": 15,
+  "total": 15,
+  "checks": [
+    {
+      "test": "TEST_01",
+      "description": "C corpus hash 不变",
+      "passed": true
+    },
+    {
+      "test": "TEST_02",
+      "description": "原 train/test split 不变",
+      "passed": true
+    },
+    {
+      "test": "TEST_03",
+      "description": "原 frozen C_K20 不变",
+      "passed": true
+    },
+    {
+      "test": "TEST_04",
+      "description": "主候选正好为 11、12、13、14、15、20",
+      "passed": true
+    },
+    {
+      "test": "TEST_05",
+      "description": "每候选每 prior 正好 10 seeds",
+      "passed": true
+    },
+    {
+      "test": "TEST_06",
+      "description": "两个 prior regimes 完整且其余参数固定",
+      "passed": true
+    },
+    {
+      "test": "TEST_07",
+      "description": "主运行总计 120 fits",
+      "passed": true
+    },
+    {
+      "test": "TEST_08",
+      "description": "所有 perplexity finite positive",
+      "passed": true
+    },
+    {
+      "test": "TEST_09",
+      "description": "所有 NPMI finite",
+      "passed": true
+    },
+    {
+      "test": "TEST_10",
+      "description": "NPMI 实现与 train-only reference 不变",
+      "passed": true
+    },
+    {
+      "test": "TEST_11",
+      "description": "Topic Diversity 定义不变",
+      "passed": true
+    },
+    {
+      "test": "TEST_12",
+      "description": "Hungarian matching 实现固定且 540 pairs 完整",
+      "passed": true
+    },
+    {
+      "test": "TEST_13",
+      "description": "不根据结果删除 seed",
+      "passed": true
+    },
+    {
+      "test": "TEST_14",
+      "description": "fixed prior 为 0.05/0.05，original prior 为 1/K",
+      "passed": true
+    },
+    {
+      "test": "TEST_15",
+      "description": "不自动修改现有 K20 状态",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "recordCount": 18,
+  "truncated": true,
+  "metadata": {
+    "revision": "9fhp71",
+    "target": {
+      "id": "wb/k1bj8f",
+      "beforeLines": 0,
+      "afterLines": 0
+    },
+    "kind": {
+      "requested": "workbook,sheet,table,formula",
+      "tokens": [
+        "workbook",
+        "sheet",
+        "table",
+        "formula"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  }
+}

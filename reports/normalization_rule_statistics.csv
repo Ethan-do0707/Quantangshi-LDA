@@ -1,0 +1,5 @@
+﻿rule_id,source_form,normalized_form,rule_type,scope,status,apply_automatically,actual_hit_count
+row=2|连薨->连甍|底本文字差异|poem_id=1；excel_row=2；《帝京篇十首》已标前缀,连薨,连甍,底本文字差异,poem_id=1；excel_row=2；《帝京篇十首》已标前缀,建议仅在该诗规范视图采用,false,0
+row=3|水->永|文本异文候选|poem_id=217；excel_row=80；《唐明堂乐章。迎送王公》,水,永,文本异文候选,poem_id=217；excel_row=80；《唐明堂乐章。迎送王公》,待版本校勘,false,0
+row=4|桑乾->桑干|地名词形|poem_id=778；excel_row=268；仅“桑乾”地名,桑乾,桑干,地名词形,poem_id=778；excel_row=268；仅“桑乾”地名,可用于独立规范视图,false,0
+row=5|走覃->趠|罕见字拆分写法|poem_id=919；excel_row=326；《相和歌辞。公无渡河》,走覃,趠,罕见字拆分写法,poem_id=919；excel_row=326；《相和歌辞。公无渡河》,可用于独立规范视图,false,0

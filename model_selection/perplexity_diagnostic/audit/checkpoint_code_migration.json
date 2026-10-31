@@ -1,0 +1,28 @@
+{
+  "reason": "仅改变并行执行后端与审计字段，统计配置、拆分和既有数值不变",
+  "migrated": [
+    "B_K20_seed_2026.json",
+    "B_K20_seed_20260830.json",
+    "B_K20_seed_42.json",
+    "B_K30_seed_2026.json",
+    "B_K30_seed_20260830.json",
+    "B_K30_seed_42.json",
+    "B_K40_seed_2026.json",
+    "B_K40_seed_42.json",
+    "C_K20_seed_2026.json",
+    "C_K20_seed_20260830.json",
+    "C_K20_seed_42.json",
+    "C_K30_seed_2026.json",
+    "C_K30_seed_20260830.json",
+    "C_K30_seed_42.json",
+    "C_K40_seed_2026.json",
+    "C_K40_seed_20260830.json",
+    "C_K40_seed_42.json",
+    "C_K50_seed_2026.json",
+    "C_K50_seed_20260830.json",
+    "C_K50_seed_42.json",
+    "C_K60_seed_2026.json",
+    "C_K60_seed_20260830.json",
+    "C_K60_seed_42.json"
+  ]
+}

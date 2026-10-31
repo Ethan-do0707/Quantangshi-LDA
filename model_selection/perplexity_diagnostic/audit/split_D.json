@@ -1,0 +1,17 @@
+{
+  "corpus": "D",
+  "n_train": 34411,
+  "n_test": 8603,
+  "vocab_size": 23123,
+  "train_token_count": 1186086,
+  "test_token_count": 299621,
+  "split_sha256": "3a62cfa118ae3d133a82e402fc073c35fe5a8ec42e12a9d227b19041222deae0",
+  "fit_rows_sha256": "9a88faece5a24e69f0167d19562c025e446f6df8332a7cfb2e1d411015d1f6dc",
+  "test_rows_sha256": "4771f9a243e5e412a03eb120780cdc957bbff38d59285e05d642bc183a8ecb48",
+  "train_test_overlap": 0,
+  "empty_train_rows": 0,
+  "empty_test_rows": 0,
+  "unseen_in_train_vocabulary_size": 2,
+  "test_tokens_unseen_in_train": 6,
+  "matrix_sha256": "4724efc9b40146f4cbb3f723af3262dfc0ae7d4902b1233354d93bc44a6b0629"
+}

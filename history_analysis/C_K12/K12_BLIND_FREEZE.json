@@ -1,0 +1,242 @@
+{
+  "analysis_version": "C_K12_HISTORY_V2_PRIMARY_CANDIDATE",
+  "frozen_at": "2026-09-10T07:53:49.059131+08:00",
+  "blind_phase_status": "BLIND_TO_OLD_TREND_DIRECTION_COMPLETE",
+  "manifest_sha256": "25273e82cf87bec7a8b4cbb2214c41c4b46b545a86d96c69a0c2d1d0eed8f6f4",
+  "file_count": 37,
+  "source_hashes": {
+    "theta": "1c58db1f99c1e5375e539d86a5c104ee60b9e1a6fdd7b2a5213da42c2e681191",
+    "theta_metadata": "b6cb56cf5b68d36f1663ab2cb8959e1a618805533566fd8caee2056d3ec1be53",
+    "document_map": "68a003fa895830b1356ca99faa4fb901c5a6e8ef37fcc97aa3a1b073195e7558",
+    "metadata_master": "93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f",
+    "sample_labels": "782ef57194db6f32f85cc1ce07fa42ee9e025f89abec857baec2438962fa047e",
+    "taxonomy_workbook": "7418b362741a214cbefafa32e6a72f9e228dd4e30da0bafb3cbc7debdec73614",
+    "k12_master": "0026d7c93caef4434f65445710bb5d995d72f2b0505dce740701ebcb67f48ae6"
+  },
+  "precomparison_qa_passed": 18,
+  "precomparison_qa_total": 18,
+  "summary": {
+    "A_theta_path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\model_selection\\artifact_recovery_K12_K14\\full_corpus_blind_models\\K12\\document_topic_full.npz",
+    "B_theta_shape": [
+      43015,
+      12
+    ],
+    "C_alignment_passed": true,
+    "D_to_F_sample_counts": {
+      "STRICT": {
+        "poems": 8722,
+        "authors": 180
+      },
+      "CORE": {
+        "poems": 10841,
+        "authors": 207
+      },
+      "EXPANDED": {
+        "poems": 23609,
+        "authors": 479
+      }
+    },
+    "G_core_period_counts": [
+      {
+        "period": "初唐",
+        "poem_count": 623,
+        "author_count": 41
+      },
+      {
+        "period": "盛唐",
+        "poem_count": 3191,
+        "author_count": 43
+      },
+      {
+        "period": "中唐",
+        "poem_count": 4153,
+        "author_count": 83
+      },
+      {
+        "period": "晚唐",
+        "poem_count": 2874,
+        "author_count": 40
+      }
+    ],
+    "H_core_poem_peaks": {
+      "topic_01": "初唐",
+      "topic_02": "晚唐",
+      "topic_03": "盛唐",
+      "topic_04": "初唐",
+      "topic_05": "初唐",
+      "topic_06": "晚唐",
+      "topic_07": "盛唐",
+      "topic_08": "盛唐",
+      "topic_09": "晚唐",
+      "topic_10": "晚唐",
+      "topic_11": "盛唐",
+      "topic_12": "晚唐"
+    },
+    "I_core_author_peaks": {
+      "topic_01": "中唐",
+      "topic_02": "晚唐",
+      "topic_03": "盛唐",
+      "topic_04": "初唐",
+      "topic_05": "初唐",
+      "topic_06": "初唐",
+      "topic_07": "晚唐",
+      "topic_08": "盛唐",
+      "topic_09": "晚唐",
+      "topic_10": "晚唐",
+      "topic_11": "初唐",
+      "topic_12": "晚唐"
+    },
+    "J_core_peak_agreement_count": 8,
+    "K_trend_robustness_counts": {
+      "HIGH": 1,
+      "MODERATE": 9,
+      "LOW": 2
+    },
+    "L_clear_representativeness_risk": {
+      "topic_03": "LOW",
+      "topic_05": "MODERATE",
+      "topic_06": "MODERATE",
+      "topic_08": "LOW",
+      "topic_09": "MODERATE",
+      "topic_11": "LOW"
+    },
+    "M_clear_core_poem_omnibus_q": {
+      "topic_03": 0.0097129108983776,
+      "topic_05": 3.5332115304155246e-08,
+      "topic_06": 0.06560053503779036,
+      "topic_08": 0.0154426121860611,
+      "topic_09": 8.891202495922613e-07,
+      "topic_11": 0.00047680432621023477
+    },
+    "N_clear_core_author_omnibus_q": {
+      "topic_03": 0.06736290943221461,
+      "topic_05": 0.0009251018196570417,
+      "topic_06": 0.8037048418134474,
+      "topic_08": 0.8221555099704863,
+      "topic_09": 0.013545277511046814,
+      "topic_11": 0.06736290943221461
+    },
+    "O_strong_contrasts": [
+      {
+        "topic_id": "topic_05",
+        "topic_label": "皇家礼仪、郊庙宴庆与应制颂德",
+        "contrast": "E-H"
+      },
+      {
+        "topic_id": "topic_05",
+        "topic_label": "皇家礼仪、郊庙宴庆与应制颂德",
+        "contrast": "M-L"
+      },
+      {
+        "topic_id": "topic_05",
+        "topic_label": "皇家礼仪、郊庙宴庆与应制颂德",
+        "contrast": "E-L"
+      },
+      {
+        "topic_id": "topic_09",
+        "topic_label": "山寺禅居、僧侣往还与清夜幽境",
+        "contrast": "E-L"
+      }
+    ],
+    "P_supported_contrasts": [
+      {
+        "topic_id": "topic_03",
+        "topic_label": "江水舟行、秋景与客中怀归",
+        "contrast": "M-L"
+      },
+      {
+        "topic_id": "topic_06",
+        "topic_label": "宫闺月夜、相思与女性哀怨",
+        "contrast": "M-L"
+      },
+      {
+        "topic_id": "topic_08",
+        "topic_label": "王朝功德、郊庙礼乐与忠贤颂咏",
+        "contrast": "H-M"
+      },
+      {
+        "topic_id": "topic_11",
+        "topic_label": "边塞征战、征人思归与战争悲悯",
+        "contrast": "H-M"
+      }
+    ],
+    "Q_poem_author_conflicts": [
+      {
+        "topic_id": "topic_06",
+        "topic_label": "宫闺月夜、相思与女性哀怨",
+        "contrast": "H-M"
+      },
+      {
+        "topic_id": "topic_06",
+        "topic_label": "宫闺月夜、相思与女性哀怨",
+        "contrast": "E-L"
+      },
+      {
+        "topic_id": "topic_08",
+        "topic_label": "王朝功德、郊庙礼乐与忠贤颂咏",
+        "contrast": "E-L"
+      },
+      {
+        "topic_id": "topic_11",
+        "topic_label": "边塞征战、征人思归与战争悲悯",
+        "contrast": "E-H"
+      },
+      {
+        "topic_id": "topic_11",
+        "topic_label": "边塞征战、征人思归与战争悲悯",
+        "contrast": "M-L"
+      }
+    ],
+    "R_sample_sign_flip_count": 13,
+    "S_clr_direction_conflict_count": 4,
+    "T_loao_candidate_count": 8,
+    "U_author_robust_count": 0,
+    "V_concentrated_robust_count": 7,
+    "W_author_sensitive_count": 1,
+    "X_retained_historical_candidates": [
+      {
+        "topic_id": "topic_05",
+        "topic_label": "皇家礼仪、郊庙宴庆与应制颂德",
+        "contrast": "E-H",
+        "final_historical_status": "KEEP_WITH_CAUTION"
+      },
+      {
+        "topic_id": "topic_05",
+        "topic_label": "皇家礼仪、郊庙宴庆与应制颂德",
+        "contrast": "E-L",
+        "final_historical_status": "KEEP_WITH_CAUTION"
+      },
+      {
+        "topic_id": "topic_05",
+        "topic_label": "皇家礼仪、郊庙宴庆与应制颂德",
+        "contrast": "M-L",
+        "final_historical_status": "KEEP_WITH_CAUTION"
+      },
+      {
+        "topic_id": "topic_06",
+        "topic_label": "宫闺月夜、相思与女性哀怨",
+        "contrast": "M-L",
+        "final_historical_status": "KEEP_WITH_CAUTION"
+      },
+      {
+        "topic_id": "topic_08",
+        "topic_label": "王朝功德、郊庙礼乐与忠贤颂咏",
+        "contrast": "H-M",
+        "final_historical_status": "KEEP_WITH_CAUTION"
+      },
+      {
+        "topic_id": "topic_09",
+        "topic_label": "山寺禅居、僧侣往还与清夜幽境",
+        "contrast": "E-L",
+        "final_historical_status": "KEEP_WITH_CAUTION"
+      },
+      {
+        "topic_id": "topic_11",
+        "topic_label": "边塞征战、征人思归与战争悲悯",
+        "contrast": "H-M",
+        "final_historical_status": "KEEP_WITH_CAUTION"
+      }
+    ],
+    "humanistic_queue_count": 7
+  }
+}

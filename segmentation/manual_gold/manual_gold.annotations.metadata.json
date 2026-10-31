@@ -1,0 +1,14 @@
+{
+  "source_workbook": "tang_poetry 人工金标准.xlsx",
+  "source_workbook_sha256": "c76cbbf875f62d1c6b8eda34f68c0e9a21a141412d84b575fcfae3bd5f7b621d",
+  "sheet": "Sheet1",
+  "range": "A1:C486",
+  "header": [
+    "诗人",
+    "篇名",
+    "分词"
+  ],
+  "record_count": 485,
+  "annotation_output": "manual_gold.annotations.jsonl",
+  "annotation_output_sha256": "e0acbf1377832219ec1ad07dbaf886c34cbc40e33f91762e40bd763dc015f759"
+}

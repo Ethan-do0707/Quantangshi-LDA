@@ -1,0 +1,101 @@
+{
+  "method": "sikufenci_manual_gold_overlay",
+  "source_method": "sikufenci",
+  "text_authority": "source_result_token_concatenation",
+  "source_result": "segmentation\\results\\sikufenci.jsonl",
+  "source_corpus": "segmentation\\data\\poems.jsonl",
+  "manual_workbook": "tang_poetry 人工金标准.xlsx",
+  "manual_annotations": "segmentation\\manual_gold\\manual_gold.annotations.jsonl",
+  "manual_extraction_metadata": "segmentation\\manual_gold\\manual_gold.annotations.metadata.json",
+  "output_result": "segmentation\\results\\sikufenci_manual_gold.jsonl",
+  "audit_file": "segmentation\\results\\sikufenci_manual_gold.audit.csv",
+  "source_sha256": "39abc98e1ed16b04e47e06a3b0d27830d25638669880d2ce3a02fe87d8efce78",
+  "source_corpus_sha256": "bf8a292bd6f7517c8d965e29aa2cb7c38900abd547b631c8ccb8ef69f97a6a98",
+  "manual_workbook_sha256": "c76cbbf875f62d1c6b8eda34f68c0e9a21a141412d84b575fcfae3bd5f7b621d",
+  "manual_annotations_sha256": "e0acbf1377832219ec1ad07dbaf886c34cbc40e33f91762e40bd763dc015f759",
+  "output_sha256": "0fa04536fa9a00ec13484f160069d399c9ebfd07ab8400263a08df474a826caf",
+  "manual_sheet": "Sheet1",
+  "manual_range": "A1:C486",
+  "manual_header": [
+    "诗人",
+    "篇名",
+    "分词"
+  ],
+  "poem_count": 43030,
+  "annotated_poem_count": 485,
+  "unannotated_poem_count": 42545,
+  "full_annotation_count": 426,
+  "prefix_annotation_count": 59,
+  "exact_text_annotation_count": 481,
+  "variant_boundary_projection_count": 4,
+  "whitespace_normalized_annotation_count": 4,
+  "annotated_character_count": 36490,
+  "changed_poem_count": 412,
+  "unchanged_annotated_poem_count": 73,
+  "old_token_count": 2481050,
+  "new_token_count": 2480498,
+  "net_token_change": -552,
+  "added_boundary_count": 361,
+  "removed_boundary_count": 913,
+  "corpus_text_mismatch_count": 1,
+  "corpus_text_mismatches": [
+    {
+      "id": 1,
+      "offset": 25,
+      "corpus_length": 528,
+      "source_result_length": 528,
+      "corpus_context": "殿千寻起，离宫百雉余。连薨遥接汉，飞观迥凌虚。云日",
+      "source_result_context": "殿千寻起，离宫百雉余。连甍遥接汉，飞观迥凌虚。云日"
+    }
+  ],
+  "variant_annotations": [
+    {
+      "excel_row": 80,
+      "id": 217,
+      "poet": "武则天",
+      "title": "唐明堂乐章。迎送王公",
+      "similarity": 0.975,
+      "operations": [
+        "replace:人工[33:34]='永'->基础[33:34]='水'"
+      ]
+    },
+    {
+      "excel_row": 268,
+      "id": 778,
+      "poet": "贯休",
+      "title": "乐府杂曲。鼓吹曲辞。战城南二首",
+      "similarity": 0.990741,
+      "operations": [
+        "replace:人工[3:4]='干'->基础[3:4]='乾'"
+      ]
+    },
+    {
+      "excel_row": 303,
+      "id": 858,
+      "poet": "沈彬",
+      "title": "横吹曲辞。入塞曲",
+      "similarity": 0.996109,
+      "operations": [
+        "delete:人工[65:66]='、'->基础[65:65]=''"
+      ]
+    },
+    {
+      "excel_row": 326,
+      "id": 919,
+      "poet": "温庭筠",
+      "title": "相和歌辞。公无渡河",
+      "similarity": 0.984456,
+      "operations": [
+        "replace:人工[75:76]='趠'->基础[75:77]='走覃'"
+      ]
+    }
+  ],
+  "scope_note": "人工金标准只覆盖 485 首，其中省略号行只覆盖已标前缀；未标诗与前缀之外的正文保留原 sikufenci 词界。",
+  "variant_note": "人工表中的异文字面只用于投射词界；输出始终保留基础 sikufenci 的字符序列。",
+  "validation": {
+    "extraction_hashes_match_workbook": true,
+    "all_annotations_uniquely_aligned": true,
+    "all_outputs_reconstruct_source_result_text": true,
+    "line_count_and_id_alignment": true
+  }
+}

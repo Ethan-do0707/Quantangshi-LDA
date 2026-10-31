@@ -1,0 +1,18 @@
+{
+  "purpose": "仅用于停用词候选审查，不作为最终主题模型",
+  "source_result": "segmentation\\results\\sikufenci.jsonl",
+  "document_count": 43030,
+  "matrix_shape": [
+    43030,
+    7774
+  ],
+  "matrix_nonzero_count": 1613498,
+  "topic_count": 20,
+  "minimum_document_frequency": 20,
+  "maximum_features": 10000,
+  "iterations": 5,
+  "learning_method": "online",
+  "random_state": 42,
+  "jobs": -1,
+  "sklearn_version": "1.9.0"
+}

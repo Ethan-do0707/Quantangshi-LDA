@@ -1,0 +1,8 @@
+{
+  "original_workbook": "QTS_K12_K15_K20_Human_Review.xlsx",
+  "original_sha256": "04ae77e31b25691741a219ef3de953597803f1ab56f7c573952702d68ab7927a",
+  "backup_workbook": "QTS_K12_K15_K20_Human_Review.before_AI_review.xlsx",
+  "backup_sha256": "04ae77e31b25691741a219ef3de953597803f1ab56f7c573952702d68ab7927a",
+  "hashes_match": true,
+  "note": "原工作簿在冻结时由 Excel 占用；原件哈希此前以共享读取方式确认，备份为同哈希逐字节副本。"
+}

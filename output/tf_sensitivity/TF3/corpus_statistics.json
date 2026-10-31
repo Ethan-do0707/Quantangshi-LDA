@@ -1,0 +1,49 @@
+{
+  "threshold": "TF3",
+  "min_tf": 3,
+  "fixed_min_df": 3,
+  "fixed_automatic_max_df": null,
+  "poem_count": 43030,
+  "valid_poem_count": 43015,
+  "empty_poem_count": 15,
+  "total_tokens": 1525932,
+  "vocabulary_size": 35063,
+  "document_length": {
+    "min": 0,
+    "p10": 14.0,
+    "p25": 19.0,
+    "p50": 27.0,
+    "mean": 35.462049732744596,
+    "median": 27.0,
+    "p75": 36.0,
+    "p90": 61.0,
+    "p95": 85.0,
+    "p99": 185.0,
+    "max": 2532
+  },
+  "vocabulary_frequency_bands": {
+    "tf_eq_1_types": 1,
+    "tf_eq_2_types": 5,
+    "tf_eq_3_types": 7536,
+    "tf_eq_4_types": 4412,
+    "tf_ge_5_types": 23109
+  },
+  "protected_vocabulary_size": 176,
+  "protected_token_occurrences": 22500,
+  "low_tf_removed_vocabulary": 88088,
+  "low_tf_removed_occurrences": 105111,
+  "poems_at_or_below_5_tokens": 208,
+  "poems_at_or_below_10_tokens": 1342,
+  "poems_above_p99": 429,
+  "percentile_method": "linear interpolation at (n-1)*p",
+  "outputs": {
+    "lda_corpus": {
+      "path": "output/tf_sensitivity/TF3/lda_corpus.csv",
+      "sha256": "eb1a5b2a8e41eda0253a3f355024ccdf6a72d39a90aa930fa629606160f985d0"
+    },
+    "lda_tokens": {
+      "path": "output/tf_sensitivity/TF3/lda_tokens.txt",
+      "sha256": "f0f83b5ed08727df2f05ed5d4ba40c8458f5e2c810b4eb8bd293d9bcd7b5955b"
+    }
+  }
+}

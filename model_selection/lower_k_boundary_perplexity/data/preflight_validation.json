@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "original_metrics_consistent": true,
+  "lda_parameters_match_original": true,
+  "input_baseline_established": true,
+  "original_C_K20_to_K60": [
+    {
+      "K": 20,
+      "mean_NPMI": 0.1013637818,
+      "mean_Topic_Diversity": 0.4566666667,
+      "mean_Stability": 0.3154198809
+    },
+    {
+      "K": 30,
+      "mean_NPMI": 0.1000305292,
+      "mean_Topic_Diversity": 0.3955555556,
+      "mean_Stability": 0.2859901122
+    },
+    {
+      "K": 40,
+      "mean_NPMI": 0.0963096703,
+      "mean_Topic_Diversity": 0.38375,
+      "mean_Stability": 0.2503832949
+    },
+    {
+      "K": 50,
+      "mean_NPMI": 0.0911954102,
+      "mean_Topic_Diversity": 0.372,
+      "mean_Stability": 0.2395378125
+    },
+    {
+      "K": 60,
+      "mean_NPMI": 0.0850345434,
+      "mean_Topic_Diversity": 0.3733333333,
+      "mean_Stability": 0.2400142353
+    }
+  ]
+}

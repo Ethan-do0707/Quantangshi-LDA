@@ -1,0 +1,718 @@
+{
+  "omnibus_fdr_pass": {
+    "AUTHOR": 2,
+    "POEM": 5
+  },
+  "validation_status_counts": {
+    "E-H": {
+      "STRONG": 0,
+      "SUPPORTED": 3,
+      "TENTATIVE": 4,
+      "UNSUPPORTED": 0,
+      "CONFLICTING": 2
+    },
+    "H-M": {
+      "STRONG": 0,
+      "SUPPORTED": 1,
+      "TENTATIVE": 2,
+      "UNSUPPORTED": 2,
+      "CONFLICTING": 4
+    },
+    "M-L": {
+      "STRONG": 1,
+      "SUPPORTED": 1,
+      "TENTATIVE": 3,
+      "UNSUPPORTED": 0,
+      "CONFLICTING": 4
+    },
+    "E-L": {
+      "STRONG": 3,
+      "SUPPORTED": 4,
+      "TENTATIVE": 1,
+      "UNSUPPORTED": 0,
+      "CONFLICTING": 1
+    }
+  },
+  "early_late_largest_absolute": {
+    "CORE_POEM": {
+      "topic_id": "topic_03",
+      "topic_label": "朝廷礼乐、应制与颂圣",
+      "contrast": "E-L",
+      "raw_delta_poem": -0.09446917612090609,
+      "raw_delta_author": -0.12513293195661412,
+      "hedges_g": -0.8230447944317173,
+      "cliff_delta": -0.375609756097561,
+      "validation_status": "STRONG"
+    },
+    "CORE_AUTHOR": {
+      "topic_id": "topic_03",
+      "topic_label": "朝廷礼乐、应制与颂圣",
+      "contrast": "E-L",
+      "raw_delta_poem": -0.09446917612090609,
+      "raw_delta_author": -0.12513293195661412,
+      "hedges_g": -0.8230447944317173,
+      "cliff_delta": -0.375609756097561,
+      "validation_status": "STRONG"
+    }
+  },
+  "core_poem_author_sign_complete_topics": [
+    "topic_03",
+    "topic_06",
+    "topic_08",
+    "topic_10",
+    "topic_20"
+  ],
+  "aggregation_conflict_topics": [
+    "topic_07",
+    "topic_11",
+    "topic_16",
+    "topic_19"
+  ],
+  "sample_sign_reversals": [
+    {
+      "topic_id": "topic_03",
+      "topic_label": "朝廷礼乐、应制与颂圣",
+      "contrast": "H-M",
+      "sign_reversal_specifications": "CORE_AUTHOR;CORE_POEM;EXPANDED_AUTHOR;EXPANDED_POEM;STRICT_AUTHOR;STRICT_POEM"
+    },
+    {
+      "topic_id": "topic_06",
+      "topic_label": "老病身世、仕宦与人生感怀",
+      "contrast": "E-H",
+      "sign_reversal_specifications": "CORE_AUTHOR;EXPANDED_AUTHOR;STRICT_AUTHOR"
+    },
+    {
+      "topic_id": "topic_06",
+      "topic_label": "老病身世、仕宦与人生感怀",
+      "contrast": "M-L",
+      "sign_reversal_specifications": "CORE_POEM;EXPANDED_POEM;STRICT_POEM"
+    },
+    {
+      "topic_id": "topic_07",
+      "topic_label": "相思离愁、夜月与琴声",
+      "contrast": "E-H",
+      "sign_reversal_specifications": "CORE_AUTHOR;EXPANDED_AUTHOR;STRICT_AUTHOR"
+    },
+    {
+      "topic_id": "topic_07",
+      "topic_label": "相思离愁、夜月与琴声",
+      "contrast": "H-M",
+      "sign_reversal_specifications": "CORE_POEM;EXPANDED_POEM;STRICT_POEM"
+    },
+    {
+      "topic_id": "topic_08",
+      "topic_label": "山居寺院、僧侣与幽居",
+      "contrast": "E-H",
+      "sign_reversal_specifications": "CORE_AUTHOR;EXPANDED_AUTHOR;STRICT_AUTHOR"
+    },
+    {
+      "topic_id": "topic_10",
+      "topic_label": "江湖羁旅、送别与思归",
+      "contrast": "E-H",
+      "sign_reversal_specifications": "CORE_AUTHOR;EXPANDED_AUTHOR;STRICT_AUTHOR"
+    },
+    {
+      "topic_id": "topic_10",
+      "topic_label": "江湖羁旅、送别与思归",
+      "contrast": "H-M",
+      "sign_reversal_specifications": "CORE_AUTHOR;EXPANDED_AUTHOR;STRICT_AUTHOR"
+    },
+    {
+      "topic_id": "topic_11",
+      "topic_label": "花香春情、女性与闺情",
+      "contrast": "E-L",
+      "sign_reversal_specifications": "CORE_AUTHOR;EXPANDED_AUTHOR;STRICT_AUTHOR"
+    },
+    {
+      "topic_id": "topic_16",
+      "topic_label": "边塞征战与军旅",
+      "contrast": "E-H",
+      "sign_reversal_specifications": "CORE_AUTHOR;CORE_POEM;EXPANDED_AUTHOR;EXPANDED_POEM;STRICT_AUTHOR;STRICT_POEM"
+    },
+    {
+      "topic_id": "topic_16",
+      "topic_label": "边塞征战与军旅",
+      "contrast": "M-L",
+      "sign_reversal_specifications": "CORE_POEM;EXPANDED_POEM;STRICT_POEM"
+    },
+    {
+      "topic_id": "topic_19",
+      "topic_label": "闲居山林与隐逸生活",
+      "contrast": "H-M",
+      "sign_reversal_specifications": "CORE_AUTHOR;EXPANDED_AUTHOR;STRICT_AUTHOR"
+    },
+    {
+      "topic_id": "topic_20",
+      "topic_label": "饮酒酬赠、宴集与送别",
+      "contrast": "H-M",
+      "sign_reversal_specifications": "CORE_AUTHOR;EXPANDED_AUTHOR;STRICT_AUTHOR"
+    },
+    {
+      "topic_id": "topic_20",
+      "topic_label": "饮酒酬赠、宴集与送别",
+      "contrast": "M-L",
+      "sign_reversal_specifications": "CORE_AUTHOR;EXPANDED_AUTHOR;STRICT_AUTHOR"
+    }
+  ],
+  "raw_vs_clr_direction_disagreements": [
+    {
+      "topic_id": "topic_08",
+      "topic_label": "山居寺院、僧侣与幽居",
+      "contrast": "E-H",
+      "aggregation": "AUTHOR",
+      "raw_direction": "POSITIVE",
+      "clr_direction": "NEGATIVE"
+    },
+    {
+      "topic_id": "topic_08",
+      "topic_label": "山居寺院、僧侣与幽居",
+      "contrast": "E-H",
+      "aggregation": "POEM",
+      "raw_direction": "POSITIVE",
+      "clr_direction": "NEGATIVE"
+    },
+    {
+      "topic_id": "topic_11",
+      "topic_label": "花香春情、女性与闺情",
+      "contrast": "E-L",
+      "aggregation": "AUTHOR",
+      "raw_direction": "NEGATIVE",
+      "clr_direction": "POSITIVE"
+    },
+    {
+      "topic_id": "topic_11",
+      "topic_label": "花香春情、女性与闺情",
+      "contrast": "H-M",
+      "aggregation": "AUTHOR",
+      "raw_direction": "NEGATIVE",
+      "clr_direction": "POSITIVE"
+    },
+    {
+      "topic_id": "topic_20",
+      "topic_label": "饮酒酬赠、宴集与送别",
+      "contrast": "H-M",
+      "aggregation": "AUTHOR",
+      "raw_direction": "POSITIVE",
+      "clr_direction": "NEGATIVE"
+    },
+    {
+      "topic_id": "topic_20",
+      "topic_label": "饮酒酬赠、宴集与送别",
+      "contrast": "H-M",
+      "aggregation": "POEM",
+      "raw_direction": "POSITIVE",
+      "clr_direction": "NEGATIVE"
+    },
+    {
+      "topic_id": "topic_20",
+      "topic_label": "饮酒酬赠、宴集与送别",
+      "contrast": "M-L",
+      "aggregation": "AUTHOR",
+      "raw_direction": "NEGATIVE",
+      "clr_direction": "POSITIVE"
+    }
+  ],
+  "special_topics": {
+    "topic_03": [
+      {
+        "topic_id": "topic_03",
+        "topic_label": "朝廷礼乐、应制与颂圣",
+        "contrast": "E-H",
+        "raw_delta_poem": -0.07456096765013168,
+        "raw_delta_author": -0.06579071589702921,
+        "hedges_g": -0.38338523604946606,
+        "cliff_delta": -0.18547929665343166,
+        "validation_status": "SUPPORTED"
+      },
+      {
+        "topic_id": "topic_03",
+        "topic_label": "朝廷礼乐、应制与颂圣",
+        "contrast": "H-M",
+        "raw_delta_poem": 0.0035133855135476705,
+        "raw_delta_author": 0.005846608834214867,
+        "hedges_g": 0.03940994574772625,
+        "cliff_delta": 0.032782291958531884,
+        "validation_status": "CONFLICTING"
+      },
+      {
+        "topic_id": "topic_03",
+        "topic_label": "朝廷礼乐、应制与颂圣",
+        "contrast": "M-L",
+        "raw_delta_poem": -0.023421593984322094,
+        "raw_delta_author": -0.06518882489379979,
+        "hedges_g": -0.4897848534048146,
+        "cliff_delta": -0.25180722891566265,
+        "validation_status": "STRONG"
+      },
+      {
+        "topic_id": "topic_03",
+        "topic_label": "朝廷礼乐、应制与颂圣",
+        "contrast": "E-L",
+        "raw_delta_poem": -0.09446917612090609,
+        "raw_delta_author": -0.12513293195661412,
+        "hedges_g": -0.8230447944317173,
+        "cliff_delta": -0.375609756097561,
+        "validation_status": "STRONG"
+      }
+    ],
+    "topic_08": [
+      {
+        "topic_id": "topic_08",
+        "topic_label": "山居寺院、僧侣与幽居",
+        "contrast": "E-H",
+        "raw_delta_poem": 0.004753067944330683,
+        "raw_delta_author": 0.01328623937305461,
+        "hedges_g": 0.19470368785557285,
+        "cliff_delta": -0.09018718094157685,
+        "validation_status": "CONFLICTING"
+      },
+      {
+        "topic_id": "topic_08",
+        "topic_label": "山居寺院、僧侣与幽居",
+        "contrast": "H-M",
+        "raw_delta_poem": 0.03650629258114068,
+        "raw_delta_author": 0.013537076995137926,
+        "hedges_g": 0.17323187167714751,
+        "cliff_delta": 0.1078733538806389,
+        "validation_status": "TENTATIVE"
+      },
+      {
+        "topic_id": "topic_08",
+        "topic_label": "山居寺院、僧侣与幽居",
+        "contrast": "M-L",
+        "raw_delta_poem": 0.027733075683932476,
+        "raw_delta_author": 0.014435535861244866,
+        "hedges_g": 0.1829905507329368,
+        "cliff_delta": 0.20722891566265056,
+        "validation_status": "TENTATIVE"
+      },
+      {
+        "topic_id": "topic_08",
+        "topic_label": "山居寺院、僧侣与幽居",
+        "contrast": "E-L",
+        "raw_delta_poem": 0.06899243620940385,
+        "raw_delta_author": 0.0412588522294374,
+        "hedges_g": 0.5967578521905549,
+        "cliff_delta": 0.23536585365853657,
+        "validation_status": "STRONG"
+      }
+    ],
+    "topic_06": [
+      {
+        "topic_id": "topic_06",
+        "topic_label": "老病身世、仕宦与人生感怀",
+        "contrast": "E-H",
+        "raw_delta_poem": 0.032472684120121977,
+        "raw_delta_author": 0.009553407008131717,
+        "hedges_g": 0.07080833628010295,
+        "cliff_delta": 0.04254112308564939,
+        "validation_status": "TENTATIVE"
+      },
+      {
+        "topic_id": "topic_06",
+        "topic_label": "老病身世、仕宦与人生感怀",
+        "contrast": "H-M",
+        "raw_delta_poem": 0.028093133437766406,
+        "raw_delta_author": 0.018621878267449224,
+        "hedges_g": 0.14392332950866324,
+        "cliff_delta": 0.17511908097506312,
+        "validation_status": "TENTATIVE"
+      },
+      {
+        "topic_id": "topic_06",
+        "topic_label": "老病身世、仕宦与人生感怀",
+        "contrast": "M-L",
+        "raw_delta_poem": 0.0330664849451113,
+        "raw_delta_author": 0.042058699080343126,
+        "hedges_g": 0.30695632439633946,
+        "cliff_delta": 0.29156626506024086,
+        "validation_status": "TENTATIVE"
+      },
+      {
+        "topic_id": "topic_06",
+        "topic_label": "老病身世、仕宦与人生感怀",
+        "contrast": "E-L",
+        "raw_delta_poem": 0.09363230250299968,
+        "raw_delta_author": 0.07023398435592407,
+        "hedges_g": 0.480172395303377,
+        "cliff_delta": 0.4768292682926829,
+        "validation_status": "STRONG"
+      }
+    ],
+    "topic_16": [
+      {
+        "topic_id": "topic_16",
+        "topic_label": "边塞征战与军旅",
+        "contrast": "E-H",
+        "raw_delta_poem": 0.002113952831169816,
+        "raw_delta_author": -0.011649955408250597,
+        "hedges_g": -0.11010766554003855,
+        "cliff_delta": -0.10380034032898466,
+        "validation_status": "CONFLICTING"
+      },
+      {
+        "topic_id": "topic_16",
+        "topic_label": "边塞征战与军旅",
+        "contrast": "H-M",
+        "raw_delta_poem": -0.011010206238881971,
+        "raw_delta_author": -0.0332685640292691,
+        "hedges_g": -0.48549640815710077,
+        "cliff_delta": -0.2468478565424489,
+        "validation_status": "SUPPORTED"
+      },
+      {
+        "topic_id": "topic_16",
+        "topic_label": "边塞征战与军旅",
+        "contrast": "M-L",
+        "raw_delta_poem": -0.009225933370912574,
+        "raw_delta_author": 0.007008459930149723,
+        "hedges_g": 0.15032004046064198,
+        "cliff_delta": 0.2427710843373494,
+        "validation_status": "CONFLICTING"
+      },
+      {
+        "topic_id": "topic_16",
+        "topic_label": "边塞征战与军旅",
+        "contrast": "E-L",
+        "raw_delta_poem": -0.01812218677862473,
+        "raw_delta_author": -0.037910059507369975,
+        "hedges_g": -0.43607188379373635,
+        "cliff_delta": -0.198780487804878,
+        "validation_status": "SUPPORTED"
+      }
+    ]
+  },
+  "topic_06_in_author_queue": true,
+  "statistically_supported_candidate_trends": [
+    {
+      "topic_id": "topic_03",
+      "topic_label": "朝廷礼乐、应制与颂圣",
+      "contrast": "E-H",
+      "direction": "NEGATIVE",
+      "raw_effect_poem": -0.07456096765013168,
+      "raw_effect_author": -0.06579071589702921,
+      "effect_size_author": -0.38338523604946606,
+      "hedges_g": -0.38338523604946606,
+      "cliff_delta": -0.18547929665343166,
+      "bootstrap_support_poem": "SUPPORTED_NEGATIVE",
+      "bootstrap_support_author": "UNCERTAIN",
+      "q_poem": 0.0006864967460613532,
+      "q_author": 0.2582326796248506,
+      "aggregation_agreement": "MODERATE",
+      "sample_robustness": "HIGH",
+      "representativeness_risk": "MODERATE",
+      "clr_agreement": true,
+      "validation_status": "SUPPORTED",
+      "validation_reason": "两种 CORE estimand 同号且至少一项 bootstrap 支持该方向; 作者等权标准化效应达到预设非微小阈值; metadata representativeness risk 为 MODERATE"
+    },
+    {
+      "topic_id": "topic_03",
+      "topic_label": "朝廷礼乐、应制与颂圣",
+      "contrast": "M-L",
+      "direction": "NEGATIVE",
+      "raw_effect_poem": -0.023421593984322094,
+      "raw_effect_author": -0.06518882489379979,
+      "effect_size_author": -0.4897848534048146,
+      "hedges_g": -0.4897848534048146,
+      "cliff_delta": -0.25180722891566265,
+      "bootstrap_support_poem": "SUPPORTED_NEGATIVE",
+      "bootstrap_support_author": "SUPPORTED_NEGATIVE",
+      "q_poem": 0.001187195950023726,
+      "q_author": 0.03145257563786117,
+      "aggregation_agreement": "HIGH",
+      "sample_robustness": "HIGH",
+      "representativeness_risk": "MODERATE",
+      "clr_agreement": true,
+      "validation_status": "STRONG",
+      "validation_reason": "两种 CORE estimand 同号且 bootstrap 同向支持; 至少一个 planned contrast 通过相应 FDR family; 作者等权标准化效应达到预设非微小阈值; metadata representativeness risk 为 MODERATE"
+    },
+    {
+      "topic_id": "topic_03",
+      "topic_label": "朝廷礼乐、应制与颂圣",
+      "contrast": "E-L",
+      "direction": "NEGATIVE",
+      "raw_effect_poem": -0.09446917612090609,
+      "raw_effect_author": -0.12513293195661412,
+      "effect_size_author": -0.8230447944317173,
+      "hedges_g": -0.8230447944317173,
+      "cliff_delta": -0.375609756097561,
+      "bootstrap_support_poem": "SUPPORTED_NEGATIVE",
+      "bootstrap_support_author": "SUPPORTED_NEGATIVE",
+      "q_poem": 2.922988838907125e-06,
+      "q_author": 0.009003324620847821,
+      "aggregation_agreement": "HIGH",
+      "sample_robustness": "HIGH",
+      "representativeness_risk": "MODERATE",
+      "clr_agreement": true,
+      "validation_status": "STRONG",
+      "validation_reason": "两种 CORE estimand 同号且 bootstrap 同向支持; 至少一个 planned contrast 通过相应 FDR family; 作者等权标准化效应达到预设非微小阈值; metadata representativeness risk 为 MODERATE"
+    },
+    {
+      "topic_id": "topic_06",
+      "topic_label": "老病身世、仕宦与人生感怀",
+      "contrast": "E-L",
+      "direction": "POSITIVE",
+      "raw_effect_poem": 0.09363230250299968,
+      "raw_effect_author": 0.07023398435592407,
+      "effect_size_author": 0.480172395303377,
+      "hedges_g": 0.480172395303377,
+      "cliff_delta": 0.4768292682926829,
+      "bootstrap_support_poem": "SUPPORTED_POSITIVE",
+      "bootstrap_support_author": "SUPPORTED_POSITIVE",
+      "q_poem": 0.00022036365705255852,
+      "q_author": 0.17606814258529907,
+      "aggregation_agreement": "HIGH",
+      "sample_robustness": "HIGH",
+      "representativeness_risk": "MODERATE",
+      "clr_agreement": true,
+      "validation_status": "STRONG",
+      "validation_reason": "两种 CORE estimand 同号且 bootstrap 同向支持; 至少一个 planned contrast 通过相应 FDR family; 作者等权标准化效应达到预设非微小阈值; metadata representativeness risk 为 MODERATE"
+    },
+    {
+      "topic_id": "topic_07",
+      "topic_label": "相思离愁、夜月与琴声",
+      "contrast": "E-L",
+      "direction": "NEGATIVE",
+      "raw_effect_poem": -0.05451657093369921,
+      "raw_effect_author": -0.023287728790130455,
+      "effect_size_author": -0.2270631068555316,
+      "hedges_g": -0.2270631068555316,
+      "cliff_delta": -0.15975609756097564,
+      "bootstrap_support_poem": "SUPPORTED_NEGATIVE",
+      "bootstrap_support_author": "UNCERTAIN",
+      "q_poem": 0.001187195950023726,
+      "q_author": 0.60636951051403,
+      "aggregation_agreement": "MODERATE",
+      "sample_robustness": "HIGH",
+      "representativeness_risk": "LOW",
+      "clr_agreement": true,
+      "validation_status": "SUPPORTED",
+      "validation_reason": "两种 CORE estimand 同号且至少一项 bootstrap 支持该方向; 作者等权标准化效应达到预设非微小阈值"
+    },
+    {
+      "topic_id": "topic_08",
+      "topic_label": "山居寺院、僧侣与幽居",
+      "contrast": "E-L",
+      "direction": "POSITIVE",
+      "raw_effect_poem": 0.06899243620940385,
+      "raw_effect_author": 0.0412588522294374,
+      "effect_size_author": 0.5967578521905549,
+      "hedges_g": 0.5967578521905549,
+      "cliff_delta": 0.23536585365853657,
+      "bootstrap_support_poem": "SUPPORTED_POSITIVE",
+      "bootstrap_support_author": "SUPPORTED_POSITIVE",
+      "q_poem": 7.841655996392142e-06,
+      "q_author": 0.1032035615827069,
+      "aggregation_agreement": "HIGH",
+      "sample_robustness": "HIGH",
+      "representativeness_risk": "MODERATE",
+      "clr_agreement": true,
+      "validation_status": "STRONG",
+      "validation_reason": "两种 CORE estimand 同号且 bootstrap 同向支持; 至少一个 planned contrast 通过相应 FDR family; 作者等权标准化效应达到预设非微小阈值; metadata representativeness risk 为 MODERATE"
+    },
+    {
+      "topic_id": "topic_10",
+      "topic_label": "江湖羁旅、送别与思归",
+      "contrast": "E-L",
+      "direction": "POSITIVE",
+      "raw_effect_poem": 0.027566419596526004,
+      "raw_effect_author": 0.05734576010613468,
+      "effect_size_author": 0.4557047828190026,
+      "hedges_g": 0.4557047828190026,
+      "cliff_delta": 0.2987804878048781,
+      "bootstrap_support_poem": "UNCERTAIN",
+      "bootstrap_support_author": "SUPPORTED_POSITIVE",
+      "q_poem": 0.44325351002995905,
+      "q_author": 0.17606814258529907,
+      "aggregation_agreement": "MODERATE",
+      "sample_robustness": "HIGH",
+      "representativeness_risk": "LOW",
+      "clr_agreement": true,
+      "validation_status": "SUPPORTED",
+      "validation_reason": "两种 CORE estimand 同号且至少一项 bootstrap 支持该方向; 作者等权标准化效应达到预设非微小阈值; planned contrast FDR 未通过，结论依赖效应量与区间"
+    },
+    {
+      "topic_id": "topic_11",
+      "topic_label": "花香春情、女性与闺情",
+      "contrast": "M-L",
+      "direction": "POSITIVE",
+      "raw_effect_poem": 0.04505253213795302,
+      "raw_effect_author": 0.03492230103556509,
+      "effect_size_author": 0.5169461080324345,
+      "hedges_g": 0.5169461080324345,
+      "cliff_delta": 0.330722891566265,
+      "bootstrap_support_poem": "SUPPORTED_POSITIVE",
+      "bootstrap_support_author": "SUPPORTED_POSITIVE",
+      "q_poem": 0.11902866033319956,
+      "q_author": 0.17606814258529907,
+      "aggregation_agreement": "HIGH",
+      "sample_robustness": "HIGH",
+      "representativeness_risk": "MODERATE",
+      "clr_agreement": true,
+      "validation_status": "SUPPORTED",
+      "validation_reason": "两种 CORE estimand 同号且至少一项 bootstrap 支持该方向; 作者等权标准化效应达到预设非微小阈值; planned contrast FDR 未通过，结论依赖效应量与区间; metadata representativeness risk 为 MODERATE"
+    },
+    {
+      "topic_id": "topic_16",
+      "topic_label": "边塞征战与军旅",
+      "contrast": "H-M",
+      "direction": "NEGATIVE",
+      "raw_effect_poem": -0.011010206238881971,
+      "raw_effect_author": -0.0332685640292691,
+      "effect_size_author": -0.48549640815710077,
+      "hedges_g": -0.48549640815710077,
+      "cliff_delta": -0.2468478565424489,
+      "bootstrap_support_poem": "UNCERTAIN",
+      "bootstrap_support_author": "SUPPORTED_NEGATIVE",
+      "q_poem": 0.14946307967300185,
+      "q_author": 0.17606814258529907,
+      "aggregation_agreement": "MODERATE",
+      "sample_robustness": "HIGH",
+      "representativeness_risk": "LOW",
+      "clr_agreement": true,
+      "validation_status": "SUPPORTED",
+      "validation_reason": "两种 CORE estimand 同号且至少一项 bootstrap 支持该方向; 作者等权标准化效应达到预设非微小阈值; planned contrast FDR 未通过，结论依赖效应量与区间"
+    },
+    {
+      "topic_id": "topic_16",
+      "topic_label": "边塞征战与军旅",
+      "contrast": "E-L",
+      "direction": "NEGATIVE",
+      "raw_effect_poem": -0.01812218677862473,
+      "raw_effect_author": -0.037910059507369975,
+      "effect_size_author": -0.43607188379373635,
+      "hedges_g": -0.43607188379373635,
+      "cliff_delta": -0.198780487804878,
+      "bootstrap_support_poem": "SUPPORTED_NEGATIVE",
+      "bootstrap_support_author": "SUPPORTED_NEGATIVE",
+      "q_poem": 0.14946307967300185,
+      "q_author": 0.18029673124008722,
+      "aggregation_agreement": "HIGH",
+      "sample_robustness": "HIGH",
+      "representativeness_risk": "LOW",
+      "clr_agreement": true,
+      "validation_status": "SUPPORTED",
+      "validation_reason": "两种 CORE estimand 同号且至少一项 bootstrap 支持该方向; 作者等权标准化效应达到预设非微小阈值; planned contrast FDR 未通过，结论依赖效应量与区间"
+    },
+    {
+      "topic_id": "topic_19",
+      "topic_label": "闲居山林与隐逸生活",
+      "contrast": "E-H",
+      "direction": "POSITIVE",
+      "raw_effect_poem": 0.021960592415885605,
+      "raw_effect_author": 0.036074926043937285,
+      "effect_size_author": 0.43867907454700555,
+      "hedges_g": 0.43867907454700555,
+      "cliff_delta": 0.17300056721497437,
+      "bootstrap_support_poem": "SUPPORTED_POSITIVE",
+      "bootstrap_support_author": "SUPPORTED_POSITIVE",
+      "q_poem": 0.14946307967300185,
+      "q_author": 0.17606814258529907,
+      "aggregation_agreement": "HIGH",
+      "sample_robustness": "HIGH",
+      "representativeness_risk": "LOW",
+      "clr_agreement": true,
+      "validation_status": "SUPPORTED",
+      "validation_reason": "两种 CORE estimand 同号且至少一项 bootstrap 支持该方向; 作者等权标准化效应达到预设非微小阈值; planned contrast FDR 未通过，结论依赖效应量与区间"
+    },
+    {
+      "topic_id": "topic_19",
+      "topic_label": "闲居山林与隐逸生活",
+      "contrast": "E-L",
+      "direction": "POSITIVE",
+      "raw_effect_poem": 0.0217955498484991,
+      "raw_effect_author": 0.003313638848832467,
+      "effect_size_author": 0.07345893223538232,
+      "hedges_g": 0.07345893223538232,
+      "cliff_delta": 0.18902439024390238,
+      "bootstrap_support_poem": "SUPPORTED_POSITIVE",
+      "bootstrap_support_author": "UNCERTAIN",
+      "q_poem": 0.13194192435502997,
+      "q_author": 0.7915131441348465,
+      "aggregation_agreement": "MODERATE",
+      "sample_robustness": "HIGH",
+      "representativeness_risk": "LOW",
+      "clr_agreement": true,
+      "validation_status": "SUPPORTED",
+      "validation_reason": "两种 CORE estimand 同号且至少一项 bootstrap 支持该方向; 作者等权标准化效应达到预设非微小阈值; planned contrast FDR 未通过，结论依赖效应量与区间"
+    },
+    {
+      "topic_id": "topic_20",
+      "topic_label": "饮酒酬赠、宴集与送别",
+      "contrast": "E-H",
+      "direction": "POSITIVE",
+      "raw_effect_poem": 0.018416073721766603,
+      "raw_effect_author": 0.015438435885019513,
+      "effect_size_author": 0.31849257675584813,
+      "hedges_g": 0.31849257675584813,
+      "cliff_delta": 0.13216108905275092,
+      "bootstrap_support_poem": "SUPPORTED_POSITIVE",
+      "bootstrap_support_author": "UNCERTAIN",
+      "q_poem": 0.05778236897486043,
+      "q_author": 0.36999107571077033,
+      "aggregation_agreement": "MODERATE",
+      "sample_robustness": "HIGH",
+      "representativeness_risk": "MODERATE",
+      "clr_agreement": true,
+      "validation_status": "SUPPORTED",
+      "validation_reason": "两种 CORE estimand 同号且至少一项 bootstrap 支持该方向; 作者等权标准化效应达到预设非微小阈值; planned contrast FDR 未通过，结论依赖效应量与区间; metadata representativeness risk 为 MODERATE"
+    }
+  ],
+  "author_influence_priority_topics": [
+    {
+      "priority": 1,
+      "topic_id": "topic_03",
+      "topic_label": "朝廷礼乐、应制与颂圣"
+    },
+    {
+      "priority": 1,
+      "topic_id": "topic_06",
+      "topic_label": "老病身世、仕宦与人生感怀"
+    },
+    {
+      "priority": 1,
+      "topic_id": "topic_07",
+      "topic_label": "相思离愁、夜月与琴声"
+    },
+    {
+      "priority": 1,
+      "topic_id": "topic_08",
+      "topic_label": "山居寺院、僧侣与幽居"
+    },
+    {
+      "priority": 1,
+      "topic_id": "topic_10",
+      "topic_label": "江湖羁旅、送别与思归"
+    },
+    {
+      "priority": 1,
+      "topic_id": "topic_11",
+      "topic_label": "花香春情、女性与闺情"
+    },
+    {
+      "priority": 1,
+      "topic_id": "topic_16",
+      "topic_label": "边塞征战与军旅"
+    },
+    {
+      "priority": 1,
+      "topic_id": "topic_19",
+      "topic_label": "闲居山林与隐逸生活"
+    },
+    {
+      "priority": 1,
+      "topic_id": "topic_20",
+      "topic_label": "饮酒酬赠、宴集与送别"
+    }
+  ],
+  "clr": {
+    "zero_count": 0,
+    "pseudocount": null,
+    "temporary_matrix_sha256": "af1dd72d84f61797d3d1f6a920c9cf53d99642f2299c43ca1d65c09c21eb6d57"
+  },
+  "bootstrap": {
+    "iterations": 5000,
+    "seed": 20260901,
+    "replicate_sha256": "2a94eacbdb09a891d0d121194567f5b246b475b56206f1b497d4a49d68ba9ca6"
+  }
+}

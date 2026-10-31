@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "checkpoint_signature": "f591f70713c45a8030e885ca86670ba4e31ad1b2f7045044e0861c38e0bdcaa4",
+  "corpus": "A",
+  "min_tf": 1,
+  "min_df": 1,
+  "topic_count": 20,
+  "random_seed": 2026,
+  "document_count": 43019,
+  "vocabulary_size": 123385,
+  "matrix_nnz": 1570182,
+  "max_iter": 30,
+  "iterations_run": 30,
+  "learning_method": "batch",
+  "fit_seconds": 1591.505995,
+  "training_perplexity": 9127.67441087025,
+  "coherence_metric": "document_npmi",
+  "mean_topic_npmi": 0.08253263601215763,
+  "min_topic_npmi": -0.060587964860392765,
+  "max_topic_npmi": 0.14061655217336527,
+  "topic_diversity": 0.5325,
+  "top_words": 20,
+  "outputs": {
+    "topics": {
+      "path": "output/lda_sensitivity/models/A/K20/seed_2026/topics.csv",
+      "sha256": "2f362b35ca6fc869f70c63d6504f4583609dc02019a46c70f438c53bd3478ff1"
+    },
+    "representative_poems": {
+      "path": "output/lda_sensitivity/models/A/K20/seed_2026/representative_poems.csv",
+      "sha256": "775df1188bcdf968bc9d5f5da217a0d5ce365669834042064d4cfc262ceb777b"
+    }
+  }
+}

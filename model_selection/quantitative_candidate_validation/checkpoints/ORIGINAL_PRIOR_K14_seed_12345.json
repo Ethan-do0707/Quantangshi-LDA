@@ -1,0 +1,170 @@
+{
+  "checkpoint_signature": "548553a824f731c55e485a934212a4c69ae6ba6cf4750a8e284e0e8b5b4dcb39",
+  "result": {
+    "K": 14,
+    "seed": 12345,
+    "prior_regime": "ORIGINAL_PRIOR",
+    "NPMI": 0.09696669718212587,
+    "test_perplexity": 12088.287303480458,
+    "train_perplexity": 4998.38145935483,
+    "test_score": -2888899.6247480507,
+    "train_score": -10378674.122212175,
+    "topic_diversity": 0.5035714285714286,
+    "mean_pairwise_topic_cosine": 0.4535769206131984,
+    "max_pairwise_topic_cosine": 0.7289700195190792,
+    "mean_pairwise_top20_jaccard": 0.10350055983452348,
+    "max_pairwise_top20_jaccard": 0.2903225806451613,
+    "high_cosine_090_pairs": 0,
+    "high_cosine_085_pairs": 0,
+    "high_jaccard_050_pairs": 0,
+    "min_topic_prevalence": 0.020811424014811966,
+    "max_topic_prevalence": 0.12478475431162957,
+    "min_dominant_topic_share": 0.010141810996164128,
+    "max_dominant_topic_share": 0.1399221201906312,
+    "low_prevalence_topic_count": 0,
+    "fit_time": 166.40857560001314,
+    "n_iter": 30,
+    "doc_topic_prior_effective": 0.07142857142857142,
+    "topic_word_prior_effective": 0.07142857142857142,
+    "n_train": 34412,
+    "n_test": 8603,
+    "vocab_size": 35063
+  },
+  "result_sha256": "5efd2399a0768fc4153217df0ea9799fa0a09265c6a2e99a8d4d3239e50115e8",
+  "audit": {
+    "fit_scope": "X_train_only",
+    "test_used_for_fit": false,
+    "npmi_reference": "X_train_only",
+    "npmi_top_words": 20,
+    "topic_diversity_definition": "top_20_unique_ratio",
+    "matching_definition": "hungarian_max_full_topic_word_cosine",
+    "fit_n_jobs": -1,
+    "evaluation_n_jobs": 1,
+    "model_parameters": {
+      "batch_size": 128,
+      "doc_topic_prior": null,
+      "evaluate_every": -1,
+      "learning_decay": 0.7,
+      "learning_method": "batch",
+      "learning_offset": 10.0,
+      "max_doc_update_iter": 100,
+      "max_iter": 30,
+      "mean_change_tol": 0.001,
+      "n_components": 14,
+      "n_jobs": -1,
+      "perp_tol": 0.1,
+      "random_state": 12345,
+      "topic_word_prior": null,
+      "total_samples": 1000000.0,
+      "verbose": 1
+    },
+    "components_sha256": "1a7a246cd79cf90a7a3d7c57315dd6b2755294c4321d61eb47c93f9416efe747",
+    "topic_prevalence": [
+      {
+        "topic_id": 1,
+        "mean_probability": 0.09354596151959037,
+        "dominant_topic_document_count": 3631,
+        "dominant_share": 0.10551551784261304,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 2,
+        "mean_probability": 0.08598643830890437,
+        "dominant_topic_document_count": 3179,
+        "dominant_share": 0.09238056491921423,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 3,
+        "mean_probability": 0.05285724244885009,
+        "dominant_topic_document_count": 1529,
+        "dominant_share": 0.04443217482273625,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 4,
+        "mean_probability": 0.028541582212537425,
+        "dominant_topic_document_count": 604,
+        "dominant_share": 0.01755201673834709,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 5,
+        "mean_probability": 0.10957101670270297,
+        "dominant_topic_document_count": 4080,
+        "dominant_share": 0.11856329187492735,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 6,
+        "mean_probability": 0.07305629481015914,
+        "dominant_topic_document_count": 2495,
+        "dominant_share": 0.072503777751947,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 7,
+        "mean_probability": 0.04763273882134317,
+        "dominant_topic_document_count": 1184,
+        "dominant_share": 0.03440660234801814,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 8,
+        "mean_probability": 0.029530485785918825,
+        "dominant_topic_document_count": 586,
+        "dominant_share": 0.017028943391840055,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 9,
+        "mean_probability": 0.12478475431162957,
+        "dominant_topic_document_count": 4815,
+        "dominant_share": 0.1399221201906312,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 10,
+        "mean_probability": 0.06352585127845141,
+        "dominant_topic_document_count": 2069,
+        "dominant_share": 0.06012437521794723,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 11,
+        "mean_probability": 0.08788639502385152,
+        "dominant_topic_document_count": 3255,
+        "dominant_share": 0.09458909682668837,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 12,
+        "mean_probability": 0.08151290968923557,
+        "dominant_topic_document_count": 2799,
+        "dominant_share": 0.08133790538184354,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 13,
+        "mean_probability": 0.020811424014811966,
+        "dominant_topic_document_count": 349,
+        "dominant_share": 0.010141810996164128,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 14,
+        "mean_probability": 0.10075690507201249,
+        "dominant_topic_document_count": 3837,
+        "dominant_share": 0.11150180169708242,
+        "low_prevalence_flag": false
+      }
+    ]
+  },
+  "topic_matrix_path": "model_selection/quantitative_candidate_validation/topic_matrices/ORIGINAL_PRIOR_K14_seed_12345.npz",
+  "topic_matrix_sha256": "b480b74713a868cc5ecc6640bb7b85f0fcda7383535dc9efca39ab9f09258394",
+  "matrix_sha256": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0",
+  "vocabulary_sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084",
+  "split_sha256": "ba4c0940e2dcc3792a135df6ed8810a13a94c5eaf10b04ca2c2ebdf7e4f79dd0",
+  "fit_rows_sha256": "5b14c68dd4f4f8a6f3f3ae600c731c5b15941022843a0b6cecef0a3f977b860a",
+  "test_rows_sha256": "d9955e72eb63667d0dce94bec4dce3530846a556cc53500896be38386ceb8130"
+}

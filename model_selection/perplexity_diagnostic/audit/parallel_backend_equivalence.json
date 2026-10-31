@@ -1,0 +1,12 @@
+{
+  "reference_backend": "loky",
+  "candidate_backend": "threading",
+  "deltas": {
+    "train_perplexity": 3.282040270487414,
+    "test_perplexity": -48.3391929278132,
+    "train_score": -766.9959785044193,
+    "test_score": 966.9883291292936,
+    "n_iter_": 0
+  },
+  "passed": false
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "base_cleaning_config": "config/cleaning_config.yaml",
+  "thresholds": [1, 2, 3, 5],
+  "output_root": "output/tf_sensitivity",
+  "reports_root": "reports/tf_sensitivity",
+  "log_path": "logs/tf_sensitivity.log",
+  "figures": {
+    "enabled": true,
+    "preferred_backend": "matplotlib",
+    "fallback_backend": "deterministic_svg",
+    "dpi": 200
+  },
+  "case_tokens": [
+    "黄金台",
+    "玉衡",
+    "景祚",
+    "历象",
+    "桂圃",
+    "成蹊",
+    "乾道",
+    "朝彩",
+    "金阵",
+    "商郊",
+    "田烛",
+    "抚戎",
+    "鸡戟",
+    "相识",
+    "长安",
+    "蓬莱",
+    "阳关",
+    "来仪",
+    "乘槎",
+    "烂柯",
+    "函谷关"
+  ]
+}

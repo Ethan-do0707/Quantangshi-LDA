@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "method": "rule_bound_lda_corpus_cleaning",
+  "started_at": "2026-08-30T10:21:13+08:00",
+  "finished_at": "2026-08-30T10:21:39+08:00",
+  "runtime_seconds": 26.297867,
+  "inputs": [
+    {
+      "role": "config",
+      "path": "config/cleaning_config.yaml",
+      "sha256": "e50679f9c28e1778247bb610c4afdf80aea2b75265973e78a8b2d260f900b687"
+    },
+    {
+      "role": "corpus",
+      "path": "segmentation/data/poems.jsonl",
+      "sha256": "bf8a292bd6f7517c8d965e29aa2cb7c38900abd547b631c8ccb8ef69f97a6a98"
+    },
+    {
+      "role": "tokenized_corpus",
+      "path": "segmentation/results/sikufenci_manual_gold.jsonl",
+      "sha256": "0fa04536fa9a00ec13484f160069d399c9ebfd07ab8400263a08df474a826caf"
+    },
+    {
+      "role": "normalization",
+      "path": "segmentation/manual_gold/resources/01_variant_normalization.tsv",
+      "sha256": "6b05bef80d6dcfa492bc6f8274a420a8a462c4a3ae5f268930b8a1e24a9d1393"
+    },
+    {
+      "role": "stopwords_core",
+      "path": "segmentation/manual_gold/resources/02_stopwords_core.txt",
+      "sha256": "6a3479c353bf94dd8fdb137a3ae27f7aefbe451697712b1bcda9d2dfd0a8c6b8"
+    },
+    {
+      "role": "protected_words",
+      "path": "segmentation/manual_gold/resources/03_protected_terms.tsv",
+      "sha256": "f3169c6d56d0fe046d0fdc761c11f7e90831fc52a33f9210388b5d150af3cdc6"
+    },
+    {
+      "role": "filtering_rules",
+      "path": "segmentation/manual_gold/resources/04_tf_df_rules.json",
+      "sha256": "9499abd7af4685412fcebb12f668cbbf81557664aa9c86ce57d32c7c24249837"
+    },
+    {
+      "role": "semantic_mapping",
+      "path": "segmentation/manual_gold/resources/05_semantic_mapping.tsv",
+      "sha256": "783d84fae79920b03e3c561a2e561b0e62e310a950a65c31f46abf4981456dd6"
+    }
+  ],
+  "resource_counts": {
+    "normalization": 4,
+    "stopwords_core": 105,
+    "protected_words": 182,
+    "filter_profiles": 2,
+    "semantic_mapping": 27
+  },
+  "rules": {
+    "schema_version": 1,
+    "profile": "default_profile",
+    "stopword_tier": "core",
+    "min_tf": 5,
+    "min_df": 3,
+    "automatic_max_df": null,
+    "high_df_manual_audit_rate": 0.1,
+    "semantic_mapping_applied": false,
+    "automatic_normalization_only": true,
+    "protected_words_priority": true
+  },
+  "quality_review": {
+    "low_token_count_threshold": 5,
+    "low_retention_ratio_threshold": 0.2,
+    "manual_sample_size": 200,
+    "random_seed": 20260830,
+    "thresholds_affect_cleaning": false
+  },
+  "environment": {
+    "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+    "implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "dependencies": {
+      "python": "3.11.15",
+      "standard_library_only": "true",
+      "PyYAML": "6.0.3"
+    }
+  },
+  "statistics": {
+    "poem_count": 43030,
+    "author_count": 2528,
+    "original_tokens_per_poem_mean": 57.64578201254938,
+    "original_tokens_per_poem_median": 42.0,
+    "original_tokens_per_poem_min": 0,
+    "original_tokens_per_poem_max": 3867,
+    "empty_text_count": 11,
+    "empty_tokenized_record_count": 11,
+    "duplicate_record_count": 2,
+    "missing_author_count": 0,
+    "missing_title_count": 0,
+    "effective_df_denominator": 43019,
+    "cleaned_nonempty_poem_count": 43014,
+    "input_token_count": 2480498,
+    "cleaned_token_count": 1485707,
+    "input_vocabulary_size": 123714,
+    "cleaned_vocabulary_size": 23123,
+    "normalization_occurrences": 0,
+    "data_quality_issue_rows": 25,
+    "rule_conflict_types": 0,
+    "protected_segmentation_issue_occurrences": 4985,
+    "low_retention_review_poems": 228,
+    "removal_occurrences_by_primary_reason": {
+      "OTHER_RULE": 465517,
+      "LOW_TF": 146003,
+      "STOPWORD": 383023,
+      "LOW_DF": 248
+    },
+    "removal_types_by_primary_reason": {
+      "OTHER_RULE": 224,
+      "LOW_TF": 100235,
+      "STOPWORD": 105,
+      "LOW_DF": 27
+    }
+  },
+  "outputs": [
+    {
+      "path": "output/lda_corpus.csv",
+      "sha256": "76951d7421765c618f2b1d2cdb52466bc02d5634e7458b2916cb02320f473ea9",
+      "bytes": 18126714
+    },
+    {
+      "path": "output/lda_tokens.txt",
+      "sha256": "3d038606ab9b79dbfb7529ccb8b3152bf72b83301039f789c2c3c02d80fc73f1",
+      "bytes": 7179087
+    },
+    {
+      "path": "output/semantic_mapping_expanded.csv",
+      "sha256": "7e85f950046b99726301f861d1c96050e6fc8b05a3f245d8a035d28719417103",
+      "bytes": 4387
+    },
+    {
+      "path": "reports/cleaning_summary.md",
+      "sha256": "b49109f6a37ada48f8802556204ad16915f845555e1a53957a536a3e7d68a7cf",
+      "bytes": 16587
+    },
+    {
+      "path": "reports/data_quality_issues.csv",
+      "sha256": "24da75623a635676eef22f0084cddf033a760fb5c41d60cc50c3bff7d697222e",
+      "bytes": 5425
+    },
+    {
+      "path": "reports/low_retention_poems.csv",
+      "sha256": "e6e2d6d8552b6a1c5864824fbe48471a9b01da660337cf04bdd71208d411be92",
+      "bytes": 39838
+    },
+    {
+      "path": "reports/manual_check_sample.csv",
+      "sha256": "553d6f1400c8bad74b8f3b928b6fc6bf19bbcd4baf88f644b5f9743dc8416efc",
+      "bytes": 146166
+    },
+    {
+      "path": "reports/normalization_log.csv",
+      "sha256": "eb01a986d10c51ba3f6364f29d6e9d1efb95f11acc3edd66d893879c058cd652",
+      "bytes": 87
+    },
+    {
+      "path": "reports/normalization_rule_statistics.csv",
+      "sha256": "b6ea2c23af0b647e2036e78fb7afb3cc02a27a0932b3dbc67532235394de2b1b",
+      "bytes": 997
+    },
+    {
+      "path": "reports/poem_cleaning_statistics.csv",
+      "sha256": "afcedb118ead88296a567c3d37b5c21bbb23f5013f70b75246516a1707e3a7a6",
+      "bytes": 3163391
+    },
+    {
+      "path": "reports/protected_rescues.csv",
+      "sha256": "0053f929a986a0ed54421b1d4ad67c822ca01df193119e63c2d9233a1520b6c0",
+      "bytes": 609
+    },
+    {
+      "path": "reports/protected_word_segmentation_issues.csv",
+      "sha256": "fee660f17d4a3baa78d1864f8fba25783e89e7cd07846dc0db767b4431b7826d",
+      "bytes": 3017836
+    },
+    {
+      "path": "reports/removed_tokens.csv",
+      "sha256": "2813b310a8cd7526f26e456354484b2f12fa57c261d645da2a24a5744a3c8116",
+      "bytes": 4775279
+    },
+    {
+      "path": "reports/rule_conflicts.csv",
+      "sha256": "d1ebb3758a95077f8a17c6e4f47ffc4bdb7064a92d039b9be0b41b7e5d4dfc54",
+      "bytes": 51
+    },
+    {
+      "path": "reports/token_statistics.csv",
+      "sha256": "f603a5da2fc04e8cc3c0c86914cb3c971837c2ced564e42f60917a00c52de4c5",
+      "bytes": 8237632
+    },
+    {
+      "path": "reports/top_100_df_tokens.csv",
+      "sha256": "7614e4a87f9faa1a72a89aa8128ccf25989a5373eaa7cb21de8b9e26cf6c6c69",
+      "bytes": 7120
+    },
+    {
+      "path": "reports/top_100_removed_tokens.csv",
+      "sha256": "1524b732111f910cbb844d389fdd45f95eacb8944c7c5e5fbe2c981f4e99105b",
+      "bytes": 5483
+    }
+  ]
+}

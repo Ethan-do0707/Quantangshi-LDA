@@ -1,0 +1,98 @@
+{
+  "body_text_parity": true,
+  "table_geometry_pass": true,
+  "tables": 12,
+  "source_hyperlinks": 159,
+  "numbered_lists": [
+    [
+      10,
+      1
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      10,
+      7
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      10,
+      9
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      11,
+      1
+    ],
+    [
+      11,
+      2
+    ],
+    [
+      11,
+      3
+    ],
+    [
+      11,
+      4
+    ],
+    [
+      11,
+      5
+    ],
+    [
+      11,
+      6
+    ],
+    [
+      11,
+      7
+    ],
+    [
+      11,
+      8
+    ]
+  ],
+  "preset": "narrative_proposal",
+  "header_pattern": "editorial_cover",
+  "overrides": {
+    "east_asia_body": "宋体",
+    "east_asia_headings": "等线",
+    "title_size": 24,
+    "table_font_size": 9
+  },
+  "visual_qa": "UNAVAILABLE_LIBREOFFICE_SOFFICE_NOT_INSTALLED",
+  "render_attempt": "render_docx.py在启动soffice时返回WinError 2；未完成分页视觉核验。"
+}

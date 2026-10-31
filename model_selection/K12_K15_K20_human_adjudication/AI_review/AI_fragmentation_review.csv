@@ -1,0 +1,16 @@
+﻿candidate_pair_id,left_topic_id,left_blind_topic_id,right_topic_id,right_blind_topic_id,AI_Provisional_Fragmentation_Status,AI_Rationale,AI_Confidence,Quantitative_Metrics_Used_As_Decision
+K20_F01,8,HR042,19,HR024,MEANINGFUL_SEPARATION,HR042 以寺院、僧侣、钟磬和禅居为核心；HR024 以世俗山居、退仕和自适为核心，宗教身份与出处功能不同。,HIGH,NO
+K20_F02,7,HR001,10,HR021,MEANINGFUL_SEPARATION,HR001 是月夜声景触发的相思离愁，HR021 是楚江舟路中的客愁思归；意象重叠但叙事场景不同。,HIGH,NO
+K20_F03,4,HR012,11,HR043,MEANINGFUL_SEPARATION,HR012 强调新岁、江南、归乡和惜时，HR043 强调女性、花、歌舞和宫闺相思，季节词不构成重复主题。,HIGH,NO
+K20_F04,2,HR025,6,HR010,MEANINGFUL_SEPARATION,HR025 是乱世、忠义和历史悲愤，HR010 是个人衰老、病困与诗友酬答，主体尺度和文学功能明显不同。,HIGH,NO
+K20_F05,10,HR021,19,HR024,MEANINGFUL_SEPARATION,HR021 聚焦移动中的江舟旅宿与送别，HR024 聚焦稳定的山林居处和退隐选择。,HIGH,NO
+K20_F06,11,HR043,12,HR004,MEANINGFUL_SEPARATION,HR043 的春花服务于女性歌舞与闺情，HR004 的春景服务于禽鸟、水岸和自然生态观察。,HIGH,NO
+K20_F07,8,HR042,10,HR021,MEANINGFUL_SEPARATION,山寺禅居与楚江羁旅的空间、人物和文体功能均不同，仅共享山云月等景物词。,HIGH,NO
+K20_F08,10,HR021,17,HR036,MEANINGFUL_SEPARATION,江舟归思与仙山寻真分别属于羁旅抒情和宗教超越，云山水等意象不足以判为碎片化。,HIGH,NO
+K20_F09,6,HR010,20,HR041,MEANINGFUL_SEPARATION,HR010 以老病身世为中心，HR041 以宴饮、赠答和离席为中心；诗酒与友朋是交集但不是同一主轴。,HIGH,NO
+K20_F10,2,HR025,5,HR015,MEANINGFUL_SEPARATION,HR025 通过战争与史迹表达忠魂悲愤，HR015 以史论、寓言和名节实施规范性劝戒，抒情与论理功能可区分。,HIGH,NO
+K20_F11,8,HR042,11,HR043,MEANINGFUL_SEPARATION,寺院清修与女性春花歌舞没有共同语义机制，相似度来自云月花等常用景物。,HIGH,NO
+K20_F12,8,HR042,17,HR036,MEANINGFUL_SEPARATION,HR042 的佛寺僧居与 HR036 的道观仙山、炼丹访真具有明确宗教传统和叙事目标差异。,HIGH,NO
+K20_F13,5,HR015,6,HR010,MEANINGFUL_SEPARATION,政治伦理劝戒与个人老病自咏在主体、语气和文体功能上不同。,HIGH,NO
+K20_F14,3,HR040,15,HR005,MEANINGFUL_SEPARATION,HR040 是郊庙献享和国家礼乐，HR005 是文章声名、仕宦荣典并夹杂宗教与哀挽，核心功能不同。,HIGH,NO
+K20_F15,6,HR010,9,HR022,UNCERTAIN,HR010 的老病身世清楚，HR022 本身为高频词驱动噪声；部分年时、出处与送归重叠无法证明重复，也难据噪声主题确认有效分离。,MEDIUM,NO

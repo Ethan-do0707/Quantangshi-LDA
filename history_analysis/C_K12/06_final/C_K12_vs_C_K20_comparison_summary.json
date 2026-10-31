@@ -1,0 +1,43 @@
+{
+  "old_retained_finding_count": 9,
+  "formal_reproduced": [
+    "K20 topic_03/E-H → K12 topic_05;topic_08",
+    "K20 topic_03/E-L → K12 topic_05;topic_08",
+    "K20 topic_03/M-L → K12 topic_05;topic_08",
+    "K20 topic_08/E-L → K12 topic_09",
+    "K20 topic_11/M-L → K12 topic_06"
+  ],
+  "broader_exploratory_reproduced": [
+    "K20 topic_06/E-L → K12 topic_02"
+  ],
+  "merged_in_k12": [
+    "K20 topic_06/E-L → K12 topic_02",
+    "K20 topic_07/E-L → K12 topic_06",
+    "K20 topic_11/M-L → K12 topic_06"
+  ],
+  "weakened_or_failed": [
+    "K20 topic_07/E-L → K12 topic_06",
+    "K20 topic_16/E-L → K12 topic_11"
+  ],
+  "incomparable_topic_redefined": [
+    "K20 topic_19/E-H → K12 topic_01;topic_09"
+  ],
+  "category_counts": {
+    "INCOMPARABLE_TOPIC_REDEFINED": 1,
+    "MERGED_IN_K12_NOT_REPRODUCED": 1,
+    "MERGED_IN_K12_REPRODUCED": 1,
+    "REPRODUCED_IN_BROADER_K12_EXPLORATORY": 1,
+    "REPRODUCED_IN_K12": 1,
+    "REPRODUCED_IN_REFINED_K12_COMPONENT": 3,
+    "WEAKENED_IN_K12": 1
+  },
+  "blind_freeze_timestamp": "2026-09-10T07:53:49.059131+08:00",
+  "blind_manifest_sha256": "25273e82cf87bec7a8b4cbb2214c41c4b46b545a86d96c69a0c2d1d0eed8f6f4",
+  "comparison_source_hashes": {
+    "old_candidates": "1b8fda5403f5c1b530ec0f3a19830f2a882a4f879ae3f05c25ff85a3dcbb45b7",
+    "blind_alignment": "6e959f43284170dd4e8fe60fd56336fbb2a2ef0fccda4b12d5bd01d66a92c9db",
+    "blind_topic_secret": "42649f98844857b5e24617bf583c982d0d74e9accb79e50702b0b90d05b344d1",
+    "k12_k15_candidates": "bb32338efcaa95a7c2471cd2eabd333754922f8efd312d8274deb4ed49cc4088",
+    "k15_k20_candidates": "a891b581f34a985b7a889eb28ffc2de09da027ab77ba63d427193d8eca3247dd"
+  }
+}

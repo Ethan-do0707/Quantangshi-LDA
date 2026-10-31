@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source_data_rows": "PASS",
+    "source_columns": "PASS",
+    "xlsx_data_rows": "PASS",
+    "xlsx_spreadsheet_rows": "PASS",
+    "xlsx_columns": "PASS",
+    "worksheet_dimension": "PASS",
+    "headers_exact": "PASS",
+    "poem_id_order_exact": "PASS",
+    "source_poem_id_unique": "PASS",
+    "xlsx_poem_id_unique": "PASS",
+    "sample_rows_complete": "PASS",
+    "sample_values_match": "PASS"
+  },
+  "worksheet": {
+    "name": "Data",
+    "dimension": "A1:BP43016",
+    "data_rows": 43015,
+    "spreadsheet_rows": 43016,
+    "columns": 68,
+    "shared_strings_mode": "INLINE_STRINGS"
+  },
+  "comparisons": {
+    "random_sample_rows": 100,
+    "random_seed": 20260901,
+    "required_position_data_indices": [
+      0,
+      21507,
+      43014
+    ],
+    "total_distinct_sample_rows": 103,
+    "fields_per_sample_row": 68,
+    "compared_cells": 7004,
+    "max_float_absolute_error": 4.440892098500626e-16,
+    "mismatches": []
+  },
+  "poem_id_sequence_sha256": "e84327c6e3691f71125b9e9c1d0af29f21d728c782b6939020c824c8717977ff",
+  "zip_integrity": "PASS",
+  "sheet_names": [
+    "Data"
+  ],
+  "source_csv": "D:/中大中文系工作相关/論文發表與投稿/全唐詩LDA/historical_metadata/master/C_K20_literary_history_master_with_author_history.csv",
+  "source_csv_sha256": "93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f",
+  "source_csv_unchanged_during_export": true,
+  "temporary_output_sha256": "bdf8498427465a8a7623c00ff27abbb6bdd328487b4dae2cf22c1820482e3832",
+  "export": {
+    "method": "XlsxWriter constant_memory=True",
+    "xlsxwriter_version": "3.2.9",
+    "timestamp": "2026-09-01T16:58:20+08:00",
+    "worksheet": "Data",
+    "data_rows": 43015,
+    "spreadsheet_rows": 43016,
+    "columns": 68,
+    "type_counts": {
+      "blank": 708319,
+      "boolean": 86030,
+      "integer": 248442,
+      "float": 1118390,
+      "text": 763839
+    }
+  },
+  "output_xlsx": "D:/中大中文系工作相关/論文發表與投稿/全唐詩LDA/historical_metadata/master/C_K20_literary_history_master_with_author_history.xlsx",
+  "output_xlsx_sha256": "bdf8498427465a8a7623c00ff27abbb6bdd328487b4dae2cf22c1820482e3832",
+  "installed_output_hash_matches_verified_temporary": true
+}

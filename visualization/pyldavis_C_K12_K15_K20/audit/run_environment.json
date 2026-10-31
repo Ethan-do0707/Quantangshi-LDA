@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-09-09T12:00:46.091948+08:00",
+  "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\ASUS E23688\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+  "pyLDAvis_distribution": "3.4.1",
+  "pyLDAvis_module": "3.4.0",
+  "pyLDAvis_prepare_signature": "(topic_term_dists, doc_topic_dists, doc_lengths, vocab, term_frequency, R=30, lambda_step=0.01, mds=<function js_PCoA at 0x000002934AE71A80>, n_jobs=-1, plot_opts=None, sort_topics=True, start_index=1)",
+  "scikit_learn": "1.9.0",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "font": "Microsoft YaHei",
+  "api": "pyLDAvis.prepare",
+  "sort_topics": false,
+  "mds": "pcoa",
+  "fit_or_transform_called": false
+}

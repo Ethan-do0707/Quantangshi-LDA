@@ -1,0 +1,12 @@
+{
+  "method": "jiayan",
+  "source": "https://github.com/jiaeyan/Jiayan",
+  "record_count": 43030,
+  "elapsed_seconds": 28.996,
+  "implementation": "jiayan.WordNgramTokenizer，词典 DAG + 最大概率路径",
+  "package_version": "0.0.21",
+  "limitations": [
+    "未使用项目推荐的 CharHMMTokenizer：其 KenLM 扩展在 Python 3.11/Windows 无可用轮子，本机也无 MSVC/WSL 编译环境。",
+    "官方文档说明该实现颗粒度较粗、基本以字为单位。"
+  ]
+}

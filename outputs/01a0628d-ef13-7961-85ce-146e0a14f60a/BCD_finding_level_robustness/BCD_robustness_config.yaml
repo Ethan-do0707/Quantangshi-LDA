@@ -1,0 +1,53 @@
+{
+  "analysis_version": "QTS_BCD_FINDING_ROBUSTNESS_V1",
+  "authoritative_master": "historical_metadata/master/C_K20_literary_history_master_with_author_history.csv",
+  "expected_master_sha256": "93fa45a5d848d0708fd1f4fb44289c26d8e98b7eec5b56bc440dc0de95de801f",
+  "sample_labels": "historical_metadata/representativeness_audit/data/period_metadata_sample_labels.csv",
+  "freeze_root": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/freeze",
+  "alignment": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/alignment/BCD_cross_model_topic_alignment.csv",
+  "eligible_findings": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_influence_loao/data/author_validated_candidate_trends.csv",
+  "original_effects": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/all_topic_effect_sizes.csv",
+  "original_clr": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation/data/raw_vs_clr_direction_agreement.csv",
+  "output_root": "outputs/01a0628d-ef13-7961-85ce-146e0a14f60a/BCD_finding_level_robustness",
+  "model_roles": {"B": "broader-vocabulary control", "C": "primary model", "D": "stricter-filter robustness control"},
+  "anticipated_findings_for_audit_only": ["T03_EH", "T03_ML", "T03_EL", "T06_EL", "T07_EL", "T08_EL", "T11_ML", "T16_EL", "T19_EH"],
+  "priority_findings": ["T03_EL", "T06_EL", "T08_EL", "T16_EL"],
+  "period_order": ["初唐", "盛唐", "中唐", "晚唐"],
+  "period_codes": {"初唐": "E", "盛唐": "H", "中唐": "M", "晚唐": "L"},
+  "samples": {"STRICT": "eligible_period_strict", "CORE": "eligible_period_core", "EXPANDED": "eligible_period_expanded"},
+  "bootstrap_iterations": 5000,
+  "bootstrap_batch_size": 500,
+  "random_seed": 20260902,
+  "bootstrap_algorithm": "period-stratified author-cluster multinomial resampling; identical author draws feed all models and both estimands within a common sample",
+  "thresholds": {
+    "numeric_zero_tolerance": 1e-12,
+    "effect_ratio_minimum_c_delta": 0.005,
+    "intersection_absolute_change": 0.005,
+    "intersection_relative_change": 0.25,
+    "intersection_relative_absolute_floor": 0.001,
+    "sample_same_sign_minimum_of_six": 5,
+    "systematic_opposite_raw_minimum_of_six": 4,
+    "systematic_opposite_supported_minimum_of_six": 2,
+    "hedges_small": 0.20,
+    "hedges_moderate": 0.50,
+    "hedges_large": 0.80,
+    "cliff_small": 0.147,
+    "cliff_medium": 0.33,
+    "cliff_large": 0.474
+  },
+  "semantic_policy": {
+    "split_probability_rule": "unweighted probability mass sum of source-alignment targets",
+    "single_best_rule": "maximum source candidate cosine; deterministic source order for ties",
+    "missing_human_review_status": "NOT_RECORDED_IN_SOURCE; never represented as human approval",
+    "reliable_bundle_confidence": ["HIGH"],
+    "review_required_cap": "at most PARTIALLY_ROBUST",
+    "merge_cap": "at most PARTIALLY_ROBUST"
+  },
+  "clr": {
+    "pseudocount": null,
+    "scope": "CORE only, triggered by target sign reversal, bundle/single sign disagreement, or prior C compositional warning",
+    "bundle_transform": "log(sum(mapped probabilities)) minus mean(log(all 20 target probabilities)); never sum CLR coordinates"
+  },
+  "minimal_author_check": {"sample": "CORE", "scheme": "GLOBAL_TOP_WITHIN_CONTRAST", "top_n": [1, 3], "rank_by": "mapped semantic probability mass"},
+  "classification_order": ["ROBUST_ACROSS_BCD", "PARTIALLY_ROBUST", "MODEL_SENSITIVE", "SEMANTICALLY_UNRESOLVED", "NOT_REPLICATED"]
+}

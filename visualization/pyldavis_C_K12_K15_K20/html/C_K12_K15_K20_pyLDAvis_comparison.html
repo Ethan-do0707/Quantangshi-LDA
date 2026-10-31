@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>《全唐诗》C_K12 / C_K15 / C_K20 pyLDAvis 比较入口</title><style>
+body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC","SimHei",Arial,sans-serif;margin:0;background:#f3f5f3;color:#1f2937}main{max-width:1100px;margin:auto;padding:34px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}article,.guide,.note{background:white;border:1px solid #d8ded8;border-radius:12px;padding:20px;box-shadow:0 4px 14px #2333}a{display:inline-block;background:#315f72;color:white;padding:10px 14px;border-radius:7px;text-decoration:none}dt{font-weight:700;margin-top:10px}dd{margin-left:0}li{margin:8px 0;line-height:1.5}.note{margin:18px 0;border-left:5px solid #B46B3B}</style></head>
+<body><main><h1>《全唐诗》C_K12 / C_K15 / C_K20 pyLDAvis 比较诊断</h1>
+<div class="note">这是视觉诊断入口，不给 K 排名，也不提供“最优 K”结论。三幅 PCoA 图各自独立，坐标不可跨模型直接比较；圆面积只表示 prevalence。</div>
+<section class="cards"><article><h2>C_K12</h2><p>低分辨率强候选模型</p>
+<dl><dt>最大/最小/中位 prevalence</dt><dd>12.52% / 2.82% / 8.34%</dd>
+<dt>mean/max nearest cosine</dt><dd>0.6091 / 0.6667</dd></dl>
+<a href="C_K12_pyLDAvis.html">打开 C_K12 pyLDAvis</a></article><article><h2>C_K15</h2><p>中分辨率模型</p>
+<dl><dt>最大/最小/中位 prevalence</dt><dd>11.00% / 2.81% / 5.34%</dd>
+<dt>mean/max nearest cosine</dt><dd>0.5932 / 0.6709</dd></dl>
+<a href="C_K15_pyLDAvis.html">打开 C_K15 pyLDAvis</a></article><article><h2>C_K20</h2><p>冻结高分辨率参考模型</p>
+<dl><dt>最大/最小/中位 prevalence</dt><dd>8.57% / 1.93% / 4.75%</dd>
+<dt>mean/max nearest cosine</dt><dd>0.5878 / 0.6710</dd></dl>
+<a href="C_K20_pyLDAvis.html">打开 C_K20 pyLDAvis</a></article></section>
+<section class="guide"><h2>阅读指南</h2><ol><li>分别打开三个模型，先确认 Topic ID 与原模型一致。</li><li>观察 bubble 的面积，了解各 Topic 的相对 prevalence。</li><li>只在同一模型内观察圆的距离、邻近和重叠。</li><li>点击 Topic，先看 λ=1.0 的高概率词。</li><li>再看 λ≈0.6 和 λ≈0.2，比较区分度较高的词。</li><li>结合代表诗、既有语义审核和研究者标签理解；高相似只记为“建议人工复核”。</li></ol></section>
+</main></body></html>

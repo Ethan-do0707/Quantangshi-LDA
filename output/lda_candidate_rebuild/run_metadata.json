@@ -1,0 +1,661 @@
+{
+  "schema_version": 1,
+  "method": "exact_candidate_rebuild_from_original_parameters",
+  "completed_at": "2026-08-30T22:36:31+08:00",
+  "runtime_seconds": 8.702481,
+  "candidate_count": 6,
+  "all_reproduction_validations_passed": true,
+  "source_inputs_unchanged": true,
+  "environment": {
+    "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+    "implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "logical_cpu_count": 12,
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.9.0",
+    "joblib": "1.5.3"
+  },
+  "environment_validation": {
+    "all_match": true,
+    "fields": {
+      "python": {
+        "original": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+        "current": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+        "match": true
+      },
+      "implementation": {
+        "original": "CPython",
+        "current": "CPython",
+        "match": true
+      },
+      "platform": {
+        "original": "Windows-10-10.0.26200-SP0",
+        "current": "Windows-10-10.0.26200-SP0",
+        "match": true
+      },
+      "logical_cpu_count": {
+        "original": 12,
+        "current": 12,
+        "match": true
+      },
+      "numpy": {
+        "original": "1.26.4",
+        "current": "1.26.4",
+        "match": true
+      },
+      "scipy": {
+        "original": "1.17.1",
+        "current": "1.17.1",
+        "match": true
+      },
+      "scikit_learn": {
+        "original": "1.9.0",
+        "current": "1.9.0",
+        "match": true
+      }
+    }
+  },
+  "original_lda_parameters": {
+    "implementation": "sklearn.decomposition.LatentDirichletAllocation",
+    "learning_method": "batch",
+    "topic_counts": [
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "random_seeds": [
+      42,
+      2026,
+      20260830
+    ],
+    "max_iter": 30,
+    "n_jobs": -1,
+    "evaluate_every": -1,
+    "perp_tol": 0.1,
+    "mean_change_tol": 0.001,
+    "max_doc_update_iter": 100,
+    "doc_topic_prior": null,
+    "topic_word_prior": null,
+    "verbose": 1
+  },
+  "original_metric_parameters": {
+    "top_words": 20,
+    "representative_poems_per_topic": 5,
+    "coherence": "document_npmi",
+    "stability": "hungarian_matched_top_word_jaccard"
+  },
+  "inputs": [
+    {
+      "path": "config/candidate_rebuild_config.yaml",
+      "sha256": "8d56fdce5ba9ad8e7fd5928488a22e7ef085c2914a3093497db691cf989db7b9"
+    },
+    {
+      "path": "config/tf_df_lda_config.yaml",
+      "sha256": "b711e5904029f00f23949d16bb7acb5807201349d11208eca0d46ff8d7ffbb88"
+    },
+    {
+      "path": "human_topic_review/model_selection_summary.csv",
+      "sha256": "b246e8596f769e98f0bb452540e9a589c3e2213c3d199b3187babf7825a931e2"
+    },
+    {
+      "path": "output/lda_sensitivity/models/A/K20/seed_20260830/metrics.json",
+      "sha256": "9b1818256b00cce0e6b19846b312ea1486487082a90ea28d7282f86f464bc545"
+    },
+    {
+      "path": "output/lda_sensitivity/models/A/K20/seed_20260830/representative_poems.csv",
+      "sha256": "5aebb86abf0282ed5ac4743a85e02c1d9db5e0a3cd360858f8948705d19c805c"
+    },
+    {
+      "path": "output/lda_sensitivity/models/A/K20/seed_20260830/topics.csv",
+      "sha256": "613109ed4982d926d29b81f71daa3e71e442b26b18d388da0054559a95e8b7c4"
+    },
+    {
+      "path": "output/lda_sensitivity/models/B/K20/seed_20260830/metrics.json",
+      "sha256": "6e70dd2c5f039202bdbf9ad247f79812381f6b7a4ef69150fa28575b57684f2d"
+    },
+    {
+      "path": "output/lda_sensitivity/models/B/K20/seed_20260830/representative_poems.csv",
+      "sha256": "9629421f0ea5829a3d1befe4fcf70e3885c4d8941b6667ce2358e79b85846451"
+    },
+    {
+      "path": "output/lda_sensitivity/models/B/K20/seed_20260830/topics.csv",
+      "sha256": "52619f9662d1bb96efb25c5503b2ca94ec26f8475a35a4fe7ada8a3d24307545"
+    },
+    {
+      "path": "output/lda_sensitivity/models/B/K30/seed_2026/metrics.json",
+      "sha256": "acce5976a095d46f8eb195a9220c8684f37b19ae6f51defb37e134ac5da6448f"
+    },
+    {
+      "path": "output/lda_sensitivity/models/B/K30/seed_2026/representative_poems.csv",
+      "sha256": "a8293ee8f9cf940c6dda89806508f555263580c9822771c6a09f516435a11133"
+    },
+    {
+      "path": "output/lda_sensitivity/models/B/K30/seed_2026/topics.csv",
+      "sha256": "e23066d74d11db8808f69b1526736cf7e8ff395ac88a11a45fd58dbc95124341"
+    },
+    {
+      "path": "output/lda_sensitivity/models/C/K20/seed_2026/metrics.json",
+      "sha256": "cf8e1a222417d9064ec3932c90c2def5ba0058a7d65773090097ebc6b0ed6f8f"
+    },
+    {
+      "path": "output/lda_sensitivity/models/C/K20/seed_2026/representative_poems.csv",
+      "sha256": "f527592bb22de5c60c3fcaade1de814647c24d84780239b01339a7f5ce53640d"
+    },
+    {
+      "path": "output/lda_sensitivity/models/C/K20/seed_2026/topics.csv",
+      "sha256": "182a778ffc8b1b3443007ff632e3ca2643211617340dd45826261377e23615f4"
+    },
+    {
+      "path": "output/lda_sensitivity/models/D/K20/seed_42/metrics.json",
+      "sha256": "3e44c554c95d0c5796c202664b4bbf329abd9192e8478eccd5b1e76c658ffbd5"
+    },
+    {
+      "path": "output/lda_sensitivity/models/D/K20/seed_42/representative_poems.csv",
+      "sha256": "2826b226c3f988e0bebfbd0e7546aaf560a5c4a70a21d3bfc186a64898c88271"
+    },
+    {
+      "path": "output/lda_sensitivity/models/D/K20/seed_42/topics.csv",
+      "sha256": "3258960b7f3989a064630855f4d262e8302734d8b9b68bf8db7d277bfaa31ba0"
+    },
+    {
+      "path": "output/lda_sensitivity/models/D/K30/seed_42/metrics.json",
+      "sha256": "54ec599fd3579af24c664a620934ee4221e8ab59b1bfc4f572990ae4a81034d8"
+    },
+    {
+      "path": "output/lda_sensitivity/models/D/K30/seed_42/representative_poems.csv",
+      "sha256": "81189b9b083049135688eeb804653109d29e01b35d7f9be90040c4c29bf08bf1"
+    },
+    {
+      "path": "output/lda_sensitivity/models/D/K30/seed_42/topics.csv",
+      "sha256": "8810cc6f18e988da3fb6428e11c8032491d785da9fa585de54d32a04191f4e1f"
+    },
+    {
+      "path": "output/tf_df_sensitivity/A/bow_matrix.npz",
+      "sha256": "b5ed3a72e161af110889e849dbc86931eeb14877613938aa0b08f33e4c6fe37c"
+    },
+    {
+      "path": "output/tf_df_sensitivity/A/corpus_metadata.json",
+      "sha256": "cc7bdf0c55633667af63f891fb51bbf239b2e39c8b30bd50ecb7366efc87f879"
+    },
+    {
+      "path": "output/tf_df_sensitivity/A/document_index.csv",
+      "sha256": "4c40794deab63c0f8a50dfbc43d3a02538735f8001aa68efd56bc2d74736308d"
+    },
+    {
+      "path": "output/tf_df_sensitivity/A/lda_corpus.csv",
+      "sha256": "80d30f877374b5df68c76b6d73fdf72f10461fe3f0519c74486607ee212ed8f3"
+    },
+    {
+      "path": "output/tf_df_sensitivity/A/vocabulary.csv",
+      "sha256": "208c4ce8abdcc137e23c530acff84eb92d09cfaf31b3d6baccecc2d41a2f6eb9"
+    },
+    {
+      "path": "output/tf_df_sensitivity/B/bow_matrix.npz",
+      "sha256": "fe851ca705d49a232584efc4f58210457d2f2f1aa706c5d5b65970dee0b56ad3"
+    },
+    {
+      "path": "output/tf_df_sensitivity/B/corpus_metadata.json",
+      "sha256": "0a84b700ca2791a39ad945156aa3233cb12a68ae6a3f4e5d9e03d48de9229452"
+    },
+    {
+      "path": "output/tf_df_sensitivity/B/document_index.csv",
+      "sha256": "583e18420126f12b1c63d4659913b6e43f9c109fbfa745e7c6ce3216a6345345"
+    },
+    {
+      "path": "output/tf_df_sensitivity/B/lda_corpus.csv",
+      "sha256": "1cc1d84d974840de6ccd95c2979b81582339a9e4a8ba727aac98a3ed621b6683"
+    },
+    {
+      "path": "output/tf_df_sensitivity/B/vocabulary.csv",
+      "sha256": "92b4fec4f6627bf6112e8ca2713f76d21e33f768796c45308a1d51854b5804e4"
+    },
+    {
+      "path": "output/tf_df_sensitivity/C/bow_matrix.npz",
+      "sha256": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0"
+    },
+    {
+      "path": "output/tf_df_sensitivity/C/corpus_metadata.json",
+      "sha256": "26d9749caf638b11c39dc5769e9085cf9619adf6ac0f1506c19d0aada87a4a57"
+    },
+    {
+      "path": "output/tf_df_sensitivity/C/document_index.csv",
+      "sha256": "2b316c921d8da8d4b5ed533b34839ae323693a2ec02f9300e2065192f0e32bbb"
+    },
+    {
+      "path": "output/tf_df_sensitivity/C/lda_corpus.csv",
+      "sha256": "eb1a5b2a8e41eda0253a3f355024ccdf6a72d39a90aa930fa629606160f985d0"
+    },
+    {
+      "path": "output/tf_df_sensitivity/C/vocabulary.csv",
+      "sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084"
+    },
+    {
+      "path": "output/tf_df_sensitivity/D/bow_matrix.npz",
+      "sha256": "4724efc9b40146f4cbb3f723af3262dfc0ae7d4902b1233354d93bc44a6b0629"
+    },
+    {
+      "path": "output/tf_df_sensitivity/D/corpus_metadata.json",
+      "sha256": "10d7b412781ce7577925911f822db42d8609b4ec89e0db09f18b23a4ee89c8bb"
+    },
+    {
+      "path": "output/tf_df_sensitivity/D/document_index.csv",
+      "sha256": "8b96c69052ee223a7cd07ec6632775eedee3f673569ec5dacd9e952c83ba5c19"
+    },
+    {
+      "path": "output/tf_df_sensitivity/D/lda_corpus.csv",
+      "sha256": "bf8c21de1d90f4215fb36b18c5c792b1f9a92b9e21d1a56918278d90c7914292"
+    },
+    {
+      "path": "output/tf_df_sensitivity/D/vocabulary.csv",
+      "sha256": "1d99b4dd436a00fd6b9378dff3ca55b20e4a6ccded44d47aafd06ba09638b548"
+    },
+    {
+      "path": "reports/lda_sensitivity/run_metadata.json",
+      "sha256": "48d30de1436a33ecc4d2656deaf3b01f031969ed826b6d2d343bbec46c7b55c0"
+    },
+    {
+      "path": "src/rebuild_candidate_models.py",
+      "sha256": "97fd2439c2dcba99962c44fb1562ed25c423b84994ee5474b511b2992f5337b1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/artifact_manifest.json",
+      "sha256": "10ffc3719f7fbdb1a9504a0ba8cd1d517518d68e279f2b7c31171853a4fee43b",
+      "bytes": 2406
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/document_index.csv",
+      "sha256": "4c40794deab63c0f8a50dfbc43d3a02538735f8001aa68efd56bc2d74736308d",
+      "bytes": 2252440
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/document_topic_probabilities.npz",
+      "sha256": "fe60de1f4a14c837034a81d7151395d8ad34a9c64e2a4c6847751385b58b3920",
+      "bytes": 4626086
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/matrix_metadata.json",
+      "sha256": "5c3bf011bfc822dc9bd9350a687a1e91c4eadeea3677ef609f4771cc94589dd2",
+      "bytes": 1015
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/model.joblib",
+      "sha256": "68c8330c17153cdfdc34b9185f7d8f8fe67d842a64f7cc662d8242274e516bdd",
+      "bytes": 9042117
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/representative_poems_top20.csv",
+      "sha256": "e5c6a9c92ab1c3aaa7f050eb1d829983487c86b2e2ae287ef07a2a2034323c99",
+      "bytes": 211818
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/reproduced_representative_poems_top5.csv",
+      "sha256": "5aebb86abf0282ed5ac4743a85e02c1d9db5e0a3cd360858f8948705d19c805c",
+      "bytes": 41338
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/reproduced_topics_top20.csv",
+      "sha256": "613109ed4982d926d29b81f71daa3e71e442b26b18d388da0054559a95e8b7c4",
+      "bytes": 26954
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/reproduction_validation.json",
+      "sha256": "d1d9649caab21694662031f9e1d896254dba47ad459ae67df6ccfdaea224e4d7",
+      "bytes": 2217
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/topic_word_components.npz",
+      "sha256": "9499e4304c060c577afc730f54b0b9668765199936320012e48d9ea494c0c6f3",
+      "bytes": 4160040
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/topic_word_probabilities.npz",
+      "sha256": "5035cddd1b91275018dbc4c4f18983e72c28e6a6062c1aad43f535f3730c96dc",
+      "bytes": 4117745
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/topics_top30.csv",
+      "sha256": "20b1623768f354322d65f0396639c8c2084dcff67e528e8533d354b49f099b10",
+      "bytes": 24854
+    },
+    {
+      "path": "output/lda_candidate_rebuild/A_K20/vocabulary.csv",
+      "sha256": "208c4ce8abdcc137e23c530acff84eb92d09cfaf31b3d6baccecc2d41a2f6eb9",
+      "bytes": 4378519
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/artifact_manifest.json",
+      "sha256": "a656c797e02eab4db04c1a679f4bf409da397bb53aa36bc295bcbd4fa9997762",
+      "bytes": 2406
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/document_index.csv",
+      "sha256": "583e18420126f12b1c63d4659913b6e43f9c109fbfa745e7c6ce3216a6345345",
+      "bytes": 2251944
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/document_topic_probabilities.npz",
+      "sha256": "3c8f5a079bac9c9c2ec225d8ce5b21f1127f45d12cee903f537f6d3c32516a34",
+      "bytes": 4688258
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/matrix_metadata.json",
+      "sha256": "a1dc865228f0e76d12bf7994de7a1d7931d27f12344a5b3fbf5393f97c9c8b64",
+      "bytes": 1013
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/model.joblib",
+      "sha256": "d0907b37d5da7cb36e3487851627dbd9f159205050dd09ff164c3e2a8f54463a",
+      "bytes": 7094692
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/representative_poems_top20.csv",
+      "sha256": "52ea9b1da2ff06625829abd295843e6b2a51841f15e27970681447f82a893be5",
+      "bytes": 189044
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/reproduced_representative_poems_top5.csv",
+      "sha256": "9629421f0ea5829a3d1befe4fcf70e3885c4d8941b6667ce2358e79b85846451",
+      "bytes": 39486
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/reproduced_topics_top20.csv",
+      "sha256": "52619f9662d1bb96efb25c5503b2ca94ec26f8475a35a4fe7ada8a3d24307545",
+      "bytes": 26955
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/reproduction_validation.json",
+      "sha256": "2dbd21c2647bcda4e7691c1a229c3488d18238676257ded98e1b83d82f8f341f",
+      "bytes": 2214
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/topic_word_components.npz",
+      "sha256": "a6957ed431189823fa533cabdcfc755eca84758b535f0e8c12335e1903c25392",
+      "bytes": 3325029
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/topic_word_probabilities.npz",
+      "sha256": "49d461578d5a0d715b4800762355a576aaf552dc4160d21a05ffcbac622a8e9c",
+      "bytes": 3309228
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/topics_top30.csv",
+      "sha256": "82b88a39212838e9a62a4e976caad50338c799b2ee0fa171e1a23ef1027481c4",
+      "bytes": 24876
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K20/vocabulary.csv",
+      "sha256": "92b4fec4f6627bf6112e8ca2713f76d21e33f768796c45308a1d51854b5804e4",
+      "bytes": 1831629
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/artifact_manifest.json",
+      "sha256": "2d4ddd3430782e5cff64716d673ca15679c1ed83f6a91087a68e4be2f6ad526b",
+      "bytes": 2406
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/document_index.csv",
+      "sha256": "583e18420126f12b1c63d4659913b6e43f9c109fbfa745e7c6ce3216a6345345",
+      "bytes": 2251944
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/document_topic_probabilities.npz",
+      "sha256": "b79f7e8558f17c3cd3d14b701370be4936260c3b4bd33bd158c2891d3102efb9",
+      "bytes": 4656107
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/matrix_metadata.json",
+      "sha256": "17310ad016b1cf5e10a03cb5f93d083d54747c487d36742943ce02b727192181",
+      "bytes": 1009
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/model.joblib",
+      "sha256": "398ee6f7a8ee807c8596804f317bd665444e0dd0df2bca771500465dc7ff87d4",
+      "bytes": 6612010
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/representative_poems_top20.csv",
+      "sha256": "b2ec0ac1e8204ed677990a5f8c94cf39779416d6625ced4052ba1b0cdccf7c20",
+      "bytes": 266320
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/reproduced_representative_poems_top5.csv",
+      "sha256": "a8293ee8f9cf940c6dda89806508f555263580c9822771c6a09f516435a11133",
+      "bytes": 61089
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/reproduced_topics_top20.csv",
+      "sha256": "e23066d74d11db8808f69b1526736cf7e8ff395ac88a11a45fd58dbc95124341",
+      "bytes": 40352
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/reproduction_validation.json",
+      "sha256": "c10719fb9d6bc01231a22f0300445d1294bcb0622b98d32d2fbac652b14d5b2c",
+      "bytes": 2249
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/topic_word_components.npz",
+      "sha256": "207c78e0630f68dfbf380a70b2591bce3a9b7436643ef09dd313c87544b2a880",
+      "bytes": 2995659
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/topic_word_probabilities.npz",
+      "sha256": "de0ba024b7305a8061f6f27606ec5041a3344f1ec068165ee91244cad7899d59",
+      "bytes": 3030448
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/topics_top30.csv",
+      "sha256": "9a9e624f8e805df49260b5461c0d5ad6097dd097e8ad0fe6ecb471e79f4c91ec",
+      "bytes": 37243
+    },
+    {
+      "path": "output/lda_candidate_rebuild/B_K30/vocabulary.csv",
+      "sha256": "92b4fec4f6627bf6112e8ca2713f76d21e33f768796c45308a1d51854b5804e4",
+      "bytes": 1831629
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/artifact_manifest.json",
+      "sha256": "7b1975efdf380d4e28b64e503325b45fde6356e6c01d70296483bcaf9570a4df",
+      "bytes": 2406
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/document_index.csv",
+      "sha256": "2b316c921d8da8d4b5ed533b34839ae323693a2ec02f9300e2065192f0e32bbb",
+      "bytes": 2251706
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/document_topic_probabilities.npz",
+      "sha256": "b6f71b9e450873abedd2a9970b2a1aeea5a83a2c1858b84aeff7e293d9f4a966",
+      "bytes": 4718605
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/matrix_metadata.json",
+      "sha256": "e67f5b91940a6286516e1458b74744ca8b8594a4ca3bfbd05a453dadf353211d",
+      "bytes": 1009
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/model.joblib",
+      "sha256": "4b23ee5661afa3127fd52f4938ca166446a9c0903cf8706c0985c964446d6d6f",
+      "bytes": 6019561
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/representative_poems_top20.csv",
+      "sha256": "abe95728eaf8e08d479ae2c67cd3ce1284a335fd462e6a793c89a7a9881817c6",
+      "bytes": 161738
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/reproduced_representative_poems_top5.csv",
+      "sha256": "f527592bb22de5c60c3fcaade1de814647c24d84780239b01339a7f5ce53640d",
+      "bytes": 35590
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/reproduced_topics_top20.csv",
+      "sha256": "182a778ffc8b1b3443007ff632e3ca2643211617340dd45826261377e23615f4",
+      "bytes": 26991
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/reproduction_validation.json",
+      "sha256": "1047eb2528f79bcdbe4060318d4fd702ae481b16e3ab5bffa4bead926fb8af64",
+      "bytes": 2219
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/topic_word_components.npz",
+      "sha256": "ed9d099ad35ce8759651aeac8977c744528e9751bcf0cc301b5def035be10201",
+      "bytes": 2831134
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/topic_word_probabilities.npz",
+      "sha256": "a0fe6f09bc91e534c86db494c5f8b4d7e703198877409953d6e77c3fe04ec9e7",
+      "bytes": 2825396
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/topics_top30.csv",
+      "sha256": "5a08b732b78f88be627418f044d4ec9880f47f7651d9d3cf151e73f488a24571",
+      "bytes": 24939
+    },
+    {
+      "path": "output/lda_candidate_rebuild/C_K20/vocabulary.csv",
+      "sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084",
+      "bytes": 1237177
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/artifact_manifest.json",
+      "sha256": "e996b299824e73fd0e817db0b840ef607bcf9ec3e1b467afdc764af921894ec0",
+      "bytes": 2405
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/document_index.csv",
+      "sha256": "8b96c69052ee223a7cd07ec6632775eedee3f673569ec5dacd9e952c83ba5c19",
+      "bytes": 2251431
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/document_topic_probabilities.npz",
+      "sha256": "061333b8d2247c9719cc8c2f46ede49fd4c2002c4d15ec9ac289a1a63820db40",
+      "bytes": 4741376
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/matrix_metadata.json",
+      "sha256": "2c6df8d727c1f3a585419abfb424a544c22bec4147bc79cd57dc5748fa33a92a",
+      "bytes": 1007
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/model.joblib",
+      "sha256": "7100c135964812ad224cfffbb20c869094be5961be3236cc315619a4b5ff0e95",
+      "bytes": 4506402
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/representative_poems_top20.csv",
+      "sha256": "329705ba9d05b64af1f0b4a6dfcc30882641b7792ac172baefcf885c3693fbc1",
+      "bytes": 143575
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/reproduced_representative_poems_top5.csv",
+      "sha256": "2826b226c3f988e0bebfbd0e7546aaf560a5c4a70a21d3bfc186a64898c88271",
+      "bytes": 30535
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/reproduced_topics_top20.csv",
+      "sha256": "3258960b7f3989a064630855f4d262e8302734d8b9b68bf8db7d277bfaa31ba0",
+      "bytes": 27026
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/reproduction_validation.json",
+      "sha256": "399b1fbcf1b80b9e57a4ccc3c6add0bb34f3902171c42ee5f1ac44d8ddcfe393",
+      "bytes": 2221
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/topic_word_components.npz",
+      "sha256": "82b50af0d5bb68445e587e30b75bf9688478ab80bbd2cb47bb2a217f410a9a0f",
+      "bytes": 2127283
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/topic_word_probabilities.npz",
+      "sha256": "9cb9c03a92afe90f70c88d0245d7ab02392a7a249fb22956c16829c51005e5c2",
+      "bytes": 2119495
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/topics_top30.csv",
+      "sha256": "950061b9a6efc60f467fe1831ebb229d6f3011d04d385fb6a66632149a588fbe",
+      "bytes": 24988
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K20/vocabulary.csv",
+      "sha256": "1d99b4dd436a00fd6b9378dff3ca55b20e4a6ccded44d47aafd06ba09638b548",
+      "bytes": 819112
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/artifact_manifest.json",
+      "sha256": "90c8c686124327c2281626fa9819940cc493a5582b640aceca580d28b67ee3f6",
+      "bytes": 2405
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/document_index.csv",
+      "sha256": "8b96c69052ee223a7cd07ec6632775eedee3f673569ec5dacd9e952c83ba5c19",
+      "bytes": 2251431
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/document_topic_probabilities.npz",
+      "sha256": "2029df08384528427a1b639bda22d8585c3c3141dce113baf6b821ba8192c760",
+      "bytes": 4844426
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/matrix_metadata.json",
+      "sha256": "176349d916a29c518d0ea5967d04416bb1769f77d785bb5b4b33423b975e0b7b",
+      "bytes": 1007
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/model.joblib",
+      "sha256": "2266f92ad730985d78160fbef93a69c3b37e999b9443203fbeab52e16ebf2f44",
+      "bytes": 4431188
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/representative_poems_top20.csv",
+      "sha256": "e9cae2eaf08e8713979143797df7a5cc6ac929ea46167220c188037817c5a3c7",
+      "bytes": 208241
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/reproduced_representative_poems_top5.csv",
+      "sha256": "81189b9b083049135688eeb804653109d29e01b35d7f9be90040c4c29bf08bf1",
+      "bytes": 43013
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/reproduced_topics_top20.csv",
+      "sha256": "8810cc6f18e988da3fb6428e11c8032491d785da9fa585de54d32a04191f4e1f",
+      "bytes": 40512
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/reproduction_validation.json",
+      "sha256": "6140ee0b64e7c7ca952e5fb528d71131c23bb3db3ecf550ae2ef3d18d102c096",
+      "bytes": 2212
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/topic_word_components.npz",
+      "sha256": "b17a03ee3dbb5575dbb85af662f63bddc6a0eeca168c2a74ae588bed42ee3c25",
+      "bytes": 2039201
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/topic_word_probabilities.npz",
+      "sha256": "36f74fdfeb8734a3e01f903e14e9ff93a8f484ae4621d8a537840759fe382fd3",
+      "bytes": 2056220
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/topics_top30.csv",
+      "sha256": "320a54474d8f16f74fd671022cf4206e1c555fc3ed3010a846c5234500408a9c",
+      "bytes": 37479
+    },
+    {
+      "path": "output/lda_candidate_rebuild/D_K30/vocabulary.csv",
+      "sha256": "1d99b4dd436a00fd6b9378dff3ca55b20e4a6ccded44d47aafd06ba09638b548",
+      "bytes": 819112
+    },
+    {
+      "path": "output/lda_candidate_rebuild/rebuild_summary.csv",
+      "sha256": "26c8e89cc273692b6eddbd1d9062ed02b89bf6fdeb46d4415769a298dacf44a8",
+      "bytes": 781
+    }
+  ]
+}

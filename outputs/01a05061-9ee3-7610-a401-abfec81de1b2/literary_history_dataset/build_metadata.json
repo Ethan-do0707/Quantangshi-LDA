@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "built_at": "2026-09-01T10:01:59+08:00",
+  "project_root": "D:/中大中文系工作相关/論文發表與投稿/全唐詩LDA",
+  "config_path": "D:/中大中文系工作相关/論文發表與投稿/全唐詩LDA/config/literary_history_dataset_config.json",
+  "human_evaluation_xlsx": "D:/中大中文系工作相关/論文發表與投稿/全唐詩LDA/human_topic_review/human_topic_evaluation.xlsx",
+  "human_evaluation_xlsx_sha256": "a9af32a58a8698c9648ffe0a17963a96231b0bd5f138f44e3436bf33b13dddeb",
+  "human_snapshot_sha256": "266d956accf4b70f37c900bf869db3d43947349d956fafb5f4596039e18630b9",
+  "inventory_rows": 64,
+  "freeze_models": 3,
+  "integrity_checks": 33,
+  "taxonomy_rows": 20,
+  "alignment_rows": 20,
+  "pairwise_evidence_rows": 800,
+  "topic_metadata_rows": 20,
+  "final_tests": 15,
+  "document_summary": {
+    "matrix_shape": [
+      43015,
+      20
+    ],
+    "master_rows": 43015,
+    "master_columns": 54,
+    "matched_count": 43015,
+    "unmatched_matrix_rows": 0,
+    "unmatched_metadata_rows": 15,
+    "metadata_quality": [
+      {
+        "field": "poem_id",
+        "source_field": "poems.jsonl:id",
+        "total_rows": 43015,
+        "nonmissing_count": 43015,
+        "missing_count": 0,
+        "coverage_rate": 1.0,
+        "unique_value_count": 43015,
+        "notes": ""
+      },
+      {
+        "field": "poet_id",
+        "source_field": "poems.jsonl:poet_id",
+        "total_rows": 43015,
+        "nonmissing_count": 43015,
+        "missing_count": 0,
+        "coverage_rate": 1.0,
+        "unique_value_count": 2528,
+        "notes": ""
+      },
+      {
+        "field": "author",
+        "source_field": "poems.jsonl:poet",
+        "total_rows": 43015,
+        "nonmissing_count": 43015,
+        "missing_count": 0,
+        "coverage_rate": 1.0,
+        "unique_value_count": 2528,
+        "notes": "unique_authors=2528;anonymous_or_unattributed=980"
+      },
+      {
+        "field": "title",
+        "source_field": "poems.jsonl:title",
+        "total_rows": 43015,
+        "nonmissing_count": 43015,
+        "missing_count": 0,
+        "coverage_rate": 1.0,
+        "unique_value_count": 37208,
+        "notes": ""
+      },
+      {
+        "field": "text",
+        "source_field": "poems.jsonl:text",
+        "total_rows": 43015,
+        "nonmissing_count": 43015,
+        "missing_count": 0,
+        "coverage_rate": 1.0,
+        "unique_value_count": 42446,
+        "notes": ""
+      },
+      {
+        "field": "cleaned_text",
+        "source_field": "C/lda_corpus.csv:cleaned_tokens",
+        "total_rows": 43015,
+        "nonmissing_count": 43015,
+        "missing_count": 0,
+        "coverage_rate": 1.0,
+        "unique_value_count": 42366,
+        "notes": ""
+      },
+      {
+        "field": "volume",
+        "source_field": "absent_in_authoritative_metadata",
+        "total_rows": 43015,
+        "nonmissing_count": 0,
+        "missing_count": 43015,
+        "coverage_rate": 0.0,
+        "unique_value_count": 0,
+        "notes": "当前 SQL/JSONL 无《全唐诗》卷次字段"
+      },
+      {
+        "field": "genre",
+        "source_field": "absent_in_authoritative_metadata",
+        "total_rows": 43015,
+        "nonmissing_count": 0,
+        "missing_count": 43015,
+        "coverage_rate": 0.0,
+        "unique_value_count": 0,
+        "notes": "当前权威 metadata 无文体字段"
+      },
+      {
+        "field": "form",
+        "source_field": "absent_in_authoritative_metadata",
+        "total_rows": 43015,
+        "nonmissing_count": 0,
+        "missing_count": 43015,
+        "coverage_rate": 0.0,
+        "unique_value_count": 0,
+        "notes": "当前权威 metadata 无文体字段"
+      },
+      {
+        "field": "poetic_form",
+        "source_field": "absent_in_authoritative_metadata",
+        "total_rows": 43015,
+        "nonmissing_count": 0,
+        "missing_count": 43015,
+        "coverage_rate": 0.0,
+        "unique_value_count": 0,
+        "notes": "当前权威 metadata 无文体字段"
+      },
+      {
+        "field": "date",
+        "source_field": "absent_in_authoritative_metadata",
+        "total_rows": 43015,
+        "nonmissing_count": 0,
+        "missing_count": 43015,
+        "coverage_rate": 0.0,
+        "unique_value_count": 0,
+        "notes": "无诗歌创作时间；SQL created_at/updated_at 为技术时间，禁止采用"
+      },
+      {
+        "field": "year",
+        "source_field": "absent_in_authoritative_metadata",
+        "total_rows": 43015,
+        "nonmissing_count": 0,
+        "missing_count": 43015,
+        "coverage_rate": 0.0,
+        "unique_value_count": 0,
+        "notes": "无诗歌创作时间；SQL created_at/updated_at 为技术时间，禁止采用"
+      },
+      {
+        "field": "period",
+        "source_field": "absent_in_authoritative_metadata",
+        "total_rows": 43015,
+        "nonmissing_count": 0,
+        "missing_count": 43015,
+        "coverage_rate": 0.0,
+        "unique_value_count": 0,
+        "notes": "period metadata 尚需构建或校验；本阶段不作初盛中晚唐推断"
+      },
+      {
+        "field": "author_period",
+        "source_field": "absent_in_authoritative_metadata",
+        "total_rows": 43015,
+        "nonmissing_count": 0,
+        "missing_count": 43015,
+        "coverage_rate": 0.0,
+        "unique_value_count": 0,
+        "notes": ""
+      },
+      {
+        "field": "dating_method",
+        "source_field": "absent_in_authoritative_metadata",
+        "total_rows": 43015,
+        "nonmissing_count": 0,
+        "missing_count": 43015,
+        "coverage_rate": 0.0,
+        "unique_value_count": 0,
+        "notes": ""
+      },
+      {
+        "field": "place",
+        "source_field": "absent_in_authoritative_metadata",
+        "total_rows": 43015,
+        "nonmissing_count": 0,
+        "missing_count": 43015,
+        "coverage_rate": 0.0,
+        "unique_value_count": 0,
+        "notes": "当前权威 metadata 无空间字段"
+      },
+      {
+        "field": "region",
+        "source_field": "absent_in_authoritative_metadata",
+        "total_rows": 43015,
+        "nonmissing_count": 0,
+        "missing_count": 43015,
+        "coverage_rate": 0.0,
+        "unique_value_count": 0,
+        "notes": "当前权威 metadata 无空间字段"
+      },
+      {
+        "field": "location",
+        "source_field": "absent_in_authoritative_metadata",
+        "total_rows": 43015,
+        "nonmissing_count": 0,
+        "missing_count": 43015,
+        "coverage_rate": 0.0,
+        "unique_value_count": 0,
+        "notes": "当前权威 metadata 无空间字段"
+      }
+    ],
+    "author_count": 2528,
+    "master_path": "D:/中大中文系工作相关/論文發表與投稿/全唐詩LDA/outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/master/C_K20_literary_history_master.csv"
+  },
+  "prohibitions": [
+    "no_fit",
+    "no_fit_transform",
+    "no_retraining",
+    "no_score_changes",
+    "no_TF_DF_K_changes",
+    "no_literary_history_analysis"
+  ]
+}

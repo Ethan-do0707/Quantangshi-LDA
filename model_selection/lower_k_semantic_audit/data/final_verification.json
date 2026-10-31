@@ -1,0 +1,20 @@
+{
+  "reviews": 30,
+  "review_cards": 30,
+  "summary_rows": 3,
+  "K15_audit_rows": 15,
+  "core_coverage_rows": 9,
+  "priority_rows": 30,
+  "priority_counts": {
+    "Priority 1": 10,
+    "Priority 3": 10,
+    "Priority 2": 5,
+    "Priority 4": 5
+  },
+  "invariance_tests": "15/15",
+  "report_sections": 13,
+  "workbook_bytes": 22811,
+  "researcher_blank_cells": 270,
+  "figures": 4,
+  "status": "PASS"
+}

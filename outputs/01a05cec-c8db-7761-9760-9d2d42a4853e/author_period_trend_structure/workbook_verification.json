@@ -1,0 +1,23 @@
+{
+  "workbook_path": "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\QTS_Author_Period_Trend_Structure.xlsx",
+  "workbook_sha256": "fbd7b23924127220db1fbab360db9223cd9de5bb791b196202d8e719d32c6716",
+  "workbook_bytes": 246393,
+  "sheet_count": 12,
+  "rendered_sheet_count": 12,
+  "rendered_previews": [
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\.artifact_work\\previews\\Overview.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\.artifact_work\\previews\\Period_Counts.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\.artifact_work\\previews\\Period_Topic_Means.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\.artifact_work\\previews\\Bootstrap_CI.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\.artifact_work\\previews\\Trend_Structure.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\.artifact_work\\previews\\Trend_Robustness.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\.artifact_work\\previews\\Poem_vs_Author.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\.artifact_work\\previews\\Author_Concentration.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\.artifact_work\\previews\\CLEAR_Topics.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\.artifact_work\\previews\\Candidate_Trends.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\.artifact_work\\previews\\Sensitivity_Flags.png",
+    "D:\\中大中文系工作相关\\論文發表與投稿\\全唐詩LDA\\outputs\\01a05cec-c8db-7761-9760-9d2d42a4853e\\author_period_trend_structure\\.artifact_work\\previews\\Data_Dictionary.png"
+  ],
+  "overview_inspect": "{\"kind\":\"table\",\"sheet\":\"Overview\",\"address\":\"A1:I22\",\"rows\":22,\"cols\":9,\"values\":[[\"QTS Author-Period Topic Trend Structure\",null,null,null,null,null,null,null,null],[\"按作者所属时期划分的 C_K20 主题分布；不是单篇作品创作年代。CORE 为主要描述规格，STRICT/EXPANDED 为敏感性。\",null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null],[\"Sample\",\"Poems\",\"Authors\",null,\"CORE Peak\",\"初唐\",\"盛唐\",\"中唐\",\"晚唐\"],[\"STRICT\",8722,180,null,\"POEM\",6,5,3,6],[\"CORE\",10841,207,null,\"AUTHOR\",4,4,5,7],[\"EXPANDED\",23609,479,null,null,null,null,null,null],[null,null,null,null,\"Trend Robustness\",\"Topic Count\",null,\"Candidate Trends\",\"Count\"],[null,null,null,null,\"HIGH\",0,null,\"CLEAR candidates\",9],[\"Method\",\"Value\",\"Interpretation\",null,\"MODERATE\",16,null,null,null],[\"Bootstrap iterations\",2000,\"作者为 cluster；同一作者的全部入选诗随 cluster 进入\",null,\"LOW\",4,null,null,null],[\"Random seed\",20260901,\"固定 seed，可逐值复现\",null,null,null,null,null,null],[\"Analytical specifications\",6,\"3 samples × 2 aggregation estimands\",null,null,null,null,null,null],[\"Topic dimensions\",20,\"完整概率向量；Mixed/Noise 未删除\",null,null,null,null,null,null],[\"Pairwise p-values\",0,\"本阶段不运行时期两两显著性检验\",null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null],[\"Interpretation boundary\",null,null,null,null,null,null,null,null],[\"所有 peak、rank、shape、bootstrap-supported direction 和 concentration 均是描述性统计结构。author_period_primary 表示作者所属时期，不得改写为诗歌创作年代；candidate trends 只供下一阶段人工审核。\",null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null]]}",
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+}

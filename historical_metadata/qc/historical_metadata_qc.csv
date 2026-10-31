@@ -1,0 +1,18 @@
+﻿test_id,description,status,observed,expected
+TEST_01,"输入母表为43,015行",PASS,43015,43015
+TEST_02,"输出母表仍为43,015行",PASS,43015,43015
+TEST_03,poem_id 唯一性与顺序不变化,PASS,43015,43015
+TEST_04,所有原 Topic probability 字符值完全不变化,PASS,29068089d459ff490e14675a8273bd16c82618b26d9f35895577a1a48e14abd9,29068089d459ff490e14675a8273bd16c82618b26d9f35895577a1a48e14abd9
+TEST_05,所有原 C_K20 字段完全不变化,PASS,True,True
+TEST_06,author raw values 不被覆盖,PASS,unchanged,unchanged
+TEST_07,每个 author 至多一个 selected CBDB person ID,PASS,1,<=1
+TEST_08,同一 CBDB person ID 对应多作者均列入审计,PASS,13,全部另表列出
+TEST_09,birth_year <= death_year,PASS,0,0
+TEST_10,fl_start <= fl_end,PASS,0,0
+TEST_11,period 只含初盛中晚唐或 NA,PASS,validated,allowed set
+TEST_12,ANONYMOUS 不得自动 CBDB 匹配,PASS,0,0
+TEST_13,LOW / ambiguous 作者全部进入 human review,PASS,0,0
+TEST_14,period boundary 作者标记可复算,PASS,0,0
+TEST_15,cross-period 作者标记可复算,PASS,0,0
+TEST_16,所有新增字段具有数据字典,PASS,0,0
+TEST_17,"43,015×20 Topic probability checksum 不变化",PASS,29068089d459ff490e14675a8273bd16c82618b26d9f35895577a1a48e14abd9,29068089d459ff490e14675a8273bd16c82618b26d9f35895577a1a48e14abd9

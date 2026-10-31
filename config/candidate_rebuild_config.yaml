@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "base_lda_config": "config/tf_df_lda_config.yaml",
+  "selection_summary": "human_topic_review/model_selection_summary.csv",
+  "paths": {
+    "corpus_root": "output/tf_df_sensitivity",
+    "original_model_root": "output/lda_sensitivity/models",
+    "output_root": "output/lda_candidate_rebuild",
+    "log_path": "logs/candidate_model_rebuild.log"
+  },
+  "candidates": [
+    {"model_id": "A_K20", "corpus": "A", "K": 20, "selected_seed": 20260830},
+    {"model_id": "B_K20", "corpus": "B", "K": 20, "selected_seed": 20260830},
+    {"model_id": "B_K30", "corpus": "B", "K": 30, "selected_seed": 2026},
+    {"model_id": "C_K20", "corpus": "C", "K": 20, "selected_seed": 2026},
+    {"model_id": "D_K20", "corpus": "D", "K": 20, "selected_seed": 42},
+    {"model_id": "D_K30", "corpus": "D", "K": 30, "selected_seed": 42}
+  ],
+  "validation": {
+    "metric_absolute_tolerance": 1e-10,
+    "require_exact_top20_csv_hash": true,
+    "require_exact_top5_representatives_csv_hash": true,
+    "require_environment_match": true
+  },
+  "persistence": {
+    "joblib_compress": 3,
+    "resume": true
+  }
+}

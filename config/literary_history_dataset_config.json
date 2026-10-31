@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "output_root": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset",
+  "rebuild_root": "output/lda_candidate_rebuild",
+  "corpus_root": "output/tf_df_sensitivity",
+  "metadata_jsonl": "segmentation/data/poems.jsonl",
+  "human_evaluation_xlsx": "human_topic_review/human_topic_evaluation.xlsx",
+  "review_root": "human_topic_review",
+  "model_selection_root": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/model_selection",
+  "models": {
+    "B_K20": {
+      "role": "broader_vocabulary_control",
+      "corpus_id": "B",
+      "TF": 2,
+      "DF": 2,
+      "K": 20,
+      "selected_seed": 20260830
+    },
+    "C_K20": {
+      "role": "primary",
+      "corpus_id": "C",
+      "TF": 3,
+      "DF": 3,
+      "K": 20,
+      "selected_seed": 2026
+    },
+    "D_K20": {
+      "role": "stricter_filter_robustness",
+      "corpus_id": "D",
+      "TF": 5,
+      "DF": 3,
+      "K": 20,
+      "selected_seed": 42
+    }
+  },
+  "integrity": {
+    "row_sum_tolerance": 1e-6,
+    "top_word_count": 20
+  },
+  "alignment": {
+    "shared_vocabulary_only": true,
+    "top_word_count": 30,
+    "representative_poem_count": 20,
+    "review_poem_count": 10
+  },
+  "taxonomy": [
+    {
+      "topic_id": 1,
+      "final_topic_label": "宫廷宴乐与杂咏（噪声）",
+      "short_label": "宴乐杂咏噪声",
+      "topic_type": "NOISE",
+      "interpretation": "仅可辨认出宴乐、歌舞与宫廷动作的零散线索，关键词和代表诗无法组成稳定语义中心。",
+      "interpretation_confidence": "LOW",
+      "use_for_primary_interpretation": false,
+      "interpretation_scope": "exclude",
+      "taxonomy_note": "保留机器主题作为概率维度，但不得将其当作独立文学史题材。"
+    },
+    {
+      "topic_id": 2,
+      "final_topic_label": "人生出处、忠义与悲慨（混合）",
+      "short_label": "人生忠义混合",
+      "topic_type": "MIXED",
+      "interpretation": "人生出处、忠义、功名、生死与悲慨相互交叠，存在可解释中心但内部语义分支较多。",
+      "interpretation_confidence": "LOW",
+      "use_for_primary_interpretation": false,
+      "interpretation_scope": "limited",
+      "taxonomy_note": "只宜讨论复合语义场，不宜拆解为单一伦理或单一情感主题。"
+    },
+    {
+      "topic_id": 3,
+      "final_topic_label": "朝廷礼乐、应制与颂圣",
+      "short_label": "朝廷礼乐颂圣",
+      "topic_type": "CLEAR",
+      "interpretation": "以郊庙礼乐、朝会应制、颂德献寿、封禅与赐宴为稳定核心。",
+      "interpretation_confidence": "HIGH",
+      "use_for_primary_interpretation": true,
+      "interpretation_scope": "primary",
+      "taxonomy_note": "可作主解释主题，但不能把所有宫廷诗均归入此类。"
+    },
+    {
+      "topic_id": 4,
+      "final_topic_label": "春景花木与岁时感怀",
+      "short_label": "春景花木",
+      "topic_type": "BROAD",
+      "interpretation": "围绕春日、花木、新岁与物候变化，并延伸到惜春和岁时感怀。",
+      "interpretation_confidence": "MEDIUM",
+      "use_for_primary_interpretation": true,
+      "interpretation_scope": "secondary",
+      "taxonomy_note": "解释边界限于春景、花木和岁时物候，少量送僧或道路诗不作核心证据。"
+    },
+    {
+      "topic_id": 5,
+      "final_topic_label": "君子伦理、仁义与政治教化",
+      "short_label": "政治伦理教化",
+      "topic_type": "BROAD",
+      "interpretation": "以君子、仁义、礼、劝诫和社会秩序为中心的议论性政治伦理语义场。",
+      "interpretation_confidence": "MEDIUM",
+      "use_for_primary_interpretation": true,
+      "interpretation_scope": "secondary",
+      "taxonomy_note": "不得进一步推定具体政治派别、制度立场或时代分期。"
+    },
+    {
+      "topic_id": 6,
+      "final_topic_label": "老病身世、仕宦与人生感怀",
+      "short_label": "老病身世",
+      "topic_type": "CLEAR",
+      "interpretation": "集中表现老病、仕宦、退居、交游与人生反思，身世感怀特征稳定。",
+      "interpretation_confidence": "HIGH",
+      "use_for_primary_interpretation": true,
+      "interpretation_scope": "primary",
+      "taxonomy_note": "主题可能偏向作品数量较多的中晚唐诗人，后续作者分析须控制作者集中度。"
+    },
+    {
+      "topic_id": 7,
+      "final_topic_label": "相思离愁、夜月与琴声",
+      "short_label": "相思夜月",
+      "topic_type": "CLEAR",
+      "interpretation": "相思、离愁、夜月、琴声、梦与泪构成高度一致的抒情语义场。",
+      "interpretation_confidence": "HIGH",
+      "use_for_primary_interpretation": true,
+      "interpretation_scope": "primary",
+      "taxonomy_note": "送别与闺情可同时出现，应保留概率混合而非硬分。"
+    },
+    {
+      "topic_id": 8,
+      "final_topic_label": "山居寺院、僧侣与幽居",
+      "short_label": "山寺幽居",
+      "topic_type": "CLEAR",
+      "interpretation": "以野寺、僧院、访僧、山居和清幽生活为明确中心。",
+      "interpretation_confidence": "HIGH",
+      "use_for_primary_interpretation": true,
+      "interpretation_scope": "primary",
+      "taxonomy_note": "与闲居隐逸主题相邻，后续解释应通过完整概率区分。"
+    },
+    {
+      "topic_id": 9,
+      "final_topic_label": "泛化词主导杂咏（噪声）",
+      "short_label": "泛词杂咏噪声",
+      "topic_type": "NOISE",
+      "interpretation": "由年、去、名、地、知、过等泛化词主导，代表诗题材分散，无法形成可靠主题。",
+      "interpretation_confidence": "LOW",
+      "use_for_primary_interpretation": false,
+      "interpretation_scope": "exclude",
+      "taxonomy_note": "只保留为模型维度和混合度计算，不进入文学史主解释。"
+    },
+    {
+      "topic_id": 10,
+      "final_topic_label": "江湖羁旅、送别与思归",
+      "short_label": "江湖羁旅",
+      "topic_type": "CLEAR",
+      "interpretation": "舟行、江湖、远客、送别、怀友和思归形成稳定的羁旅语义场。",
+      "interpretation_confidence": "HIGH",
+      "use_for_primary_interpretation": true,
+      "interpretation_scope": "primary",
+      "taxonomy_note": "不得把诗中出现江水或道路的作品自动视为羁旅诗。"
+    },
+    {
+      "topic_id": 11,
+      "final_topic_label": "花香春情、女性与闺情",
+      "short_label": "春情闺情",
+      "topic_type": "CLEAR",
+      "interpretation": "花香、春情、女性、闺怨、艳情与舞乐意象构成一致的情感语义场。",
+      "interpretation_confidence": "HIGH",
+      "use_for_primary_interpretation": true,
+      "interpretation_scope": "primary",
+      "taxonomy_note": "女性书写主体与作品中的女性形象不可混为一谈。"
+    },
+    {
+      "topic_id": 12,
+      "final_topic_label": "春水花鸟与自然风物",
+      "short_label": "春水花鸟",
+      "topic_type": "BROAD",
+      "interpretation": "春水、花鸟、柳草、风雨与湖池构成范围较宽的春日自然风物主题。",
+      "interpretation_confidence": "MEDIUM",
+      "use_for_primary_interpretation": true,
+      "interpretation_scope": "secondary",
+      "taxonomy_note": "应限于自然风物结构，不把所有春诗或山水诗并入。"
+    },
+    {
+      "topic_id": 13,
+      "final_topic_label": "清景物候、咏物与杂咏（混合）",
+      "short_label": "清景咏物混合",
+      "topic_type": "MIXED",
+      "interpretation": "清光、凝照、流色等物候与咏物线索可见，但礼乐、农业、潭水和禅堂等题材混入。",
+      "interpretation_confidence": "LOW",
+      "use_for_primary_interpretation": false,
+      "interpretation_scope": "limited",
+      "taxonomy_note": "只可作为清景物候复合语义场进行有限讨论。"
+    },
+    {
+      "topic_id": 14,
+      "final_topic_label": "寒景云物与杂咏（混合）",
+      "short_label": "寒景云物混合",
+      "topic_type": "MIXED",
+      "interpretation": "秋冬寒景、云叶晚风具有一定中心，但应制、宴游、宫怨和宅亭题材明显混合。",
+      "interpretation_confidence": "LOW",
+      "use_for_primary_interpretation": false,
+      "interpretation_scope": "limited",
+      "taxonomy_note": "不能把该主题直接等同于秋诗或冬诗。"
+    },
+    {
+      "topic_id": 15,
+      "final_topic_label": "功名文士与颂赠杂糅（噪声）",
+      "short_label": "功名文士噪声",
+      "topic_type": "NOISE",
+      "interpretation": "功名、才名、诗文、颂赠等线索被泛化词和多种题材打散，缺乏可重复的文学中心。",
+      "interpretation_confidence": "LOW",
+      "use_for_primary_interpretation": false,
+      "interpretation_scope": "exclude",
+      "taxonomy_note": "不得据此讨论文士阶层、科举或文学制度。"
+    },
+    {
+      "topic_id": 16,
+      "final_topic_label": "边塞征战与军旅",
+      "short_label": "边塞军旅",
+      "topic_type": "CLEAR",
+      "interpretation": "边塞、征战、军旅、将军、战马、胡塞与军功构成专属性极强的主题。",
+      "interpretation_confidence": "HIGH",
+      "use_for_primary_interpretation": true,
+      "interpretation_scope": "primary",
+      "taxonomy_note": "后续仍须区分战争叙事、征人离思与军功颂扬的概率混合。"
+    },
+    {
+      "topic_id": 17,
+      "final_topic_label": "仙山道观、登临与神仙想象",
+      "short_label": "仙山道观",
+      "topic_type": "BROAD",
+      "interpretation": "仙山、道观、登临、海岳与神仙想象共同组成超越性空间主题。",
+      "interpretation_confidence": "MEDIUM",
+      "use_for_primary_interpretation": true,
+      "interpretation_scope": "secondary",
+      "taxonomy_note": "少量宫廷或山水题材游离，不能把一般登高诗全部纳入。"
+    },
+    {
+      "topic_id": 18,
+      "final_topic_label": "飞鸟夜景、山水与行旅（混合）",
+      "short_label": "山水行旅混合",
+      "topic_type": "MIXED",
+      "interpretation": "飞鸟、夜月、山水、归宿和行旅意象交叠，中心可感但代表诗分布较散。",
+      "interpretation_confidence": "LOW",
+      "use_for_primary_interpretation": false,
+      "interpretation_scope": "limited",
+      "taxonomy_note": "只宜讨论意象复合，不宜命名为单一山水或羁旅题材。"
+    },
+    {
+      "topic_id": 19,
+      "final_topic_label": "闲居山林与隐逸生活",
+      "short_label": "山林隐逸",
+      "topic_type": "CLEAR",
+      "interpretation": "茅斋、处士、精舍、闲居、避暑、致仕与忘机形成稳定的隐逸生活主题。",
+      "interpretation_confidence": "HIGH",
+      "use_for_primary_interpretation": true,
+      "interpretation_scope": "primary",
+      "taxonomy_note": "与山寺幽居、老病退居相邻，后续应使用完整概率识别重叠。"
+    },
+    {
+      "topic_id": 20,
+      "final_topic_label": "饮酒酬赠、宴集与送别",
+      "short_label": "诗酒酬赠",
+      "topic_type": "CLEAR",
+      "interpretation": "饮酒、酬答、赠别、宴集、诗歌往来和留别构成明确的文人交游主题。",
+      "interpretation_confidence": "HIGH",
+      "use_for_primary_interpretation": true,
+      "interpretation_scope": "primary",
+      "taxonomy_note": "宴饮、送别和老病闲居存在交叠，不应仅凭 dominant topic 硬分类。"
+    }
+  ],
+  "alignment_overrides": {
+    "1": {"B_topics": [1, 6, 4], "B_type": "weak", "B_confidence": "LOW", "D_topics": [9, 17], "D_type": "split", "D_confidence": "MEDIUM", "semantic_stability": "PARAMETER_SENSITIVE", "reason": "C 为噪声主题；B 侧候选语义互不相干，D 侧仅把动作杂咏与宫廷宴飨两个分支部分还原。"},
+    "2": {"B_topics": [14, 7], "B_type": "split", "B_confidence": "MEDIUM", "D_topics": [11, 4, 2], "D_type": "split", "D_confidence": "MEDIUM", "semantic_stability": "PARTIALLY_ROBUST", "reason": "C 将人生哲思、忠义悲感与仕宦行旅合并，B/D 分别拆成多个相邻主题。"},
+    "3": {"B_topics": [8, 19], "B_type": "split", "B_confidence": "HIGH", "D_topics": [17, 8], "D_type": "split", "D_confidence": "HIGH", "semantic_stability": "PARTIALLY_ROBUST", "reason": "礼乐颂圣在三模型都存在，但 B/D 分别拆分为政教朝会与祭祀宴飨两个分支。"},
+    "4": {"B_topics": [10], "B_type": "strong_1to1", "B_confidence": "HIGH", "D_topics": [6], "D_type": "strong_1to1", "D_confidence": "HIGH", "semantic_stability": "ROBUST", "reason": "春景花木在 B/C/D 均有高 cosine、较高词重合和一致人工标签。"},
+    "5": {"B_topics": [8], "B_type": "merge", "B_confidence": "MEDIUM", "D_topics": [11, 1, 4], "D_type": "split", "D_confidence": "MEDIUM", "semantic_stability": "PARTIALLY_ROBUST", "reason": "B8 同时承载礼乐政教，D 则把生死、出处和玄理分开，C 的政治伦理中心只部分稳定。"},
+    "6": {"B_topics": [14, 13], "B_type": "split", "B_confidence": "HIGH", "D_topics": [5, 11], "D_type": "split", "D_confidence": "HIGH", "semantic_stability": "PARTIALLY_ROBUST", "reason": "老病身世稳定存在，但在 B/D 中分别分散到人生哲思、诗酒闲居与生死悲感。"},
+    "7": {"B_topics": [18, 4, 7], "B_type": "split", "B_confidence": "MEDIUM", "D_topics": [16, 13, 4], "D_type": "split", "D_confidence": "MEDIUM", "semantic_stability": "PARTIALLY_ROBUST", "reason": "C 将羁旅送别、闺情相思和人生感慨压入同一抒情场，B/D 分支结构不同。"},
+    "8": {"B_topics": [17], "B_type": "strong_1to1", "B_confidence": "HIGH", "D_topics": [12], "D_type": "strong_1to1", "D_confidence": "HIGH", "semantic_stability": "ROBUST", "reason": "山居寺院与幽居在三模型均形成高相似主题；B 标签较宽但核心证据一致。"},
+    "9": {"B_topics": [13, 12, 14], "B_type": "unmatched", "B_confidence": "LOW", "D_topics": [5, 16, 17], "D_type": "unmatched", "D_confidence": "LOW", "semantic_stability": "PARAMETER_SENSITIVE", "reason": "C 由泛化词主导，B/D 高分候选题材互异，不能据数值强行命名对应。"},
+    "10": {"B_topics": [18], "B_type": "strong_1to1", "B_confidence": "HIGH", "D_topics": [16, 15], "D_type": "split", "D_confidence": "HIGH", "semantic_stability": "ROBUST", "reason": "羁旅送别在三模型都高度清晰；D 进一步拆为江行离愁与乡思。"},
+    "11": {"B_topics": [4, 10], "B_type": "split", "B_confidence": "HIGH", "D_topics": [13, 6], "D_type": "split", "D_confidence": "HIGH", "semantic_stability": "PARTIALLY_ROBUST", "reason": "春情、闺情和花木在 C 中结合，B/D 均把情感与物候分成相邻主题。"},
+    "12": {"B_topics": [10, 17, 18], "B_type": "split", "B_confidence": "MEDIUM", "D_topics": [6, 18], "D_type": "split", "D_confidence": "MEDIUM", "semantic_stability": "PARTIALLY_ROBUST", "reason": "春水花鸟是宽主题，B/D 分别把春花、山居、羁旅和四时山水拆开。"},
+    "13": {"B_topics": [8, 7, 17], "B_type": "weak", "B_confidence": "LOW", "D_topics": [18, 1, 4], "D_type": "split", "D_confidence": "LOW", "semantic_stability": "PARAMETER_SENSITIVE", "reason": "C 本身为混合主题，两侧候选跨越礼乐、怀人、风物、出处和玄理，语义对应不稳定。"},
+    "14": {"B_topics": [17], "B_type": "moderate_1to1", "B_confidence": "MEDIUM", "D_topics": [18], "D_type": "moderate_1to1", "D_confidence": "MEDIUM", "semantic_stability": "PARTIALLY_ROBUST", "reason": "寒景云物在 B/D 被吸收到更宽的四时风物主题，方向一致但专属性不足。"},
+    "15": {"B_topics": [8, 16, 1], "B_type": "weak", "B_confidence": "LOW", "D_topics": [1, 17], "D_type": "weak", "D_confidence": "LOW", "semantic_stability": "PARAMETER_SENSITIVE", "reason": "功名文士线索未在 B/D 形成同一稳定主题，候选跨政教、泛词、出处和宫廷宴飨。"},
+    "16": {"B_topics": [6], "B_type": "strong_1to1", "B_confidence": "HIGH", "D_topics": [19], "D_type": "strong_1to1", "D_confidence": "HIGH", "semantic_stability": "ROBUST", "reason": "边塞军旅在 B/C/D 中均有高度相似词分布、代表诗和一致人工标签。"},
+    "17": {"B_topics": [1], "B_type": "strong_1to1", "B_confidence": "HIGH", "D_topics": [18, 14], "D_type": "split", "D_confidence": "MEDIUM", "semantic_stability": "PARTIALLY_ROBUST", "reason": "B 保留仙山天界核心，D 将超越空间分散到山水气象与月夜宫闺意象。"},
+    "18": {"B_topics": [17, 5], "B_type": "split", "B_confidence": "LOW", "D_topics": [18, 15, 14], "D_type": "split", "D_confidence": "LOW", "semantic_stability": "PARAMETER_SENSITIVE", "reason": "C 混合飞鸟夜景、山水与行旅，B/D 分裂方式不同且相似度仅中低。"},
+    "19": {"B_topics": [13], "B_type": "moderate_1to1", "B_confidence": "MEDIUM", "D_topics": [12], "D_type": "merge", "D_confidence": "MEDIUM", "semantic_stability": "PARTIALLY_ROBUST", "reason": "隐逸闲居在三模型可辨，但 B13 混入诗酒老病，D12 同时承载山寺幽居。"},
+    "20": {"B_topics": [13], "B_type": "merge", "B_confidence": "MEDIUM", "D_topics": [5, 2], "D_type": "split", "D_confidence": "MEDIUM", "semantic_stability": "PARTIALLY_ROBUST", "reason": "诗酒酬赠在 B 中与闲居老病合并，在 D 中分散到诗酒交游与送别仕宦。"}
+  }
+}

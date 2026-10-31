@@ -1,0 +1,16 @@
+﻿K15_topic_id,K15_label,mapped_K20_topics,mapped_K20_labels,relation_type,semantic_similarity,K15_interpretability,K15_overbreadth,merge_semantic_judgment,K20_added_resolution_judgment,AI_under_split_reason,AI_review_status,researcher_confirmation_status
+1,仙山宫苑、歌舞器物与杂咏,topic_01;topic_17,宫廷宴乐与杂咏（噪声）;仙山道观、登临与神仙想象,LOWER_K_MERGE,0.8439940609;0.6875675249,2,4,PROBLEMATIC_MERGE,MEANINGFUL_SPLIT,K20 T17 可清楚承载神仙山岳，K20 T01 的杂项成分在此与之黏连，代表诗仍显异质。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+2,行路艰难、忠义生死与社会悲慨,topic_02,人生出处、忠义与悲慨（混合）,ONE_TO_ONE,0.9359937436,3,4,UNCERTAIN,UNCERTAIN,虽内容混合，但与本身同为 MIXED 的 K20 T02 基本一对一，不能归因于 K15 相对 K20 的欠分。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+3,朝廷礼乐、应制与颂圣,topic_03,朝廷礼乐、应制与颂圣,ONE_TO_ONE,0.9089584087,5,1,UNCERTAIN,UNCERTAIN,与 K20 T03 一对一，中心和边界均清楚。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+4,边塞军旅、归途与春景杂糅,topic_16;topic_04,边塞征战与军旅;春景花木与岁时感怀,LOWER_K_MERGE,0.7648763708;0.7427085183,3,5,PROBLEMATIC_MERGE,MEANINGFUL_SPLIT,K20 T16 与 T04 的对齐分别得到军旅诗和春景行旅诗支持，K20 的区分具有明确文学意义。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+5,君子伦理、政治劝诫与社会批评,topic_05,君子伦理、仁义与政治教化,ONE_TO_ONE,0.9607000597,4,2,UNCERTAIN,UNCERTAIN,与 K20 T05 基本一对一，宽度来自主题自身的政治伦理范围。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+6,老病身世、诗酒交游与仕宦自况,topic_06;topic_20,老病身世、仕宦与人生感怀;饮酒酬赠、宴集与送别,LOWER_K_MERGE,0.9521648726;0.7587425647,4,3,ACCEPTABLE_BROADENING,MEANINGFUL_SPLIT,K20 T06 与 T20 在 Top20 中分别表现为老病仕宦和饮酒酬赠；Top20 白居易占 65%，作者平衡样本仍确认主题中心但不消除欠分。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+7,相思离愁、夜月与琴声,topic_07,相思离愁、夜月与琴声,ONE_TO_ONE,0.9734386528,5,1,UNCERTAIN,UNCERTAIN,与 K20 T07 一对一，Top words 与代表诗吻合。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+8,山居寺院、隐逸与寻幽,topic_08;topic_19,山居寺院、僧侣与幽居;闲居山林与隐逸生活,LOWER_K_MERGE,0.9721820201;0.7720927105,5,2,MEANINGFUL_AGGREGATION,MINOR_REFINEMENT,K20 T08 与 T19 的僧寺、山居和隐逸可视为自然上位聚合，文本没有严重互斥。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+9,诗名仕途、行旅与杂咏噪声,topic_09,泛化词主导杂咏（噪声）,ONE_TO_ONE,0.8222750030,1,4,UNCERTAIN,UNCERTAIN,与同为噪声的 K20 T09 基本一对一；这是主题质量问题，而非 K15 相对 K20 的新增欠分。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+10,江湖羁旅、送别与思归,topic_10,江湖羁旅、送别与思归,ONE_TO_ONE,0.9904103321,5,1,UNCERTAIN,UNCERTAIN,与 K20 T10 一对一，主题边界清楚。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+11,春花、艳情与惜春,topic_11;topic_04,花香春情、女性与闺情;春景花木与岁时感怀,LOWER_K_MERGE,0.9573352803;0.7798048899,5,2,MEANINGFUL_AGGREGATION,MINOR_REFINEMENT,K20 T11 与 T04 的女性春情和一般春景彼此相邻，本层合并仍有明确核心。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+12,春水花鸟与自然风物,topic_12,春水花鸟与自然风物,ONE_TO_ONE,0.9104444438,5,1,UNCERTAIN,UNCERTAIN,与 K20 T12 一对一，语义稳定。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+13,郊庙礼乐、神祀与祥瑞,topic_13;topic_03,清景物候、咏物与杂咏（混合）;朝廷礼乐、应制与颂圣,LOWER_K_MERGE,0.7822250806;0.6757862472,4,2,ACCEPTABLE_BROADENING,FRAGMENTATION,对齐 K20 T13 与 T03，但 K15 的代表诗反而较完整地聚合礼制神祀；K20 的局部区分可能带来碎片化。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+14,闲居清景、羁旅相思与仕隐杂糅,topic_19;topic_14;topic_13;topic_07;topic_10,闲居山林与隐逸生活;寒景云物与杂咏（混合）;清景物候、咏物与杂咏（混合）;相思离愁、夜月与琴声;江湖羁旅、送别与思归,LOWER_K_MERGE,0.7087778640;0.6590294392;0.6163554580;0.6008673067;0.5404977669,3,5,PROBLEMATIC_MERGE,MEANINGFUL_SPLIT,对齐 K20 T19、T14、T13、T07、T10，Top20 仍可辨认隐逸、行旅和相思三支，是最明显的低 K 语义桶之一。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION
+15,边塞征战、军功与神异杂咏,topic_15;topic_16,功名文士与颂赠杂糅（噪声）;边塞征战与军旅,LOWER_K_MERGE,0.7621903779;0.6631760448,4,2,ACCEPTABLE_BROADENING,MEANINGFUL_SPLIT,K20 T16 提纯边塞军旅，K20 T15 承接部分噪声；K15 主体仍明确，故暂判可接受的拓宽。,AI_REVIEW,NEEDS_RESEARCHER_CONFIRMATION

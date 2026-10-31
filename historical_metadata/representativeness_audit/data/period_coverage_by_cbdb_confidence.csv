@@ -1,0 +1,5 @@
+cbdb_match_confidence,author_count,period_known_author_count,period_unknown_author_count,period_known_author_ratio,poem_count,period_known_poem_count,period_unknown_poem_count,period_known_poem_ratio
+HIGH,654,294,360,0.44954128440367,17870,15610,2260,0.8735310576385
+LOW,38,11,27,0.289473684210526,245,67,178,0.273469387755102
+MEDIUM,422,174,248,0.412322274881517,10266,7932,2334,0.772647574517826
+UNRESOLVED,1414,0,1414,0,14634,0,14634,0

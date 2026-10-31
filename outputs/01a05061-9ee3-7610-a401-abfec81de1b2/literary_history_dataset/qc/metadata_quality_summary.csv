@@ -1,0 +1,19 @@
+﻿field,source_field,total_rows,nonmissing_count,missing_count,coverage_rate,unique_value_count,notes
+poem_id,poems.jsonl:id,43015,43015,0,1.0,43015,
+poet_id,poems.jsonl:poet_id,43015,43015,0,1.0,2528,
+author,poems.jsonl:poet,43015,43015,0,1.0,2528,unique_authors=2528;anonymous_or_unattributed=980
+title,poems.jsonl:title,43015,43015,0,1.0,37208,
+text,poems.jsonl:text,43015,43015,0,1.0,42446,
+cleaned_text,C/lda_corpus.csv:cleaned_tokens,43015,43015,0,1.0,42366,
+volume,absent_in_authoritative_metadata,43015,0,43015,0.0,0,当前 SQL/JSONL 无《全唐诗》卷次字段
+genre,absent_in_authoritative_metadata,43015,0,43015,0.0,0,当前权威 metadata 无文体字段
+form,absent_in_authoritative_metadata,43015,0,43015,0.0,0,当前权威 metadata 无文体字段
+poetic_form,absent_in_authoritative_metadata,43015,0,43015,0.0,0,当前权威 metadata 无文体字段
+date,absent_in_authoritative_metadata,43015,0,43015,0.0,0,无诗歌创作时间；SQL created_at/updated_at 为技术时间，禁止采用
+year,absent_in_authoritative_metadata,43015,0,43015,0.0,0,无诗歌创作时间；SQL created_at/updated_at 为技术时间，禁止采用
+period,absent_in_authoritative_metadata,43015,0,43015,0.0,0,period metadata 尚需构建或校验；本阶段不作初盛中晚唐推断
+author_period,absent_in_authoritative_metadata,43015,0,43015,0.0,0,
+dating_method,absent_in_authoritative_metadata,43015,0,43015,0.0,0,
+place,absent_in_authoritative_metadata,43015,0,43015,0.0,0,当前权威 metadata 无空间字段
+region,absent_in_authoritative_metadata,43015,0,43015,0.0,0,当前权威 metadata 无空间字段
+location,absent_in_authoritative_metadata,43015,0,43015,0.0,0,当前权威 metadata 无空间字段

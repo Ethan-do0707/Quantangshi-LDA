@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "checkpoint_signature": "51de6b57c93dd03ea7075c0c7b8002bcab2ece2ce4e03ddbe36466a8f5a9bfc1",
+  "run_type": "full_corpus_model_selection_diagnostic",
+  "corpus": "C",
+  "K": 5,
+  "seed": 20260830,
+  "documents": 43015,
+  "vocabulary_size": 35063,
+  "iterations_run": 30,
+  "fit_time_seconds": 1167.482534,
+  "training_perplexity": 4426.39880405777,
+  "mean_NPMI": 0.09884096808138265,
+  "min_topic_NPMI": 0.0825620270462209,
+  "max_topic_NPMI": 0.12506251914047414,
+  "Topic_Diversity": 0.66,
+  "metric_top_words": 20,
+  "model_parameters": {
+    "implementation": "sklearn.decomposition.LatentDirichletAllocation",
+    "learning_method": "batch",
+    "max_iter": 30,
+    "n_jobs": -1,
+    "evaluate_every": -1,
+    "perp_tol": 0.1,
+    "mean_change_tol": 0.001,
+    "max_doc_update_iter": 100,
+    "doc_topic_prior": null,
+    "topic_word_prior": null,
+    "verbose": 1
+  },
+  "outputs": [
+    {
+      "path": "model.joblib",
+      "sha256": "16d74939c0ef62bc73e421a0a62519d277890bdde81db7a50cffbbd3c9af72f7",
+      "bytes": 2605119
+    },
+    {
+      "path": "topic_word_components.npz",
+      "sha256": "69fbf570a1d65f49833e79528c61ec77bae3b33893ba23790f347f6a1b5925be",
+      "bytes": 1532325
+    },
+    {
+      "path": "topic_word_probabilities.npz",
+      "sha256": "c7a37d0653323d430dafecb2622561a0de8133500f4bdf591f74c2c0241210c3",
+      "bytes": 1526920
+    },
+    {
+      "path": "document_topic_probabilities.npz",
+      "sha256": "04cc04fec0a725b2b79a56be17011abf883ef83bcf0b78d7ff4078cd19a3d69f",
+      "bytes": 1686219
+    },
+    {
+      "path": "topic_similarity.npy",
+      "sha256": "eb93b73728c24ff0aed4c42ba84f4638e406066e0d6d47e47acd2d8a5cdcd21c",
+      "bytes": 328
+    },
+    {
+      "path": "topics_top30.csv",
+      "sha256": "df97e0862012e5067d70ed7381d39bbf66828526c357f93092eea316eda16295",
+      "bytes": 22892
+    },
+    {
+      "path": "representative_poems_top20.csv",
+      "sha256": "3cca574e5f5caf9c581fe0748e7f4e1b4107ed46e2cec9cd78057022ad2d4ba5",
+      "bytes": 84355
+    }
+  ]
+}

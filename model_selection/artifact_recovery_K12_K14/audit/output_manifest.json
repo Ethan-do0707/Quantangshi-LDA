@@ -1,0 +1,2245 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/QTS_K12_K14_Artifact_Recovery_Report.md",
+      "bytes": 2883,
+      "sha256": "a915035b259d380e7b49198e978b928c015dc602e572a3f9056ca77fa82ba325"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/README.md",
+      "bytes": 480,
+      "sha256": "dce6d060264ddb3f9fab9de7b7522b6b6c7827b15eb65442eec629691be5d279"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/audit/completion_summary.json",
+      "bytes": 2655,
+      "sha256": "7cc7f595c68a16cadea7c4041250b47bcae98a797c8be79e17e2d7c904e22c78"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/audit/environment_audit.json",
+      "bytes": 2298,
+      "sha256": "0fb50010e6737ffbaadddfc97e61bcf0c58a700d7df0d3e250da12c0e3d284ce"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/audit/preflight.json",
+      "bytes": 1205,
+      "sha256": "1be48f3e051ccb0b276e8580dfb3e883860305c7a838652359cf5b7abd304a0e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/audit/progress.json",
+      "bytes": 197,
+      "sha256": "206c970fd8ae542b4608d68408a1999ff9b8b003b97a7a9dd67443a0efad53d1"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/config/artifact_recovery_config.yaml",
+      "bytes": 3184,
+      "sha256": "4760731d070a6c5b64062330c4eac9db9363c65dc9aa202a11093f6293151538"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/data/C_document_row_map.csv",
+      "bytes": 3616387,
+      "sha256": "68a003fa895830b1356ca99faa4fb901c5a6e8ef37fcc97aa3a1b073195e7558"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/data/K12_K14_representative_seed_selection.csv",
+      "bytes": 3639,
+      "sha256": "39994d830b6660154833ee7e73c9a67dcfd09e8a7792e1fdf47f574abe857b21"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/data/blind_audit_model_scope_audit.csv",
+      "bytes": 1115,
+      "sha256": "a2ab6f887cdc8208c805525f188c20423c028a4f61b58f6b3ddb6b5f4ccc56f9"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/data/blind_audit_ready_model_manifest.csv",
+      "bytes": 2623,
+      "sha256": "5dcb1e67827538ff0a74b0f92a96369531cfbb483d29584981a09ea2df27f788"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/data/model_reproduction_validation.csv",
+      "bytes": 7900,
+      "sha256": "2aa406080a1193c6bf58209f6addbc54f88f46959fcf94d1b71f6034773ee756"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/data/qa_results.csv",
+      "bytes": 1691,
+      "sha256": "dffbf2be18fa015edfafb081a5c79b00324156ed11a1e9341cd69c8383cac4d8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/data/topic_permutation_maps.csv",
+      "bytes": 29524,
+      "sha256": "2f587affb6fb0540ce9ba71c3deb9f810f4034dfdf17de2532539e668a059153"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/components.npz",
+      "bytes": 2537394,
+      "sha256": "3eeba552b1fc75adc4726251037b76326a9f81ff5ff0088e5894c8beaafc429a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/document_topic_full.npz",
+      "bytes": 3519454,
+      "sha256": "1c58db1f99c1e5375e539d86a5c104ee60b9e1a6fdd7b2a5213da42c2e681191"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/lda_model.joblib",
+      "bytes": 5274144,
+      "sha256": "550780dd401c67d69f46593b6901cb7771b5471800fb37e6c38a37968fea42db"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/model_artifacts_enriched.npz",
+      "bytes": 8666738,
+      "sha256": "011ef038144cf28bed2691aa7cccdc7ef37ddafbfcde72d69753a6f1700eb9cc"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/model_metadata.json",
+      "bytes": 6056,
+      "sha256": "b6cb56cf5b68d36f1663ab2cb8959e1a618805533566fd8caee2056d3ec1be53"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/representative_poems_author_balanced_top20.csv",
+      "bytes": 133768,
+      "sha256": "112cf197f78a737fb8ad3f3bd709695cd5b08bd304984c3ba9d37676176246ec"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/representative_poems_top100.csv",
+      "bytes": 498108,
+      "sha256": "7affc6df43b5bab5db89c5763ae612e1520e8330b4c569fbcf77feffe8bd9ddd"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/representative_poems_top20.csv",
+      "bytes": 135266,
+      "sha256": "22ab0a42adae96a1151f1b69f4adc22eae836829c904cd4e778f9bed3238d2db"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/representative_poems_top50.csv",
+      "bytes": 275005,
+      "sha256": "e8fb346af3e2c1784a4434225474dde6aa934154033b4799b4c90053eb05f0a8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/top_indices.npy",
+      "bytes": 1088,
+      "sha256": "2971fb18d3c61a567f1df7ab1d3df522d2049a1c85c3dfd552d7add864c73b6f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/topic_qc.csv",
+      "bytes": 917,
+      "sha256": "5aba237ac19aec21dea9224d091d0f4b81ee397e982952442465da7adbedfaa9"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K12/topic_word_unit.npz",
+      "bytes": 2543935,
+      "sha256": "7e37d42fa59b4bdd463b2b73d67decb5717fc67ca4b91ddfdcfb1ab145857df0"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/components.npz",
+      "bytes": 2732162,
+      "sha256": "d54b6eeb97829c2d115c5d403bd403ed3d5e74a229568b8b77c4cd218f61a795"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/document_topic_full.npz",
+      "bytes": 3923189,
+      "sha256": "fff33be0d4753c9dd866f92ea4d09bf38e9433c56edded24385a0678075f73e6"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/lda_model.joblib",
+      "bytes": 5739066,
+      "sha256": "49a1b72c5ca4134a3764febb810ae4946fb8280a7ad8e285135ae81160516792"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/model_artifacts_enriched.npz",
+      "bytes": 9466611,
+      "sha256": "e137c4566c887a0fec0dc3d632306d8ed3f42a2dd9e2de2a6d917e7fe57d92cb"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/model_metadata.json",
+      "bytes": 6062,
+      "sha256": "2dba96d37deedd184b0b1f82212b5f6d0c29f15aa30263bc9d35a23a10644678"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/representative_poems_author_balanced_top20.csv",
+      "bytes": 139727,
+      "sha256": "8a6de626a54da389862ee77cf2eb20aceea5a3218a67ced4e67ceccc3c163c1c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/representative_poems_top100.csv",
+      "bytes": 554941,
+      "sha256": "7c7901d35de4589e9a42713ee9a51ab06461d4101a80b9f1a9ecdbdbc0f72ea8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/representative_poems_top20.csv",
+      "bytes": 141342,
+      "sha256": "b90308660f01ff1680e0f0d3d689db54f63ef70e99b119c53d87275fe093f867"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/representative_poems_top50.csv",
+      "bytes": 300710,
+      "sha256": "ee6bb86934d6eb043a764c13bcf7a6eb43e077e4ec75b6ed44b723b1b28585ef"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/top_indices.npy",
+      "bytes": 1248,
+      "sha256": "70f31372dc57d3e9a2e60ca2d5ba9230dc8172f824a40cbad64d2c4bce88dec4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/topic_qc.csv",
+      "bytes": 1081,
+      "sha256": "fe2e6848873b29d1f651c718ad0fedffed1f4f75f509c8f344045fca6d8b5f7a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/full_corpus_blind_models/K14/topic_word_unit.npz",
+      "bytes": 2745234,
+      "sha256": "e112855c8ff88c631def2c8f8d9db7e91b57f65fba48900a1a6f793954610df8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/inventory/k12_k14_artifact_inventory.csv",
+      "bytes": 6851,
+      "sha256": "51ca5dc09ecc588652295c5dbf69280c0777662872c3372c3a7dd188926367dc"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/inventory/original_artifact_hashes.csv",
+      "bytes": 24462,
+      "sha256": "c3e4a8be50f07668d929458f474b3f9926fa0d2fa9af56b767d9cad679b15d28"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_101/lda_model.joblib",
+      "bytes": 3804279,
+      "sha256": "b48e29a0747f978f84816d2ce45af3b65671b76d0a48424656f0ef4ee106951e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_101/model_artifacts_enriched.npz",
+      "bytes": 9808207,
+      "sha256": "c78895b2277e93675101a9e19aa0663d0fc6e86cac30fb07343f68fb2c764458"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_101/model_metadata.json",
+      "bytes": 6003,
+      "sha256": "7784d10cf86b49458ed40c6e0fb86bf8e3f27f6928feb7bb99d4b4dcfa5ee908"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_101/original_reference.json",
+      "bytes": 5324,
+      "sha256": "3f091605f10f6f1acf68f856f195cb29dd5a863c13b3d6547adf4a2284d13e7b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_101/representative_poems_author_balanced_top20.csv",
+      "bytes": 138370,
+      "sha256": "8aeb84d8ef87420bb7dfaa63fb84643cf77c6339e7ad262663450d477f991714"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_101/representative_poems_top100.csv",
+      "bytes": 489342,
+      "sha256": "332e49e32c546f82fb0ab035f675b4a324d3d1013c089af83e2f979d6973c2dc"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_101/representative_poems_top20.csv",
+      "bytes": 141415,
+      "sha256": "84b8b75a861f173b98a57cd642c86f78bf174c3617ec3c8c7277eb4a317645c1"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_101/representative_poems_top50.csv",
+      "bytes": 284936,
+      "sha256": "fce188abe0c6a98743e568db3f656ad6f743cfa835c7161fcdb14205057cb97f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_101/reproduction_validation.json",
+      "bytes": 2024,
+      "sha256": "db8a425403aea74fb4128b073bd8a6b03f9966286587d8894d0634da766af972"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_101/topic_permutation_map.csv",
+      "bytes": 782,
+      "sha256": "36c407526bf5b1fa2dd22910c6d5a287fc229e97d9af6b84073f5154552f23b9"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_12345/lda_model.joblib",
+      "bytes": 3808761,
+      "sha256": "aeb4b19f2b6a1f556d1c4c9ea8ba41bda41dbc47ded92c3f3f6eb931f3d93294"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_12345/model_artifacts_enriched.npz",
+      "bytes": 9792943,
+      "sha256": "d59e4be9db948cef1e9f9c1725b87af12422cf5d3cb64c812eca5644e3e70865"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_12345/model_metadata.json",
+      "bytes": 6027,
+      "sha256": "1e5608af75f654c9900f859bd65aba5b8e2dd956e1bf5d251545f99539780ee5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_12345/original_reference.json",
+      "bytes": 5347,
+      "sha256": "d4314de8da0d53f201bb8321bc2bbf73325f0e249c228acf0059489fe52f68b2"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_12345/representative_poems_author_balanced_top20.csv",
+      "bytes": 141360,
+      "sha256": "586883bc6afe4d4dba908195b6e4e8d6994775d6f5b1aaf8d32967eaf3c1a580"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_12345/representative_poems_top100.csv",
+      "bytes": 508934,
+      "sha256": "0b32212d838a1e9ebac8386b23bac32f5cf92110b7e007d0fbc50444410a3e29"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_12345/representative_poems_top20.csv",
+      "bytes": 144619,
+      "sha256": "4452b6f0bb3b11968df58d485bc797d6464d63459aff779bbba230833032696c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_12345/representative_poems_top50.csv",
+      "bytes": 291944,
+      "sha256": "378e6344dc431a047b1458afff991de447d63c2954bc696c5b2cc39b09b5410f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_12345/reproduction_validation.json",
+      "bytes": 2030,
+      "sha256": "e0ea5f6247cbe006cd17af36fcb06bd0b3ab926040ee0c8c236c342f1c8ba6bf"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_12345/topic_permutation_map.csv",
+      "bytes": 851,
+      "sha256": "dbba68066faa4e9b4e8907c1543f6d24da70fb3d0a9d7a4c8007971b00646303"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_17/lda_model.joblib",
+      "bytes": 3778753,
+      "sha256": "78e7806c22ed45e88263381ea2e35035bf7f4330b1f2d995c38899ef235e05d5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_17/model_artifacts_enriched.npz",
+      "bytes": 9765798,
+      "sha256": "d9d06a85bc066cb6ce211bccc46de7586c592ce3870f77806f083f805d02ccce"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_17/model_metadata.json",
+      "bytes": 5991,
+      "sha256": "bee74909119ee00f66d416b3ef7d3710b9e20772927c1ae49e262b5131923278"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_17/original_reference.json",
+      "bytes": 5327,
+      "sha256": "9dbf65d4ce60b7734e5c13da91d00f127f7fc1f35c7bd77a02a34a5f22d7be73"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_17/representative_poems_author_balanced_top20.csv",
+      "bytes": 139767,
+      "sha256": "3da997f297d62e82e958f626ac3050828367098cfe6130100b46b8f3cdaa6def"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_17/representative_poems_top100.csv",
+      "bytes": 491993,
+      "sha256": "cf0b953e5311c5644dc7e215c53fb4f37b03cb045c216484b0174c2846c5aad4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_17/representative_poems_top20.csv",
+      "bytes": 141791,
+      "sha256": "fc5f63536bd0363b5c71e5b5846543289c58a88d948ef369e32938b36021128d"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_17/representative_poems_top50.csv",
+      "bytes": 287526,
+      "sha256": "d76cec95279db3a88739293739c246fedfa04bf7b1309fc12c8be164592bdee4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_17/reproduction_validation.json",
+      "bytes": 2021,
+      "sha256": "374c2105a1cc4f87c5728a192e34e70d474d5d8491eac6e56ca523f8cadfca3f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_17/topic_permutation_map.csv",
+      "bytes": 800,
+      "sha256": "79b47a4a22011e20da70797a8798c2d90d49f339e4bdfed37179eb3faa9d3b78"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_2026/lda_model.joblib",
+      "bytes": 3796470,
+      "sha256": "fe0d15d4782cd7c1ad572bd8fef3d310ff96666b485d5f8c4fa491994f724517"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_2026/model_artifacts_enriched.npz",
+      "bytes": 9789958,
+      "sha256": "5533b39cfc31e694aa7bad03a34140b3841aa98087e31e75c22131df1570ad92"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_2026/model_metadata.json",
+      "bytes": 6014,
+      "sha256": "cfccfc73c8cffcb8e7f5ebaf3d1dd179985744936f4ff41566658b79dd36a03f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_2026/original_reference.json",
+      "bytes": 5328,
+      "sha256": "bfcb72f78e07abb37593804ba4fe8e7e75365eb50df3b532ba1cb13927bc3135"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_2026/representative_poems_author_balanced_top20.csv",
+      "bytes": 138996,
+      "sha256": "60b0d8b69413b0ea57faf1abdaf8c1e07d962c04db9366fb1c0588adbd3f4cc0"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_2026/representative_poems_top100.csv",
+      "bytes": 503571,
+      "sha256": "e4b90473b7d7ec68ff36046a0e7c3c47a75c5bce0562370bb4fdb50f957274bb"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_2026/representative_poems_top20.csv",
+      "bytes": 141608,
+      "sha256": "8be1242c3388bcb5c56e3d7c6d9421dabb0f9e3d065eb6f039a5e1b374c3f517"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_2026/representative_poems_top50.csv",
+      "bytes": 287709,
+      "sha256": "1ec7bac79ebf48d1d48c8829b28ad641f879b1289719910b7fced637fd889aff"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_2026/reproduction_validation.json",
+      "bytes": 2024,
+      "sha256": "93471773c9ccbafc153186ea6e620c310564a10fa2cbf122be93ce11dedc5074"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_2026/topic_permutation_map.csv",
+      "bytes": 809,
+      "sha256": "60a6c4d5e2b1d1a4df05b7a97772a22fc629e636f64202a0267b83df2b009968"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260830/lda_model.joblib",
+      "bytes": 3779027,
+      "sha256": "b8c0037fbc4df53c0b14399ee23d0df2d26dfa9af437d5955566c2c376f902fa"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260830/model_artifacts_enriched.npz",
+      "bytes": 9791982,
+      "sha256": "0d7f3b3433569acfc755351894c98c5ddf365ca96bbff38db6584dfeb55f49df"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260830/model_metadata.json",
+      "bytes": 6062,
+      "sha256": "a52a138f57c77e61ad29e159173f3804f42ea9514dd0517929f5a32f3a1c0ff5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260830/original_reference.json",
+      "bytes": 5346,
+      "sha256": "1a2263bc847f3a9da5f63232188da09a6c0600c694307e8033348b460d4da27a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260830/representative_poems_author_balanced_top20.csv",
+      "bytes": 140574,
+      "sha256": "88c27c95d28890881be649151953d65d1b60645f3ed0309fe541c7a5c31bf6d6"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260830/representative_poems_top100.csv",
+      "bytes": 499246,
+      "sha256": "5a2efe6c7dad0fa8fd98fd9779d9d1bfab50fca33a6102ee8590784182d2776f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260830/representative_poems_top20.csv",
+      "bytes": 143847,
+      "sha256": "9edd81980e7cf825bbae7bb62ec573b38e3a178c6e159dea4748cd0f05b2d72e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260830/representative_poems_top50.csv",
+      "bytes": 288067,
+      "sha256": "62db9008777c1381ff312490785b62b604353d1359242e4f78e2ccdd900c73c8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260830/reproduction_validation.json",
+      "bytes": 2038,
+      "sha256": "58261fc5c4a93df6fd9f899758a7daacd03c8e37fe632b9a589d63f804e79ccf"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260830/topic_permutation_map.csv",
+      "bytes": 842,
+      "sha256": "facf78220a74bad2e7753e52888ec8d6e6f3117eba98074d73a1a2d87249f536"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260907/lda_model.joblib",
+      "bytes": 3807673,
+      "sha256": "df7d798c216e6dcb72d23dcf8d59135c4ff12f749664b4825448b982577c2394"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260907/model_artifacts_enriched.npz",
+      "bytes": 9797718,
+      "sha256": "b24d91557edbe36e86443e33f9a43225454c8d3f149f3eb8ceb949f75020d791"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260907/model_metadata.json",
+      "bytes": 6062,
+      "sha256": "0298219e999128fc0bf075f8dcd2203535111401281d4f01a89aab140b39a035"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260907/original_reference.json",
+      "bytes": 5359,
+      "sha256": "d7729ec7427c51dedb61c9ab68f309edf08ed12d8d6b4a112d18798563e02616"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260907/representative_poems_author_balanced_top20.csv",
+      "bytes": 154611,
+      "sha256": "14f133c904261c0857f28ac1fa186730e98c83b04e4eff3a7a91f7e5f7f27e67"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260907/representative_poems_top100.csv",
+      "bytes": 519052,
+      "sha256": "022deb50c3109049bd293c5009121e3e33e3e3c1b81744fc0d309ed4ec53b516"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260907/representative_poems_top20.csv",
+      "bytes": 156057,
+      "sha256": "346c9cc4b762f7feaa9731cd6b30a59463f979a126e63e73513c60f2f351c605"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260907/representative_poems_top50.csv",
+      "bytes": 307658,
+      "sha256": "9584b52e4741d5d5c0ee6c0fc67825367263445e5a87cf5b9d5f018494594808"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260907/reproduction_validation.json",
+      "bytes": 2038,
+      "sha256": "4a6693f5f406b5eaa6d7ea3372f54d73ae2e2211ba612989f5d4bd6055d386fc"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_20260907/topic_permutation_map.csv",
+      "bytes": 887,
+      "sha256": "23d7e720180cba445eed60b09e51540c992dea11d1307e84238566f745547b65"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_271828/lda_model.joblib",
+      "bytes": 3766042,
+      "sha256": "5d031c1938a14c4d8a8efc518053963073ec00626f3f9f48fc0cef1c20005942"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_271828/model_artifacts_enriched.npz",
+      "bytes": 9768113,
+      "sha256": "dd4dfb4da36c87bda9c716704ca8959b58ab8cb44baca3f8def4e26b0031eaff"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_271828/model_metadata.json",
+      "bytes": 6039,
+      "sha256": "bdf95e874149e16929e9d966a7c9c0c26a41fd268859e1c8dc4883113f3e3d3d"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_271828/original_reference.json",
+      "bytes": 5321,
+      "sha256": "24cdb8a748b4a22b7f25ce341eea18961676d115df985a37eb293fd030702d73"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_271828/representative_poems_author_balanced_top20.csv",
+      "bytes": 142787,
+      "sha256": "681f0189de71f9b5816bbb38054c2f4af2e06fd83be0fe2012a1c6c73f25706b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_271828/representative_poems_top100.csv",
+      "bytes": 509670,
+      "sha256": "40533fff13e15ad109e018ec49a18ad3a660689a667bef13ccddf6ca06f90193"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_271828/representative_poems_top20.csv",
+      "bytes": 144237,
+      "sha256": "47d80492c7ef46f91f374168703ca9dfda24e8983bc8b4ca976c5f18fdc7249b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_271828/representative_poems_top50.csv",
+      "bytes": 291559,
+      "sha256": "d7b30878840c52b2a60001e408a3b23d07b3774501f6c90a781ee4292482904b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_271828/reproduction_validation.json",
+      "bytes": 2035,
+      "sha256": "05dd4ca3b6d310245e452e5d95ce07027c06d6457c3d4ea5e684fd3a21281fd4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_271828/topic_permutation_map.csv",
+      "bytes": 818,
+      "sha256": "dcaa5c844eb13208a924044c00f607bbee420f8e3fdea3520cf87c458c0a44b2"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_31415/lda_model.joblib",
+      "bytes": 3796987,
+      "sha256": "eeae12402709c952a3148942390cafce5ccd5f8c90f84aa52b4c3caf7a169033"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_31415/model_artifacts_enriched.npz",
+      "bytes": 9786557,
+      "sha256": "e003ba9828cc3bb956978985ac3612163edeade77d95ac6942f02661f7b045da"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_31415/model_metadata.json",
+      "bytes": 6026,
+      "sha256": "0a097ebc10bd26833c350750e25b6b47a09ad11d13b8fef61889b53ff8c1f068"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_31415/original_reference.json",
+      "bytes": 5331,
+      "sha256": "15c2817c05d1bd24fd74c3fd4cb23d7b97502ba653c1395544554d7acc01e310"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_31415/representative_poems_author_balanced_top20.csv",
+      "bytes": 139659,
+      "sha256": "636cf7a770f2999de79346a93fd1ddc9b8136c6e3634bf2b2a7ea794fe94de9f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_31415/representative_poems_top100.csv",
+      "bytes": 501446,
+      "sha256": "b26f425d2f3c03377eb82fe075eab2baea24494d5db6c7884818d8245e1ce200"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_31415/representative_poems_top20.csv",
+      "bytes": 140634,
+      "sha256": "bb31e49ddb612291297b84099a2f7609c4e7a2f43a155738d0aa655be90cf3dc"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_31415/representative_poems_top50.csv",
+      "bytes": 284135,
+      "sha256": "11c831d59ea98c2dd4f458bfc8ff01b946e524613f440757d560461f40507e71"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_31415/reproduction_validation.json",
+      "bytes": 2031,
+      "sha256": "38a5fd33ba6e5a2d2c9596a6a5d2214b178ad5ede1fb4f52b8d90c2295fe66bc"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_31415/topic_permutation_map.csv",
+      "bytes": 851,
+      "sha256": "bdfd47c8ab91d93ad53df822c721582d31b196a9c8127857a60ec1ce1d635330"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_42/lda_model.joblib",
+      "bytes": 3806262,
+      "sha256": "4e7742abd1f23930920290e85fc85479e3963ba105dc74a0fae6eaaabe7db4e8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_42/model_artifacts_enriched.npz",
+      "bytes": 9806324,
+      "sha256": "36d16689ebd1f519bb26c5d1cb6374bd08b006c875049e0a71518584c34642eb"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_42/model_metadata.json",
+      "bytes": 5991,
+      "sha256": "b48eb9bcdefae45c3e938d702d0c456cdec11285397bcacf2b9665914502c2a4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_42/original_reference.json",
+      "bytes": 5331,
+      "sha256": "57f99f1dbd03060c0382ca64a245f8ed639820c6b4f24001abe6f54330bb036a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_42/representative_poems_author_balanced_top20.csv",
+      "bytes": 134180,
+      "sha256": "bd66a0eb090f521d14b7af590c807a8d6d6f1f58de00e3b5ad410f923c791a0b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_42/representative_poems_top100.csv",
+      "bytes": 488550,
+      "sha256": "bbfade0cddef2ceb39fd4d820547b1903efdb9969c2400dd2ac04951fbc0d603"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_42/representative_poems_top20.csv",
+      "bytes": 136221,
+      "sha256": "46743bf25ad8a226141c3f6f58bb255ee2999dcb68b2ac025065f0069a4ca20e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_42/representative_poems_top50.csv",
+      "bytes": 279469,
+      "sha256": "ebdae38924a272ce6eabdfabf37b0f4780c267ec9fcc906b667d715cfa7e56ce"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_42/reproduction_validation.json",
+      "bytes": 2023,
+      "sha256": "461a97db668d8c63aeef25b37a2118eb4a602b15287a422b6080b982b8736498"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_42/topic_permutation_map.csv",
+      "bytes": 800,
+      "sha256": "a58a6765617d959ff517dc96b119e2a001cd5d3aa89b426c1fe231780fd94bbc"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_7/lda_model.joblib",
+      "bytes": 3774776,
+      "sha256": "0f8a5b30f1def11f16e2fb2876196b8d095ab2e87f6b04c8fd9d1905991db52e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_7/model_artifacts_enriched.npz",
+      "bytes": 9777689,
+      "sha256": "e7338c48ee781521488ce90908cf370509ef6aba5ff3da6169b5f376bdacbb02"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_7/model_metadata.json",
+      "bytes": 5979,
+      "sha256": "cdc86f8214d5f22c02d4d67fe1c4f6e1b764c70c36ab2ccbf292710375e5cd06"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_7/original_reference.json",
+      "bytes": 5315,
+      "sha256": "79f6744b4d5d1125d3943f2ef6875b73f4a5dd270481cff2a0aaaced081abf77"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_7/representative_poems_author_balanced_top20.csv",
+      "bytes": 142622,
+      "sha256": "6c7150c05a21aa9dd5900cd8054f81ac5f3d17823e2b50cd90e06bbddd8f75f5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_7/representative_poems_top100.csv",
+      "bytes": 492762,
+      "sha256": "a89967da448985a03a51c7d431413b0e8ef150e769e69ca889f2975603f8f5c7"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_7/representative_poems_top20.csv",
+      "bytes": 142944,
+      "sha256": "d12b1ded8334c6bbf765460b0eb2cd5f316ae66e3e94a095333e69056990a296"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_7/representative_poems_top50.csv",
+      "bytes": 286752,
+      "sha256": "f60ba2e74852fbce745af8f89345348a65b656380e5824d6151fa4f242a02a89"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_7/reproduction_validation.json",
+      "bytes": 2018,
+      "sha256": "d1531c88ccaa534f65854d8d7cfaa1caff143150361c36ce0429ab619bfdbd7e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/FIXED_PRIOR_K20/seed_7/topic_permutation_map.csv",
+      "bytes": 773,
+      "sha256": "67c45ee4585ff91bed5968c4f676e4826e167321a0cabb6d491203713f61785d"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_101/lda_model.joblib",
+      "bytes": 5160648,
+      "sha256": "c22ea2c54a3d37072779f8d9de90cec0ed18516d87b81648148f30bc7af044e7"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_101/model_artifacts_enriched.npz",
+      "bytes": 12213019,
+      "sha256": "8d37cac167b650879c4fa565085fc2cc1f8e6b4438b8e4b5f46247065594ed48"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_101/model_metadata.json",
+      "bytes": 6023,
+      "sha256": "0555fc6652d9bb58ad95b73b7c2586b18163da7048d96c3137e32b67d129b0a6"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_101/original_reference.json",
+      "bytes": 5344,
+      "sha256": "8de8168b4c46e31e89314fddeefa17dd32887fc8d12840967387e0b495754376"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_101/representative_poems_author_balanced_top20.csv",
+      "bytes": 136307,
+      "sha256": "71b34495358ea3fc4f363f17c6973e9841d07c2be08ce960c6ad2d3ada3e0445"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_101/representative_poems_top100.csv",
+      "bytes": 483713,
+      "sha256": "49f36bda9ba1962f60bf4db2d0618bc85b87e80c537df9494331bc441f8d3399"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_101/representative_poems_top20.csv",
+      "bytes": 137368,
+      "sha256": "eb25bef00db8b67a6fbc0288c6ce7fe3be0d023744eb668ac1d66b8fee4eebb5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_101/representative_poems_top50.csv",
+      "bytes": 280260,
+      "sha256": "bc1892427e764f0ebf23dd35945c1306fd3d1b04fe1485966d53e26ed9163282"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_101/reproduction_validation.json",
+      "bytes": 2019,
+      "sha256": "ee330f3f6c77a16a66c2d6bf8d20c4723fb6adb950557d50a1caa0f1c2314181"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_101/topic_permutation_map.csv",
+      "bytes": 770,
+      "sha256": "b477a9c042c515176abb2aa858a9f1276968afab913c6cdb7383bb7217dcac2f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_12345/lda_model.joblib",
+      "bytes": 5153182,
+      "sha256": "b035fe452df8fa08292f9cc0424a2a54917f80397d7eb53fbf3d6af5980d5649"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_12345/model_artifacts_enriched.npz",
+      "bytes": 12204628,
+      "sha256": "65ee26b402798e96bb6695f10abe02ea2bd3e20aaee6c9d03b703a41cc585ae8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_12345/model_metadata.json",
+      "bytes": 6047,
+      "sha256": "6871e5aad4ea5ed285cf715fa0c9acd4d94985ecff640b599aa617f98971f5a4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_12345/original_reference.json",
+      "bytes": 5359,
+      "sha256": "48283fceb3e15152e73b380d12d3acedc7abfb6a4763db22fa7a0a2adac2e3a5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_12345/representative_poems_author_balanced_top20.csv",
+      "bytes": 131188,
+      "sha256": "1bcdf6cd767b67dccb4c0e35797e428b59deb5aad9d9570826d537828018d23d"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_12345/representative_poems_top100.csv",
+      "bytes": 502916,
+      "sha256": "af76be38818cee2372c02d8a49c8438e9a1f7cadad4d1626239a9b861a9de1ee"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_12345/representative_poems_top20.csv",
+      "bytes": 133195,
+      "sha256": "2a5690d0035793112a952e5fa57d2c6f005abb6b91136abf3b3fe321b1fa3630"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_12345/representative_poems_top50.csv",
+      "bytes": 273517,
+      "sha256": "8b18fe1c936317966ffa4a5df327fe07012bdeb77a112df7de2e518a8b313b45"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_12345/reproduction_validation.json",
+      "bytes": 1999,
+      "sha256": "6e28f95b6492d7afcb8e264f405227256e57d7c0aedad20f315fb52b2e33470f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_12345/topic_permutation_map.csv",
+      "bytes": 824,
+      "sha256": "01734abedff19bfb25cc24707de11a6feb963388c7af847cd8f385134f32ac17"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_17/lda_model.joblib",
+      "bytes": 5152071,
+      "sha256": "b4670c145a0fc64079b745f60095e140759f1f6e11124ba6ea6cd1bc50694cf1"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_17/model_artifacts_enriched.npz",
+      "bytes": 12199175,
+      "sha256": "1b7286c628eb819bb4fab2e56e8979d611184614a66f9c25f217b42367944bc8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_17/model_metadata.json",
+      "bytes": 6011,
+      "sha256": "25d4a7532b468e2cb31161346aff07db9afaf9c65ca5d58f0c71b60fbe115e6e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_17/original_reference.json",
+      "bytes": 5359,
+      "sha256": "d8ace36866caac663ecd500ecde458c99678aaa2f4deb97f02bb8d0f820e9cb0"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_17/representative_poems_author_balanced_top20.csv",
+      "bytes": 135166,
+      "sha256": "034ee76fe1f6ff31e7510b832dc17e6b3f169441b398b3e0954f2527b7915e37"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_17/representative_poems_top100.csv",
+      "bytes": 494280,
+      "sha256": "f54735ba5686f6e3e30ae33ec88146741d7c099dc799a5f955e3b7b61194bc10"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_17/representative_poems_top20.csv",
+      "bytes": 137165,
+      "sha256": "bc8681deec944802d68e4a4d3e858215adfb207aa5e62ec15ff7b0bb4cb4956a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_17/representative_poems_top50.csv",
+      "bytes": 278232,
+      "sha256": "0654d0868ac0dcc6380f3bc12587508aafb887828c0366eaf4e2c9218c0ca4a9"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_17/reproduction_validation.json",
+      "bytes": 2018,
+      "sha256": "cfcfc7437365762f3154ae5efd74d34e7d74d796177aca9cdbdb894062a46dbb"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_17/topic_permutation_map.csv",
+      "bytes": 803,
+      "sha256": "18273aab075caedd9011f3e04cd91a61b60967449fbfbf9117a052aa1fce382c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_2026/lda_model.joblib",
+      "bytes": 5157392,
+      "sha256": "5c8eb2e48a7ab7b11a8a6ac93cdc935ae33bcd68aa463344f8799978b6ecce86"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_2026/model_artifacts_enriched.npz",
+      "bytes": 12210528,
+      "sha256": "b2e8c6264fd2a463a5b319cab778a1a42378129038c000552809a7a5c3731f94"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_2026/model_metadata.json",
+      "bytes": 6035,
+      "sha256": "a87de5844679c202dd6376ee614fc427625eac1edeff926dd85ee869604ff51e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_2026/original_reference.json",
+      "bytes": 5350,
+      "sha256": "38086e2a1012efa3d2928a672c9f206d7e467c95c1de87595c2de32460c8868d"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_2026/representative_poems_author_balanced_top20.csv",
+      "bytes": 138475,
+      "sha256": "ae68cd3433191a8315bec8c56d8a5ec71ec6f60ccdd0c7813e08dcaa7f193a0c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_2026/representative_poems_top100.csv",
+      "bytes": 510428,
+      "sha256": "7fdbf61d48a17ef06176889551a25e93cc487ac71c8428f80c9987a1f28cd678"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_2026/representative_poems_top20.csv",
+      "bytes": 140743,
+      "sha256": "1ec47454fd9b641d6b56ac6059d7d199094a06f7ce3f9d0b330f77811582132e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_2026/representative_poems_top50.csv",
+      "bytes": 282929,
+      "sha256": "8bd13e954a87d6a26bba4cfa09a1b11c89f0fcaad60aac4e2e28e30d0e03373d"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_2026/reproduction_validation.json",
+      "bytes": 2026,
+      "sha256": "165e12ed030cc20d016be148c67b2a5f5b7b464b0c191b4a25f46806d592f908"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_2026/topic_permutation_map.csv",
+      "bytes": 842,
+      "sha256": "3ad8de8b565f3d62f34460553114e229917dbef161512bb762b1c14bdadc6a18"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260830/lda_model.joblib",
+      "bytes": 5132179,
+      "sha256": "b3b039da3805a1d786070b62de890321931e90c3c5510ef6829921486ce22c6a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260830/model_artifacts_enriched.npz",
+      "bytes": 12195998,
+      "sha256": "e785ad705a8b034bd59bc56011a6f7a24c2c0e052335c9ea8e12378cdf36414c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260830/model_metadata.json",
+      "bytes": 6082,
+      "sha256": "7d8f968f65a54de9748effbf94b7d152858a5162ca060fac27222876a5ac0e3b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260830/original_reference.json",
+      "bytes": 5368,
+      "sha256": "f589cb3808775f113001dc63cdca4b3a62a62533c33d39f3b205a1281ad8a12f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260830/representative_poems_author_balanced_top20.csv",
+      "bytes": 137507,
+      "sha256": "db6be6207072bee28b690319f2890211d2680dd1cbfd20cb0bb02d5486f22bd5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260830/representative_poems_top100.csv",
+      "bytes": 515825,
+      "sha256": "2e557418fe4f3ef4801ed8c04752695c5b18269444fd7f7013ffe015db631747"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260830/representative_poems_top20.csv",
+      "bytes": 140409,
+      "sha256": "7baa40fe5bed481a0a912a648b288dba778be90b1fe7b05cb0dcda5c65802d93"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260830/representative_poems_top50.csv",
+      "bytes": 287884,
+      "sha256": "fc64096fed43da962705bc9ec5a7b79ecff8a4c51d02cb9a95532862d392f1ff"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260830/reproduction_validation.json",
+      "bytes": 2035,
+      "sha256": "dbb2558d84a0114aa12441ca5364762f80ec737a6fa85dae2077a840d69b031e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260830/topic_permutation_map.csv",
+      "bytes": 845,
+      "sha256": "d8695e90eb1e985e225f00d77be66c0e63f17ba8a02ced1666e2ec7beb21b694"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260907/lda_model.joblib",
+      "bytes": 5163274,
+      "sha256": "6804f58e424bede5980af11f2a888da29ea5cf9296be94da048b253e9fd1661f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260907/model_artifacts_enriched.npz",
+      "bytes": 12214743,
+      "sha256": "cbc8b3f624f35b1b25fd5d9e8d8ccd3a2c2160d092f3caa58213dbba766068af"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260907/model_metadata.json",
+      "bytes": 6082,
+      "sha256": "1d6abe3aa8c3e739d53ea71afbfa5b1a85cc5273d6104929e31c40d7e2a0ac94"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260907/original_reference.json",
+      "bytes": 5384,
+      "sha256": "b82cdf7bced86773b858e9ecced31dcb023d69391e2de866e36673c5c24c50bc"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260907/representative_poems_author_balanced_top20.csv",
+      "bytes": 146147,
+      "sha256": "4755d7bf965d0f22ae45ba85dc25d793a09360be5b32fd6c57bb911dd29c7970"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260907/representative_poems_top100.csv",
+      "bytes": 503604,
+      "sha256": "f65d7206da16d34b2b15a0d7070895c7fb77e6f65018f92df09d129c0f49a56e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260907/representative_poems_top20.csv",
+      "bytes": 148434,
+      "sha256": "8bf4cfd1aaa0da8b1e03b3750cbb0dfb5ae2d52787fc38ecba7d63c37111d650"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260907/representative_poems_top50.csv",
+      "bytes": 296891,
+      "sha256": "41d35f332c9c4acca77f95a6420bf5438ea113ed497e8b383282fcbd93368177"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260907/reproduction_validation.json",
+      "bytes": 2035,
+      "sha256": "017d9001b382b2aa762af29e343d16ea10aef98be4f36666130e950066b23f18"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_20260907/topic_permutation_map.csv",
+      "bytes": 860,
+      "sha256": "6f573f7e521bf07fdea918280cfa1202eb139c701cefc665af32405b2c5085ba"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_271828/lda_model.joblib",
+      "bytes": 5137644,
+      "sha256": "227fca45b81105d26036c4490ad0dd62e8b13148c8029d867b99a1710d7263bb"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_271828/model_artifacts_enriched.npz",
+      "bytes": 12189037,
+      "sha256": "1c628283c74897779df9beec39dad2f86764d5de0c6ff4f79d51e1e46009c5a3"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_271828/model_metadata.json",
+      "bytes": 6059,
+      "sha256": "f4e1db07db4a085818893177d182baf46389ead56c20ff0d7eae503927269bb6"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_271828/original_reference.json",
+      "bytes": 5346,
+      "sha256": "afc39228c2087ed750371debc5123584c1e95523e70e5903012bb34e5d0da087"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_271828/representative_poems_author_balanced_top20.csv",
+      "bytes": 137842,
+      "sha256": "94a1e1ea7b9b46296d20f4b4a2d2d4ea9a600a68e6629342c5cd3040823eac5d"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_271828/representative_poems_top100.csv",
+      "bytes": 509552,
+      "sha256": "c28aa6b033a36331aa475a898a97d3599425b405d3f10066d773707f26fce93c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_271828/representative_poems_top20.csv",
+      "bytes": 138714,
+      "sha256": "f3de6ddc10a1a5b2619272a2167796188f0f13f5b9f46c01cc07690175ba7ba4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_271828/representative_poems_top50.csv",
+      "bytes": 279867,
+      "sha256": "3d81c3444cffb0b972eb1115ad2409618409f5aa1f660b1674d70344393d4d2c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_271828/reproduction_validation.json",
+      "bytes": 2030,
+      "sha256": "99c7e161fb54bb05bb4bed67528bb34225997661072bc83cd1247092d8f126bf"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_271828/topic_permutation_map.csv",
+      "bytes": 836,
+      "sha256": "e4b55eb0b2aa548b563c60a5e57d4b57d3b600b9e3cf34627571ffb1e24fb2d8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_31415/lda_model.joblib",
+      "bytes": 5162505,
+      "sha256": "3332018de6572ce5d5afbec87afaca08739b6d6f723825e5041272bf049a990a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_31415/model_artifacts_enriched.npz",
+      "bytes": 12207521,
+      "sha256": "9b9599e64534adbcd4bb1911a0157a0c2fec075f3897161f13a1f6b1c4128652"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_31415/model_metadata.json",
+      "bytes": 6047,
+      "sha256": "b1adaf651c329cfe46181fb0c9fe062a8267d98fdfaee033eb61810d55d63bb1"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_31415/original_reference.json",
+      "bytes": 5352,
+      "sha256": "0647ef12e655b8d6790a997afd269f95afd28a82e1618c97e53b49da792fa5d9"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_31415/representative_poems_author_balanced_top20.csv",
+      "bytes": 129099,
+      "sha256": "be72b36f20418d8e31256dfe8e576aae896311c0774933876e2640d93b5e3900"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_31415/representative_poems_top100.csv",
+      "bytes": 490343,
+      "sha256": "0ea47827a4cfea1ad9fa3ba33911523ae6f5320263c35dee11d080b92c98c638"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_31415/representative_poems_top20.csv",
+      "bytes": 129695,
+      "sha256": "ef099386e541a88269c84fe3b71b51d028d67be8932c0e3f7c45f0c44a9e5d0e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_31415/representative_poems_top50.csv",
+      "bytes": 270030,
+      "sha256": "c77a8881cfa91b880935184a284eb62b141f59c7c10bea7d7b2bde273dafe0c5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_31415/reproduction_validation.json",
+      "bytes": 2029,
+      "sha256": "f021738e755f83024cbba74d9f655090bc6ebe92dd337c02735ac0a50789f238"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_31415/topic_permutation_map.csv",
+      "bytes": 869,
+      "sha256": "b8a8fde53d0a0cf4bb4cf95834b1c91c70ce5553bc0e6d706deeaa6599733408"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_42/lda_model.joblib",
+      "bytes": 5155606,
+      "sha256": "97960a6cb213872a95eaddc7b346a140e369e597c389a46c530d00660a040724"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_42/model_artifacts_enriched.npz",
+      "bytes": 12211214,
+      "sha256": "fceb44e9751e2193fa96c288736f94bd81efa5ece1c81edee9c108b3bcf9e44a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_42/model_metadata.json",
+      "bytes": 6005,
+      "sha256": "8be8c5217cdc4aa3710aa3cb1bc35ce0fe83cce5b2f7eac77755fa1e285b7076"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_42/original_reference.json",
+      "bytes": 5354,
+      "sha256": "de07c361eb84ffcf5635f9d5260c98f5afcca3e15d68b05ac73532728ef8e8a6"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_42/representative_poems_author_balanced_top20.csv",
+      "bytes": 136492,
+      "sha256": "2448f99220998a694e4db29be287b0e5243513757b64efbf9b3ee10e6fa590d2"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_42/representative_poems_top100.csv",
+      "bytes": 494900,
+      "sha256": "9ab6064442d1ca0f5f4461e9945bcd7dbfa76a9622e2202997cf4e60296e7837"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_42/representative_poems_top20.csv",
+      "bytes": 138250,
+      "sha256": "1eef850c4d2f11bfce3a50d590c35f629584a64c6580691949257c66711f4123"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_42/representative_poems_top50.csv",
+      "bytes": 283790,
+      "sha256": "c457165403f0038f54781b47c843d44a0f7fb1697dd28f963919d4eec1791fdb"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_42/reproduction_validation.json",
+      "bytes": 2012,
+      "sha256": "7058330e2d9ad4719bbb42acc58523c29f53b63397de1fc0276b295e93024880"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_42/topic_permutation_map.csv",
+      "bytes": 788,
+      "sha256": "2a8763ddd6d513d6296e16b0d8300dc4cbb22c060f6e562cca3fc4b7bebfd2fb"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_7/lda_model.joblib",
+      "bytes": 5139167,
+      "sha256": "a279a2308d7861c64bde78617afd110125393549fb1ccc4d6b6ce8afa59906da"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_7/model_artifacts_enriched.npz",
+      "bytes": 12203268,
+      "sha256": "5a2452981f8d2ab70938787a04e7080a1cd792d5524ca95267a7e6cc34fbdb92"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_7/model_metadata.json",
+      "bytes": 5999,
+      "sha256": "2ec14b297858e5ecae71053193e6c03962519af5381c01707acc69d14a1c3c35"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_7/original_reference.json",
+      "bytes": 5341,
+      "sha256": "84acaf5cbb48c7a79a3454ad0c2bb1824071ecd8747bb32fba38e7e507f548ed"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_7/representative_poems_author_balanced_top20.csv",
+      "bytes": 137688,
+      "sha256": "74a8aeadf2b7dc82a0f3efb0bf6f6234aa88eae7d95c21a39c17c81791ed56af"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_7/representative_poems_top100.csv",
+      "bytes": 490387,
+      "sha256": "c9621ec3e8acb0c587a381b8b07c46da7a00c51175d0205f02306d78da68c2b0"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_7/representative_poems_top20.csv",
+      "bytes": 137812,
+      "sha256": "a9d2b0c6d38dccc2db1a6a35954eec6a422750e143f6982ac7a3854fcc143a92"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_7/representative_poems_top50.csv",
+      "bytes": 278215,
+      "sha256": "d82c095eb7ebbd5ac056a1995a5e9b7aefbf19aa20274555f423ffb7e3f36ef2"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_7/reproduction_validation.json",
+      "bytes": 2015,
+      "sha256": "e047c2c5bab8446f7252bd6e119880462fd9a09d42b1c9da75936a409ad598be"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K12/ORIGINAL_PRIOR/seed_7/topic_permutation_map.csv",
+      "bytes": 806,
+      "sha256": "c6d4ef0d03745972f42a956425e0733e98646a07003aa941ce09b20066f9be6e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_101/lda_model.joblib",
+      "bytes": 4254634,
+      "sha256": "a71c449bef74e28f092d1bc2db2d4e92e931593324b48959fff02776b5de5e98"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_101/model_artifacts_enriched.npz",
+      "bytes": 11097464,
+      "sha256": "f8273be2f8b2c29434dc072116b357032b658ce90cc227d8d832e64cbc4ec8e2"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_101/model_metadata.json",
+      "bytes": 6003,
+      "sha256": "057cb8c15b7d237edbdfd73cb509fa6627a5d95132ce2c21ab0472ccc662d4e0"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_101/original_reference.json",
+      "bytes": 5778,
+      "sha256": "b45130687136fb51bba7ca2765215cf0d7c12eb08362e6814f8aa7ecfc937c80"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_101/representative_poems_author_balanced_top20.csv",
+      "bytes": 160159,
+      "sha256": "ca346b2e0f6430bae593685a30333b836091d978cf1103885df0c8e1ac54a172"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_101/representative_poems_top100.csv",
+      "bytes": 570790,
+      "sha256": "46212f7292a2ab03b7983b1eba45be74f8f51d847f5819f0909bb75df23bc548"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_101/representative_poems_top20.csv",
+      "bytes": 162671,
+      "sha256": "2a794121b578d35a20606e7226fd1ccf13af13ab1f2870febdf403c577dc133f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_101/representative_poems_top50.csv",
+      "bytes": 326765,
+      "sha256": "85b44f70609fa6c9d3fe56b9acf51ebe9f5eca2475b3f41443a76bf7ac1fd6c0"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_101/reproduction_validation.json",
+      "bytes": 2041,
+      "sha256": "ab7fa8fa6123d63129a6db2cd35b9adae6f63ca8df3d1946a134b3b9a09d48e1"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_101/topic_permutation_map.csv",
+      "bytes": 921,
+      "sha256": "2dbc4b9ec9d4595d6529ec055c93993105913956feb5f8c8e9a219233db09c01"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_12345/lda_model.joblib",
+      "bytes": 4254862,
+      "sha256": "6dc1aa0b3590773e401fb262e7297d9bcb01de03d96490a7c341de52b7bf2453"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_12345/model_artifacts_enriched.npz",
+      "bytes": 11089227,
+      "sha256": "7ad8580ca490013cbf1fc1225e31fa21b882f372929ceaa3fe5d732b32a44c47"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_12345/model_metadata.json",
+      "bytes": 6027,
+      "sha256": "a6d383c7ca161a9ff7758db07f160749d835375adf27421cdeb7383c2117d332"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_12345/original_reference.json",
+      "bytes": 5802,
+      "sha256": "6d59b4eee254388b7dead16e9b175a051efc7a12b24eef5c0316e65c6c3b8d58"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_12345/representative_poems_author_balanced_top20.csv",
+      "bytes": 146769,
+      "sha256": "64fe454810bce01d71ff618816847cb2bd4929a203bbf992781e73bb4aa1342d"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_12345/representative_poems_top100.csv",
+      "bytes": 552390,
+      "sha256": "be22afcb65503cfeff4c31e33279fa3ca8824fc3466cc7fcf0196b3e41537c6d"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_12345/representative_poems_top20.csv",
+      "bytes": 148761,
+      "sha256": "d7d1e797b5b1e5562287fcd309e98624d2a30710c8861f00453869386adcdfff"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_12345/representative_poems_top50.csv",
+      "bytes": 308466,
+      "sha256": "b868ffa070c1e3fd67c8567c4d9a3c6f299ef14178d173733d4ff77bbfe59a23"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_12345/reproduction_validation.json",
+      "bytes": 2049,
+      "sha256": "d1dfabde52ff9433175c7de2c3e95cbad93833f89c3cf2959fd567290d26bd93"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_12345/topic_permutation_map.csv",
+      "bytes": 949,
+      "sha256": "614c6b0f70f0e772634f58c7d603fe2a4e65b9a786f5618d69dd3c1058e2173e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_17/lda_model.joblib",
+      "bytes": 4205394,
+      "sha256": "c18933e2a4dae213ab8760ae0e0fdacfbff0f4809516774f85ff2d080257facc"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_17/model_artifacts_enriched.npz",
+      "bytes": 11044782,
+      "sha256": "7672946bce5764b25f78b395ff0229449fd919723bddd4027f89a010b218ffeb"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_17/model_metadata.json",
+      "bytes": 5992,
+      "sha256": "fe7b86cb5f86b3e81584dfb1c46ae72a7dd91f45e15430be190e49075b393ae0"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_17/original_reference.json",
+      "bytes": 5783,
+      "sha256": "02ee5e5f510b5705d19018a26f6d963c9850ed07c2a6c906bdebff8f6422a5f7"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_17/representative_poems_author_balanced_top20.csv",
+      "bytes": 147622,
+      "sha256": "1fb9b0341f3319c69da0c1ad25afb7abddbe144a56586eaeab2932577d442362"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_17/representative_poems_top100.csv",
+      "bytes": 546331,
+      "sha256": "5ba8cd8a6b207243ec7d4179e7a043123bfea3b7ea09fc9a999a47df09c67e1f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_17/representative_poems_top20.csv",
+      "bytes": 148690,
+      "sha256": "64dcc08a5704d640330b1a6618cb8f64fc1e48d6b3d1a626292899042d45b433"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_17/representative_poems_top50.csv",
+      "bytes": 302310,
+      "sha256": "bd3157946323fc4f4183225f585f915aecaf0a9a06df0add82cd447dde904b9c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_17/reproduction_validation.json",
+      "bytes": 2009,
+      "sha256": "88cae5f69e7cb78ecf3027ca3978b8cfb263454734f55978ec65c3791eed3db5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_17/topic_permutation_map.csv",
+      "bytes": 907,
+      "sha256": "d531ecb73d1869342c9a5367c067405d0524f591a8b81ea8544e2c6458c08217"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_2026/lda_model.joblib",
+      "bytes": 4266575,
+      "sha256": "3dc8cb6fdd5910d382d827ec8a8aa38623e60dc406da03a73a1ac14877191a35"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_2026/model_artifacts_enriched.npz",
+      "bytes": 11112907,
+      "sha256": "ddb712b2ad11b0de847e163855a8510a75d858c0a521d5b02b005cd85b44bee3"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_2026/model_metadata.json",
+      "bytes": 6015,
+      "sha256": "5d220226cb6113d548a1d9d1a1837b54af50d277d4bf16289e1e81db63d36824"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_2026/original_reference.json",
+      "bytes": 5786,
+      "sha256": "15fdb8125564253672d405bcbde12a428cf0b0308542f9b58d179d194881f71c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_2026/representative_poems_author_balanced_top20.csv",
+      "bytes": 163510,
+      "sha256": "20682b2b47ec345c615919c15cc124fd4b69c9fc4e1559a7e52c95b977431100"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_2026/representative_poems_top100.csv",
+      "bytes": 583896,
+      "sha256": "7a6aede49b82ceeee866dcb5782244341866de3451a573ef61246d399e333fd3"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_2026/representative_poems_top20.csv",
+      "bytes": 164840,
+      "sha256": "01e9212c274a301340b24fe6cd6e3dc73ed422c14866220142cf143a070ca7e8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_2026/representative_poems_top50.csv",
+      "bytes": 328731,
+      "sha256": "8cbb36f22e193a4e183f2c9c5a441f00f21ed0079b838a98637734d0079bf0b5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_2026/reproduction_validation.json",
+      "bytes": 2046,
+      "sha256": "0d69effc530dbbc951d6ce258f879eb093cc17a9f6878fd8d2f3f90460741342"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_2026/topic_permutation_map.csv",
+      "bytes": 935,
+      "sha256": "c0e3512e7ab78ac9e5253bc58c9e316fb965790e2f56ee654c355517f38d7206"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260830/lda_model.joblib",
+      "bytes": 4176702,
+      "sha256": "08bbf9c790447599a558b674635046a5961f8be6cda2e9fe46f95893e1c4fd03"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260830/model_artifacts_enriched.npz",
+      "bytes": 11010325,
+      "sha256": "5baf028bfc50b70f61036234571ee19ddc833a0e71b6436b389c526bbf2b5dd9"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260830/model_metadata.json",
+      "bytes": 6063,
+      "sha256": "6cdd3528a7de0072e5936f6f2c5f254d73fe486e41722e978bb73506d86a5745"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260830/original_reference.json",
+      "bytes": 5801,
+      "sha256": "44ef806557b2716d5d269a88cf25be86f32b942c6d13d8c134fe07c498a65bcd"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260830/representative_poems_author_balanced_top20.csv",
+      "bytes": 156716,
+      "sha256": "1579ff6bf643ddddb20be85bf9e972bfd8dcc86f1be651a1d9e905b678c0735b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260830/representative_poems_top100.csv",
+      "bytes": 566654,
+      "sha256": "4ce419b463002e0fd98b0975f7911ac8d81484d89e1b92c432b25063e93785e4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260830/representative_poems_top20.csv",
+      "bytes": 157019,
+      "sha256": "87d3df412509f69c19a799b321971307e6078a7f55c3732f74ef2f0d268f4ccc"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260830/representative_poems_top50.csv",
+      "bytes": 321741,
+      "sha256": "00a33c7f3198010afc420e3b527c84b88277fea9e4dec1512d236df7f9e11332"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260830/reproduction_validation.json",
+      "bytes": 2056,
+      "sha256": "06dbd565c8a93637feb7b8a9fc7429cd802668db5e1fba5a87f1930a33cf32be"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260830/topic_permutation_map.csv",
+      "bytes": 976,
+      "sha256": "18f273a54196772892e5468acba8b2bdde4af2227520641eb27cd7f0eb7c9a88"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260907/lda_model.joblib",
+      "bytes": 4255436,
+      "sha256": "b2ebbbc24cf6f76535f3ce8ab479074c7fa89353e771bafcd7643285f7ac1a31"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260907/model_artifacts_enriched.npz",
+      "bytes": 11099342,
+      "sha256": "d0385a196e49e5e9422a6cfb5898354794813a208b640249dd94b84a8708a4ea"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260907/model_metadata.json",
+      "bytes": 6065,
+      "sha256": "db752348b2103dd52a8528718906f4b154f21ece70e41f5625c808bbb0bd6961"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260907/original_reference.json",
+      "bytes": 5816,
+      "sha256": "5a22fa64f6e7b27824812722a54c6a3ddd302557ab0baa4eb5897e9ecb73ef55"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260907/representative_poems_author_balanced_top20.csv",
+      "bytes": 152067,
+      "sha256": "d206d3776274fcf1114fbb7b86285c3396c28f916231c0a87f398c1717704d08"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260907/representative_poems_top100.csv",
+      "bytes": 553613,
+      "sha256": "34ce240446434b5a6e195ed219f15d548e661902add3ca1f1e209ebd4a7152b3"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260907/representative_poems_top20.csv",
+      "bytes": 152980,
+      "sha256": "f346746a3fae2aee85f80d20a2d946d056f440aba06c8435700142030a2c4c4f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260907/representative_poems_top50.csv",
+      "bytes": 313110,
+      "sha256": "ca5a69cec78d8a698201c471b69e59a7b895f0d1430d40660d15ec188db5160e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260907/reproduction_validation.json",
+      "bytes": 2059,
+      "sha256": "89d51d84f5b65ff1778c816345fa24985123f3cf9454bd9668e2095a924c0c03"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_20260907/topic_permutation_map.csv",
+      "bytes": 1006,
+      "sha256": "55ef01439c45ef36d8fa680553bc8bec47f73cbd7ea084f0e158392c76dc86b9"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_271828/lda_model.joblib",
+      "bytes": 4252991,
+      "sha256": "3e05766ca1f4a4e49d3c2ca45c376a777e16285a02c3be1a34b0e7b8e2195f4a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_271828/model_artifacts_enriched.npz",
+      "bytes": 11111553,
+      "sha256": "492c51a66407dce07ee3051f0d1dabb99d0a891682341ef62f2969d49d04dbe6"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_271828/model_metadata.json",
+      "bytes": 6040,
+      "sha256": "ec2373aea3307bc8fac5d05bd437e2f44debaeed1ae0d457ca2b7a47c9e0a8e3"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_271828/original_reference.json",
+      "bytes": 5810,
+      "sha256": "44a51cdd5bf298fe9694489d2e3e86e7591ba4b85b864a6cea1e782c1b943f79"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_271828/representative_poems_author_balanced_top20.csv",
+      "bytes": 157928,
+      "sha256": "233e102e3d219ac84baad1be0f151f1d62f114978bf19a160929eb62c6212aaf"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_271828/representative_poems_top100.csv",
+      "bytes": 569744,
+      "sha256": "94784385ed9e7a2b565258a60e99f15b037272342d514e8e4dcec8296a28539d"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_271828/representative_poems_top20.csv",
+      "bytes": 160417,
+      "sha256": "de79ea4eba352041ed00f469c1f997dcf3bcb8ecab973427719747cdab95ec95"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_271828/representative_poems_top50.csv",
+      "bytes": 322125,
+      "sha256": "8f2d56a520b7c86ab33b3cf88e0c3d900ba87a28b35d7464ec91432921e03310"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_271828/reproduction_validation.json",
+      "bytes": 2053,
+      "sha256": "f229d57ec6c2b3296164253f72361a58f221aad703fb69391043490462687b5a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_271828/topic_permutation_map.csv",
+      "bytes": 978,
+      "sha256": "b4807b3b4770d4e53bd4dbae2f33d72e09cc6fbe98867d971a0eaa1dd06fec63"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/lda_model.joblib",
+      "bytes": 4276154,
+      "sha256": "ad13988635a4d4deacfa8dcc52a469b24fdc89ddefff99df27305475329ad557"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/model_artifacts_enriched.npz",
+      "bytes": 11113346,
+      "sha256": "532cd9c4d4efd73a0e5cd231a88733fbfacc70c2af340fbf792614f2abe77d26"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/model_metadata.json",
+      "bytes": 6022,
+      "sha256": "6b0230d2af146b9dd63bdf305708d6cda0d98c7b5dea165d533d0413e9e8507b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/original_reference.json",
+      "bytes": 5804,
+      "sha256": "648a22f0f50051eec2c8943b45877af43fe927f6b02bf4293984d4b5c1783b3b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/representative_poems_author_balanced_top20.csv",
+      "bytes": 152667,
+      "sha256": "03b9ccf8c3fbb78b14b0519cb5efe126d800452ccb1cec7fa6aacec0057ac3ac"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/representative_poems_top100.csv",
+      "bytes": 561311,
+      "sha256": "c4c5a3cdbb56e7d4863b854be723561a3ab4ed3c2f0eff791022c7d56d3428f1"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/representative_poems_top20.csv",
+      "bytes": 155444,
+      "sha256": "ecf9cdfeb0799f8c134116a9ee24078ae40530e717f5fbbac831800d6ecba86b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/representative_poems_top50.csv",
+      "bytes": 313305,
+      "sha256": "a379026e8d1308f9578d84f02566bd74a3ddf64b7b187b2d8331f74d5194f877"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/reproduction_validation.json",
+      "bytes": 2044,
+      "sha256": "ca91463b2623023bd84811b143e0dc918fb486612c55b0c5aa1577899fb0404b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_31415/topic_permutation_map.csv",
+      "bytes": 979,
+      "sha256": "0a9b3dcf001816e0ed91fb023d8d45c0d68ea52cf8f1bff76f50f2c0e6677c3c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_42/lda_model.joblib",
+      "bytes": 4259314,
+      "sha256": "44b2d31d99538172b27ec9898069152e64591d24f08d7e4492dd2a37ec8bdab6"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_42/model_artifacts_enriched.npz",
+      "bytes": 11108104,
+      "sha256": "59faf86ce9072f6852d44df26ca5df88e63d003d139d72782eaf8b60fe6a5fe9"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_42/model_metadata.json",
+      "bytes": 5992,
+      "sha256": "4b797cf991aa653b1b918ec9bfa7969e9b06d7b8493a8ad61b88a1e888daf559"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_42/original_reference.json",
+      "bytes": 5786,
+      "sha256": "ed5faeb449996e632a1c9f6ff905a7a42aa5c8d4787517035a7b0c2618ea58d3"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_42/representative_poems_author_balanced_top20.csv",
+      "bytes": 156902,
+      "sha256": "44359f8b8812b2c362d748e6141613819ddc32266fd08c22ac7e2f5a198a01cd"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_42/representative_poems_top100.csv",
+      "bytes": 567462,
+      "sha256": "eb1360a4d6316c54b295d4522273644429b61758cbf83496491dbb477768f83a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_42/representative_poems_top20.csv",
+      "bytes": 157751,
+      "sha256": "3fe6f732a3f09225b11d8aa3dfa2bf56bde9b3e0df0c64bce838f533a7859c69"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_42/representative_poems_top50.csv",
+      "bytes": 323531,
+      "sha256": "8df3704c20d4bb1b740dc7e9d2d0679c37a15511fb8c649b6ad9ab930127dfd6"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_42/reproduction_validation.json",
+      "bytes": 2039,
+      "sha256": "b913d62377760e9b3356b2c0d3cf21a75e89ab38f4fe60b3af60bcc47aaf1760"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_42/topic_permutation_map.csv",
+      "bytes": 952,
+      "sha256": "4a727873e7bcbe5dfc45df07e253123707f0e3959bc37be79603030ba3ad7a08"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_7/lda_model.joblib",
+      "bytes": 4218128,
+      "sha256": "4d82856241f81b2df2ff250d7461d6a29b48151213cb154ed78c80ebf7ef9514"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_7/model_artifacts_enriched.npz",
+      "bytes": 11072490,
+      "sha256": "2e477dbc506e6114f3d13df0714490155ee37a52839f8a3d1c6d2ce59030cc53"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_7/model_metadata.json",
+      "bytes": 5980,
+      "sha256": "f0e08216dc95afb49ca1dc0045ba80a00d7303a9fabb2b8596f03c55758be949"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_7/original_reference.json",
+      "bytes": 5784,
+      "sha256": "50fd38af1b69b8296c7c80f595b2f8b7e2d9b4a9dcde5981c1c3852529a0c9a6"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_7/representative_poems_author_balanced_top20.csv",
+      "bytes": 151371,
+      "sha256": "1d7a0e38651fd975865e792c3628dadcdbbc74934cc4b1d64da1187d62569b2c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_7/representative_poems_top100.csv",
+      "bytes": 558409,
+      "sha256": "b6b687dd7ba53df5561127f05a8c12becde728abe8212faf8125bd59f85f7000"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_7/representative_poems_top20.csv",
+      "bytes": 153595,
+      "sha256": "7b5436f26150a1e57064f6f4a5fd57968182fa3ee1ef984284210a944376b521"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_7/representative_poems_top50.csv",
+      "bytes": 316046,
+      "sha256": "8b7ef48a480cef0e9e445372fabb436104ce8135e97516e6d7a61a1af83608f9"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_7/reproduction_validation.json",
+      "bytes": 2038,
+      "sha256": "f45f284c5d0cd9a5c924d9b089384b52d211559369922b58c8701090cac23724"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/FIXED_PRIOR_K20/seed_7/topic_permutation_map.csv",
+      "bytes": 923,
+      "sha256": "5262fe96b2e1fa876129ff5de2f2a92ec1555fc4bb910332d3a6206fec62d2fd"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_101/lda_model.joblib",
+      "bytes": 5525736,
+      "sha256": "60d6247f3696dc9c095d7e83b337da5a203d831609c35df72a2ffd63cd6e800f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_101/model_artifacts_enriched.npz",
+      "bytes": 13337135,
+      "sha256": "34a7e0f3c5a09da5c815542c4a98abffde8f865f57a106ea91b5c196eb1bf6d7"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_101/model_metadata.json",
+      "bytes": 6022,
+      "sha256": "45b4bf03634a16fb2ee5f6ef66feb4c1a52c2f20e9d87034424f6d5ef138be79"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_101/original_reference.json",
+      "bytes": 5807,
+      "sha256": "a1395a0d70ae07caf88eb04c27fb44e42e7ca2095b063eb05f05b7e1f03aa40a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_101/representative_poems_author_balanced_top20.csv",
+      "bytes": 157799,
+      "sha256": "2c620b5e282d332cf4372c4c3f5940581ac43fbf7f465bdc669a7d9946b4c5e5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_101/representative_poems_top100.csv",
+      "bytes": 578746,
+      "sha256": "3017f4935c2f9b5093f73b1d92f0a38da1e9d4b32bea5ee76e781e3f8f7b22e5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_101/representative_poems_top20.csv",
+      "bytes": 158904,
+      "sha256": "33a1774b2e1a125d047eb2c3d06b7e1f47f8509a6d65d5bb3d03b3e28f67e8d4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_101/representative_poems_top50.csv",
+      "bytes": 322812,
+      "sha256": "c84f4f85a9740332b157014d4d27add23fd96ff73038a772995af83ec02f75f4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_101/reproduction_validation.json",
+      "bytes": 2040,
+      "sha256": "81fab3cc37e9ba2f25632b9241a6a046480265ee591859bf6e7c7abe3d5dd3fc"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_101/topic_permutation_map.csv",
+      "bytes": 922,
+      "sha256": "0309368f03b0b09c00860444b210a121e6d2d2a1eea6b2c1bc6f388a7764a0e6"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_12345/lda_model.joblib",
+      "bytes": 5523954,
+      "sha256": "43104bfaeb129ed90305cdec3d0b0f42691feaf232395a84de6f817eb952631b"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_12345/model_artifacts_enriched.npz",
+      "bytes": 13342109,
+      "sha256": "5e8680c44a13c4fc95ab75f6521896527ae8f02094c1fc34de3674c4c63932a4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_12345/model_metadata.json",
+      "bytes": 6047,
+      "sha256": "4c22fde99905e4aff0a5919c7de182556490e845b3e2f63bf892706bc9fc19fe"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_12345/original_reference.json",
+      "bytes": 5826,
+      "sha256": "47fcd23823fd880a1774207f28e1cfd11e704320cbf7382d45177180b64afe35"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_12345/representative_poems_author_balanced_top20.csv",
+      "bytes": 145167,
+      "sha256": "06b751be8a160860eb08bde307c4817ff769bf6ad447425319412f2ab47ebe72"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_12345/representative_poems_top100.csv",
+      "bytes": 561831,
+      "sha256": "1446426323fd63a06993f679c8baea48bca388fd2896ab42f059e3df879113b1"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_12345/representative_poems_top20.csv",
+      "bytes": 146709,
+      "sha256": "7152eb3d2587162ca31b40d74482211bb4ececf9f67b8fb9e8bfa2c8a51ba800"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_12345/representative_poems_top50.csv",
+      "bytes": 305761,
+      "sha256": "6e28124800f80fbdf88f61256e733e2a7b1fd39972f6d9839efb4383fcd0f08f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_12345/reproduction_validation.json",
+      "bytes": 2041,
+      "sha256": "f930165ce9b15984381000089927ebd89edbcb408c81b2172ca96e94af27ef62"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_12345/topic_permutation_map.csv",
+      "bytes": 935,
+      "sha256": "b83b20f731297b48625a2526c970b7be56fed70cfe4f721341abea6f2286932c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_17/lda_model.joblib",
+      "bytes": 5503892,
+      "sha256": "e503e9b7048e23ac95254e7cf7fe8d166155376f086317ed39ddd4c479753da7"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_17/model_artifacts_enriched.npz",
+      "bytes": 13304462,
+      "sha256": "a13c0e5ac40d883716b0d5b6572ba511f0b4b92734383a32f24ecc268c28830a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_17/model_metadata.json",
+      "bytes": 6010,
+      "sha256": "69e516a3ad1a7efecd583f574cac02118d74f25f26ec6e5c8e5e0a54fe8039c0"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_17/original_reference.json",
+      "bytes": 5803,
+      "sha256": "8002d8f0ea969a46d8795d1edf85c400bd40209d05146436728a58ec5a2c76cd"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_17/representative_poems_author_balanced_top20.csv",
+      "bytes": 148907,
+      "sha256": "76373dc610a540f722726a62f9e3d3e99f683c1cd879df7ea48bd54b0a1799b1"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_17/representative_poems_top100.csv",
+      "bytes": 561015,
+      "sha256": "5804a24ad34ad77baf2a05aef5548f2dec6685169105c1fc790e76b7dd958bbf"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_17/representative_poems_top20.csv",
+      "bytes": 150288,
+      "sha256": "62bf680c6f10aa726475617cb462ce5b477873e6b685167f4aea79a55f1ae47e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_17/representative_poems_top50.csv",
+      "bytes": 304563,
+      "sha256": "bb8a3c64191b8ccc2365cf37f574538e2a17cf0759dba035cddf7078ddb702cd"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_17/reproduction_validation.json",
+      "bytes": 2037,
+      "sha256": "7f14f5ba104e29aa60455e9a97d46887f775d0aa6fdc12eaa677977171acfd65"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_17/topic_permutation_map.csv",
+      "bytes": 908,
+      "sha256": "885a9ebc90c0188eb7a7c308286df6f36fe061b0258aeb1930eb28c53c4b1b4a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_2026/lda_model.joblib",
+      "bytes": 5524920,
+      "sha256": "b1661aa40a5e8d0073a3d92289b29b66a2b8ae64292540cc796dd0934fda52f9"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_2026/model_artifacts_enriched.npz",
+      "bytes": 13337524,
+      "sha256": "a448c4fd474b78cee2cc9e555c668c81778007625c010bb0409050fd7db6ce9d"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_2026/model_metadata.json",
+      "bytes": 6035,
+      "sha256": "22e7d957001603445f86c6e8b97149b8735a7dc0009c9d0cbbd3e28dcae9c3d6"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_2026/original_reference.json",
+      "bytes": 5824,
+      "sha256": "4643fbd908583fe1ccf1cfe192d629134f964a058175fbc48904595bef9d76b2"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_2026/representative_poems_author_balanced_top20.csv",
+      "bytes": 152436,
+      "sha256": "65d549d3972dfdf7e6e21180d33d55967f70d8eecaf79a2dcc73b08c4db3433f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_2026/representative_poems_top100.csv",
+      "bytes": 586089,
+      "sha256": "ee7d53f279160ef9c694386b6eb88621b84bb2c696e58fc7d3db4a4e02612da3"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_2026/representative_poems_top20.csv",
+      "bytes": 154077,
+      "sha256": "0013cc44687a2475b0099735d829474bc84b01cdb4a1e44e55872b433c581cc7"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_2026/representative_poems_top50.csv",
+      "bytes": 314673,
+      "sha256": "041470bc044dde6b0607ee63cebf33db7844bfbee821f4d768907cf5960884ae"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_2026/reproduction_validation.json",
+      "bytes": 2040,
+      "sha256": "f1143d4e03d66e43fbf7c05b84f801abd5262c3905e5ca226b81954034f37727"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_2026/topic_permutation_map.csv",
+      "bytes": 936,
+      "sha256": "3ce2a3e178827ab7a74442d04f92b1e89e3934092c2d1e0ec6f8ed1d2b788834"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260830/lda_model.joblib",
+      "bytes": 5476270,
+      "sha256": "6183d0c0e96c4d2264650030c7088645974e950cca4a29bdbc699619aa0ce299"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260830/model_artifacts_enriched.npz",
+      "bytes": 13278421,
+      "sha256": "82254573d83905540bfb1974a61d6882dbd5ab16cc9aa36fff0611851cdcec0f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260830/model_metadata.json",
+      "bytes": 6083,
+      "sha256": "f35b5baee34e88087da66384ed7d8d54e8963e370e9b3e4cbc965ec5701fd1b0"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260830/original_reference.json",
+      "bytes": 5829,
+      "sha256": "bc348391d12b3e289a827c13c894245bff4a0e1ad0281ba7c6e7adfc60868c2a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260830/representative_poems_author_balanced_top20.csv",
+      "bytes": 145528,
+      "sha256": "9ccfcb03ba1c9ff40ec1c846294d2224bd776854d36ef8e283ddb159b7eb9a67"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260830/representative_poems_top100.csv",
+      "bytes": 554440,
+      "sha256": "ba99d4d056cc6c471ec2005e604b034289ee04079ddbc0b1a359c0d40da2e44a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260830/representative_poems_top20.csv",
+      "bytes": 146791,
+      "sha256": "8b138265ae2ccae47d6c620ed82d41fbc5d7c3c01897bcb01b147290e55698e8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260830/representative_poems_top50.csv",
+      "bytes": 303647,
+      "sha256": "c55be58412f10fa7b3a99f1e0cadb4f1f884255e40a3c93ecf17cc82d4b9ece3"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260830/reproduction_validation.json",
+      "bytes": 2056,
+      "sha256": "102d3ce92dc6b5dda867054c50b86e4f9206301ea1c6f5e3397bdbc284c9f5ee"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260830/topic_permutation_map.csv",
+      "bytes": 977,
+      "sha256": "bbe3d13307ac17c55f1b8583076a7d73e05cb894a78ad80b5b43c3281c060ea4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260907/lda_model.joblib",
+      "bytes": 5523700,
+      "sha256": "c6f01d777d5e468c99fbab6ee6f2c4836e54f3f102d44437170cc9a371aad8b8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260907/model_artifacts_enriched.npz",
+      "bytes": 13327278,
+      "sha256": "171a213efd956d2d567912d715c0e5b0f706151d27a257fe7815a7ceb041459f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260907/model_metadata.json",
+      "bytes": 6083,
+      "sha256": "0b4374154768245cfe68c551ed08d53bcca6426d0e1040129fc93bffe8c40c43"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260907/original_reference.json",
+      "bytes": 5830,
+      "sha256": "89924a656d55d66cc4b3f11789aba139e24801a6d79f95bb3a939c735096444a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260907/representative_poems_author_balanced_top20.csv",
+      "bytes": 151000,
+      "sha256": "8803f77259f98a1114890d13c221ac0f65857146f2317af9c5a57bf60e10de5c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260907/representative_poems_top100.csv",
+      "bytes": 556886,
+      "sha256": "3d592e4b4d85e5698f7aea356fc6fca3082a37eb2d2467b005a175e6b64736bc"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260907/representative_poems_top20.csv",
+      "bytes": 152295,
+      "sha256": "ecae7ef60124769e51179c309e4c3efc10bacab9a677783a6148e58d0c4c0b07"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260907/representative_poems_top50.csv",
+      "bytes": 306035,
+      "sha256": "b2580f63e675d32ad94726cbca9f66bd89781076593814ea6d3c9cb0249bef5f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260907/reproduction_validation.json",
+      "bytes": 2054,
+      "sha256": "8ed05147ce3098f76f1530f08a959d167c59d8f1efdcc401eec32bf303b47769"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_20260907/topic_permutation_map.csv",
+      "bytes": 992,
+      "sha256": "2d13fdffc75ed663860a92189f53acd5e91625e36f382e3b3f35b25bc4f89315"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_271828/lda_model.joblib",
+      "bytes": 5522809,
+      "sha256": "5b35a29de03649ce34c6544758b8f8fd9ec82ead50afce2d3c67d4a6a599fa4e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_271828/model_artifacts_enriched.npz",
+      "bytes": 13341897,
+      "sha256": "c1bf6a0c60a4b64881e2fcaf5b02ab740df4e88282a4caf090cbd062a38dd4f7"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_271828/model_metadata.json",
+      "bytes": 6059,
+      "sha256": "9cb76c4644439a2047a771e3b452f2afb99ac5b0c9a555e971584402a6dae982"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_271828/original_reference.json",
+      "bytes": 5831,
+      "sha256": "17af42b8a1f272ef9196ea93774ed81fe726562d7f34e1a1f3bf1b23e1b1a2de"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_271828/representative_poems_author_balanced_top20.csv",
+      "bytes": 163763,
+      "sha256": "bd4f415eee3305a63cbaa66ed8a5db19e371863130d3761800aaa22920e21710"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_271828/representative_poems_top100.csv",
+      "bytes": 579827,
+      "sha256": "684ad2834acf60e9f4d27932ea7eaa61e0a160f4b062280d456190de103ca4e5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_271828/representative_poems_top20.csv",
+      "bytes": 166906,
+      "sha256": "aee8c534722bf2ed8ad247791a95744cd50f3d802fcf3c137ce1feeb9a1bd15a"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_271828/representative_poems_top50.csv",
+      "bytes": 325143,
+      "sha256": "ec4f6735ea0ef8b7c3cbf5593e06457721360abb520f70d59612158a685fe35f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_271828/reproduction_validation.json",
+      "bytes": 2046,
+      "sha256": "17c8b1f0e5ff9824314733f50722d4a4b843b54b6caca16f01fdd477463e4fef"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_271828/topic_permutation_map.csv",
+      "bytes": 964,
+      "sha256": "f24adb6b8de635ae5f737d789cd7a09909a4803889cbb5f45a5b0eef2e372c59"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_31415/lda_model.joblib",
+      "bytes": 5551096,
+      "sha256": "61d820003f1da903b13161325f087e4ac322bfa398fa3f8150a989008f6c27a4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_31415/model_artifacts_enriched.npz",
+      "bytes": 13348665,
+      "sha256": "c5fcde73efa291ae2eca7bcd231d9b592ffecd348e32d612bc31b81e932985db"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_31415/model_metadata.json",
+      "bytes": 6047,
+      "sha256": "6278ce8b1d35a23d24de26b5b63cc12b07091cb46fe4cad55ece1c479d140b39"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_31415/original_reference.json",
+      "bytes": 5829,
+      "sha256": "8db104e1edbd7d9a989ea90e1e97ae6742d8f996f496736a1d9973ae2ba4b1d1"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_31415/representative_poems_author_balanced_top20.csv",
+      "bytes": 150811,
+      "sha256": "2e49224be7c2bbcd2fe7e64d3319549c4440c40f60fa71076debd6a7d13d76b9"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_31415/representative_poems_top100.csv",
+      "bytes": 564088,
+      "sha256": "521aeea2ccecad993a33977816b1fe55455ed17aa9f1a5f1982e523587496510"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_31415/representative_poems_top20.csv",
+      "bytes": 154081,
+      "sha256": "a97571f0dc9685889d721ffb24e2cc0762d74d5b2960cf02ea3fb67ff04b805e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_31415/representative_poems_top50.csv",
+      "bytes": 308912,
+      "sha256": "b28d2eec596e83e88769217ccc813256dd2771662674eb3bd7e199a3679c3645"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_31415/reproduction_validation.json",
+      "bytes": 2045,
+      "sha256": "cba2cec5b2c733b4c4a3afdfe38637605984cb7463af79ae4001d78066bd4174"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_31415/topic_permutation_map.csv",
+      "bytes": 980,
+      "sha256": "a6dd4f727571b29c1ed92ca56c13ed40a1057f0aaf55c8b42cc11dc50e3cfde4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_42/lda_model.joblib",
+      "bytes": 5532579,
+      "sha256": "2f9f9fb16bb86956356ec47cff514ca83f6694f5c2a9452a04fa583dfe13aae3"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_42/model_artifacts_enriched.npz",
+      "bytes": 13338073,
+      "sha256": "71615f3ad8c2652a967a3be779064ec368a7ffc211133749767d1a5d257a89ab"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_42/model_metadata.json",
+      "bytes": 6011,
+      "sha256": "5b949ad335839fbc4c77aba8fd26e1495ddfadbc81c52df12e23996302c73e99"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_42/original_reference.json",
+      "bytes": 5808,
+      "sha256": "290f6c092e6af8239872d343f17580dbf8e245854b221e621bce2bf41d8ca631"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_42/representative_poems_author_balanced_top20.csv",
+      "bytes": 159629,
+      "sha256": "4936430ff32df20b63b72fde013617b6ae715c8a9a7c282d17a8d76ae51cbe3f"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_42/representative_poems_top100.csv",
+      "bytes": 572922,
+      "sha256": "c3a1b5ea24bed091f1095a68379016b18c683123bc956398f3c305f1661ef314"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_42/representative_poems_top20.csv",
+      "bytes": 161039,
+      "sha256": "90016c58798ac30e29d2caffde08d2da7a14265e4326768a7d07864e00ab33e4"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_42/representative_poems_top50.csv",
+      "bytes": 323929,
+      "sha256": "bf8805adfd53c869b99e861e3b2dd9991ffc8d1021e1cc0b0f8f3733ee24e9c3"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_42/reproduction_validation.json",
+      "bytes": 2036,
+      "sha256": "b6fb11ef0a73a88aabf871ff6626fbea369a1cb41a4ee8c7af8c6ae6bf4270f2"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_42/topic_permutation_map.csv",
+      "bytes": 893,
+      "sha256": "c91e9ecd3752fd3b0aec402d12d6b643681aaf773cbbcd82f810fabfcae43c3e"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_7/lda_model.joblib",
+      "bytes": 5505740,
+      "sha256": "5dc9b121d4090769fb42163b651aab7b501deea4b26c900d857337e8ffdc7229"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_7/model_artifacts_enriched.npz",
+      "bytes": 13314980,
+      "sha256": "cda1c58d1bdecf8245b6644d618013b327c91b44968931e0867458de22624984"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_7/model_metadata.json",
+      "bytes": 5998,
+      "sha256": "6526677dd43bd8cde6514e266f237d8c714f285daddf43a63a0107ef3f4afed5"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_7/original_reference.json",
+      "bytes": 5805,
+      "sha256": "eced2a64a62e3bee3dd72293174530a564cc1736408ee1376c928265784c591c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_7/representative_poems_author_balanced_top20.csv",
+      "bytes": 147955,
+      "sha256": "c1bebae08843dc3450a1b18325316f0b0236ace034de203da186d98a8e3ba020"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_7/representative_poems_top100.csv",
+      "bytes": 560815,
+      "sha256": "7eb98268ecc9b03aeee3cadeb7d9303f950e66222cafc2a5c2b918a8acb9d9df"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_7/representative_poems_top20.csv",
+      "bytes": 149614,
+      "sha256": "b5e27ea5ec8a1799878f8b1d7f6f6929284a4bd90b03935ac801b15944b833df"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_7/representative_poems_top50.csv",
+      "bytes": 308982,
+      "sha256": "7779e589ef5283232f448101b9f530f3cb675f47adfbbceaa02836dcfded43f7"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_7/reproduction_validation.json",
+      "bytes": 2032,
+      "sha256": "5869b26c10564914021badbd7ecdbf966e4ec1e136b791cad59b189dc5595505"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/quantitative_validation_runs/K14/ORIGINAL_PRIOR/seed_7/topic_permutation_map.csv",
+      "bytes": 879,
+      "sha256": "52e98598a86915efcd44a6eaaf75d8994c1357c031fb11fc6fcc1a4ec7dceeae"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/representative_poems/K12_author_balanced_top20.csv",
+      "bytes": 133768,
+      "sha256": "112cf197f78a737fb8ad3f3bd709695cd5b08bd304984c3ba9d37676176246ec"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/representative_poems/K12_top100.csv",
+      "bytes": 498108,
+      "sha256": "7affc6df43b5bab5db89c5763ae612e1520e8330b4c569fbcf77feffe8bd9ddd"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/representative_poems/K12_top20.csv",
+      "bytes": 135266,
+      "sha256": "22ab0a42adae96a1151f1b69f4adc22eae836829c904cd4e778f9bed3238d2db"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/representative_poems/K12_top50.csv",
+      "bytes": 275005,
+      "sha256": "e8fb346af3e2c1784a4434225474dde6aa934154033b4799b4c90053eb05f0a8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/representative_poems/K14_author_balanced_top20.csv",
+      "bytes": 139727,
+      "sha256": "8a6de626a54da389862ee77cf2eb20aceea5a3218a67ced4e67ceccc3c163c1c"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/representative_poems/K14_top100.csv",
+      "bytes": 554941,
+      "sha256": "7c7901d35de4589e9a42713ee9a51ab06461d4101a80b9f1a9ecdbdbc0f72ea8"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/representative_poems/K14_top20.csv",
+      "bytes": 141342,
+      "sha256": "b90308660f01ff1680e0f0d3d689db54f63ef70e99b119c53d87275fe093f867"
+    },
+    {
+      "path": "model_selection/artifact_recovery_K12_K14/representative_poems/K14_top50.csv",
+      "bytes": 300710,
+      "sha256": "ee6bb86934d6eb043a764c13bcf7a6eb43e077e4ec75b6ed44b723b1b28585ef"
+    }
+  ]
+}

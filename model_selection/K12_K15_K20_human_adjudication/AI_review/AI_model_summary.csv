@@ -1,0 +1,4 @@
+﻿K,Topic_Count,CLEAR_Count,CLEAR_Ratio,BROAD_Count,BROAD_Ratio,MIXED_Count,MIXED_Ratio,NOISE_Count,NOISE_Ratio,Mean_Word_Coherence,Mean_Poem_Coherence,Mean_Word_Poem_Agreement,Mean_Labelability,Mean_Literary_Interpretability,Mean_Semantic_Specificity,Mean_Overbreadth,Mean_Internal_Mixedness,Needs_Splitting_Count,Needs_Splitting_Ratio,Needs_Splitting_or_Uncertain_Count,Needs_Splitting_or_Uncertain_Ratio,AI_Overall_Status
+12,12,7,0.583333,2,0.166667,2,0.166667,1,0.083333,4.3333,4.1667,4.3333,4.3333,4.5833,3.75,2.3333,2.1667,3,0.25,5,0.416667,AI_MORE_REVIEW_REQUIRED
+15,15,8,0.533333,5,0.333333,1,0.066667,1,0.066667,4.3333,4.2,4.3333,4.4,4.4,3.7333,2.3333,2.2,2,0.133333,7,0.466667,AI_MORE_REVIEW_REQUIRED
+20,20,10,0.5,4,0.2,4,0.2,2,0.1,4.05,3.7,4.1,4.1,4.2,3.4,2.6,2.5,6,0.3,10,0.5,AI_MORE_REVIEW_REQUIRED

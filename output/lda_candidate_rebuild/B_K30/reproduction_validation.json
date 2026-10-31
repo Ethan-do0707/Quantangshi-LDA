@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "model_id": "B_K30",
+  "status": "passed",
+  "validated_at": "2026-08-30T22:02:49+08:00",
+  "original_checkpoint_signature": "d948c65af66d78b67fe1c972f7040e0dbfad808eefaeec26e1b74db2ab962198",
+  "original_topics_sha256": "e23066d74d11db8808f69b1526736cf7e8ff395ac88a11a45fd58dbc95124341",
+  "rebuilt_topics_sha256": "e23066d74d11db8808f69b1526736cf7e8ff395ac88a11a45fd58dbc95124341",
+  "exact_top20_csv_hash_match": true,
+  "original_representatives_sha256": "a8293ee8f9cf940c6dda89806508f555263580c9822771c6a09f516435a11133",
+  "rebuilt_representatives_sha256": "a8293ee8f9cf940c6dda89806508f555263580c9822771c6a09f516435a11133",
+  "exact_top5_representatives_csv_hash_match": true,
+  "metric_absolute_tolerance": 1e-10,
+  "metric_comparisons": {
+    "iterations_run": {
+      "original": 30,
+      "rebuilt": 30,
+      "absolute_difference": 0,
+      "passed": true
+    },
+    "training_perplexity": {
+      "original": 6362.8187150875565,
+      "rebuilt": 6362.8187150875565,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    "mean_topic_npmi": {
+      "original": 0.09459701713708293,
+      "rebuilt": 0.09459701713708293,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    "min_topic_npmi": {
+      "original": 0.022385315391327546,
+      "rebuilt": 0.022385315391327546,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    "max_topic_npmi": {
+      "original": 0.16223039100483155,
+      "rebuilt": 0.16223039100483155,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    "topic_diversity": {
+      "original": 0.41333333333333333,
+      "rebuilt": 0.41333333333333333,
+      "absolute_difference": 0.0,
+      "passed": true
+    }
+  },
+  "matrix_checks": {
+    "components_shape": [
+      30,
+      51982
+    ],
+    "topic_word_shape": [
+      30,
+      51982
+    ],
+    "document_topic_shape": [
+      43016,
+      30
+    ],
+    "topic_word_max_row_sum_error": 3.3306690738754696e-16,
+    "document_topic_max_row_sum_error": 7.771561172376096e-16,
+    "dtype": "float64"
+  },
+  "fit_seconds": 252.36106,
+  "model_object_reload_components_exact": true,
+  "npz_roundtrip_exact": true
+}

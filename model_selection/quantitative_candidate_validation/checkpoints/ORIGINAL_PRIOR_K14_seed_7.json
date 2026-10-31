@@ -1,0 +1,170 @@
+{
+  "checkpoint_signature": "0bc5f1627e7a8468c92f9c4b6dd24dcf660cdfbcc161d2b0cfc06ff19c99f79d",
+  "result": {
+    "K": 14,
+    "seed": 7,
+    "prior_regime": "ORIGINAL_PRIOR",
+    "NPMI": 0.0967789117114753,
+    "test_perplexity": 12231.498265363738,
+    "train_perplexity": 5015.44897645511,
+    "test_score": -2892519.190680341,
+    "train_score": -10382828.083225677,
+    "topic_diversity": 0.48214285714285715,
+    "mean_pairwise_topic_cosine": 0.4522029020683847,
+    "max_pairwise_topic_cosine": 0.7083966309519699,
+    "mean_pairwise_top20_jaccard": 0.10214091939414953,
+    "max_pairwise_top20_jaccard": 0.2903225806451613,
+    "high_cosine_090_pairs": 0,
+    "high_cosine_085_pairs": 0,
+    "high_jaccard_050_pairs": 0,
+    "min_topic_prevalence": 0.01874590968809245,
+    "max_topic_prevalence": 0.1324175296425067,
+    "min_dominant_topic_share": 0.007846100197605486,
+    "max_dominant_topic_share": 0.15573055910728817,
+    "low_prevalence_topic_count": 0,
+    "fit_time": 159.74241069995333,
+    "n_iter": 30,
+    "doc_topic_prior_effective": 0.07142857142857142,
+    "topic_word_prior_effective": 0.07142857142857142,
+    "n_train": 34412,
+    "n_test": 8603,
+    "vocab_size": 35063
+  },
+  "result_sha256": "a95965e08682cf63f8be8b446dbf18cebc8b79bbf0807eae03d54338ba3ab8d1",
+  "audit": {
+    "fit_scope": "X_train_only",
+    "test_used_for_fit": false,
+    "npmi_reference": "X_train_only",
+    "npmi_top_words": 20,
+    "topic_diversity_definition": "top_20_unique_ratio",
+    "matching_definition": "hungarian_max_full_topic_word_cosine",
+    "fit_n_jobs": -1,
+    "evaluation_n_jobs": 1,
+    "model_parameters": {
+      "batch_size": 128,
+      "doc_topic_prior": null,
+      "evaluate_every": -1,
+      "learning_decay": 0.7,
+      "learning_method": "batch",
+      "learning_offset": 10.0,
+      "max_doc_update_iter": 100,
+      "max_iter": 30,
+      "mean_change_tol": 0.001,
+      "n_components": 14,
+      "n_jobs": -1,
+      "perp_tol": 0.1,
+      "random_state": 7,
+      "topic_word_prior": null,
+      "total_samples": 1000000.0,
+      "verbose": 1
+    },
+    "components_sha256": "59c8cc8f35ddece2f4bc9a33b674f482d2005bd8b1c7f79b5a4ac72100483845",
+    "topic_prevalence": [
+      {
+        "topic_id": 1,
+        "mean_probability": 0.059249126889680315,
+        "dominant_topic_document_count": 1698,
+        "dominant_share": 0.04934325235383006,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 2,
+        "mean_probability": 0.05824048703062308,
+        "dominant_topic_document_count": 1701,
+        "dominant_share": 0.049430431244914565,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 3,
+        "mean_probability": 0.08086348873525298,
+        "dominant_topic_document_count": 2939,
+        "dominant_share": 0.0854062536324538,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 4,
+        "mean_probability": 0.10576311444437986,
+        "dominant_topic_document_count": 3929,
+        "dominant_share": 0.11417528769034058,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 5,
+        "mean_probability": 0.07804284781053528,
+        "dominant_topic_document_count": 2678,
+        "dominant_share": 0.07782169010810182,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 6,
+        "mean_probability": 0.07097369682408369,
+        "dominant_topic_document_count": 2305,
+        "dominant_share": 0.06698244798326165,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 7,
+        "mean_probability": 0.1324175296425067,
+        "dominant_topic_document_count": 5359,
+        "dominant_share": 0.15573055910728817,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 8,
+        "mean_probability": 0.10287889990770399,
+        "dominant_topic_document_count": 4048,
+        "dominant_share": 0.1176333837033593,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 9,
+        "mean_probability": 0.03970582557441993,
+        "dominant_topic_document_count": 967,
+        "dominant_share": 0.02810066255957224,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 10,
+        "mean_probability": 0.038308126057706185,
+        "dominant_topic_document_count": 953,
+        "dominant_share": 0.027693827734511216,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 11,
+        "mean_probability": 0.049943699512929034,
+        "dominant_topic_document_count": 1412,
+        "dominant_share": 0.04103219807044054,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 12,
+        "mean_probability": 0.01874590968809245,
+        "dominant_topic_document_count": 270,
+        "dominant_share": 0.007846100197605486,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 13,
+        "mean_probability": 0.07744069740444454,
+        "dominant_topic_document_count": 2667,
+        "dominant_share": 0.07750203417412531,
+        "low_prevalence_flag": false
+      },
+      {
+        "topic_id": 14,
+        "mean_probability": 0.08742655047764165,
+        "dominant_topic_document_count": 3486,
+        "dominant_share": 0.10130187144019528,
+        "low_prevalence_flag": false
+      }
+    ]
+  },
+  "topic_matrix_path": "model_selection/quantitative_candidate_validation/topic_matrices/ORIGINAL_PRIOR_K14_seed_7.npz",
+  "topic_matrix_sha256": "c3bbe5d9a47a9278c99d1fe75d9cbe1c7e96c53066a2a2ad48d72b167a852d7e",
+  "matrix_sha256": "2dc16f9ca1ebef7fdd5ee1f64ba25087e450596097f57d6878d4d7ea67b6dbc0",
+  "vocabulary_sha256": "a816c82fe379e2abfadc55b4624b056bb0a7b7c2e6a4e0cddff8e9f386c10084",
+  "split_sha256": "ba4c0940e2dcc3792a135df6ed8810a13a94c5eaf10b04ca2c2ebdf7e4f79dd0",
+  "fit_rows_sha256": "5b14c68dd4f4f8a6f3f3ae600c731c5b15941022843a0b6cecef0a3f977b860a",
+  "test_rows_sha256": "d9955e72eb63667d0dce94bec4dce3530846a556cc53500896be38386ceb8130"
+}

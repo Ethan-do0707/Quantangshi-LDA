@@ -1,0 +1,13 @@
+topic_id,final_topic_id,final_topic_label,short_label,topic_type,core_semantics,interpretation_scope,mean_human_score,review_focus,label_provenance,blind_topic_id
+topic_01,T01,高山瀑布、仙境寻真与登临清赏,高山仙境与登临寻真,BROAD,高山、瀑布、游赏、仙境、登临、求真,EXPLORATORY_BROAD,4,检查仙游/山水是否存在欠分,AI_PROVISIONAL,HR035
+topic_02,T02,老病退居、诗酒知命与士人自况,老病退居与诗酒自况,BROAD,老病、诗酒、退居、人生感怀、安身知命,EXPLORATORY_BROAD,5,检查老病身世与诗酒酬赠是否应区分,AI_PROVISIONAL,HR039
+topic_03,T03,江水舟行、秋景与客中怀归,江舟羁旅与客中怀归,CLEAR,江水、舟行、秋景、羁旅、思归,PRIMARY_INFERENCE,5,主题边界较清晰，可优先用于历史趋势分析,AI_PROVISIONAL,HR034
+topic_04,T04,仕宦行旅、寺观仙踪与咏史杂咏,仕宦行旅与杂咏,NOISE,仕宦、行旅、寺观、仙踪、咏史等杂糅,DESCRIPTIVE_NOISE_ONLY,2,典型 residual topic；检查是否包含被压缩的低频语义,AI_PROVISIONAL,HR037
+topic_05,T05,皇家礼仪、郊庙宴庆与应制颂德,朝廷礼仪与应制颂德,CLEAR,朝廷、郊庙、礼乐、宴庆、应制、颂圣,PRIMARY_INFERENCE,5,与T08区分：偏具体仪式、宴庆与应制场景,AI_PROVISIONAL,HR006
+topic_06,T06,宫闺月夜、相思与女性哀怨,宫闺月夜与相思哀怨,CLEAR,月夜、闺情、女性、相思、宫怨,PRIMARY_INFERENCE,5,检查与K15中季节/情感拆分相比是否过宽,AI_PROVISIONAL,HR002
+topic_07,T07,民生疾苦、伦理讽喻与数字杂咏,民瘼伦理与杂咏,NOISE,民瘼、伦理、寓言、数字词及杂咏,DESCRIPTIVE_NOISE_ONLY,2,典型 residual topic；数字词和杂咏成分较多,AI_PROVISIONAL,HR045
+topic_08,T08,王朝功德、郊庙礼乐与忠贤颂咏,王朝功德、礼乐与忠贤颂咏,CLEAR,王朝功德、政治伦理、忠贤、礼乐、颂赞,PRIMARY_INFERENCE,5,与T05区分：偏王朝功德、忠贤伦理与历史评价,AI_PROVISIONAL,HR020
+topic_09,T09,山寺禅居、僧侣往还与清夜幽境,山寺禅居与僧侣往还,CLEAR,山寺、僧侣、幽居、松月、禅境,PRIMARY_INFERENCE,5,主题边界较清晰，可优先用于历史趋势分析,AI_PROVISIONAL,HR009
+topic_10,T10,山水送别、怀友与归隐心绪,山水送别、怀友与归隐,BROAD,山水、送别、怀友、归隐、客愁,EXPLORATORY_BROAD,5,欠分风险最高之一：羁旅送别/怀友/山居归隐可能应区分,AI_PROVISIONAL,HR026
+topic_11,T11,边塞征战、征人思归与战争悲悯,边塞征战与征人悲思,CLEAR,边塞、战争、军旅、征人、思归,PRIMARY_INFERENCE,5,主题边界较清晰，可优先用于历史趋势分析,AI_PROVISIONAL,HR029
+topic_12,T12,春日花酒、宴游与惜时送别,春花宴游、诗酒与惜时,BROAD,春花、饮酒、宴游、惜春、送别、流年,EXPLORATORY_BROAD,5,检查春情/宴游/送别是否压在同一主题,AI_PROVISIONAL,HR014

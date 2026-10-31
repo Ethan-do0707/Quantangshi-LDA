@@ -1,0 +1,70 @@
+{
+  "analysis_version": "QTS_AUTHOR_PERIOD_EFFECT_VALIDATION_V1",
+  "authoritative_master": "historical_metadata/master/C_K20_literary_history_master_with_author_history.csv",
+  "topic_metadata": "outputs/01a05061-9ee3-7610-a401-abfec81de1b2/literary_history_dataset/taxonomy/topic_metadata.csv",
+  "sample_labels": "historical_metadata/representativeness_audit/data/period_metadata_sample_labels.csv",
+  "topic_missingness_risk": "historical_metadata/representativeness_audit/data/topic_missingness_risk.csv",
+  "clear_topic_representativeness": "historical_metadata/representativeness_audit/data/clear_topic_representativeness.csv",
+  "trend_output_root": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_trend_structure",
+  "output_root": "outputs/01a05cec-c8db-7761-9760-9d2d42a4853e/author_period_effect_validation",
+  "expected_poem_count": 43015,
+  "expected_topic_count": 20,
+  "expected_clear_topic_count": 9,
+  "period_order": ["初唐", "盛唐", "中唐", "晚唐"],
+  "period_codes": {"初唐": "E", "盛唐": "H", "中唐": "M", "晚唐": "L"},
+  "samples": {
+    "STRICT": "eligible_period_strict",
+    "CORE": "eligible_period_core",
+    "EXPANDED": "eligible_period_expanded"
+  },
+  "primary_contrasts": [
+    {"code": "E-H", "period_a": "初唐", "period_b": "盛唐"},
+    {"code": "H-M", "period_a": "盛唐", "period_b": "中唐"},
+    {"code": "M-L", "period_a": "中唐", "period_b": "晚唐"},
+    {"code": "E-L", "period_a": "初唐", "period_b": "晚唐"}
+  ],
+  "secondary_contrasts": [
+    {"code": "E-M", "period_a": "初唐", "period_b": "中唐"},
+    {"code": "H-L", "period_a": "盛唐", "period_b": "晚唐"}
+  ],
+  "bootstrap_iterations": 5000,
+  "random_seed": 20260901,
+  "bootstrap_algorithm": "period-stratified author-cluster multinomial-count resampling; sampled authors carry all eligible poems; identical cluster draws feed POEM and AUTHOR estimands",
+  "formal_models": {
+    "CORE_POEM": "OLS period-cell means with CR1 author-cluster sandwich covariance",
+    "CORE_AUTHOR": "OLS period-cell means on one row per author with HC3 covariance",
+    "omnibus_reference": "finite-sample F Wald test",
+    "contrast_reference": "two-sided finite-sample t test"
+  },
+  "fdr": {
+    "method": "Benjamini-Hochberg",
+    "alpha": 0.05,
+    "families": {
+      "omnibus": "9 CLEAR Topics separately within CORE_POEM and CORE_AUTHOR",
+      "primary_contrasts": "9 CLEAR Topics × 4 planned contrasts separately within CORE_POEM and CORE_AUTHOR"
+    }
+  },
+  "thresholds": {
+    "numeric_zero_tolerance": 1e-12,
+    "hedges_small": 0.20,
+    "hedges_moderate": 0.50,
+    "hedges_large": 0.80,
+    "cliff_small": 0.147,
+    "cliff_medium": 0.33,
+    "cliff_large": 0.474,
+    "aggregation_magnitude_gap_absolute": 0.01,
+    "aggregation_magnitude_gap_relative": 0.75,
+    "sample_magnitude_gap_absolute": 0.01,
+    "sample_magnitude_gap_relative": 1.00,
+    "systematic_sample_sign_reversal_rule": "STRICT/CORE/EXPANDED sign reversal occurs in both POEM and AUTHOR aggregations for the same Topic/contrast",
+    "nontrivial_effect_rule": "abs(Hedges_g) >= 0.20 OR abs(Cliff_delta) >= 0.147",
+    "strong_allowed_representativeness_risk": ["LOW", "MODERATE"],
+    "supported_allowed_representativeness_risk": ["LOW", "MODERATE"]
+  },
+  "clr": {
+    "enabled": true,
+    "true_zero_policy": "fail_without_explicit_pseudocount",
+    "pseudocount": null,
+    "scope": "CLEAR Topics under CORE_POEM and CORE_AUTHOR only; temporary sensitivity analysis"
+  }
+}

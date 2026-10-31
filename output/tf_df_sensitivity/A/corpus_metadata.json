@@ -1,0 +1,38 @@
+{
+  "label": "A",
+  "min_tf": 1,
+  "min_df": 1,
+  "automatic_max_df": null,
+  "poem_count": 43030,
+  "valid_poem_count": 43019,
+  "empty_poem_count": 11,
+  "total_tokens": 1631958,
+  "vocabulary_size": 123385,
+  "matrix_shape": [
+    43019,
+    123385
+  ],
+  "matrix_nnz": 1570182,
+  "document_length": {
+    "min": 0,
+    "mean": 37.92605159191262,
+    "median": 28.0,
+    "p95": 92.0,
+    "p99": 202.70999999999913,
+    "max": 2786
+  },
+  "protected_vocabulary_size": 176,
+  "protected_token_occurrences": 22500,
+  "empty_documents_excluded_from_lda": true,
+  "vocabulary_order": "TF descending, then token ascending",
+  "matrix_dtype": "int32",
+  "matrix_fingerprint": "a1cceb21cc4f6bfb9bc5358b8405df8857024347b4c86604d8932d1db0dcd6f0",
+  "outputs": {
+    "lda_corpus": "80d30f877374b5df68c76b6d73fdf72f10461fe3f0519c74486607ee212ed8f3",
+    "lda_tokens": "c586c584cf80196daf5b786007c1c6988c73c832405ea56d60df2bdd91f7ee57",
+    "vocabulary": "208c4ce8abdcc137e23c530acff84eb92d09cfaf31b3d6baccecc2d41a2f6eb9",
+    "bow_matrix_npz": "b5ed3a72e161af110889e849dbc86931eeb14877613938aa0b08f33e4c6fe37c",
+    "document_index": "4c40794deab63c0f8a50dfbc43d3a02538735f8001aa68efd56bc2d74736308d",
+    "empty_poems": "1676e7ef5f8a5d9ec72b9ac0df3986e9ad3e01f506dae1bf4c4af7adc8175db0"
+  }
+}
