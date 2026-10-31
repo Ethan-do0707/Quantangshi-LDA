@@ -8,6 +8,9 @@
 - pyLDAvis：本机双击 `outputs/pyldavis/pyLDAvis_C_K20.html`，选择 Topic 3 并比较 λ=1.0/0.6/0.2，完成受浏览器工具 file:// 限制而未执行的交互验收。B/D HTML已备妥；全部编号、原始概率与离线资源静态核验已通过，人工主题名称优先。
 - 三模型 pyLDAvis：先本机打开 `visualization/pyldavis_C_K12_K15_K20/html/C_K12_K15_K20_pyLDAvis_comparison.html`，分别查看 K12/K15/K20；按 λ=1.0→约0.6→约0.2 人工检查，并在 `researcher/K12_K15_K20_pyldavis_researcher_checklist.xlsx` 填写末四列。不要据此单独选择 K 或覆盖既有语义裁决。
 
+- GitHub 后续维护：把作者影响与 BCD 输出 manifest 中写死的旧 `D:` 盘绝对路径改为仓库相对路径或运行时项目根目录，再复跑主测试，目标为 207/207。
+- 若仓库继续增长，优先把两份超过 50 MiB 的 CSV 迁移到 Git LFS 或发布附件；需要归档当前被忽略的模型权重、CBDB 快照或盲审私有映射时，应使用私有存储并单独核对许可与盲审状态，不直接加入公开 `main`。
+
 1. 优先人工审核高产且 CBDB identity ambiguous 的作者（刘长卿、皎然、王建、温庭筠、权德舆、韦庄、王维等），并把批准映射写入版本化人工映射表后重跑管线。
 2. 核对诗歌 ID 1 的“连薨”与“连甍”应以何种底本为准，并同步统一语料、SQL 来源或勘误记录。
 3. 继续审核 `chuxueji_with_poem_example1.xlsx` 的典故候选，形成带 `allusion_id`、裁决和理由的正式典故词表；禁止自动接纳未审核异形。

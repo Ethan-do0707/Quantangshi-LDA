@@ -220,3 +220,10 @@
 - K12 盲态阶段先以 37 项核心文件生成 `SHA256_MANIFEST.txt` 与 `K12_BLIND_FREEZE.json`；逐项验 hash 后才读取旧 K20。旧 9 条保留 finding 的事后比较采用既有 AI_PROVISIONAL semantic family 与 K12→K15→K20 topic-word 路径：5 条正式复现、1 条仅在更宽 BROAD 主题中方向复现、2 条削弱/未复现、1 条题义重定义而不可单一比较。
 - 完整输出位于 `history_analysis/C_K12/`，含 3 份阶段报告、18 节最终报告、K12/K20 比较报告、Humanistic Interpretation Queue、8 幅规定 PNG、20/20 最终 QA 和 59 项交付哈希。全仓 207 项 unittest 通过；8 幅图已逐张视觉复核。
 - 状态为 `C_K12_HISTORY_ANALYSIS_COMPLETE`。本轮未执行 B_K12/D_K12 或 B/C/D finding-level robustness，未修改最终 K 选择、研究者工作簿或作者时期 metadata；跨模型语义对齐仍待研究者确认。
+
+## 2026-10-31 GitHub 公开仓库初始化与上传
+
+- 本地目录已初始化为 Git 仓库并跟踪公开仓库 `Ethan-do0707/Quantangshi-LDA` 的 `main` 分支；保留远端初始提交后，将 2,278 个代码、配置、文档、表格、图形与可审计结果文件推送为提交 `954aeadb1a44f98cf93e554d63d1468f5dd02350`。
+- 新增 `.gitignore`，不上传本地虚拟环境、依赖运行时、模型权重、CBDB 源快照、可重建数值检查点、缓存、临时构建文件及尚未公开的盲审 `_private` 映射；本地原件均保留。
+- 上传前常见凭据模式扫描无命中，提交树无大于或等于 100 MiB 的文件。GitHub 接受全部内容，但提示两份 50–56 MiB CSV 超过建议的 50 MiB 阈值。
+- 验证结果：分词测试 23/23、停用词测试 4/4 通过；主测试 205/207 通过。两项错误均因历史 manifest 仍写死旧 `D:` 盘绝对路径，当前项目位于 `E:` 盘，不是内容哈希不一致。

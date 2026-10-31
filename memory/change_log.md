@@ -209,3 +209,10 @@
 - 从 C_K12 43,015×12 full-corpus theta 生成三样本×两口径趋势、topic-specific known/unknown SMD、CLEAR primary CR1/HC3 与 BH-FDR、完整 12 维 CLR、8 个候选的 LOAO/Top1/3/5/10、7 条最终保留候选和 Humanistic Interpretation Queue。
 - 在读取 K20 前冻结 37 项 K12 核心产物及 SHA-256；随后以既有语义家族和 K12→K15→K20 词项路径比较旧 9 条保留 finding，输出逐条证据 CSV、比较报告和 18 节总报告。旧 K20 reference 文件前后哈希一致。
 - 交付目录 `history_analysis/C_K12/` 含 59 项已 hash 文件；20/20 QA、全仓 207 项 unittest 通过，8 幅 PNG 逐张视觉核验通过。最终状态 `C_K12_HISTORY_ANALYSIS_COMPLETE`；未运行 B/D 或 B/C/D robustness，未修改 K 选择与 metadata。
+
+## 2026-10-31 GitHub Repository Initialization and Public Upload
+
+- 将既有非 Git 项目目录初始化为 `main` 分支，连接 `https://github.com/Ethan-do0707/Quantangshi-LDA.git`，并以远端初始提交为父提交保留历史。
+- 新增中文注释 `.gitignore`，排除本地环境、依赖副本、大型模型与数据库快照、可重建检查点、缓存、临时文件及盲审私有映射；未删除任何本地文件。
+- 首次公开上传包含 2,278 个文件、约 500 万行新增内容；远端确认主提交为 `954aeadb1a44f98cf93e554d63d1468f5dd02350`，文件树完整且无大于或等于 100 MiB 的对象。
+- 上传前凭据模式扫描无命中；分词 23/23、停用词 4/4 通过，主测试 205/207 通过。两项主测试错误定位为旧 `D:` 盘绝对路径残留，未在本次上传任务中改写历史 manifest。
